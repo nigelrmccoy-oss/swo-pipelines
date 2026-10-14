@@ -1,0 +1,1671 @@
+{
+ "version": "0.1",
+ "generated": "2026-10-13",
+ "coord_note": "Waypoint coordinates are approximate locations of named places used as schematic waypoints; they are not surveyed alignments.",
+ "lines": [
+  {
+   "id": "line5",
+   "name": "Enbridge Line 5",
+   "kind": "pipeline",
+   "operator": {
+    "value": "Enbridge (Lakehead System)",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Enbridge_Line_5"
+    ]
+   },
+   "product": {
+    "value": "Synthetic crude, NGLs, sweet crude, light sour crude",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Enbridge_Line_5"
+    ]
+   },
+   "commodity": "crude/NGL",
+   "diameter_in": {
+    "value": 30,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Enbridge_Line_5"
+    ]
+   },
+   "capacity": {
+    "value": "540,000 bbl/d (as of 2013; up from 490,000)",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Enbridge_Line_5"
+    ]
+   },
+   "cap_num": 540000,
+   "cap_unit": "bbl/d",
+   "length": {
+    "value": "645 mi",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Enbridge_Line_5"
+    ]
+   },
+   "route": {
+    "value": "Superior WI -> Upper Peninsula -> Rapid River -> Straits of Mackinac -> Lewiston -> around Saginaw Bay/Bay City -> Marysville MI -> under St. Clair River -> Sarnia ON",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Enbridge_Line_5"
+    ]
+   },
+   "endpoints": {
+    "value": [
+     "Superior, WI",
+     "Sarnia, ON"
+    ],
+    "sources": [
+     "https://en.wikipedia.org/wiki/Enbridge_Line_5"
+    ]
+   },
+   "waypoints": [
+    [
+     46.72,
+     -92.1,
+     "Superior"
+    ],
+    [
+     45.92,
+     -86.96,
+     "RapidRiver"
+    ],
+    [
+     45.86,
+     -84.77,
+     "Mackinaw_N"
+    ],
+    [
+     45.79,
+     -84.77,
+     "McGulpin"
+    ],
+    [
+     44.88,
+     -84.31,
+     "Lewiston"
+    ],
+    [
+     43.59,
+     -83.89,
+     "BayCity"
+    ],
+    [
+     42.91,
+     -82.49,
+     "Marysville"
+    ],
+    [
+     42.97,
+     -82.4,
+     "Sarnia"
+    ]
+   ],
+   "in_service": {
+    "value": 1953,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Enbridge_Line_5"
+    ]
+   },
+   "status": {
+    "value": "Operating; Michigan seeking shutdown in court; Canada invoked 1977 transit treaty (2021, 2022); Wisconsin Bad River reroute litigation",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Enbridge_Line_5",
+     "https://www.michbar.org/Portals/0/opinions/supreme/2026/073126/86270.pdf"
+    ]
+   },
+   "incidents": [
+    {
+     "value": "Spilled over 1.1 million gallons 1967-2017",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Enbridge_Line_5"
+     ]
+    },
+    {
+     "value": "2018 tugboat anchor strike damaged Straits segment",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Enbridge_Line_5"
+     ]
+    },
+    {
+     "value": "June 2020 east-leg screw anchor support shifted; east leg shut temporarily",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Enbridge_Line_5"
+     ]
+    },
+    {
+     "value": "Bad River Band case: court ordered Enbridge to reroute or shut down in Wisconsin by June 2026; 7th Circuit (July 30 2026) remanded to fashion injunction",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Enbridge_Line_5",
+      "https://www.michbar.org/Portals/0/opinions/supreme/2026/073126/86270.pdf"
+     ]
+    }
+   ],
+   "crossings": [
+    "Straits of Mackinac",
+    "St. Clair River (Marysville-Sarnia)"
+   ]
+  },
+  {
+   "id": "line5_straits",
+   "name": "Line 5 Straits of Mackinac dual crossing",
+   "kind": "crossing",
+   "operator": {
+    "value": "Enbridge",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Enbridge_Line_5"
+    ]
+   },
+   "product": {
+    "value": "Same as Line 5",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Enbridge_Line_5"
+    ]
+   },
+   "commodity": "crude/NGL",
+   "diameter_in": {
+    "value": "2 x 20",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Enbridge_Line_5"
+    ]
+   },
+   "capacity": {
+    "value": "part of Line 5 (540,000 bbl/d)",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Enbridge_Line_5"
+    ]
+   },
+   "cap_num": 540000,
+   "cap_unit": "bbl/d",
+   "length": {
+    "value": "4.5 mi across lakebed; max depth about 270 ft",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Enbridge_Line_5"
+    ]
+   },
+   "route": {
+    "value": "North shore of Straits -> McGulpin Point",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Enbridge_Line_5"
+    ]
+   },
+   "endpoints": {
+    "value": [
+     "north shore Straits",
+     "McGulpin Point, MI"
+    ],
+    "sources": [
+     "https://en.wikipedia.org/wiki/Enbridge_Line_5"
+    ]
+   },
+   "waypoints": [
+    [
+     45.86,
+     -84.77,
+     "Mackinaw_N"
+    ],
+    [
+     45.79,
+     -84.77,
+     "McGulpin"
+    ]
+   ],
+   "in_service": {
+    "value": 1953,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Enbridge_Line_5"
+    ]
+   },
+   "status": {
+    "value": "Operating",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Enbridge_Line_5"
+    ]
+   },
+   "incidents": [
+    {
+     "value": "2018 anchor strike; 2020 anchor-support shift (see Line 5)",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Enbridge_Line_5"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "glt",
+   "name": "Great Lakes Tunnel (Line 5 replacement segment)",
+   "kind": "project",
+   "operator": {
+    "value": "Enbridge Energy LP",
+    "sources": [
+     "https://www.dvidshub.net/news/572235/corps-engineers-issues-enbridge-energy-permit-regulated-activities-proposed-line-5-tunnel-project-releases-record"
+    ]
+   },
+   "product": {
+    "value": "Line 5 replacement segment in a bedrock tunnel",
+    "sources": [
+     "https://www.dvidshub.net/news/572235/corps-engineers-issues-enbridge-energy-permit-regulated-activities-proposed-line-5-tunnel-project-releases-record"
+    ]
+   },
+   "commodity": "crude/NGL",
+   "diameter_in": {
+    "value": "unknown",
+    "sources": []
+   },
+   "capacity": {
+    "value": "unknown",
+    "sources": []
+   },
+   "cap_num": null,
+   "cap_unit": null,
+   "length": {
+    "value": "about 4 miles of lakebed (USACE); 3.9-mile tunnel per search summary, unverified",
+    "sources": [
+     "https://www.dvidshub.net/news/572235/corps-engineers-issues-enbridge-energy-permit-regulated-activities-proposed-line-5-tunnel-project-releases-record"
+    ]
+   },
+   "route": {
+    "value": "Bedrock beneath the Straits of Mackinac",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Enbridge_Line_5"
+    ]
+   },
+   "endpoints": {
+    "value": [
+     "north shore",
+     "south shore Straits"
+    ],
+    "sources": [
+     "https://en.wikipedia.org/wiki/Enbridge_Line_5"
+    ]
+   },
+   "waypoints": [
+    [
+     45.86,
+     -84.77,
+     "Mackinaw_N"
+    ],
+    [
+     45.79,
+     -84.77,
+     "McGulpin"
+    ]
+   ],
+   "in_service": {
+    "value": "not built; Enbridge earlier targeted 2024 completion",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Enbridge_Line_5"
+    ]
+   },
+   "status": {
+    "value": "Proposed. USACE permit issued Aug 12 2026; EGLE permits issued Jul 15 2026; MI Supreme Court vacated MPSC 2023 approval Jul 31 2026; EGLE reviewing again (Sep 9 2026); permit conditions block tunnel-entrance construction",
+    "sources": [
+     "https://www.dvidshub.net/news/572235/corps-engineers-issues-enbridge-energy-permit-regulated-activities-proposed-line-5-tunnel-project-releases-record",
+     "https://www.michbar.org/Portals/0/opinions/supreme/2026/073126/86270.pdf",
+     "https://www.mlive.com/environment/2026/09/whitmer-administration-to-reconsider-line-5-tunnel-permits-after-court-ruling.html",
+     "https://michiganbusinessnetwork.com/governor-whitmer-egle-director-roos-state-must-consider-impact-of-recent-supreme-court-decision-on-line-5-tunnel-permits/"
+    ]
+   },
+   "incidents": [
+    {
+     "value": "2018 MSCA agreement under Gov. Snyder; Bay Mills Indian Community challenge; USACE ROD acknowledges potentially severe damage to Indigenous cultural resources",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Enbridge_Line_5",
+      "https://www.mlive.com/environment/2026/09/whitmer-administration-to-reconsider-line-5-tunnel-permits-after-court-ruling.html"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "line6b",
+   "name": "Enbridge Line 6B (original, replaced)",
+   "kind": "pipeline",
+   "operator": {
+    "value": "Enbridge Energy",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Kalamazoo_River_oil_spill"
+    ]
+   },
+   "product": {
+    "value": "Crude incl. diluted bitumen",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Kalamazoo_River_oil_spill"
+    ]
+   },
+   "commodity": "crude",
+   "diameter_in": {
+    "value": 30,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Kalamazoo_River_oil_spill"
+    ]
+   },
+   "capacity": {
+    "value": "240,000 bbl/d (old line)",
+    "sources": [
+     "https://insideclimatenews.org/news/10042014/ruptured-michigan-pipeline-restart-now-new-and-double-capacity/"
+    ]
+   },
+   "cap_num": 240000,
+   "cap_unit": "bbl/d",
+   "length": {
+    "value": "285 mi path",
+    "sources": [
+     "https://insideclimatenews.org/news/10042014/ruptured-michigan-pipeline-restart-now-new-and-double-capacity/"
+    ]
+   },
+   "route": {
+    "value": "Griffith IN -> Marshall -> Stockbridge -> Ortonville -> St. Clair River at Marysville -> Sarnia",
+    "sources": [
+     "https://insideclimatenews.org/news/10042014/ruptured-michigan-pipeline-restart-now-new-and-double-capacity/",
+     "https://mi-psc.my.site.com/sfc/servlet.shepherd/version/download/068t0000000wdYQAAY"
+    ]
+   },
+   "endpoints": {
+    "value": [
+     "Griffith, IN",
+     "Sarnia, ON"
+    ],
+    "sources": [
+     "https://insideclimatenews.org/news/10042014/ruptured-michigan-pipeline-restart-now-new-and-double-capacity/"
+    ]
+   },
+   "waypoints": [
+    [
+     41.53,
+     -87.42,
+     "Griffith"
+    ],
+    [
+     42.27,
+     -84.96,
+     "Marshall"
+    ],
+    [
+     42.45,
+     -84.18,
+     "Stockbridge"
+    ],
+    [
+     42.85,
+     -83.44,
+     "Ortonville"
+    ],
+    [
+     42.91,
+     -82.49,
+     "Marysville"
+    ],
+    [
+     42.97,
+     -82.4,
+     "Sarnia"
+    ]
+   ],
+   "in_service": {
+    "value": "about 1968 (described as 46-year-old pipe in 2014)",
+    "sources": [
+     "https://insideclimatenews.org/news/10042014/ruptured-michigan-pipeline-restart-now-new-and-double-capacity/"
+    ]
+   },
+   "status": {
+    "value": "Replaced 2013-2014; now part of Line 78",
+    "sources": [
+     "https://insideclimatenews.org/news/10042014/ruptured-michigan-pipeline-restart-now-new-and-double-capacity/",
+     "https://www.enbridge.com/~/media/enb/documents/factsheets/fs_energyinfrastructureassets.pdf"
+    ]
+   },
+   "incidents": [
+    {
+     "value": "July 25 2010 Marshall MI rupture, >1 million US gal dilbit into Talmadge Creek/Kalamazoo River; cleanup about $1.21B (2014); $3.7M PHMSA fine; $177M 2016 DOJ/EPA settlement; NTSB: corrosion fatigue, disbonded tape coating",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Kalamazoo_River_oil_spill"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "line78",
+   "name": "Enbridge Line 78 (78A + 78B)",
+   "kind": "pipeline",
+   "operator": {
+    "value": "Enbridge Energy LP",
+    "sources": [
+     "https://www.enbridge.com/~/media/enb/documents/factsheets/fs_energyinfrastructureassets.pdf"
+    ]
+   },
+   "product": {
+    "value": "Light, medium and heavy crude",
+    "sources": [
+     "https://www.enbridge.com/~/media/enb/documents/factsheets/fs_energyinfrastructureassets.pdf"
+    ]
+   },
+   "commodity": "crude",
+   "diameter_in": {
+    "value": "30-36",
+    "sources": [
+     "https://www.enbridge.com/~/media/enb/documents/factsheets/fs_energyinfrastructureassets.pdf"
+    ]
+   },
+   "capacity": {
+    "value": "78A 570,000 bbl/d; 78B 500,000 bbl/d (average annual)",
+    "sources": [
+     "https://www.enbridge.com/~/media/enb/documents/factsheets/fs_energyinfrastructureassets.pdf"
+    ]
+   },
+   "cap_num": 500000,
+   "cap_unit": "bbl/d",
+   "length": {
+    "value": "78A 264 mi; 78B 109 mi; total 373 mi (600 km)",
+    "sources": [
+     "https://www.enbridge.com/~/media/enb/documents/factsheets/fs_energyinfrastructureassets.pdf"
+    ]
+   },
+   "route": {
+    "value": "Flanagan Terminal (Pontiac IL) -> Griffith IN -> Stockbridge MI (78A); Stockbridge -> Sarnia (78B). Replaced Line 6B with 36-in Griffith-Stockbridge and 30-in Ortonville-St. Clair River",
+    "sources": [
+     "https://www.enbridge.com/~/media/enb/documents/factsheets/fs_energyinfrastructureassets.pdf",
+     "https://mi-psc.my.site.com/sfc/servlet.shepherd/version/download/068t0000000wdYQAAY",
+     "https://iccqa.illinois.gov/docket/P2013-0134/documents/193818/files/341235.pdf"
+    ]
+   },
+   "endpoints": {
+    "value": [
+     "Flanagan Terminal, IL",
+     "Sarnia, ON"
+    ],
+    "sources": [
+     "https://www.enbridge.com/~/media/enb/documents/factsheets/fs_energyinfrastructureassets.pdf"
+    ]
+   },
+   "waypoints": [
+    [
+     40.88,
+     -88.86,
+     "Flanagan"
+    ],
+    [
+     41.53,
+     -87.42,
+     "Griffith"
+    ],
+    [
+     42.27,
+     -84.96,
+     "Marshall"
+    ],
+    [
+     42.45,
+     -84.18,
+     "Stockbridge"
+    ],
+    [
+     42.85,
+     -83.44,
+     "Ortonville"
+    ],
+    [
+     42.91,
+     -82.49,
+     "Marysville"
+    ],
+    [
+     42.97,
+     -82.4,
+     "Sarnia"
+    ]
+   ],
+   "in_service": {
+    "value": "6B replacement 2014; Flanagan-Griffith segment planned mid-2015",
+    "sources": [
+     "https://insideclimatenews.org/news/10042014/ruptured-michigan-pipeline-restart-now-new-and-double-capacity/",
+     "https://iccqa.illinois.gov/docket/P2013-0134/documents/193818/files/341235.pdf"
+    ]
+   },
+   "status": {
+    "value": "Operational",
+    "sources": [
+     "https://www.enbridge.com/~/media/enb/documents/factsheets/fs_energyinfrastructureassets.pdf"
+    ]
+   },
+   "incidents": [
+    {
+     "value": "Successor of Line 6B (Kalamazoo spill)",
+     "sources": [
+      "https://insideclimatenews.org/news/10042014/ruptured-michigan-pipeline-restart-now-new-and-double-capacity/"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "line6",
+   "name": "Enbridge Line 6 (Superior-Griffith, feeder)",
+   "kind": "pipeline",
+   "operator": {
+    "value": "Enbridge",
+    "sources": [
+     "https://www.enbridge.com/~/media/enb/documents/factsheets/fs_energyinfrastructureassets.pdf"
+    ]
+   },
+   "product": {
+    "value": "Light, medium and heavy crude",
+    "sources": [
+     "https://www.enbridge.com/~/media/enb/documents/factsheets/fs_energyinfrastructureassets.pdf"
+    ]
+   },
+   "commodity": "crude",
+   "diameter_in": {
+    "value": 34,
+    "sources": [
+     "https://www.enbridge.com/~/media/enb/documents/factsheets/fs_energyinfrastructureassets.pdf"
+    ]
+   },
+   "capacity": {
+    "value": "667,000 bbl/d",
+    "sources": [
+     "https://www.enbridge.com/~/media/enb/documents/factsheets/fs_energyinfrastructureassets.pdf"
+    ]
+   },
+   "cap_num": 667000,
+   "cap_unit": "bbl/d",
+   "length": {
+    "value": "465 mi (748 km)",
+    "sources": [
+     "https://www.enbridge.com/~/media/enb/documents/factsheets/fs_energyinfrastructureassets.pdf"
+    ]
+   },
+   "route": {
+    "value": "Superior WI -> Griffith/Hartsdale IN, south around Lake Michigan",
+    "sources": [
+     "https://www.enbridge.com/~/media/enb/documents/factsheets/fs_energyinfrastructureassets.pdf",
+     "https://en.wikipedia.org/wiki/Enbridge_Line_5"
+    ]
+   },
+   "endpoints": {
+    "value": [
+     "Superior, WI",
+     "Griffith, IN"
+    ],
+    "sources": [
+     "https://www.enbridge.com/~/media/enb/documents/factsheets/fs_energyinfrastructureassets.pdf"
+    ]
+   },
+   "waypoints": [
+    [
+     46.72,
+     -92.1,
+     "Superior"
+    ],
+    [
+     41.53,
+     -88.08,
+     "Joliet"
+    ],
+    [
+     41.53,
+     -87.42,
+     "Griffith"
+    ]
+   ],
+   "in_service": {
+    "value": "unknown",
+    "sources": []
+   },
+   "status": {
+    "value": "Operational",
+    "sources": [
+     "https://www.enbridge.com/~/media/enb/documents/factsheets/fs_energyinfrastructureassets.pdf"
+    ]
+   },
+   "incidents": []
+  },
+  {
+   "id": "line9",
+   "name": "Enbridge Line 9 (9A Sarnia-Westover, 9B Westover-Montreal)",
+   "kind": "pipeline",
+   "operator": {
+    "value": "Enbridge Pipelines Inc.",
+    "sources": [
+     "https://apps.cer-rec.gc.ca/PPS/en/pipeline-profiles/enbridge-line-9"
+    ]
+   },
+   "product": {
+    "value": "Light, medium and heavy crude",
+    "sources": [
+     "https://apps.cer-rec.gc.ca/PPS/en/pipeline-profiles/enbridge-line-9"
+    ]
+   },
+   "commodity": "crude",
+   "diameter_in": {
+    "value": 30,
+    "sources": [
+     "https://www.enbridge.com/media-center/news/details?id=1815802&lang=en&year=2014"
+    ]
+   },
+   "capacity": {
+    "value": "about 300,000 bbl/d (was 240,000)",
+    "sources": [
+     "https://apps.cer-rec.gc.ca/PPS/en/pipeline-profiles/enbridge-line-9",
+     "https://cer-rec.gc.ca/en/applications-hearings/view-applications-projects/line-9b-reversal/index.html"
+    ]
+   },
+   "cap_num": 300000,
+   "cap_unit": "bbl/d",
+   "length": {
+    "value": "853 km CER-regulated; 9A 246 km, 9B 639 km",
+    "sources": [
+     "https://apps.cer-rec.gc.ca/PPS/en/pipeline-profiles/enbridge-line-9",
+     "https://www.enbridge.com/media-center/news/details?id=1815802&lang=en&year=2014"
+    ]
+   },
+   "route": {
+    "value": "Sarnia -> North Westover -> Montreal; supplies Nanticoke",
+    "sources": [
+     "https://www.enbridge.com/media-center/news/details?id=1815802&lang=en&year=2014",
+     "https://cer-rec.gc.ca/en/applications-hearings/view-applications-projects/line-9b-reversal/index.html"
+    ]
+   },
+   "endpoints": {
+    "value": [
+     "Sarnia, ON",
+     "Montreal, QC"
+    ],
+    "sources": [
+     "https://apps.cer-rec.gc.ca/PPS/en/pipeline-profiles/enbridge-line-9"
+    ]
+   },
+   "waypoints": [
+    [
+     42.97,
+     -82.4,
+     "Sarnia"
+    ],
+    [
+     42.98,
+     -81.25,
+     "London"
+    ],
+    [
+     43.3,
+     -80.1,
+     "Westover"
+    ],
+    [
+     43.7,
+     -79.42,
+     "Toronto"
+    ],
+    [
+     45.5,
+     -73.57,
+     "Montreal"
+    ]
+   ],
+   "in_service": {
+    "value": "June 1976",
+    "sources": [
+     "https://www.enbridge.com/media-center/news/details?id=1815802&lang=en&year=2014"
+    ]
+   },
+   "status": {
+    "value": "Operating west-to-east; reversed 1999 and 2015 (9A Aug 2013, 9B Dec 2015)",
+    "sources": [
+     "https://apps.cer-rec.gc.ca/PPS/en/pipeline-profiles/enbridge-line-9",
+     "https://www.enbridge.com/media-center/news/details?id=1815802&lang=en&year=2014"
+    ]
+   },
+   "incidents": [
+    {
+     "value": "2013 Hamilton protests: Highway 6 blocked; at least 10 arrests June 26 2013 after six-day compound occupation",
+     "sources": [
+      "https://en.wikipedia.org/wiki/Enbridge_Gas_Inc."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "line7",
+   "name": "Enbridge Line 7 (from Sarnia)",
+   "kind": "pipeline",
+   "operator": {
+    "value": "Enbridge",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Enbridge_Pipeline_System"
+    ]
+   },
+   "product": {
+    "value": "Crude (Line 5 volumes not used in Sarnia go to tanks for Line 7)",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Enbridge_Line_5"
+    ]
+   },
+   "commodity": "crude",
+   "diameter_in": {
+    "value": "unknown",
+    "sources": []
+   },
+   "capacity": {
+    "value": "unknown",
+    "sources": []
+   },
+   "cap_num": null,
+   "cap_unit": null,
+   "length": {
+    "value": "unknown",
+    "sources": []
+   },
+   "route": {
+    "value": "Starts at Sarnia; rest of route unknown in sources used",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Enbridge_Line_5"
+    ]
+   },
+   "endpoints": {
+    "value": [
+     "Sarnia, ON",
+     "unknown"
+    ],
+    "sources": [
+     "https://en.wikipedia.org/wiki/Enbridge_Line_5"
+    ]
+   },
+   "waypoints": [
+    [
+     42.97,
+     -82.4,
+     "Sarnia"
+    ],
+    [
+     42.98,
+     -81.25,
+     "London"
+    ]
+   ],
+   "in_service": {
+    "value": "unknown",
+    "sources": []
+   },
+   "status": {
+    "value": "Part of Mainline system",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Enbridge_Pipeline_System"
+    ]
+   },
+   "incidents": []
+  },
+  {
+   "id": "vector",
+   "name": "Vector Pipeline",
+   "kind": "pipeline",
+   "operator": {
+    "value": "Vector Pipeline L.P. (Enbridge 60% / DTE); Enbridge operates",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Vector_Pipeline"
+    ]
+   },
+   "product": {
+    "value": "Natural gas",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Vector_Pipeline"
+    ]
+   },
+   "commodity": "gas",
+   "diameter_in": {
+    "value": "unknown",
+    "sources": []
+   },
+   "capacity": {
+    "value": "about 1 Bcf/d",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Vector_Pipeline"
+    ]
+   },
+   "cap_num": 1.0,
+   "cap_unit": "Bcf/d",
+   "length": {
+    "value": "348 mi",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Vector_Pipeline"
+    ]
+   },
+   "route": {
+    "value": "Joliet IL -> Indiana -> Michigan -> Ontario (Dawn)",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Vector_Pipeline",
+     "https://en.wikipedia.org/wiki/Enbridge_Gas_Inc."
+    ]
+   },
+   "endpoints": {
+    "value": [
+     "Joliet, IL",
+     "Dawn Hub, ON"
+    ],
+    "sources": [
+     "https://en.wikipedia.org/wiki/Vector_Pipeline",
+     "https://en.wikipedia.org/wiki/Enbridge_Gas_Inc."
+    ]
+   },
+   "waypoints": [
+    [
+     41.53,
+     -88.08,
+     "Joliet"
+    ],
+    [
+     42.27,
+     -84.96,
+     "Marshall"
+    ],
+    [
+     42.24,
+     -83.61,
+     "Ypsilanti"
+    ],
+    [
+     42.82,
+     -82.49,
+     "StClairMI"
+    ],
+    [
+     42.7,
+     -82.17,
+     "Dawn"
+    ]
+   ],
+   "in_service": {
+    "value": "Dec 1, 2000",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Vector_Pipeline"
+    ]
+   },
+   "status": {
+    "value": "Operating; connects Alliance and NEXUS to Dawn",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Enbridge_Gas_Inc."
+    ]
+   },
+   "incidents": []
+  },
+  {
+   "id": "nexus",
+   "name": "NEXUS Gas Transmission",
+   "kind": "pipeline",
+   "operator": {
+    "value": "NEXUS Gas Transmission LLC (Enbridge/DTE)",
+    "sources": [
+     "https://www.reuters.com/article/business/us-oks-startup-of-part-of-enbridge-ohio-michigan-nexus-natgas-pipe-idUSKCN1ML2J4/"
+    ]
+   },
+   "product": {
+    "value": "Natural gas (Marcellus/Utica)",
+    "sources": [
+     "https://www.reuters.com/article/business/us-oks-startup-of-part-of-enbridge-ohio-michigan-nexus-natgas-pipe-idUSKCN1ML2J4/"
+    ]
+   },
+   "commodity": "gas",
+   "diameter_in": {
+    "value": 36,
+    "sources": [
+     "https://www.indeonline.com/story/business/2018/10/24/nexus-pipeline-in-service/9427423007/"
+    ]
+   },
+   "capacity": {
+    "value": "1.5 Bcf/d design",
+    "sources": [
+     "https://www.ferc.gov/sites/default/files/2020-08/CP16-22.pdf",
+     "https://www.eia.gov/naturalgas/weekly/archivenew_ngwu/2018/10_18/"
+    ]
+   },
+   "cap_num": 1.5,
+   "cap_unit": "Bcf/d",
+   "length": {
+    "value": "about 255-257.5 mi new pipe",
+    "sources": [
+     "https://www.ferc.gov/sites/default/files/2020-08/CP16-22.pdf",
+     "https://www.eia.gov/naturalgas/weekly/archivenew_ngwu/2018/10_18/"
+    ]
+   },
+   "route": {
+    "value": "Kensington OH -> northern Ohio -> DTE Gas at Ypsilanti Twp MI; leased DTE + Vector capacity to Dawn",
+    "sources": [
+     "https://www.ferc.gov/sites/default/files/2020-08/CP16-22.pdf"
+    ]
+   },
+   "endpoints": {
+    "value": [
+     "Kensington, OH",
+     "Ypsilanti Twp, MI (to Dawn via leases)"
+    ],
+    "sources": [
+     "https://www.ferc.gov/sites/default/files/2020-08/CP16-22.pdf"
+    ]
+   },
+   "waypoints": [
+    [
+     40.74,
+     -80.95,
+     "Kensington"
+    ],
+    [
+     42.24,
+     -83.61,
+     "Ypsilanti"
+    ]
+   ],
+   "in_service": {
+    "value": "Oct 2018 (partial, ~1.0 Bcf/d)",
+    "sources": [
+     "https://www.eia.gov/naturalgas/weekly/archivenew_ngwu/2018/10_18/",
+     "https://www.indeonline.com/story/business/2018/10/24/nexus-pipeline-in-service/9427423007/"
+    ]
+   },
+   "status": {
+    "value": "Operating",
+    "sources": [
+     "https://www.indeonline.com/story/business/2018/10/24/nexus-pipeline-in-service/9427423007/"
+    ]
+   },
+   "incidents": []
+  },
+  {
+   "id": "glgt",
+   "name": "Great Lakes Gas Transmission",
+   "kind": "pipeline",
+   "operator": {
+    "value": "Great Lakes Gas Transmission L.P. (TC Energy)",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Great_Lakes_Gas_Transmission"
+    ]
+   },
+   "product": {
+    "value": "Natural gas",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Great_Lakes_Gas_Transmission"
+    ]
+   },
+   "commodity": "gas",
+   "diameter_in": {
+    "value": "unknown",
+    "sources": []
+   },
+   "capacity": {
+    "value": "up to 2,400 MMcf/d",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Great_Lakes_Gas_Transmission"
+    ]
+   },
+   "cap_num": 2.4,
+   "cap_unit": "Bcf/d",
+   "length": {
+    "value": "2,115 mi",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Great_Lakes_Gas_Transmission"
+    ]
+   },
+   "route": {
+    "value": "Emerson MB -> Minnesota -> Wisconsin -> Michigan -> St. Clair MI (re-enters Canada)",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Great_Lakes_Gas_Transmission"
+    ]
+   },
+   "endpoints": {
+    "value": [
+     "Emerson, MB",
+     "St. Clair, MI"
+    ],
+    "sources": [
+     "https://en.wikipedia.org/wiki/Great_Lakes_Gas_Transmission"
+    ]
+   },
+   "waypoints": [
+    [
+     49.0,
+     -97.21,
+     "Emerson"
+    ],
+    [
+     46.72,
+     -92.1,
+     "Superior"
+    ],
+    [
+     45.92,
+     -86.96,
+     "RapidRiver"
+    ],
+    [
+     45.86,
+     -84.77,
+     "Mackinaw_N"
+    ],
+    [
+     44.88,
+     -84.31,
+     "Lewiston"
+    ],
+    [
+     42.82,
+     -82.49,
+     "StClairMI"
+    ]
+   ],
+   "in_service": {
+    "value": 1967,
+    "sources": [
+     "https://en.wikipedia.org/wiki/Great_Lakes_Gas_Transmission"
+    ]
+   },
+   "status": {
+    "value": "Operating",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Great_Lakes_Gas_Transmission"
+    ]
+   },
+   "incidents": []
+  },
+  {
+   "id": "dawnparkway",
+   "name": "Dawn-Parkway System",
+   "kind": "pipeline",
+   "operator": {
+    "value": "Enbridge Gas Inc.",
+    "sources": [
+     "https://www.enbridgegas.com/about-enbridge-gas/projects/dawn-parkway-renewal-project"
+    ]
+   },
+   "product": {
+    "value": "Natural gas",
+    "sources": [
+     "https://www.enbridgegas.com/about-enbridge-gas/projects/dawn-parkway-renewal-project"
+    ]
+   },
+   "commodity": "gas",
+   "diameter_in": {
+    "value": "includes NPS 26 line (multiple parallel lines)",
+    "sources": [
+     "https://www.enbridgegas.com/about-enbridge-gas/projects/dawn-parkway-renewal-project"
+    ]
+   },
+   "capacity": {
+    "value": "design day demand 7,891,876 GJ/d (2023-24)",
+    "sources": [
+     "https://www.rds.oeb.ca/CMWebDrawer/Record/804343/File/document"
+    ]
+   },
+   "cap_num": 7.89,
+   "cap_unit": "PJ/d",
+   "length": {
+    "value": "225-229 km",
+    "sources": [
+     "https://www.enbridgegas.com/about-enbridge-gas/projects/dawn-parkway-renewal-project",
+     "https://www.rds.oeb.ca/CMWebDrawer/Record/804343/File/document"
+    ]
+   },
+   "route": {
+    "value": "Dawn Hub -> Kirkwall and Parkway (TC Energy interconnects, GTA)",
+    "sources": [
+     "https://www.rds.oeb.ca/CMWebDrawer/Record/804343/File/document",
+     "https://enbridgegas.mediaroom.com/2020-11-24-Enbridge-Gas-Announces-M12-Transportation-Service-Open-Season"
+    ]
+   },
+   "endpoints": {
+    "value": [
+     "Dawn Hub",
+     "Parkway (Milton/Oakville)"
+    ],
+    "sources": [
+     "https://www.rds.oeb.ca/CMWebDrawer/Record/804343/File/document"
+    ]
+   },
+   "waypoints": [
+    [
+     42.7,
+     -82.17,
+     "Dawn"
+    ],
+    [
+     42.98,
+     -81.25,
+     "London"
+    ],
+    [
+     43.33,
+     -80.15,
+     "Kirkwall"
+    ],
+    [
+     43.53,
+     -79.75,
+     "Parkway"
+    ]
+   ],
+   "in_service": {
+    "value": "1950s (oldest pipe)",
+    "sources": [
+     "https://www.enbridgegas.com/about-enbridge-gas/projects/dawn-parkway-renewal-project"
+    ]
+   },
+   "status": {
+    "value": "Operating; interim pressure restrictions on NPS 26 reduced capacity; renewal project under way",
+    "sources": [
+     "https://www.enbridgegas.com/about-enbridge-gas/projects/dawn-parkway-renewal-project"
+    ]
+   },
+   "incidents": [
+    {
+     "value": "Integrity concerns on NPS 26-inch segments (14 segments, 225 km)",
+     "sources": [
+      "https://www.enbridgegas.com/about-enbridge-gas/projects/dawn-parkway-renewal-project"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "panhandle",
+   "name": "Enbridge Gas Panhandle System (+ PREP NPS 36 loop)",
+   "kind": "pipeline",
+   "operator": {
+    "value": "Enbridge Gas Inc.",
+    "sources": [
+     "https://www.oeb.ca/sites/default/files/ENBRIDGE%20GAS-LTC-EB-2022-0157-PANHANDLE-BG-FINAL-14-05-24.pdf"
+    ]
+   },
+   "product": {
+    "value": "Natural gas",
+    "sources": [
+     "https://www.oeb.ca/sites/default/files/ENBRIDGE%20GAS-LTC-EB-2022-0157-PANHANDLE-BG-FINAL-14-05-24.pdf"
+    ]
+   },
+   "commodity": "gas",
+   "diameter_in": {
+    "value": "NPS 36 loop (rest unknown)",
+    "sources": [
+     "https://www.enbridgegas.com/about-enbridge-gas/projects/panhandle-regional-expansion"
+    ]
+   },
+   "capacity": {
+    "value": "unknown",
+    "sources": []
+   },
+   "cap_num": null,
+   "cap_unit": null,
+   "length": {
+    "value": "PREP loop about 19 km Dover TS - Lakeshore; full system unknown",
+    "sources": [
+     "https://www.enbridgegas.com/about-enbridge-gas/projects/panhandle-regional-expansion"
+    ]
+   },
+   "route": {
+    "value": "Dawn Compressor Station -> Ojibway Valve Site, Windsor",
+    "sources": [
+     "https://www.rds.oeb.ca/CMWebDrawer/Record/852653/File/document",
+     "https://www.oeb.ca/sites/default/files/ENBRIDGE%20GAS-LTC-EB-2022-0157-PANHANDLE-BG-FINAL-14-05-24.pdf"
+    ]
+   },
+   "endpoints": {
+    "value": [
+     "Dawn",
+     "Ojibway, Windsor"
+    ],
+    "sources": [
+     "https://www.oeb.ca/sites/default/files/ENBRIDGE%20GAS-LTC-EB-2022-0157-PANHANDLE-BG-FINAL-14-05-24.pdf"
+    ]
+   },
+   "waypoints": [
+    [
+     42.7,
+     -82.17,
+     "Dawn"
+    ],
+    [
+     42.42,
+     -82.4,
+     "Dover"
+    ],
+    [
+     42.3,
+     -82.75,
+     "Lakeshore"
+    ],
+    [
+     42.26,
+     -83.09,
+     "Ojibway"
+    ]
+   ],
+   "in_service": {
+    "value": "PREP loop Dec 15, 2024; original system unknown",
+    "sources": [
+     "https://www.enbridgegas.com/about-enbridge-gas/projects/panhandle-regional-expansion"
+    ]
+   },
+   "status": {
+    "value": "Operating; OEB approved PREP May 14 2024",
+    "sources": [
+     "https://www.oeb.ca/sites/default/files/ENBRIDGE%20GAS-LTC-EB-2022-0157-PANHANDLE-BG-FINAL-14-05-24.pdf"
+    ]
+   },
+   "incidents": []
+  },
+  {
+   "id": "suncanadian",
+   "name": "Sun-Canadian Pipe Line",
+   "kind": "pipeline",
+   "operator": {
+    "value": "Sun-Canadian Pipe Line Company",
+    "sources": [
+     "https://sun-canadian.com/crossings/pipeline-route-map-4-1_2012-2/"
+    ]
+   },
+   "product": {
+    "value": "Refined products",
+    "sources": [
+     "https://sun-canadian.com/crossings/pipeline-route-map-4-1_2012-2/",
+     "https://www.suncor.com/en-ca/what-we-do/refining/sarnia-refinery"
+    ]
+   },
+   "commodity": "products",
+   "diameter_in": {
+    "value": "unknown",
+    "sources": []
+   },
+   "capacity": {
+    "value": "unknown",
+    "sources": []
+   },
+   "cap_num": null,
+   "cap_unit": null,
+   "length": {
+    "value": "about 300 km (search summary of OEB doc, unverified)",
+    "sources": [
+     "https://www.rds.oeb.ca/CMWebDrawer/Record/82078/File/document"
+    ]
+   },
+   "route": {
+    "value": "Sarnia -> London -> Hamilton -> Toronto area",
+    "sources": [
+     "https://www.rds.oeb.ca/CMWebDrawer/Record/82078/File/document"
+    ]
+   },
+   "endpoints": {
+    "value": [
+     "Sarnia",
+     "Toronto"
+    ],
+    "sources": [
+     "https://www.rds.oeb.ca/CMWebDrawer/Record/82078/File/document"
+    ]
+   },
+   "waypoints": [
+    [
+     42.97,
+     -82.4,
+     "Sarnia"
+    ],
+    [
+     42.98,
+     -81.25,
+     "London"
+    ],
+    [
+     43.25,
+     -79.87,
+     "Hamilton"
+    ],
+    [
+     43.7,
+     -79.42,
+     "Toronto"
+    ]
+   ],
+   "in_service": {
+    "value": "unknown",
+    "sources": []
+   },
+   "status": {
+    "value": "Operating",
+    "sources": [
+     "https://www.suncor.com/en-ca/what-we-do/refining/sarnia-refinery"
+    ]
+   },
+   "incidents": []
+  },
+  {
+   "id": "rover",
+   "name": "Rover Pipeline (feeder via Vector)",
+   "kind": "pipeline",
+   "operator": {
+    "value": "unknown",
+    "sources": []
+   },
+   "product": {
+    "value": "Natural gas from Appalachia",
+    "sources": [
+     "https://www.eia.gov/naturalgas/weekly/archivenew_ngwu/2018/10_18/"
+    ]
+   },
+   "commodity": "gas",
+   "diameter_in": {
+    "value": "unknown",
+    "sources": []
+   },
+   "capacity": {
+    "value": "about 1 Bcf/d flowing onto Vector (Oct 2018)",
+    "sources": [
+     "https://www.eia.gov/naturalgas/weekly/archivenew_ngwu/2018/10_18/"
+    ]
+   },
+   "cap_num": 1.0,
+   "cap_unit": "Bcf/d",
+   "length": {
+    "value": "unknown",
+    "sources": []
+   },
+   "route": {
+    "value": "Appalachia -> Vector -> Dawn, similar route to NEXUS",
+    "sources": [
+     "https://www.eia.gov/naturalgas/weekly/archivenew_ngwu/2018/10_18/"
+    ]
+   },
+   "endpoints": {
+    "value": [
+     "Appalachia",
+     "unknown"
+    ],
+    "sources": [
+     "https://www.eia.gov/naturalgas/weekly/archivenew_ngwu/2018/10_18/"
+    ]
+   },
+   "waypoints": [
+    [
+     40.74,
+     -80.95,
+     "Kensington"
+    ],
+    [
+     42.24,
+     -83.61,
+     "Ypsilanti"
+    ]
+   ],
+   "in_service": {
+    "value": "unknown",
+    "sources": []
+   },
+   "status": {
+    "value": "Operating (Oct 2018 force majeure outage)",
+    "sources": [
+     "https://www.eia.gov/naturalgas/weekly/archivenew_ngwu/2018/10_18/"
+    ]
+   },
+   "incidents": [
+    {
+     "value": "Oct 2018 equipment failure force majeure, flow to zero",
+     "sources": [
+      "https://www.eia.gov/naturalgas/weekly/archivenew_ngwu/2018/10_18/"
+     ]
+    }
+   ]
+  }
+ ],
+ "facilities": [
+  {
+   "id": "dawn",
+   "name": "Dawn Hub storage",
+   "kind": "storage",
+   "operator": {
+    "value": "Enbridge Gas Inc.",
+    "sources": [
+     "https://www.enbridgegas.com/storage-transportation/operational-information/storage-reporting"
+    ]
+   },
+   "product": {
+    "value": "Natural gas storage",
+    "sources": [
+     "https://www.enbridgegas.com/storage-transportation/operational-information/storage-reporting"
+    ]
+   },
+   "capacity": {
+    "value": "250.8 PJ total, 189.5 PJ working; peak withdrawal 3,999,425 GJ/d",
+    "sources": [
+     "https://www.enbridgegas.com/storage-transportation/operational-information/storage-reporting"
+    ]
+   },
+   "waypoints": [
+    [
+     42.7,
+     -82.17,
+     "Dawn"
+    ]
+   ],
+   "status": {
+    "value": "Operating; marketed as 280-288 Bcf working, 7.6 Bcf/d takeaway",
+    "sources": [
+     "https://enbridgegas.mediaroom.com/2020-11-24-Enbridge-Gas-Announces-M12-Transportation-Service-Open-Season",
+     "https://naturalgasintel.com/news/enbridge-gauging-support-to-boost-dawns-daily-capacity-by-91200-mmbtu-in-late-2027/"
+    ]
+   }
+  },
+  {
+   "id": "tecumseh",
+   "name": "Tecumseh storage",
+   "kind": "storage",
+   "operator": {
+    "value": "Enbridge Gas Inc.",
+    "sources": [
+     "https://www.enbridgegas.com/storage-transportation/operational-information/storage-reporting"
+    ]
+   },
+   "product": {
+    "value": "Natural gas storage",
+    "sources": [
+     "https://www.enbridgegas.com/storage-transportation/operational-information/storage-reporting"
+    ]
+   },
+   "capacity": {
+    "value": "165.5 PJ total, 133.1 PJ working",
+    "sources": [
+     "https://www.enbridgegas.com/storage-transportation/operational-information/storage-reporting"
+    ]
+   },
+   "waypoints": [
+    [
+     42.85,
+     -82.3,
+     "Tecumseh"
+    ]
+   ],
+   "status": {
+    "value": "Operating; location approximate/unknown",
+    "sources": [
+     "https://www.enbridgegas.com/storage-transportation/operational-information/storage-reporting"
+    ]
+   }
+  },
+  {
+   "id": "imperial",
+   "name": "Imperial Oil Sarnia refinery",
+   "kind": "refinery",
+   "operator": {
+    "value": "Imperial Oil",
+    "sources": [
+     "https://www.imperialoil.ca/company/operations/sarnia"
+    ]
+   },
+   "product": {
+    "value": "Refined products",
+    "sources": [
+     "https://www.imperialoil.ca/company/operations/sarnia"
+    ]
+   },
+   "capacity": {
+    "value": "about 113,000 bbl/d (other listings 119,000-124,000)",
+    "sources": [
+     "https://www.imperialoil.ca/company/operations/sarnia",
+     "https://www.oilsandsmagazine.com/projects/canadian-refineries"
+    ]
+   },
+   "waypoints": [
+    [
+     42.97,
+     -82.4,
+     "Sarnia"
+    ]
+   ],
+   "status": {
+    "value": "Operating",
+    "sources": [
+     "https://www.imperialoil.ca/company/operations/sarnia"
+    ]
+   }
+  },
+  {
+   "id": "suncor",
+   "name": "Suncor Sarnia refinery",
+   "kind": "refinery",
+   "operator": {
+    "value": "Suncor",
+    "sources": [
+     "https://www.suncor.com/en-ca/what-we-do/refining/sarnia-refinery"
+    ]
+   },
+   "product": {
+    "value": "Refined products (ships via Sun-Canadian)",
+    "sources": [
+     "https://www.suncor.com/en-ca/what-we-do/refining/sarnia-refinery"
+    ]
+   },
+   "capacity": {
+    "value": "about 92,000 bbl/d",
+    "sources": [
+     "https://www.suncor.com/en-ca/what-we-do/refining/sarnia-refinery"
+    ]
+   },
+   "waypoints": [
+    [
+     42.97,
+     -82.4,
+     "Sarnia"
+    ]
+   ],
+   "status": {
+    "value": "Operating",
+    "sources": [
+     "https://www.suncor.com/en-ca/what-we-do/refining/sarnia-refinery"
+    ]
+   }
+  },
+  {
+   "id": "shell",
+   "name": "Shell Sarnia Manufacturing Centre (Corunna)",
+   "kind": "refinery",
+   "operator": {
+    "value": "Shell Canada",
+    "sources": [
+     "https://caer.ca/pages/435/Shell_Canada/"
+    ]
+   },
+   "product": {
+    "value": "Refined products",
+    "sources": [
+     "https://caer.ca/pages/435/Shell_Canada/"
+    ]
+   },
+   "capacity": {
+    "value": "about 72,000 bbl/d (other listing 85,000)",
+    "sources": [
+     "https://caer.ca/pages/435/Shell_Canada/",
+     "https://www.oilsandsmagazine.com/projects/canadian-refineries"
+    ]
+   },
+   "waypoints": [
+    [
+     42.89,
+     -82.43,
+     "Corunna"
+    ]
+   ],
+   "status": {
+    "value": "Operating",
+    "sources": [
+     "https://caer.ca/pages/435/Shell_Canada/"
+    ]
+   }
+  },
+  {
+   "id": "chemvalley",
+   "name": "Sarnia Chemical Valley",
+   "kind": "cluster",
+   "operator": {
+    "value": "62 chemical facilities and refineries",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Environmental_impact_of_the_chemical_industry_in_Sarnia"
+    ]
+   },
+   "product": {
+    "value": "Petrochemicals",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Environmental_impact_of_the_chemical_industry_in_Sarnia"
+    ]
+   },
+   "capacity": {
+    "value": "unknown",
+    "sources": []
+   },
+   "waypoints": [
+    [
+     42.97,
+     -82.4,
+     "Sarnia"
+    ]
+   ],
+   "status": {
+    "value": "Aamjiwnaang state of emergency over benzene Apr 2024; federal interim order May 2024; INEOS Styrolution closed Dec 2025",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Environmental_impact_of_the_chemical_industry_in_Sarnia"
+    ]
+   }
+  }
+ ],
+ "not_verified": [
+  "TC Energy Canadian Mainline in SW Ontario (diameter/capacity not verified)",
+  "Panhandle Eastern Pipe Line (US) - details not verified",
+  "Individual St. Clair River crossing pipes beyond Line 5/78/Vector/GLGT",
+  "Enbridge Line 17 (Stockbridge-Toledo) mentioned only",
+  "Sunoco Marysville-Toledo line (mentioned in Line 5 article)",
+  "Other Lambton/Kent storage pools (only Dawn and Tecumseh totals verified)"
+ ],
+ "sources": [
+  "https://apps.cer-rec.gc.ca/PPS/en/pipeline-profiles/enbridge-line-9",
+  "https://caer.ca/pages/435/Shell_Canada/",
+  "https://cer-rec.gc.ca/en/applications-hearings/view-applications-projects/line-9b-reversal/index.html",
+  "https://en.wikipedia.org/wiki/Enbridge_Gas_Inc.",
+  "https://en.wikipedia.org/wiki/Enbridge_Line_5",
+  "https://en.wikipedia.org/wiki/Enbridge_Pipeline_System",
+  "https://en.wikipedia.org/wiki/Environmental_impact_of_the_chemical_industry_in_Sarnia",
+  "https://en.wikipedia.org/wiki/Great_Lakes_Gas_Transmission",
+  "https://en.wikipedia.org/wiki/Kalamazoo_River_oil_spill",
+  "https://en.wikipedia.org/wiki/Vector_Pipeline",
+  "https://enbridgegas.mediaroom.com/2020-11-24-Enbridge-Gas-Announces-M12-Transportation-Service-Open-Season",
+  "https://iccqa.illinois.gov/docket/P2013-0134/documents/193818/files/341235.pdf",
+  "https://insideclimatenews.org/news/10042014/ruptured-michigan-pipeline-restart-now-new-and-double-capacity/",
+  "https://mi-psc.my.site.com/sfc/servlet.shepherd/version/download/068t0000000wdYQAAY",
+  "https://michiganbusinessnetwork.com/governor-whitmer-egle-director-roos-state-must-consider-impact-of-recent-supreme-court-decision-on-line-5-tunnel-permits/",
+  "https://naturalgasintel.com/news/enbridge-gauging-support-to-boost-dawns-daily-capacity-by-91200-mmbtu-in-late-2027/",
+  "https://sun-canadian.com/crossings/pipeline-route-map-4-1_2012-2/",
+  "https://www.dvidshub.net/news/572235/corps-engineers-issues-enbridge-energy-permit-regulated-activities-proposed-line-5-tunnel-project-releases-record",
+  "https://www.eia.gov/naturalgas/weekly/archivenew_ngwu/2018/10_18/",
+  "https://www.enbridge.com/media-center/news/details?id=1815802&lang=en&year=2014",
+  "https://www.enbridge.com/~/media/enb/documents/factsheets/fs_energyinfrastructureassets.pdf",
+  "https://www.enbridgegas.com/about-enbridge-gas/projects/dawn-parkway-renewal-project",
+  "https://www.enbridgegas.com/about-enbridge-gas/projects/panhandle-regional-expansion",
+  "https://www.enbridgegas.com/storage-transportation/operational-information/storage-reporting",
+  "https://www.ferc.gov/sites/default/files/2020-08/CP16-22.pdf",
+  "https://www.imperialoil.ca/company/operations/sarnia",
+  "https://www.indeonline.com/story/business/2018/10/24/nexus-pipeline-in-service/9427423007/",
+  "https://www.michbar.org/Portals/0/opinions/supreme/2026/073126/86270.pdf",
+  "https://www.mlive.com/environment/2026/09/whitmer-administration-to-reconsider-line-5-tunnel-permits-after-court-ruling.html",
+  "https://www.oeb.ca/sites/default/files/ENBRIDGE%20GAS-LTC-EB-2022-0157-PANHANDLE-BG-FINAL-14-05-24.pdf",
+  "https://www.oilsandsmagazine.com/projects/canadian-refineries",
+  "https://www.rds.oeb.ca/CMWebDrawer/Record/804343/File/document",
+  "https://www.rds.oeb.ca/CMWebDrawer/Record/82078/File/document",
+  "https://www.rds.oeb.ca/CMWebDrawer/Record/852653/File/document",
+  "https://www.reuters.com/article/business/us-oks-startup-of-part-of-enbridge-ohio-michigan-nexus-natgas-pipe-idUSKCN1ML2J4/",
+  "https://www.suncor.com/en-ca/what-we-do/refining/sarnia-refinery"
+ ]
+}
