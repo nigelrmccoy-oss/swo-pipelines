@@ -1,9 +1,10 @@
-/** SWO-PIPELINES v0.2: Cesium globe (vendored, keyless) with EIA/NACEI/OSM continental layers, researched SW Ontario detail, flow sim, and My home layer. */
+/** SWO-PIPELINES v0.3: Cesium globe (vendored, keyless) with EIA/NACEI/OSM continental layers, researched SW Ontario detail, flow sim, and My home layer. */
 import { makeTerrain } from './terrain.js';
 const C = window.Cesium;
 const COL = { crude: '#e04040', 'crude/NGL': '#ff8c1a', hgl: '#ff4fd8', products: '#2ecc71', gas: '#3fa7ff' };
-const ST_COL = { pump: '#ff8c1a', compressor: '#3fa7ff', terminal: '#ffd700' };
-const FAC_COL = { storage: '#c9a0ff', refinery: '#ffd700', cluster: '#ff69b4' };
+const ST_COL = { pump: '#ff8c1a', compressor: '#3fa7ff', terminal: '#ffd700', meter: '#bbbbbb' };
+const FAC_COL = { storage: '#c9a0ff', refinery: '#ffd700', cluster: '#ff69b4', terminal: '#ffa94d', refinery_decom: '#6e6e6e' };
+const FAC_GRP = { terminal: 'depots', refinery_decom: 'decom' };
 const J = u => fetch(u).then(r => { if (!r.ok) throw new Error(u + ' ' + r.status); return r.json(); });
 const banner = document.getElementById('banner'), tip = document.getElementById('mapTip');
 
@@ -12,13 +13,14 @@ const imagery = new C.UrlTemplateImageryProvider({ url: 'https://services.arcgis
 const viewer = new C.Viewer('globe', { baseLayer: new C.ImageryLayer(imagery), terrainProvider: makeTerrain(), geocoder: false, baseLayerPicker: false, timeline: false, animation: false,
   homeButton: false, sceneModePicker: false, navigationHelpButton: false, infoBox: false, selectionIndicator: false, fullscreenButton: false, requestRenderMode: false });
 viewer.scene.globe.depthTestAgainstTerrain = false; viewer.scene.globe.maximumScreenSpaceError = 1.5; viewer.scene.skyAtmosphere.show = true;
-const VIEWS = { na: [-97, 30, 6.5e6, -80], swo: [-82.2, 38.9, 4.5e5, -45], sarnia: [-82.43, 42.70, 2.2e4, -40], mack: [-84.77, 45.55, 2.5e4, -35] };
+const VIEWS = { na: [-97, 30, 6.5e6, -80], swo: [-82.2, 38.9, 4.5e5, -45], sarnia: [-82.43, 42.70, 2.2e4, -40], mack: [-84.77, 45.55, 2.5e4, -35], lakeont: [-78.9, 41.0, 3.0e5, -45], mtl: [-73.56, 45.36, 3.5e4, -40], east: [-73.0, 36.3, 1.6e6, -70] };
 const fly = (k, dur = 2) => { const v = VIEWS[k]; viewer.camera.flyTo({ destination: C.Cartesian3.fromDegrees(v[0], v[1], v[2]), orientation: { heading: 0, pitch: C.Math.toRadians(v[3]) }, duration: dur }); };
-fly('swo', 0);
+fly(VIEWS[(location.hash.match(/view=(\w+)/) || [])[1]] ? location.hash.match(/view=(\w+)/)[1] : 'swo', 0);
 
 const groups = {}; const add = (g, o) => (groups[g] ||= []).push(o);
 const searchIndex = [];
-function srcLinks(arr) { return (arr || []).map(s => `<a href="${s}" target="_blank">[${new URL(s).hostname.replace('www.', '')}]</a>`).join(' '); }
+const host = s => { try { return new URL(s).hostname.replace('www.', ''); } catch { return String(s).slice(0, 40); } };
+function srcLinks(arr) { return (arr || []).map(s => /^https?:/.test(s) ? `<a href="${s}" target="_blank">[${host(s)}]</a>` : `[${s}]`).join(' '); }
 
 // ---------- continental layers (EIA US, OSM Canada/Mexico, OSM SW Ontario detail) ----------
 const CONT = [['us_crude', 'crude'], ['us_hgl', 'hgl'], ['us_products', 'products'], ['us_natgas', 'gas'], ['osm_canada_pipelines', null], ['osm_mexico_pipelines', null], ['osm_swo_pipelines', null]];
@@ -51,29 +53,44 @@ const flows = [];
 const pts = viewer.scene.primitives.add(new C.PointPrimitiveCollection());
 const capMax = { 'bbl/d': 667000, 'Bcf/d': 2.4, 'PJ/d': 7.89 };
 const posOf = w => C.Cartesian3.fromDegrees(w[1], w[0], 0);
+function pin(id, lon, lat, color, text, payload, group, size = 12, outline = '#000') {
+  const e = viewer.entities.add({ id, position: C.Cartesian3.fromDegrees(lon, lat), point: { pixelSize: size, color: C.Color.fromCssColorString(color), outlineColor: C.Color.fromCssColorString(outline), outlineWidth: outline === '#000' ? 1.5 : 3, heightReference: C.HeightReference.CLAMP_TO_GROUND, disableDepthTestDistance: Number.POSITIVE_INFINITY },
+    label: { text, font: '12px system-ui', fillColor: C.Color.WHITE, outlineColor: C.Color.BLACK, outlineWidth: 3, style: C.LabelStyle.FILL_AND_OUTLINE, pixelOffset: new C.Cartesian2(10, -10), horizontalOrigin: C.HorizontalOrigin.LEFT, heightReference: C.HeightReference.CLAMP_TO_GROUND, disableDepthTestDistance: Number.POSITIVE_INFINITY, distanceDisplayCondition: new C.DistanceDisplayCondition(0, 6e5) } });
+  e.swo = payload; add(group, e); searchIndex.push({ label: text.replace(/^⊘ /, ''), type: 'swo', x: payload.x, e }); return e;
+}
+const partsOf = ln => ln.geometry ? (ln.geometry.type === 'LineString' ? [ln.geometry.coordinates] : ln.geometry.coordinates) : (ln.waypoints?.length > 1 ? [ln.waypoints.map(w => [w[1], w[0]])] : []);
 for (const ln of D.lines) {
   const color = ln.kind === 'project' ? C.Color.WHITE : C.Color.fromCssColorString(COL[ln.commodity]);
   const dia = typeof ln.diameter_in.value === 'number' ? ln.diameter_in.value : 24;
-  const e = viewer.entities.add({ id: 'L:' + ln.id, polyline: { positions: ln.waypoints.map(posOf), clampToGround: true, width: 4 + dia / 6,
-    material: ln.kind === 'project' ? new C.PolylineDashMaterialProperty({ color, dashLength: 24 }) : new C.PolylineGlowMaterialProperty({ color, glowPower: 0.25 }) } });
-  e.swo = { kind: 'line', x: ln }; add(ln.commodity, e);
-  searchIndex.push({ label: ln.name, type: 'swo', x: ln, e });
-  // flow dots along the schematic route in waypoint order (= nominal source-described direction)
-  const P = ln.waypoints.map(posOf), seg = []; let L = 0; for (let i = 1; i < P.length; i++) { const l = C.Cartesian3.distance(P[i - 1], P[i]); seg.push(l); L += l; }
-  const frac = ln.cap_num && capMax[ln.cap_unit] ? ln.cap_num / capMax[ln.cap_unit] : 0.15; const n = Math.round(10 + 50 * frac), dots = [];
-  for (let k = 0; k < n; k++) dots.push({ t: k / n, p: pts.add({ pixelSize: 4 + dia / 10, color: C.Color.WHITE, outlineColor: color, outlineWidth: 2, disableDepthTestDistance: Number.POSITIVE_INFINITY }) });
-  flows.push({ ln, P, seg, L, dots, v: 18 + 60 * frac /* km/s visual, ∝ sourced capacity */ });
+  const approx = /approx/.test(ln.route_accuracy?.level || '');
+  const parts = partsOf(ln); let e0 = null;
+  const all = parts.flat(), rect = all.length ? C.Rectangle.fromDegrees(Math.min(...all.map(q => q[0])) - 0.05, Math.min(...all.map(q => q[1])) - 0.05, Math.max(...all.map(q => q[0])) + 0.05, Math.max(...all.map(q => q[1])) + 0.05) : null;
+  if (parts.length > 3) { // batch multi-part (EIA/OSM segment) lines into one primitive
+    const prim = viewer.scene.groundPrimitives.add(new C.GroundPolylinePrimitive({ geometryInstances: parts.map(pt => new C.GeometryInstance({ geometry: new C.GroundPolylineGeometry({ positions: C.Cartesian3.fromDegreesArray(pt.flat()), width: 4 }), id: { swo: { kind: 'line', x: ln } }, attributes: { color: C.ColorGeometryInstanceAttribute.fromColor(color) } })), appearance: new C.PolylineColorAppearance(), asynchronous: true }));
+    add(ln.commodity, prim); searchIndex.push({ label: ln.name, type: 'swo', x: ln, rect, p: { kind: 'line', x: ln } });
+  } else {
+    parts.forEach((pt, i) => {
+      const e = viewer.entities.add({ id: `L:${ln.id}:${i}`, polyline: { positions: C.Cartesian3.fromDegreesArray(pt.flat()), clampToGround: true, width: ln.region === 'east' ? 4 : 3 + dia / 8,
+        material: ln.kind === 'project' || approx ? new C.PolylineDashMaterialProperty({ color, dashLength: 20 }) : new C.PolylineGlowMaterialProperty({ color, glowPower: 0.2 }) } });
+      e.swo = { kind: 'line', x: ln }; add(ln.commodity, e); e0 ||= e;
+    });
+    if (!parts.length && ln.waypoints?.length) e0 = pin('L:' + ln.id, ln.waypoints[0][1], ln.waypoints[0][0], COL[ln.commodity], ln.name + ' (route unknown)', { kind: 'line', x: ln }, ln.commodity, 9);
+    else if (e0) searchIndex.push({ label: ln.name, type: 'swo', x: ln, e: e0, rect });
+  }
+  // flow dots along the drawn geometry in coordinate order (= nominal source-described direction for researched SWO lines)
+  for (const pt of parts.filter(q => q.length > 1)) {
+    const P = pt.map(q => C.Cartesian3.fromDegrees(q[0], q[1], 0)), seg = []; let L = 0; for (let i = 1; i < P.length; i++) { const l = C.Cartesian3.distance(P[i - 1], P[i]); seg.push(l); L += l; }
+    if (L < (ln.region === 'east' ? 80000 : 15000)) continue;
+    const frac = ln.cap_num && capMax[ln.cap_unit] ? ln.cap_num / capMax[ln.cap_unit] : 0.15; const n = Math.min(60, Math.round((10 + 50 * frac) * Math.min(1, L / 4e5))) || 2, dots = [];
+    for (let k = 0; k < n; k++) dots.push({ t: k / n, p: pts.add({ pixelSize: 4 + dia / 10, color: C.Color.WHITE, outlineColor: color, outlineWidth: 2, disableDepthTestDistance: Number.POSITIVE_INFINITY }) });
+    flows.push({ ln, P, seg, L, dots, v: 18 + 60 * frac /* km/s visual, ∝ sourced capacity */ });
+  }
 }
 function along(f, t) { let d = t * f.L; for (let i = 0; i < f.seg.length; i++) { if (d <= f.seg[i]) return C.Cartesian3.lerp(f.P[i], f.P[i + 1], d / f.seg[i], new C.Cartesian3()); d -= f.seg[i]; } return f.P[f.P.length - 1]; }
 const lift = c => { const g = C.Cartographic.fromCartesian(c); return C.Cartesian3.fromRadians(g.longitude, g.latitude, 400); };
 
-const pin = (id, lon, lat, color, text, payload, group, size = 12) => {
-  const e = viewer.entities.add({ id, position: C.Cartesian3.fromDegrees(lon, lat), point: { pixelSize: size, color: C.Color.fromCssColorString(color), outlineColor: C.Color.BLACK, outlineWidth: 1.5, heightReference: C.HeightReference.CLAMP_TO_GROUND, disableDepthTestDistance: Number.POSITIVE_INFINITY },
-    label: { text, font: '12px system-ui', fillColor: C.Color.WHITE, outlineColor: C.Color.BLACK, outlineWidth: 3, style: C.LabelStyle.FILL_AND_OUTLINE, pixelOffset: new C.Cartesian2(10, -10), horizontalOrigin: C.HorizontalOrigin.LEFT, heightReference: C.HeightReference.CLAMP_TO_GROUND, disableDepthTestDistance: Number.POSITIVE_INFINITY, distanceDisplayCondition: new C.DistanceDisplayCondition(0, 6e5) } });
-  e.swo = payload; add(group, e); searchIndex.push({ label: text, type: 'swo', x: payload.x, e }); return e;
-};
 D.stations.forEach((s, i) => pin('S:' + i, s.lon, s.lat, ST_COL[s.type], `${s.name}`, { kind: 'station', x: s }, 'stations', 10));
-D.facilities.forEach(f => pin('F:' + f.id, f.waypoints[0][1] + ({ imperial: 0.012, suncor: -0.012, chemvalley: 0.02 }[f.id] || 0), f.waypoints[0][0] + ({ imperial: -0.01, chemvalley: 0.012 }[f.id] || 0), FAC_COL[f.kind], f.name, { kind: 'fac', x: f }, 'fac', 14));
+D.facilities.forEach(f => pin('F:' + f.id, f.lon + ({ imperial: 0.012, chemvalley: 0.02 }[f.id] || 0), f.lat + ({ imperial: -0.01, chemvalley: 0.012 }[f.id] || 0), FAC_COL[f.kind], (f.kind === 'refinery_decom' ? '⊘ ' : '') + f.name, { kind: 'fac', x: f }, FAC_GRP[f.kind] || 'fac', f.kind === 'terminal' ? 9 : 13, f.kind === 'refinery_decom' ? '#ff3b3b' : '#000'));
 D.crossings.forEach((c, i) => pin('X:' + i, c.lon, c.lat, '#00e5ff', `⨯ ${c.name}`, { kind: 'crossing', x: c }, 'crossings', 9));
 
 // ---------- My home layer ----------
@@ -114,10 +131,12 @@ function open(p) {
       `<tr><td>dataset</td><td>${p.layer}<br>${srcLinks([p.src])}<br><small>${p.lic || ''}</small></td></tr><tr><td>note</td><td class="sch">Attributes are only what the open dataset carries; diameter/capacity/year/status not in this layer → unknown</td></tr>`;
     fp.innerHTML = `<button style="float:right" id="fpx">✕</button><h3>${p.props.operator || p.props.Operator || p.props.name || p.props.typepipe || 'Pipeline segment'}</h3><table>${rows}</table>`;
   } else {
-    const keys = p.kind === 'line' ? ['operator', 'product', 'diameter_in', 'capacity', 'length', 'route', 'endpoints', 'in_service', 'status'] : p.kind === 'fac' ? ['operator', 'product', 'capacity', 'status'] : [];
+    const keys = p.kind === 'line' ? ['operator', 'product', 'diameter_in', 'capacity', 'length', 'route', 'endpoints', 'in_service', 'status'] : p.kind === 'fac' ? ['operator', 'operator_history', 'years', 'product', 'capacity', 'status', 'current_use'] : [];
     rows = keys.map(k => `<tr><td>${k.replace('_in', ' (in)').replace('_', ' ')}</td><td>${val(x[k])}</td></tr>`).join('') + (x.incidents || []).map(i => `<tr><td>incident</td><td>${val(i)}</td></tr>`).join('');
     if (p.kind === 'station' || p.kind === 'crossing') rows = Object.entries(x).filter(([k]) => !['sources', 'name'].includes(k)).map(([k, v]) => `<tr><td>${k}</td><td>${v ?? '<span class=unk>unknown</span>'}</td></tr>`).join('') + `<tr><td>sources</td><td>${srcLinks(x.sources)}</td></tr>`;
-    if (x.waypoints) rows += `<tr><td>waypoints</td><td class="sch">schematic, approx. place coords:<br>${x.waypoints.map(w => `${w[2]} ${w[0]}, ${w[1]}`).join('<br>')}</td></tr>`;
+    if (x.route_accuracy) { const a = x.route_accuracy; rows += `<tr><td>route accuracy</td><td><b class="${/approx|unknown|not drawn/.test(a.level) ? 'sch' : ''}">${a.level}</b>${a.matched_share != null ? ` · ${Math.round(a.matched_share * 100)}% matched` : ''}<br><small>${a.note || ''}${a.datasets ? '<br>datasets: ' + a.datasets.join(', ') : ''}</small><br>${srcLinks(a.sources)}</td></tr>`; }
+    if (p.kind === 'fac') rows += `<tr><td>position</td><td class="${/approx/.test(x.pos_source) ? 'sch' : ''}">${String(x.pos_source).replace(/(https?:\/\/\S+)/, '<a href="$1" target="_blank">$1</a>')} (${x.lat.toFixed(4)}, ${x.lon.toFixed(4)})</td></tr>`;
+    else if (x.waypoints?.length && !x.geometry) rows += `<tr><td>waypoints</td><td class="sch">approximate place coords:<br>${x.waypoints.map(w => `${w[2]} ${w[0]}, ${w[1]}`).join('<br>')}</td></tr>`;
     if (x.flow_note) rows += `<tr><td>flow</td><td>${x.flow_note}</td></tr>`;
     fp.innerHTML = `<button style="float:right" id="fpx">✕</button><h3>${x.name}</h3><table>${rows}</table>`;
   }
@@ -131,6 +150,7 @@ handler.setInputAction(m => { const p = payloadOf(viewer.scene.pick(m.endPositio
   tip.textContent = p.kind === 'gis' ? `${p.props.operator || p.props.name || p.props.typepipe || ''} · ${p.cls} · ${p.layer}` : p.kind === 'home' ? 'My home (click for usage)' : `${p.x.name}${p.x.capacity ? ' · ' + (p.x.capacity.value ?? '') : ''}`; }, C.ScreenSpaceEventType.MOUSE_MOVE);
 
 // ---------- controls ----------
+function goTo(h) { if (!h) return; if (h.rect && h.p) viewer.camera.flyTo({ destination: h.rect, duration: 2 }); else if (h.e && h.e.position) viewer.flyTo(h.e, { duration: 2, offset: new C.HeadingPitchRange(0, -0.75, 9000) }); else if (h.rect) viewer.camera.flyTo({ destination: h.rect, duration: 2 }); open(h.p || h.e.swo); }
 const show = {}; document.querySelectorAll('#filters button').forEach(b => { show[b.dataset.c] = true; b.onclick = () => { show[b.dataset.c] = !show[b.dataset.c]; b.classList.toggle('on'); apply(); }; });
 function apply() { for (const [g, arr] of Object.entries(groups)) for (const o of arr) o.show = show[g] !== false; for (const f of flows) { const vis = show[f.ln.commodity] !== false; f.dots.forEach(d => d.p.show = vis && !f.stopped); } }
 let speed = 1; document.querySelectorAll('#speed button').forEach(b => b.onclick = () => { speed = +b.dataset.speed; document.querySelectorAll('#speed button').forEach(x => x.classList.toggle('on', x === b)); });
@@ -138,7 +158,7 @@ document.querySelectorAll('#views button').forEach(b => b.onclick = () => b.data
 let l5off = false; document.getElementById('l5off').onchange = e => { l5off = e.target.checked; kpis(); };
 const se = document.getElementById('search'), dl = document.getElementById('searchList');
 se.onchange = () => { const h = searchIndex.find(s => s.label === se.value) || searchIndex.find(s => s.label.toLowerCase().includes(se.value.toLowerCase())); if (!h) return;
-  if (h.type === 'swo') { viewer.flyTo(h.e, { duration: 2 }); open(h.e.swo); } else { show[Object.keys(COL).find(() => true)]; fp.innerHTML = `<button style="float:right" id="fpx">✕</button><h3>${h.op}</h3>Operator in open GIS layers. Hover/click its segments on the map for attributes.`; fp.classList.remove('hidden'); document.getElementById('fpx').onclick = () => fp.classList.add('hidden'); fly('na'); } };
+  if (h.type === 'swo') { goTo(h); } else { show[Object.keys(COL).find(() => true)]; fp.innerHTML = `<button style="float:right" id="fpx">✕</button><h3>${h.op}</h3>Operator in open GIS layers. Hover/click its segments on the map for attributes.`; fp.classList.remove('hidden'); document.getElementById('fpx').onclick = () => fp.classList.add('hidden'); fly('na'); } };
 function fillSearch() { const seen = new Set(); dl.innerHTML = searchIndex.filter(s => !seen.has(s.label) && seen.add(s.label)).map(s => `<option value="${s.label.replace(/"/g, '&quot;')}">`).join(''); }
 
 function kpis() {
@@ -154,16 +174,16 @@ kpis();
 const lg = document.getElementById('mapLegend');
 function legend() {
   lg.innerHTML = '<b>Product (lines)</b>' + Object.entries(COL).map(([k, c]) => `<div><i style="background:${c}"></i>${k}</div>`).join('') +
-    '<b>Researched SW Ontario lines (click)</b>' + D.lines.map(l => `<div data-s="${l.name}"><i style="background:${l.kind === 'project' ? '#fff' : COL[l.commodity]}"></i>${l.name}</div>`).join('') +
-    `<b>Points</b><div><i style="background:#ff8c1a"></i>pump</div><div><i style="background:#3fa7ff"></i>compressor / interconnect</div><div><i style="background:#ffd700"></i>terminal / refinery</div><div><i style="background:#c9a0ff"></i>storage</div><div><i style="background:#00e5ff"></i>river/strait crossing (NACEI)</div><div><i style="background:#fff"></i>My home</div>` +
-    `<b>Datasets</b>${datasets.map(d => `<div>${d.name}: ${d.n.toLocaleString()} <a href="${d.src}" target="_blank">src</a></div>`).join('')}<small style="color:#8696a6">${D.lines.length} researched lines · ${D.stations.length} stations · ${D.crossings.length} crossings · ${D.sources.length} research sources</small>`;
-  lg.querySelectorAll('div[data-s]').forEach(d => d.onclick = () => { const h = searchIndex.find(s => s.label === d.dataset.s); viewer.flyTo(h.e, { duration: 2 }); open(h.e.swo); });
+    '<b>Researched lines (click)</b>' + D.lines.map(l => `<div data-s="${l.name}"><i style="background:${l.kind === 'project' ? '#fff' : COL[l.commodity]}"></i>${l.name}</div>`).join('') +
+    `<b>Points</b><div><i style="background:#ff8c1a"></i>pump</div><div><i style="background:#3fa7ff"></i>compressor / interconnect</div><div><i style="background:#bbb"></i>meter / unclassified pipeline facility (OSM)</div><div><i style="background:#ffd700"></i>refinery (active)</div><div><i style="background:#6e6e6e;outline:2px solid #ff3b3b"></i>⊘ decommissioned refinery</div><div><i style="background:#ffa94d"></i>fuel terminal / depot (OSM)</div><div><i style="background:#c9a0ff"></i>storage</div><div><i style="background:#00e5ff"></i>river/strait crossing (NACEI)</div><div><i style="background:#fff"></i>My home</div>` +
+    `<b>Datasets</b>${datasets.map(d => `<div>${d.name}: ${d.n.toLocaleString()} <a href="${d.src}" target="_blank">src</a></div>`).join('')}<small style="color:#8696a6">${D.lines.length} researched lines · ${D.stations.length} stations · ${D.facilities.length} facilities · ${D.crossings.length} crossings · ${D.sources.length} research sources</small>`;
+  lg.querySelectorAll('div[data-s]').forEach(d => d.onclick = () => goTo(searchIndex.find(s => s.label === d.dataset.s)));
 }
 legend(); fillSearch();
 banner.innerHTML = 'Loading continental GIS layers…';
 await Promise.all(CONT.map(([n, c]) => loadCont(n, c)));
 legend(); fillSearch(); apply();
-banner.innerHTML = `Imagery: Esri World Imagery · Terrain: <a href="https://registry.opendata.aws/terrain-tiles/" target="_blank">AWS Terrain Tiles</a> · Pipelines: U.S. EIA (via DOE/NETL), NACEI (NRCan), © OpenStreetMap contributors (ODbL) · Researched lines are schematic (place waypoints), not surveyed routes. Unofficial.`;
+banner.innerHTML = `Imagery: Esri World Imagery · Terrain: <a href="https://registry.opendata.aws/terrain-tiles/" target="_blank">AWS Terrain Tiles</a> · Pipelines: U.S. EIA (via DOE/NETL), NACEI (NRCan), © OpenStreetMap contributors (ODbL) · Researched lines: OSM/EIA operator-matched geometry where available, dashed = approximate (see route accuracy in popups). Not surveyed. Unofficial.`;
 
 // ---------- sim loop ----------
 let last = performance.now();
@@ -175,6 +195,26 @@ viewer.scene.preRender.addEventListener(() => {
     for (const d of f.dots) { d.p.show = vis; if (!vis) continue; d.t = (d.t + dt * f.v * 1000 / f.L) % 1; d.p.position = lift(along(f, d.t)); }
   }
 });
-window.SWO = { viewer, D, H, groups, datasets };
+window.addEventListener('hashchange', () => { const m = location.hash.match(/view=(\w+)/); if (m && VIEWS[m[1]]) { fly(m[1]); if (m[1] === 'home') homePanel(); } const q = location.hash.match(/open=([^&]+)/); if (q) goTo(searchIndex.find(s => s.label.startsWith(decodeURIComponent(q[1])))); const t = location.hash.match(/l5off=(\d)/); if (t) { const c = document.getElementById('l5off'); c.checked = t[1] === '1'; c.dispatchEvent(new Event('change')); } });
+window.SWO = { goTo, viewer, D, H, groups, datasets, fly, open, show, apply, searchIndex };
 function layout() { const h = document.getElementById('top').offsetHeight + document.getElementById('kpis').offsetHeight; document.querySelector('main').style.top = h + 'px'; fp.style.top = document.getElementById('homePanel').style.top = (h + 8) + 'px'; }
 window.addEventListener('resize', layout); layout(); new ResizeObserver(layout).observe(document.getElementById('kpis'));
+
+// ---------- #tour: scripted click-through of every quick view / toggle / popup (used for on-display QA screenshots) ----------
+if (/tour/.test(location.hash)) {
+  const btn = q => document.querySelector(q), click = q => btn(q)?.click(), closeFp = () => fp.classList.add('hidden'), closeHome = () => document.getElementById('homePanel').classList.add('hidden');
+  const S = [['na', () => click('#views button[data-fly=na]')], ['swo', () => click('#views button[data-fly=swo]')], ['sarnia', () => click('#views button[data-fly=sarnia]')],
+    ['mack', () => { click('#views button[data-fly=mack]'); goTo(searchIndex.find(s => s.label === 'Enbridge Line 5')); setTimeout(() => fly('mack'), 2500); }],
+    ['l5off', () => { const c = btn('#l5off'); c.checked = true; c.dispatchEvent(new Event('change')); closeFp(); }],
+    ['lakeont', () => { const c = btn('#l5off'); c.checked = false; c.dispatchEvent(new Event('change')); click('#views button[data-fly=lakeont]'); }],
+    ['oakville-decom', () => { goTo(searchIndex.find(s => s.label.startsWith('Shell Oakville'))); }],
+    ['mtl', () => { closeFp(); click('#views button[data-fly=mtl]'); }],
+    ['mtl-popup', () => { open({ kind: 'line', x: D.lines.find(l => l.id === 'tnpi') }); }],
+    ['east', () => { closeFp(); click('#views button[data-fly=east]'); }],
+    ['east-gasonly', () => { ['crude', 'products', 'hgl', 'crude/NGL'].forEach(c => click(`#filters button[data-c="${c}"]`)); open({ kind: 'line', x: D.lines.find(l => l.id === 'iroquois') }); }],
+    ['home', () => { closeFp(); ['crude', 'products', 'hgl', 'crude/NGL'].forEach(c => click(`#filters button[data-c="${c}"]`)); click('#views button[data-fly=home]'); }],
+    ['search', () => { closeHome(); se.value = 'Suncor Montreal'; se.onchange(); }],
+    ['end', () => { closeFp(); fly('swo'); }]];
+  let i = 0; const step = () => { const [n, f] = S[i]; console.log('TOUR', n); document.title = 'TOUR ' + n; try { f(); } catch (e) { console.error('tour', n, e); document.title = 'TOUR ERR ' + n + ' ' + e.message; } if (++i < S.length) setTimeout(step, 20000); };
+  setTimeout(step, 4000);
+}
