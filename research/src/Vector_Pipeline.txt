@@ -1,0 +1,29 @@
+{{about|the gas pipeline|the CPU technologies|Vector processor|and|Instruction pipeline}}
+
+'''Vector Pipeline L.P.''' is a 348-mile-long [[natural gas]] pipeline which transports approximately {{convert|1|Gcuft|m3}} per day of natural gas from [[Joliet, Illinois]], in the [[Chicago]] area, to parts of [[Indiana]] and [[Michigan]] and into [[Ontario]], [[Canada]]. The pipeline is important in the supply and transportation of natural gas from the United States and Western Canada to the Midwest, eastern Canada and the northeastern United States, supplying [[power generation]] plants, natural gas distribution companies, and [[natural gas storage]] facilities. The pipeline also has interconnections with several other natural gas pipelines along its route.
+
+Vector Pipeline L.P. is a joint venture between [[Calgary]]-based [[Enbridge|Enbridge Inc.]] ({{tsx2|ENB}} {{nyse2|ENB}}) and [[Detroit]]-based [[DTE Energy|DTE Energy Company]]({{nyse2|DTE}}). Vector Pipeline filed applications with the U.S. [[Federal Energy Regulatory Commission]] and the Canadian [[National Energy Board]] in late 1997. Construction of the pipeline took place during 2000 and Vector began operations Dec. 1, 2000. Its [[Federal Energy Regulatory Commission|FERC]] code is 175.<ref>[http://www.ferc.gov/industries/gas/gen-info/pipecode.asp FERC entry] {{webarchive|url=https://web.archive.org/web/20130120011541/http://ferc.gov/industries/gas/gen-info/pipecode.asp |date=2013-01-20 }}</ref> [[Duke Energy]] acquired a 30% stake in the pipeline in 2002 when it bought Westcoast Energy Inc.; it sold its interest in September 2003 to DTE and Enbridge, who already owned the other 70%, for $145 million.<ref>{{cite news|url=http://www.bizjournals.com/charlotte/stories/2003/09/29/daily2.html|title=Duke sells interest in pipeline|date=29 September 2003|work=Charlotte Business Journal|access-date=30 May 2011}}</ref> Enbridge provides operating services to Vector and owns a 60% stake.<ref>{{cite web|url=https://www.reuters.com/finance/stocks/companyProfile?symbol=ENB.N|title=Profile: Enbridge Inc (ENB.N)|work=Reuters|access-date=30 May 2011}}</ref>
+
+==References==
+{{reflist}}
+
+==External links==
+*[http://www.vector-pipeline.com Pipeline Electronic Bulletin Board]
+
+{{Enbridge (corporation)}}
+{{Canadian pipelines}}
+[[Category:Natural gas pipelines in the United States]]
+[[Category:Natural gas pipelines in Canada]]
+[[Category:Enbridge pipelines]]
+[[Category:DTE Energy]]
+[[Category:2000 establishments in the United States]]
+[[Category:2000 establishments in Canada]]
+[[Category:Canada–United States relations]]
+[[Category:Pipelines in Ontario]]
+[[Category:Energy in Ontario]]
+[[Category:Natural gas pipelines in Illinois]]
+[[Category:Natural gas pipelines in Indiana]]
+[[Category:Natural gas pipelines in Michigan]]
+
+
+{{pipeline-stub}}

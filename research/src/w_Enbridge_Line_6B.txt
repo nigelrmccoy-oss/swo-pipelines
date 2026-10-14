@@ -1,0 +1,53 @@
+Kalamazoo River oil spill 
+ The Kalamazoo River oil spill occurred in July 2010 when a pipeline operated by Enbridge (Line 6B) burst and flowed into Talmadge Creek, a tributary of the Kalamazoo River near Marshall, Michigan. A 6-foot (1.8 m) break in the pipeline resulted in one of the largest inland oil spills in U.S. history (the largest was the 1991 spill near Grand Rapids, Minnesota). The pipeline carries diluted bitumen (dilbit), a heavy crude oil from Canada's Athabasca oil sands to the United States. Cleanup took five years. Following the spill, the volatile hydrocarbon diluents evaporated, leaving the heavier bitumen to sink in the water column. Thirty-five miles (56 km) of the Kalamazoo River were closed for clean-up until June 2012, when portions of the river were re-opened. On March 14, 2013, the Environmental Protection Agency (EPA) ordered Enbridge to return to dredge portions of the river to remove submerged oil and oil-contaminated sediment.
+
+
+== Incident ==
+
+On Sunday, July 25, 2010, at about 5:58 p.m. EDT, a 40-foot (12 m) pipe segment ruptured in the 30-in (760-mm) Enbridge Energy Line 6B, approximately 0.6 miles (1.0 km) downstream of the Marshall, Michigan pump station.     The rupture caused a spill of diluted bitumen originating from Canada (Alberta and Saskatchewan) into Talmadge Creek in Calhoun County, Michigan, which flows into the Kalamazoo River. The US Environmental Protection Agency (EPA) later estimated the spill to be in excess of 1 million US gallons (3,800 m3). On 29 July 2010, the Calhoun County Health Department asked 30 to 50 households to evacuate, and twice as many were advised not to drink their water.
+Alarms sounded in Enbridge's Edmonton headquarters at the time of the rupture, but control-room staff were unable to interpret them with certainty and remained unaware of the pipeline breach.  It was eighteen hours before a Michigan utilities employee reported spilt oil and the company learned of the breach. For much of that time the operators had shut down the pipeline, so that the bitumen mixture escaped comparatively slowly.  However, they had thought the alarms were possibly caused by a bubble in the pipeline, causing anomalous pressure readings, and had restarted the line twice.  Because of this, for a few hours in total the leak was much larger.
+The oil was contained to a 25-mile (40 km) stretch of the Kalamazoo River as several hundred workers took part in the cleanup. Regional EPA Director Susan Hedman estimated that it would take weeks to remove the bulk of the oil from the river, several months to clear oil from the flood plains, and several more months to clean the oil out of the marsh where the spill originated. However, a year later, a 35-mile stretch of the river remained closed. Originally estimated at US$5 million, by September 2011, cleanup costs passed $585 million and were expected to rise by 20 percent. The cleanup expense by summer 2012 had totalled $765 million. By November 2014, the total had risen to $1.21 billion, with an estimated $219 million in costs yet to be paid.
+
+
+== Aftermath ==
+In June, 2012, authorities reopened most of the 35 miles (56 km) of the river that had been closed to recreation after the spill. Part of the river at the Morrow Lake delta in Comstock remained closed and other sections of the river remain restricted because of the ongoing cleanup of the oil sands product called diluted bitumen (dilbit) the pipeline had been transporting.
+The United States Department of Transportation summer 2012 "fined Enbridge $3.7 million dollars and as part of that fine they listed 22 probable violations that happened relating to the spill. And several of those [violations] are about what happened in the [Edmonton] control room".
+
+One of the reasons for the vast escalation in time and expense of cleanup was that the EPA had never handled a dilbit spill. In addition, it is reported that Enbridge never informed the EPA of the product distinction. Dilbit, like all crude oil, floats in water but, over time, will sink, complicating cleanup efforts, particularly if dredging is considered too ecologically damaging. Other environmental factors will affect the rate at which this process takes place. This disaster was the largest on-land spill in American history to date.
+In July 2016, Enbridge agreed to pay $177 million in penalties and improved safety measures in a settlement with the U.S. Justice Department and the Environmental Protection Agency.
+
+
+=== National Transportation Safety Board investigation ===
+In July 2012, the National Transportation Safety Board, the U.S. federal agency with regulatory authority over the failed pipeline, issued a report representing the official conclusion of the investigation into the incident. The investigators found that the operating firm, which had received an automated signal from the pipeline that a breach had occurred, misunderstood or did not believe the signal and attempted to continue to pump dilbit oil through the pipeline for 17 hours after the breach. Local firefighters were notified, and tried to locate the southern Michigan wetland site of the breach, but were initially unable to do so, further delaying the shutdown of the line.
+
+The NTSB investigation synopsis pointed to corrosion fatigue as the underlying cause of the catastrophic breach. The incident was exacerbated by the pipeline's disbonded polyethylene tape coating. In July 2012, the cost of the cleanup operations was estimated at $767 million. The NTSB stated the Enbridge dilbit oil spill is, as of 2012, the costliest onshore cleanup in U.S. history. NTSB Chair Deborah Hersman likened "Enbridge's poor handling" of the spill to the Keystone Cops, asking: "Why didn't they recognize what was happening, and what took so long?" NPR reported that "NTSB investigators determined that the six-foot [1.8 m] gash in the pipe was caused by a flaw in the outside lining which allowed the pipe to crack and corrode. Now, in 2005, Enbridge actually had learned that this section of pipe was cracked and corroding. ... That same 2005 internal report pointed to 15,000 defects in the 40-year-old pipeline. And Enbridge decided not to dig up this [Talmadge Creek] area to inspect it."
+In 2013, in opining on the Keystone XL pipeline proposal, the EPA recommended to the State Department that pipelines that carry bitumen should no longer be treated just like pipelines that carry any other oil. Stephen Hamilton, an ecology professor at Michigan State University and the independent science adviser at Talmadge Creek, detailed the challenges and expense of the still-ongoing Michigan cleanup.
+
+
+=== Additional dredging under 2013 order ===
+The EPA issued an Order for Removal in 2013 which required Enbridge to remove oil-contaminated sediment from specific locations along the Kalamazoo River, including the three areas where submerged oil was most pronounced: 
+
+Upstream of the Ceresco Dam (along Riverside Farm)
+Mill Ponds area
+Morrow Lake, Morrow Lake Delta and adjacent areas
+Sediment traps at two designated locations
+
+By the fall of 2014, Enbridge had completed the remaining obligations under the 2013 Order for Removal, including the dredging of oil-contaminated sediment. Based on the successful completion of the work by Enbridge, the EPA transitioned the oversight of the remaining obligations to the Michigan Department of Environmental Quality in 2014.
+
+
+=== Safer oil and gas transportation; renewable energy ===
+One of the results of the Enbridge spill into the Kalamazoo River is that two fossil fuel companies with operations in the Kalamazoo, Michigan area have additional technology in use to assist oil and gas that is transported. These same two companies, Wolverine Oil and Gas and the Anton Williams Holding Company of Kalamazoo, Michigan and have also increased their usage of renewable energy in operations in Kalamazoo, Michigan.
+
+
+== Gallery ==
+
+
+== See also ==
+
+Line 3 oil spill
+List of oil spills
+List of pipeline accidents in the United States
+Enbridge Pipeline System
+
+
+== References ==

@@ -1,0 +1,74 @@
+Enbridge Pipeline System 
+ The Enbridge Pipeline System is an oil pipeline system which transports crude oil and dilbit from Canada to the United States. The system exceeds 5,000 kilometres (3,100 mi) in length including multiple paths. More than 3,000 kilometres (1,900 mi) of the system is in the United States while the rest is in Canada and serves the Athabasca oil sands production facilities. Main parts of the system are 2,306-kilometre-long (1,433 mi) Canadian Mainline and 3,057-kilometre-long (1,900 mi) Lakehead System (U.S. Mainline).  On average, it delivers 1.4 million barrels per day (220×10^3 m3/d) of crude oil and other products to the major oil refineries in the American Midwest and the Canadian province of Ontario. The Canadian portion is owned by Enbridge, while the U.S. portion is partly owned by that company through Enbridge Energy Partners, LP, formerly known as Lakehead Pipe Line Partners and Lakehead Pipe Line Company.
+
+
+== Background ==
+The first portion of the pipeline was built over the course of 150 days in 1950 by a 1,500-man labour force. It crossed approximately 1,600 kilometres (990 mi) from Redwater, Alberta, through Saskatchewan, Manitoba, North Dakota, and Minnesota, to the Great Lakes seaport of Superior, Wisconsin. At the same time, four oil tankers were constructed to carry the crude from Superior to oil refineries in Sarnia, Ontario. Oil first entered the pipe on August 25, 1950, and the first tanker, Imperial Leduc, was launched on November 4. Other tankers that followed were, Imperial Redwater, Imperial Woodbend, and B.A. Peerless.
+Because the lakes froze in the winter, preventing tanker traffic, the decision was soon made to expand the pipeline all the way to Sarnia. In May 1953, contracts were awarded and construction began. At 2,840 kilometres (1,760 mi), it became the world's longest pipeline. A major upgrade was undertaken in the 1990s to replace old pipe and expand the system.
+
+
+== Mainline system ==
+Today, there are two routes that oil can take between Superior and Sarnia. A northern route passes through the upper and lower peninsulas of Michigan before crossing into Ontario, while the southern route circles south of Lake Michigan through Illinois and Indiana before reaching Michigan. There are 59 pumping stations in the pipeline system, and the actual pipes range in diameter from 12 to 48 inches (300 to 1,220 mm).
+One major junction point is in Clearbrook, Minnesota where the pipeline connects to the Minnesota Pipeline, which carries crude to the Pine Bend Refinery in Rosemount, Minnesota. The North Dakota Pipeline Company system of pipeline also has a connection in Clearbrook, linking the Mandan Refinery in Mandan, North Dakota. The Murphy Oil refinery in Superior, Wisconsin, is directly linked to the pipeline.
+Another point in Lockport, Illinois connects two pipelines to Patoka, Illinois, plus a longer link to Cushing, Oklahoma. A relatively short 56-kilometre (35 mi) link from Stockbridge, Michigan connects to two refineries in the Toledo, Ohio area.
+The Mainline system, conventionally divided into the US and Canadian mainlines, consists of 1900 miles of pipeline that run from central Alberta to southern Ontario via the northern US. The system can carry up to 2.5 million barrels of oil per day. Lines 1 through 4 connect Edmonton to Superior, Wisconsin. From there, Line 5 runs through the Upper Peninsula of Michigan and across the straits of Mackinac to cross back into Canada at the St. Clair River. Line 6 runs south through Wisconsin and Illinois to the terminal in Griffith, Indiana, which serves BP Whiting and other Chicago-area clients, and then continues on through northwest Indiana and southern Michigan to rejoin Line 5 at Sarnia, Ontario.
+The Mainline system comprises Lines 1, 2, 3, 4, 5, 6, 7, 10, 11, 14, 61, 62, 64, and 67. Pipelines that connect to the system, but are not part of it, include Line 9 (Montreal to Sarnia), Line 17 (Stockbridge to Toledo), and Line 55 (Flanagan to Cushing).
+
+
+== Expansion ==
+As of 2013 there were expansion plans for the pipeline system which would, if permitted and fully built, provide the capacity to transport an amount of dilbit from the Athabasca oil sands into the United States and the Gulf Coast equal to that of the Keystone Pipeline.
+
+
+== Accidents and incidents ==
+
+
+=== Largest inland oil spill In U.S. history ===
+
+In 1991, Enbridge's Line 3 pipeline spilled 1.7 million gallons of oil in Grand Rapids, Minnesota and the Prairie River, a tributary of the Mississippi River. It was the largest inland spill of oil in U.S. history. Deliberations over construction of a new Line 3 pipeline have drawn resistance from climate justice organizers and Native communities in Minnesota.
+
+
+=== Cohasset, MN oil spill ===
+On July 4, 2002, 252,000 gallons of crude oil spilled into a marsh near Cohasset, Minnesota due to a rupture of Line 4 running from Edmonton, Alberta, Canada, and Superior, Wisconsin. Emergency responders enacted a controlled burn at 4:45pm the next day to prevent the oil from penetrating into any waterways. The cost of remediating the accident was reported around $5.6 million.
+
+
+=== Clearbrook Junction, MN fire ===
+On November 28, 2007, a large fire erupted during pipeline repair work at the Clearbrook Junction. This fire, described by a spokesperson for the Minnesota Department of Public Safety as a "big fire, not an explosion", killed two workers and caused a $4 per barrel spike in oil prices the following day. The 34-inch (860 mm) pipeline carries crude from Saskatchewan to the Chicago area.
+
+
+=== Kalamazoo River oil spill ===
+
+On July 26, 2010, 840,000 gallons of dilbit crude oil leaked from the pipeline in Calhoun County, Michigan, spilling into Talmadge Creek that flows into the Kalamazoo River. Despite alarms at Edmonton headquarters it took eighteen hours and a report from a Michigan utilities employee before the pipeline company acted to halt the flow finally. Enbridge reached a settlement with the U.S. Department of Justice and Environmental Protection Agency for a total of $177 million in response to the spill, along with an additional spill in Romeoville, Illinois later that year. This settlement included $110 million in spill prevention, $62 million in Clean Water Act violations, and $5.4 million in cleanup costs. In addition, the company was fined $3.7 million by the United States Department of Transportation due to 24 violations in pipeline safety regulation. Under its agreement with the federal government, Enbridge was required to hold community open houses along pipeline routes. By 2014, the cost of cleanup to the company totaled to $1.21 billion.
+
+
+=== Mackinac Straits Tugboat anchor incident ===
+In 2018, a tugboat dropped its anchor on the pipeline near the Straits of Mackinac in Michigan, denting the pipe and causing 600 U.S. gallons (2,300 liters) of mineral oil to leak from two electric cables.
+
+
+=== Fort Atkinson, WI diluent leak ===
+On April 26, 2019, a faulty elbow joint caused a leak in Enbridge's Line 13. Between 29 and 33 barrels of diluent were released into the soil near Blackhawk Island, Wisconsin, outside Fort Atkinson. Enbridge did not report the spill to the Wisconsin Department of Natural Resources until July 31, 2020, over a year later.
+
+
+=== Cambridge, WI oil spill ===
+On November 11, 2024, Approximately 70,000 gallons of crude oil were discovered to have spilled from a pipeline near Cambridge, WI. It was detected during a routine check of the Cambridge station when "an Enbridge Technician noticed what appeared to be product staining an area of gravel" near a discharge valve, according to a report on the incident by the Federal Hazardous Materials Safety Administration. The spill is reported to have contaminated soil and groundwater, but effects are currently unknown, with a nearby creek seemingly unaffected.
+
+
+== See also ==
+Enbridge Pipelines
+Enbridge Northern Gateway Pipelines
+List of oil pipelines
+List of oil refineries
+List of pipeline accidents in the United States
+North Dakota Pipeline Company system
+
+
+== Bibliography ==
+Enbridge Pipelines Inc. (2011-07-01). "Competitive Toll Settlement" (PDF). Retrieved 2014-03-30.
+Enbridge (2013). "Pipeline System Configuration: Quarter 1, 2013". Archived from the original on 2014-03-31. Retrieved 2014-03-30.
+
+
+== References ==
+
+
+== External links ==
+Enbridge
+Enbridge Asset Map (current)

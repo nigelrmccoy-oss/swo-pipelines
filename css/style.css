@@ -19,3 +19,11 @@ main { position:absolute; top:84px; bottom:24px; left:0; right:0; }
 #faceplate td { border-bottom:1px solid var(--line); padding:3px 4px; vertical-align:top; } #faceplate td:first-child { color:var(--dim); width:90px; }
 #faceplate a { color:var(--info); font-size:11px; margin-right:4px; } .unk { color:var(--warn); }
 #banner { position:absolute; bottom:0; left:0; right:0; height:24px; padding:4px 10px; background:#0e1216; border-top:1px solid var(--line); color:var(--dim); font-size:11px; }
+/* v0.2 additions */
+#globe { position:absolute; inset:0; } .cesium-widget-credits { font-size:10px; }
+#mapLegend { z-index:3; max-height:calc(100% - 16px); overflow:auto; }
+#search { width:220px; cursor:text; }
+#faceplate { top:auto; } #faceplate, #homePanel { position:absolute; right:8px; top:92px; bottom:32px; width:430px; overflow:auto; background:var(--panel); border:1px solid var(--line); padding:8px 10px; z-index:6; }
+#homePanel { left:8px; right:auto; width:380px; } #homePanel.hidden { display:none; } #homePanel h3 { margin:0 0 6px; color:#7fd3ff; }
+.est { color:#c9a0ff; } .sch { color:var(--warn); } table.t { width:100%; border-collapse:collapse; } table.t td { border-bottom:1px solid var(--line); padding:2px 4px; }
+#banner a { color:var(--info); }

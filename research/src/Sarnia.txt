@@ -1,0 +1,749 @@
+{{Short description|City in Ontario, Canada}}
+{{Good article}}
+{{About|the city in Ontario, Canada}}
+{{Use Canadian English|date=February 2026}}
+{{Use dmy dates|date=May 2023}}
+{{Infobox settlement
+| name                   = Sarnia
+| official_name          = City of Sarnia
+| type                   = [[List of cities in Ontario|City]] ([[List of municipalities in Ontario#Lower-tier municipalities|lower-tier]])
+| image                  = Sarnia skyline.JPG
+| caption                = 
+| image_flag             = 
+| image_seal             = 
+| seal_type              = coat of arms
+| nickname               = Chemical Valley
+| motto                  = {{force singular}} ''Sarnia Semper'' <br />([[Latin]] for "Sarnia Always")
+| image_map              = 
+| map_size               = 
+| map_caption            = 
+| pushpin_map            = Canada#Canada Southern Ontario#CAN ON Lambton
+| pushpin_label_position = 
+| coordinates            = {{coord|42|58|53|N|82|19|04|W|region:CA-ON|notes=<ref>{{Cite cgndb|FEARV|Sarnia}}</ref>|display=inline,title}}
+| subdivision_type       = Country
+| subdivision_name       = {{flag|Canada}}
+| subdivision_type1      = [[Provinces and territories of Canada|Province]]
+| subdivision_type2      = [[List of census divisions of Ontario#Counties|County]]
+| subdivision_name1      = [[Ontario]]
+| subdivision_name2      = [[Lambton County|Lambton]]
+| established_title      = Settled
+| established_date       = 1830s
+| established_title2     = Incorporated
+| established_date2      = 19 June 1856 (town)
+| established_title3     = Incorporated
+| established_date3      = 7 May 1914 (city)
+| leader_title           = Mayor
+| leader_name            = [[Mike Bradley (politician)|Mike Bradley]]<ref>{{Cite web |last=Sarnia |first=City of |title=Mayor Mike Bradley |url=https://www.sarnia.ca/city-government/mayor-and-council/mayor/ |access-date=2025-02-20 |website=City of Sarnia |language=en-US}}</ref>
+| leader_title1          = Governing Body
+| leader_name1           = [[Sarnia City Council]]
+| total_type             = City
+| area_footnotes         = <ref name="census-2021-city"/><ref name="census-2021-metro">{{cite web|url=https://www12.statcan.gc.ca/census-recensement/2016/dp-pd/prof/details/page.cfm?Lang=E&Geo1=CMACA&Code1=562&Geo2=PR&Code2=35&SearchText=sarnia&SearchType=Begins&SearchPR=01&B1=All&TABID=1&type=0 |title=Census Profile, 2021 Census – Sarnia (Census agglomeration), Ontario and Lambton, County (Census division), Ontario |publisher=[[Statistics Canada]] |work=[[Canada 2021 Census]] |date=8 February 2017 |access-date=29 August 2023}}</ref>
+| area_magnitude         = 
+| area_total_km2         = 163.90
+| area_water_km2         = 
+| area_water_percent     = 
+| area_urban_km2         = 
+| area_metro_km2         = 1118.65
+| population_density_km2 = 439.6
+| elevation_footnotes    = <ref name="climate"/>
+| elevation_m            = 180.60
+| population_total       = 72047 ([[List of the largest municipalities in Canada by population|83rd]])
+| population_as_of       = 2021
+| population_footnotes   = <ref name="census-2021-city">{{cite web|url=https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=sarnia&DGUIDlist=2021A00053538030&GENDERlist=1,2,3&STATISTIClist=1&HEADERlist=0 |title=Profile table, Census Profile, 2021 Census of Population - Sarnia, City (CY) [Census subdivision], Ontario |publisher=[[Statistics Canada]] |work=[[Canada 2021 Census]] |date=9 February 2022 |access-date=25 August 2022}}</ref>
+| population_metro       = 97592 ([[List of census metropolitan areas and agglomerations in Canada|44th]])
+| postal_code_type       = [[Canadian postal code#Forward sortation areas|Forward sortation area]]
+| postal_code            = [[List of postal codes of Canada: N|N7S to N7X]]
+| area_codes             = [[Area codes 519, 226 and 548|519, 226 and 548]]
+| website                = {{Official URL}}
+| footnotes              = 
+| leader_title2          = MPs
+| leader_name2           = [[Marilyn Gladu]] ([[Liberal Party of Canada|LPC]])
+| leader_title3          = MPPs
+| leader_name3           = [[Bob Bailey (politician)|Bob Bailey]] ([[Progressive Conservative Party of Ontario|OPC]])
+}}
+
+'''Sarnia''' is a city in [[Lambton County]], [[Ontario]], Canada.  It had a [[Canada 2021 Census|2021 population]] of 72,047,<ref name="census-2021-city"/> and is the largest city on [[Lake Huron]].  Sarnia is located on the eastern bank of the junction between the Upper and Lower [[Great Lakes]], where Lake Huron flows into the [[St. Clair River]] in the [[Southwestern Ontario]] region, which forms the [[Canada–United States border]], directly across from [[Port Huron, Michigan]].
+
+The site's natural harbour first attracted the French explorer [[René-Robert Cavelier, Sieur de La Salle|La Salle]]. He named the site "The Rapids" on 23 August 1679, when he had horses and men pull his 45-ton barque ''Le Griffon'' north against the nearly four-knot current<ref>{{cite web|title=Great Lakes Currents|url=http://glakesonline.nos.noaa.gov/glcurrents/Composite_gl0301.html|url-status=dead|archive-url=https://web.archive.org/web/20080724074008/http://glakesonline.nos.noaa.gov/glcurrents/Composite_gl0301.html|archive-date=24 July 2008|access-date=30 March 2012|publisher=NOAA/NOS/CO-OPS}}</ref> of the St. Clair River.<ref name=Griffon>{{cite web|title=La Salle and the Griffon|url=http://www.maritimehistoryofthegreatlakes.ca/documents/hgl/default.asp?ID=c007|access-date=23 August 2013}}</ref> This was the first time that a vessel other than a canoe or other oar-powered vessel had sailed into Lake Huron,<ref>{{cite web |url=http://www.visualheritage.ca/lambton/griffon.htm |title=The Griffon |publisher=Ontario Visual Heritage project |year=2012 |access-date=30 March 2012}}</ref> and La Salle's voyage was germinal in the development of commercial shipping on the Great Lakes.<ref>{{cite book |editor-last1=Mansfield |editor-first1=J.B. |title=History of the Great Lakes: Volume I |pages=78–90 |url=https://www.maritimehistoryofthegreatlakes.ca//documents/hgl/ |publisher=J.H. Beers & Co. |location=Chicago, Illinois|year=1899}}</ref> Located in the natural harbour, the Sarnia port remains an important centre for [[lake freighter]]s and oceangoing ships carrying cargoes of grain and petroleum products.<ref>{{cite news|last=Morden|first=Paul|date=7 November 2012|title=Great Lakes Shipping Future Looks Bright|newspaper=The Sarnia Observer|url=http://www.theobserver.ca/2012/11/07/great-lakes-shipping-future-looks-bright|url-status=dead|access-date=27 June 2013|archive-url=https://web.archive.org/web/20160305120443/http://www.theobserver.ca/2012/11/07/great-lakes-shipping-future-looks-bright|archive-date=5 March 2016}}</ref> The natural port and the salt caverns that exist in the surrounding areas,<ref>{{cite web|date=5 June 2009|title=Ministry of Natural Resources-Salt Caverns|url=http://www.mnr.gov.on.ca/en/Business/OGSR/2ColumnSubPage/STEL02_167109.html|url-status=dead|archive-url=https://web.archive.org/web/20081007201621/http://www.mnr.gov.on.ca/en/Business/OGSR/2ColumnSubPage/STEL02_167109.html|archive-date=7 October 2008|access-date=12 April 2012|publisher=Ministry of Natural Resources}}</ref> together with the oil discovered in nearby [[Oil Springs, Ontario|Oil Springs]] in 1858,<ref>{{cite web |url=http://www.petroleumhistory.ca/history/globalHistory.pdf|title=Timeline-Global Petroleum History |publisher=Petroleum History Society |author=Clinton Tippett |year=2014 |access-date=12 May 2018}}</ref> led to the dramatic growth of the petroleum industry in this area. Because Oil Springs was [[History of the petroleum industry in Canada|the first place in Canada]] and North America to drill commercially for oil, the knowledge that was acquired there resulted in oil drillers from Sarnia travelling the world teaching other enterprises and nations how to drill for oil.<ref>{{cite book |title=Hard Oiler-The Story of Canadians' Quest for Oil at Home and Abroad |publisher=Dundurn Press, Ltd |author=Gary May |year=1998 |pages=8,10,121}}</ref>
+
+The complex of refining and [[chemical companies]] is called "[[Environmental impact of the chemical industry in Sarnia|Chemical Valley]]" and located south of downtown Sarnia.<ref>{{cite web|title=The Chemical Valley--Part I|date=8 August 2013 |url=https://www.vice.com/en/article/the-chemical-valley-part-1/|url-status=live|archive-url=https://web.archive.org/web/20150109152922/https://www.vice.com/en_ca/video/the-chemical-valley-part-1|archive-date=9 January 2015|access-date=19 January 2016|publisher=Vice News}}</ref> In 2011, the city had the highest level of [[Particulate matter|particulates]] [[air pollution]] of any Canadian city, but it has since dropped to rank 30th in this hazard.<ref>{{cite news|url=https://www.who.int/entity/phe/health_topics/outdoorair/databases/WHO_AAP_database_May2016_v3web.xlsx?ua=1|title=WHO ranks Canada's urban air among best in world|date=2016|newspaper=WHO}}</ref> About 60 percent of the particulate matter comes from industries and polluters in the neighbouring United States.<ref>{{cite news|title=Sarnia Air Canada's Worst|newspaper=[[Sarnia Observer]]|url=http://www.theobserver.ca/2011/09/26/sarnias-air-canadas-worst|url-status=dead|access-date=19 January 2016|archive-url=https://web.archive.org/web/20121109085821/http://www.theobserver.ca/2011/09/26/sarnias-air-canadas-worst|archive-date=9 November 2012}}</ref>
+
+Lake Huron is cooler than the air in summer and warmer than the air in winter; therefore, it moderates Sarnia's [[humid continental climate]], making temperature extremes of hot and cold less evident.<ref name="climate">{{cite web |url=http://www.climate.weatheroffice.gc.ca/climate_normals/results_e.html?stnID=4589&lang=e&dCode=1&province=ONT&provBut=&month1=0&month2=12 |title=National Climate Data and Information Archive, 1971–2000 |publisher=Government of Canada |access-date=12 April 2012}}</ref> In the winter, Sarnia occasionally experiences [[lake-effect snow]] from Arctic air blowing across the warmer waters of Lake Huron and condensing to form [[snow squall]]s over land.<ref name="snow">{{cite news|author=Craig Pearson|date=15 December 2010|title=Lake Effect Fuels Snowbelt Storms|newspaper=The Windsor Star|url=http://www2.canada.com/windsorstar/news/story.html?id=94adf5b7-7ad9-4109-81d0-10a3f164d451|url-status=dead|access-date=12 April 2012|archive-url=https://web.archive.org/web/20131002215631/http://www2.canada.com/windsorstar/news/story.html?id=94adf5b7-7ad9-4109-81d0-10a3f164d451|archive-date=2 October 2013}}</ref>
+
+==History==
+===Name===
+The word "Sarnia" is [[Latin]] for [[Guernsey]], a  British [[Channel Islands|Channel Island]].<ref>{{cite book |title=Mare Clausum |url=https://archive.org/details/bub_gb_km0PUYnIg5cC |author=John Selden |year=1635 |page=333|publisher=excudebat Will. Stanesbeius }}</ref> In 1829 [[John Colborne, 1st Baron Seaton|Sir John Colborne]], a former governor of Guernsey, was appointed Lieutenant Governor of Upper Canada.<ref name="biographi2000">{{cite web |url=http://www.biographi.ca/009004-119.01-e.php?&id_nbr=4359 |title=Dictionary of Canadian Biography Online, Sir John Colborne |publisher=University of Toronto |year=2000 |access-date=12 April 2012}}</ref> In this capacity, he visited two small settlements in 1835 that had been laid out on the shores of Lake Huron. One of these, named "The Rapids", consisted then of 44 taxpayers, nine frame houses, four log houses, two brick dwellings, two taverns and three stores.<ref name="sarnia2005">{{cite web |url=http://www.city.sarnia.on.ca/visit.asp?sectionid=117 |title=City of Sarnia-About Our Name |publisher=City of Sarnia |date=21 December 2005 |access-date=12 April 2012 |archive-date=28 September 2013 |archive-url=https://web.archive.org/web/20130928040216/http://www.city.sarnia.on.ca/visit.asp?sectionid=117 |url-status=dead }}</ref><ref>{{cite web|title=History-Geography of Sarnia|url=http://virtualwalk.ca/index.php/Sarnia-Ontario/History-Geography.html|url-status=dead|archive-url=https://web.archive.org/web/20130721180807/http://virtualwalk.ca/index.php/Sarnia-Ontario/History-Geography.html|archive-date=21 July 2013|access-date=5 April 2012|publisher=VirtualWalk.ca}}</ref> The villagers wanted to change its name but were unable to agree on an alternative. The English settlers favoured the name "Buenos Aires", and the ethnic Scottish favoured "New Glasgow".<ref name="Colborne">{{cite web |url=http://www.lambtonshield.com/voices-from-lambtons-past-part-3-of-old-home-week/ |title=Voices from Lambton's Past: Part 3 of 'Old Home Week' |date=2 September 2011 |access-date=25 June 2013 |archive-date=29 September 2013 |archive-url=https://web.archive.org/web/20130929125104/http://www.lambtonshield.com/voices-from-lambtons-past-part-3-of-old-home-week/ |url-status=dead }}</ref>
+
+Sir John Colborne suggested Port Sarnia. On 4 January 1836, the name was formally adopted by a vote of 26 to 16, and Colborne also named the nearby village Moore after British military hero Sir John Moore.<ref name="Colborne"/><ref name="sarnia">{{cite web |url=http://thesarniajournal.ca/chronicles-sarnia-lion-lodge-landscaper/ |title=Chronicles of Sarnia: the lion, the lodge and the landscaper |work=The Sarnia Journal |date=15 March 2014 |access-date=12 May 2018 }}</ref> Sarnia adopted the nickname "The Imperial City" on 7 May 1914 because of the visit of Canada's [[Governor General of Canada|Governor General]], [[Prince Arthur, Duke of Connaught and Strathearn|the Duke of Connaught]], and his daughter [[Princess Patricia of Connaught|Princess Patricia]].<ref name="Sarnia City">{{cite web |url=http://www.city.sarnia.on.ca/visit.asp?sectionid=117 |title=City of Sarnia |publisher=City of Sarnia |date=21 December 2005 |access-date=23 April 2012 |archive-url=https://web.archive.org/web/20120830052021/http://www.city.sarnia.on.ca/visit.asp?sectionid=117 |archive-date=30 August 2012}}</ref><ref>{{Cite news|url=https://thesarniajournal.ca/whats-in-a-nickname-how-sarnia-became-the-imperial-city/|title=What's in a nickname? How Sarnia became the Imperial City|work=The Sarnia Journal|date=28 May 2017|first=Phil|last=Egan|access-date=1 January 2022}}</ref>
+
+===Early history===
+[[File:Sarnia, Ontario satellite image.jpg|thumb|Sarnia from space, 2018]]
+
+Ethnic French colonists, who came from [[Detroit]], were the first European colonizers of what became Sarnia in about 1807–1810; their role is marked by a historic plaque installed by the Ontario Heritage Society. They were fur traders with the Huron and [[Council of Three Fires|Three Fires Confederacy]]. At this time, the French Jesuits also established a mission near the Huron village on the river's east bank. Later, the men established farms, attracted other settlers, and stimulated growth in the area.<ref>{{cite web |url=http://www.visualheritage.ca/lambton/french.htm |title=Sarnia-Lambton-The French |publisher=Ontario Visual Heritage Project |access-date=1 April 2012}}</ref>
+
+The township was surveyed in 1829, and in the early 1830s, a wave of Scottish immigrants settled in the area. They became dominant as English speakers and, for decades, claimed to have founded the city.
+
+Port Sarnia expanded throughout the 19th century; on 19 June 1856, Parliament passed ''An Act to Incorporate the Town of Sarnia,'' and the name Port Sarnia was officially changed to Sarnia, effective 1 January 1857. The Act mentioned 1,000 inhabitants in three wards.<ref>{{cite book |title=Statutes of the Province of Canada |publisher=Government of Canada |page=258}}</ref> The important lumber industry was based on the wealth of virgin timber in the area, at a time of development around the Great Lakes. Lumber was especially in demand in the booming US cities of [[Chicago]] and [[Detroit]].
+
+The discovery of oil in nearby Oil Springs in 1858 by [[James Miller Williams]], and the arrival of the [[Great Western Railway (Ontario)|Great Western Railway]] in 1858 and the [[Grand Trunk Railway]] in 1859, all stimulated Sarnia's growth.<ref>{{cite web|date=7 May 2013|title=Sarnia Turns 99 today|url=http://blackburnnews.com/sarnia/sarnia-news/2013/05/07/sarnia-turns-99-today/|url-status=dead|archive-url=https://web.archive.org/web/20130625201212/http://blackburnnews.com/sarnia/sarnia-news/2013/05/07/sarnia-turns-99-today/|archive-date=25 June 2013|access-date=23 June 2013|publisher=Blackburnnews.com}}</ref> The rail lines were later linked directly to the United States by the opening of the [[St. Clair Tunnel]] under the St. Clair River at Sarnia in 1890 by the Grand Trunk Railway. This was the first railroad tunnel ever constructed under a river.<ref>{{cite web|author1=Peter McDonald|author2=Brian Isherwood|author3=Nadir Ansari|name-list-style=amp|title=Saint Clair River Tunnel, Sarnia. Evolution of the Design and Construction Methods for the TBM Cutterhead Retrieval|url=http://www.deepfoundations.ca/docs/tech/tech_StClairTunnel.pdf|url-status=dead|archive-url=https://web.archive.org/web/20130612070747/http://www.deepfoundations.ca/docs/tech/tech_StClairTunnel.pdf|archive-date=12 June 2013|access-date=26 March 2012}}</ref> The tunnel was an engineering marvel in its day, achieved through the development of original techniques for excavating in a compressed air environment.
+
+In 1860 the Prince of Wales met the Chief of the Ojibways of Garden River, with 75 indigenous leaders, at Sarnia and gave them 1860 Queen Victoria Peace medals with the Prince of Wales logo engraved on the obverse.<ref>1860 Great Britain Victoria Peace Medal: Mar 17, 2021, Heritage Auctions, [https://coins.ha.com/itm/indian-peace-medals/1860-great-britain-victoria-peace-medal-bhm-1975-silver-polished-ngc-details-au/a/1330-15183.s]</ref>
+
+===20th century to present===
+[[Canada Steamship Lines]] formed in 1913 from many previous companies that plied the waters of the St. Clair River. One of these companies was Northwest Transportation Company of Sarnia, founded in 1870.<ref>{{cite web|title=Canada Steamship Lines|url=http://www.abouthegreatlakes.com/cls.html|url-status=dead|archive-url=https://web.archive.org/web/20100527100708/http://www.abouthegreatlakes.com/cls.html|archive-date=27 May 2010|access-date=1 April 2012|publisher=About the Great Lakes}}</ref> By 20 April 1914, when Parliament passed ''An Act to Incorporate the City of Sarnia'', the population had grown to 10,985 in six wards.<ref>{{cite book |title=Statutes of Canada |publisher=Government of Canada |page=503}}</ref> Sarnia officially became a city as of 7 May 1914.<ref name="Sarnia City"/>
+
+[[File:Sarnia Grain Elevator from Across the Bay.jpg|thumb|right|Sarnia's grain elevator]]
+[[File:Two Lake Freighters Loading in Sarnia.jpg|thumb|right|Framed by the [[Blue Water Bridge]], two lake freighters take on cargo in Sarnia Harbour.]]
+
+Sarnia's grain elevator, which in the early 21st century is the 15th-largest operating in Canada,<ref>{{cite web|date=1 August 2017|title=Grain Elevators in Canada|url=https://www.grainscanada.gc.ca/statistics-statistiques/geic-sgc/2017-08-01.pdf|url-status=dead|archive-url=https://web.archive.org/web/20170928150328/https://www.grainscanada.gc.ca/statistics-statistiques/geic-sgc/2017-08-01.pdf|archive-date=28 September 2017|access-date=28 September 2017|publisher=Canadian Grain Commission}}</ref> was built in 1927 after the dredging of Sarnia Harbour to allow access to larger ships.<ref>{{cite encyclopedia|url=http://www.thecanadianencyclopedia.com/articles/sarnia|title=City of Sarnia|encyclopedia=The Canadian Encyclopedia|year=2012|access-date=23 June 2013|archive-url=https://archive.today/20130624235936/http://www.thecanadianencyclopedia.com/articles/sarnia|archive-date=24 June 2013}}</ref> Two years later, grain shipments had become an important part of Sarnia's economy.<ref>{{cite news |title=Grain Trade to Benefit by Rate Cut |work=The Lethbridge Herald |page=1 |date=14 May 1929}}</ref>
+
+The grain elevator rises above the harbour, and next to it is the slip for the numerous bulk carriers and other ships that are part of the contemporary shipping industry. They include vessels from all over the world. The waterway between Detroit and Sarnia is one of the world's busiest, as indicated by the average of {{convert|78,943,900|MT|abbr=on}} of shipping that annually travelled the river going in both directions during the period 1993&ndash;2002.<ref>{{cite book |title=Waterborne Commerce of the United States, Calendar Year 2002 |publisher=Department of the Army—Corps of Engineers |page=30}}</ref> Lake freighters and oceangoing ships, which are known as "salties",<ref>{{cite web|author=Paul Malo|year=2007|title=When is a Ship not a Ship?|url=http://www.thousandislandslife.com/BackIssues/Archive/tabid/393/articleType/ArticleView/articleId/62/When-is-a-Ship-not-a-Ship.aspx|url-status=dead|archive-url=https://web.archive.org/web/20100819014121/http://www.thousandislandslife.com/BackIssues/Archive/tabid/393/articleType/ArticleView/articleId/62/When-is-a-Ship-not-a-Ship.aspx|archive-date=19 August 2010|access-date=26 March 2012|work=Thousand Islands Magazine}}</ref> pass up and down the river at the rate of about one every seven minutes during the shipping season.<ref>{{cite web|date=June 2006|title=Sarnia, Very Well Connected|url=http://www.city.sarnia.on.ca/pdf/SARNIA_PROMO_JUN06.pdf|url-status=dead|archive-url=https://web.archive.org/web/20090419050502/http://www.city.sarnia.on.ca/pdf/SARNIA_PROMO_JUN06.pdf|archive-date=19 April 2009|access-date=4 April 2012|publisher=Sarnia&ndash;Lambton Economic Partnership}}</ref>
+
+The [[St. Clair Tunnel|Paul M. Tellier Tunnel]], which was named after [[Paul Tellier|the retired president of CN]] in 2004, was bored and began operation in 1995. It accommodates [[Double-stack rail transport|double-stacked rail cars]] and is located next to the original tunnel, which has been sealed.<ref>{{cite web|year=2006|title=The Paul M. Tellier Tunnel (2005)|url=http://www.railfame.ca/sec_ind/technology/en_2005_PaulTellierTunnel.asp|url-status=dead|archive-url=https://web.archive.org/web/20140728211214/http://www.railfame.ca/sec_ind/technology/en_2005_PaulTellierTunnel.asp|archive-date=28 July 2014|access-date=26 November 2018|publisher=Canadian Railway Hall of Fame}}</ref>
+
+A petroleum industry was established in the Sarnia area in 1858, and in 1942, [[Polymer Corporation]] manufactured synthetic rubber there during [[World War II]], enhancing Sarnia's notability as a petrochemical centre.<ref>{{cite encyclopedia|url=http://www.thecanadianencyclopedia.com/articles/polymer-corporation|title=Polymer Corporation|encyclopedia=The Canadian Encyclopedia|year=2012|access-date=23 June 2013|archive-url=https://archive.today/20130624235906/http://www.thecanadianencyclopedia.com/articles/polymer-corporation|archive-date=24 June 2013}}</ref> During the [[Cold War]], the United States Government included Sarnia on its list of possible targets for a Soviet nuclear strike because of its petrochemical industry.<ref>{{cite web |url=http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA359603 |archive-url=https://web.archive.org/web/20130408133553/http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA359603 |url-status=dead |archive-date=8 April 2013 |title=NUCLEAR CRASH The U.S. Economy After Snail Nuclear Attacks, Appendix 2, Targets in the Counter-Energy Attack |publisher=DTIC |author1=M. Anjali Sastry |author2=Joseph J. Romm |author3=Kosta Tsipis |page=132 |access-date=22 June 2013}}</ref>
+
+On 1 January 1991, Sarnia and the neighbouring town of Clearwater (formerly Sarnia Township) were amalgamated as the new city of Sarnia-Clearwater. The amalgamation was initially slated to include the village of [[Point Edward, Ontario|Point Edward]], although that village's residents resisted. They were eventually permitted to remain independent of the city. On 1 January 1992, the city reverted to the name Sarnia.<ref name="sarnia2005"/>
+
+Sarnia's population continued to grow from 1961 to 1991, with a 1991 population of 74,376. In 2001, the population had declined by approximately 3,000. Since 2001, Sarnia's population has been growing slowly, with a 2011 population count of 72,366.<ref name="2011Census data">{{cite web |title=Sarnia 2011 Census | date=8 February 2012 |url=http://www12.statcan.gc.ca/census-recensement/2011/dp-pd/prof/details/page.cfm?Lang=E&Geo1=CSD&Code1=3538030&Geo2=PR&Code2=01&Data=Count&SearchText=sarnia&SearchType=Begins&SearchPR=01&B1=All&Custom=&TABID=1 |access-date=30 August 2013 |publisher=Government of Canada}}</ref> An April 2010 report "Sarnia-Lambton's Labour Market" states: "Large petrochemical companies are the community's main economic drivers. Over the recent past, several plants have shut down,&#91;sic&#93; and of those still in operation, increased automation and outsourcing has led to significantly fewer workers."<ref>{{cite web|url=http://www.sltb.org/documents/SL_LabourMrkt_final.pdf |title=Sarnia-Lambton's Labour Market |publisher=Employment Ontario |date=April 2010 |access-date=18 April 2012}}</ref>
+
+These shutdowns and the resulting loss of jobs, and therefore of population as workers search for employment elsewhere, will contribute to a general decline as forecast by an August 2011 study. It projects a 17% decline in population over the next twenty-five years.<ref>{{cite web |url=http://www.city.sarnia.on.ca/pdf/IntensificationCentresCorridorsStudyFINAL.pdf |title=Intensification in Centres and Corridors Study |publisher=Monteith and Brown, Planning Consultants |date=August 2011 |access-date=4 April 2012}}</ref> The Monteith-Brown study cited outlines a plan for restructuring the city based on hybrid zoning areas, which will bring work opportunities closer to the neighbourhoods where people live. The City of Sarnia and Lambton County are also implementing an economic development plan with an emphasis on bio-industries and renewable energy.<ref>{{cite web |url=https://nationalpost.com/news/story.html?id=2646991 |title=Jolt For Declining Towns |work=The National Post |author=Karen Mazurkewich |date=20 March 2010 |access-date=27 March 2012 }}{{dead link|date=October 2025|bot=medic}}{{cbignore|bot=medic}}</ref>
+
+In 2020, Sarnia began to experience a "soaring murder rate".<ref name="Hunter">{{cite news | last = Hunter | first = Brad | date = 4 May 2022 | title = Soaring murder rate ravaging small-town Sarnia | url = https://torontosun.com/news/provincial/hunter-soaring-murder-rate-ravaging-smalltown-sarnia | newspaper = Toronto Sun}}</ref> Sarnia had one homicide from 2016 to 2019 and eight homicides from 2020 to 2022.<ref>{{cite news | last = Bridge | first = Terry | date = 20 January 2022 | title = 22 months. 13 dead. 20 murder charges: A 'very unusual' and 'concerning' two years in Sarnia-Lambton | url = https://www.theobserver.ca/news/local-news/22-months-13-dead-20-murder-charges-a-very-unusual-and-concerning-two-years-in-sarnia-lambton | work = The Observer}}</ref> The ''Toronto Sun'' reported that the increased murder rate was drug-related, with local youth unable to find opportunities for themselves in the city.<ref name="Hunter"/>
+
+==Geography==
+[[File:Sarnia at Night from Space.jpg|thumb|Sarnia from space, this time at night – Taken by [[Chris Hadfield]], the only astronaut from Sarnia who wanted to snap a photo of his hometown from the International Space Station. Before the flyover, Hadfield arranged with the citizens of Sarnia via Twitter and Facebook to turn on all their lights both inside and outside their homes.<ref>{{cite web |url=https://www.cbc.ca/news/science/chris-hadfield-puts-canadian-stamp-on-space-mission-1.1236358 |title=Chris Hadfield puts Canadian stamp on space mission |date=11 December 2012 |publisher=[[Canadian Broadcasting Corporation]] |access-date=11 February 2013}}</ref><ref>{{cite web |url=http://www.theobserver.ca/2013/02/06/sarnia-residents-are-being-called-on-to-light-up-the-sky-friday-night-for-astronaut-chris-hadfield |title=Light Up for Hadfield |date=6 February 2013 |work=The Sarnia Observer |access-date=11 February 2013}}</ref>]]
+
+Sarnia is located on the eastern shore of Lake Huron at its extreme southern point, where it flows into the St. Clair River. Most of the surrounding area is flat, and the elevation ranges from {{convert|169|to|281|m|abbr=on}} above sea level.<ref>{{cite web|title=Atlas of Lambton County|url=http://www.lambtongis.ca/pdfmaps/Coloured_Shaded_Relief.pdf|publisher=Lambton County|access-date=20 July 2013}}</ref> The soil mainly comprises clay.<ref>{{cite web|title=Soil Survey of Lambton County|url=http://sis.agr.gc.ca/cansis/publications/surveys/on/on22/on22_report.pdf|publisher=Ministry of Agriculture and Food|access-date=10 September 2013|pages=11, Table 2}}</ref> Despite this high percentage of clay, the soil is remarkably rich for cultivation.
+
+===Neighbourhoods===
+Wiltshire Park, Woodland, Oak Acres, Wees Beach, Oakwood Corners, Woodrow Shores, and Blackwell are part of the North End of Sarnia, which begins immediately north of [[Ontario Highway 402]] and terminates at the shore of Lake Huron. Blackwell, Bright's Grove, and the western part of Huron Heights are in the northeast part along the shores of Lake Huron. Coronation Park, Fourth Line Heritage Park, College Park, Lucasville, Bunyan, Froomfield, The Tree Streets, Mitton Village, and Sherwood Village are some of the neighbourhoods south of the highway.<ref>{{cite web|year=2013|title=Google Maps Sarnia, ON, Canada|url=https://maps.google.com/maps?q=Sarnia,+ON&hl=en&ll=43.007158,-82.378492&spn=0.020242,0.033088&sll=37.0625,-95.677068&sspn=44.658568,67.763672&t=m&hnear=Sarnia,+Lambton+County,+Ontario,+Canada&z=15|access-date=20 July 2013|website=Google Maps}}</ref>
+
+The village of Blue Water was built to house workers and their families in Chemical Valley during the construction of Polymer Corporation; at one point, it had nearly 3,000 residents. In 1961, all the residents were relocated, mostly to the North End, to make way for the expansion of the chemical industry. The village was demolished, and all that remains is a historical marker at the corner of Vidal Street and Huron Boulevard. This neighbourhood was largely forgotten until historian Lorraine Williams wrote two books about it. She was instrumental in gaining approval for the historical plaque.<ref>{{cite news|url=http://www.intelligencer.ca/PrintArticle.aspx?e=715197|author=Dan McCaffery|title=Gone but not forgotten|publisher=Belleville Intelligencer|year=2008|access-date=5 May 2012}}</ref><ref>{{cite web |url=http://www.city.sarnia.on.ca/pdf/MAYORs2007HONOURLIST.pdf |title=Mayor's 2007 Honours List |publisher=City of Sarnia |page=21 |year=2007 |access-date=24 June 2013}}</ref>
+
+===Climate===
+Sarnia has a humid continental climate ([[Köppen climate classification]] ''Dfb''), verging on the hot summer subtype ''Dfa''.<ref>{{cite web|title=Koeppen-Geiger Climate Classification|url=http://koeppen-geiger.vu-wien.ac.at/present.htm|publisher=Koeppen-Geiger|access-date=7 July 2013}}</ref> Winters are cold with a few short-lasting [[Arctic front|Arctic air masses]] that dip far enough south and bring with them daily high temperatures below {{Convert|−10|C}}.<ref name="climate"/>  Sarnia, while not quite located in the southwestern Ontario snowbelt, sometimes receives large quantities of [[lake-effect snow]]. Sarnia averages {{convert|112.0|cm|abbr=on}} of snow per year, while London, inland and to the east, averages {{convert|194.3|cm|abbr=on}}.
+
+The moderating effect of Lake Huron which Sarnia has a long shoreline on its north side, and to a lesser extent other nearby [[Great Lakes]] ensure seasonal lag similar to other lakeside locations over much of Southern Ontario. This gives Sarnia a noticeably milder period following Summer and delaying onset of the first frost in the Fall.<ref>{{cite web|date=22 June 2011|title=Sarnia Climate and Location|url=http://www.sarnia.ca/visit.asp?sectionid=432|url-status=dead|archive-url=https://web.archive.org/web/20131002163405/http://www.sarnia.ca/visit.asp?sectionid=432|archive-date=2 October 2013|access-date=17 April 2012|publisher=City of Sarnia}}</ref> Conversely, cooler average daytime temperatures tend to prevail for longer after winter breaks, through the late Spring and early Summer as compared to further inland.  
+Daily lows of less than {{Convert|−10|C}} occur an average of 29 days a year, and less than {{Convert|−20|C}}, only average two days a year. 
+Summers are warm with typically humid conditions. [[Humidex]] readings and [[Dew Point]]s can be very high at times from late May to late September. Sarnia has the second greatest number of high humidex days at or above {{Convert|35|C}} (with 23.16 days on average per year) and humidex days at or above {{Convert|30|C}} (with 61.20 days on average per year) in Canada, ranking after [[Windsor, Ontario]].<ref>{{cite web|title=Weather Stats: Weather Winners|url=http://www.weatherstats.ca/winners.html?68|access-date=5 September 2013}}</ref> [[Thunderstorm]]s are frequent and can occasionally become severe from April to September.<ref>{{cite web |url=http://climate.weatheroffice.gc.ca/climate_normals/results_e.html?stnID=4589&lang=e&dCode=1&province=ONT&provBut=&month1=0&month2=12 |title=National Climate Data and Information Archive, 1971–2000 |publisher=Government of Canada |access-date=12 April 2012}}</ref> Destructive weather is very rare in the area but has occurred, such as the [[1953 Sarnia tornado|tornado event of 1953]].
+
+{{Weather box
+|metric first= Y
+|single line= Y
+|location= Sarnia ([[Sarnia Chris Hadfield Airport|Chris Hadfield Airport]]), 1991&ndash;2020 normals, extremes 1926&ndash;present{{efn|Extreme high and low-temperature data was recorded at Sarnia from November 1926 to July 1927 and from November 1948 to January 1961, at [[Polymer Corporation|Sarnia Polysar]] from February 1961 to November 1967 and at Sarnia Airport from December 1967 to present.}}
+|Jan record high C = 18.9
+|Feb record high C = 19.4
+|Mar record high C = 28.2
+|Apr record high C = 31.2
+|May record high C = 34.4
+|Jun record high C = 40.1
+|Jul record high C = 37.3
+|Aug record high C = 37.9
+|Sep record high C = 37.2
+|Oct record high C = 32.5
+|Nov record high C = 26.7
+|Dec record high C = 18.0
+|year record high C = 40.1
+|Jan high C = -0.9
+|Feb high C = 0.0
+|Mar high C = 5.0
+|Apr high C = 11.9
+|May high C = 18.7
+|Jun high C = 24.0
+|Jul high C = 26.5
+|Aug high C = 25.5
+|Sep high C = 22.2
+|Oct high C = 15.4
+|Nov high C = 8.0
+|Dec high C = 2.1
+|year high C = 13.2
+|Jan mean C = -4.6
+|Feb mean C = -4.0
+|Mar mean C = 0.6
+|Apr mean C = 6.7
+|May mean C = 13.1
+|Jun mean C = 18.6
+|Jul mean C = 21.3
+|Aug mean C = 20.4
+|Sep mean C = 16.7
+|Oct mean C = 10.7
+|Nov mean C = 4.2
+|Dec mean C = -1.2
+|year mean C = 8.5
+|Jan low C = -8.2
+|Feb low C = -7.9
+|Mar low C = -3.7
+|Apr low C = 1.5
+|May low C = 7.1
+|Jun low C = 13.0
+|Jul low C = 16.0
+|Aug low C = 15.3
+|Sep low C = 11.3
+|Oct low C = 6.0
+|Nov low C = 0.4
+|Dec low C = -4.4
+|year low C = 3.9
+|Jan record low C = -28.9
+|Feb record low C = -28.3
+|Mar record low C = -25.6
+|Apr record low C = -11.7
+|May record low C = -5.0
+|Jun record low C = -1.1
+|Jul record low C = 4.4
+|Aug record low C = 1.2
+|Sep record low C = -1.6
+|Oct record low C = -8.9
+|Nov record low C = -15.0
+|Dec record low C = -25.0
+|year record low C = -28.9
+|precipitation colour = green
+|Jan precipitation mm = 56.5
+|Feb precipitation mm = 47.7
+|Mar precipitation mm = 56.9
+|Apr precipitation mm = 79.3
+|May precipitation mm = 85.2
+|Jun precipitation mm = 92.5
+|Jul precipitation mm = 80.4
+|Aug precipitation mm = 70.9
+|Sep precipitation mm = 84.1
+|Oct precipitation mm = 78.4
+|Nov precipitation mm = 79.5
+|Dec precipitation mm = 60.0
+|year precipitation mm = 871.3
+|rain colour = green
+|Jan rain mm = 29.0
+|Feb rain mm = 26.8
+|Mar rain mm = 34.1
+|Apr rain mm = 70.6
+|May rain mm = 88.1
+|Jun rain mm = 89.5
+|Jul rain mm = 80.5
+|Aug rain mm = 63.5
+|Sep rain mm = 93.3
+|Oct rain mm = 77.6
+|Nov rain mm = 68.2
+|Dec rain mm = 39.0
+|year rain mm = 765.2
+|snow colour=green
+|Jan snow cm = 34.2
+|Feb snow cm = 20.2
+|Mar snow cm = 22.0
+|Apr snow cm = 3.5
+|May snow cm = 0.0
+|Jun snow cm = 0.0
+|Jul snow cm = 0.0
+|Aug snow cm = 0.0
+|Sep snow cm = 0.0
+|Oct snow cm = 0.5
+|Nov snow cm = 7.0
+|Dec snow cm = 25.0
+|year snow cm = 112.4
+|unit precipitation days = 0.2 mm
+|Jan precipitation days = 15.2
+|Feb precipitation days = 12.0
+|Mar precipitation days = 13.2
+|Apr precipitation days = 14.1
+|May precipitation days = 14.1
+|Jun precipitation days = 13.1
+|Jul precipitation days = 11.2
+|Aug precipitation days = 10.2
+|Sep precipitation days = 10.4
+|Oct precipitation days = 12.8
+|Nov precipitation days = 14.2
+|Dec precipitation days = 14.1
+|year precipitation days = 154.6
+|unit rain days = 0.2 mm
+|Jan rain days = 5.9
+|Feb rain days = 4.9
+|Mar rain days = 7.4
+|Apr rain days = 12.7
+|May rain days = 13.8
+|Jun rain days = 11.4
+|Jul rain days = 11.5
+|Aug rain days = 10.5
+|Sep rain days = 10.4
+|Oct rain days = 12.1
+|Nov rain days = 11.4
+|Dec rain days = 7.1
+|year rain days = 119.2
+|unit snow days = 0.2 cm
+|Jan snow days = 11.7
+|Feb snow days = 7.9
+|Mar snow days = 7.4
+|Apr snow days = 2.5
+|May snow days = 0.0
+|Jun snow days = 0.0
+|Jul snow days = 0.0
+|Aug snow days = 0.0
+|Sep snow days = 0.0
+|Oct snow days = 0.25
+|Nov snow days = 3.6
+|Dec snow days = 8.4
+|year snow days = 41.8
+|time day = 0600 LST
+|humidity colour = green
+|Jan humidity = 82.1
+|Feb humidity = 80.9
+|Mar humidity = 81.6
+|Apr humidity = 81.5
+|May humidity = 83.3
+|Jun humidity = 85.9
+|Jul humidity = 87.9
+|Aug humidity = 90.1
+|Sep humidity = 89.8
+|Oct humidity = 85.3
+|Nov humidity = 82.9
+|Dec humidity = 83.1
+|year humidity = 84.5
+|Jan sun = 81.7
+|Feb sun = 100.3
+|Mar sun = 139.9
+|Apr sun = 185.2
+|May sun = 236.6
+|Jun sun = 266.3
+|Jul sun = 299.1
+|Aug sun = 254.3
+|Sep sun = 191.3
+|Oct sun = 151.2
+|Nov sun = 87.6
+|Dec sun = 67.4
+|year sun = 2060.9
+|Jan percentsun = 28.0
+|Feb percentsun = 33.9
+|Mar percentsun = 37.9
+|Apr percentsun = 46.2
+|May percentsun = 52.2
+|Jun percentsun = 58.0
+|Jul percentsun = 64.3
+|Aug percentsun = 58.9
+|Sep percentsun = 50.9
+|Oct percentsun = 44.2
+|Nov percentsun = 29.9
+|Dec percentsun = 24.0
+|year percentsun = 44.0
+
+<!--This data below uses the weatherstats.ca source-->
+|Jan avg record high C= 10.3
+|Feb avg record high C= 10.4
+|Mar avg record high C= 18.2
+|Apr avg record high C= 24.8
+|May avg record high C= 29.4
+|Jun avg record high C= 32.6
+|Jul avg record high C= 33.0
+|Aug avg record high C= 32.3
+|Sep avg record high C= 30.7
+|Oct avg record high C= 25.6
+|Nov avg record high C= 17.9
+|Dec avg record high C= 11.7
+|year avg record high C= 34.2
+|Jan avg record low C= -18.9
+|Feb avg record low C= -18.5
+|Mar avg record low C= -13.0
+|Apr avg record low C= -5.1
+|May avg record low C= 0.5
+|Jun avg record low C= 6.1
+|Jul avg record low C= 10.1
+|Aug avg record low C= 8.9
+|Sep avg record low C= 4.0
+|Oct avg record low C= -1.3
+|Nov avg record low C= -7.8
+|Dec avg record low C= -13.7
+|year avg record low C= -21.0
+|Jan dew point C= -7.4
+|Feb dew point C= -7.2
+|Mar dew point C= -3.3
+|Apr dew point C= 1.6
+|May dew point C= 7.9
+|Jun dew point C= 13.6
+|Jul dew point C= 16.5
+|Aug dew point C= 16.3
+|Sep dew point C= 12.6
+|Oct dew point C= 6.4
+|Nov dew point C= 0.6
+|Dec dew point C= -4.1
+|year dew point C= 4.5
+|source 2= weatherstats.ca (for dewpoint and monthly&yearly average absolute maximum&minimum temperature)<ref>{{cite web |url=https://sarnia.weatherstats.ca/charts/ |title=Sarnia|work= List of charts for Sarnia |date=April 21, 2026 |publisher=weatherstats.ca |access-date=April 21, 2026}}</ref>
+
+|source 1= [[Environment Canada]]<ref name="CCN">{{cite web |url= https://climate.weather.gc.ca/climate_normals/results_1991_2020_e.html?searchType=stnProv&lstProvince=ON&txtCentralLatMin=0&txtCentralLatSec=0&txtCentralLongMin=0&txtCentralLongSec=0&stnID=199000000&dispBack=0 |title= Sarnia Airport, Ontario |work= Canadian Climate Normals 1991–2020 |date= 31 October 2011 |publisher= [[Environment Canada]] |access-date=23 March 2025}}</ref><ref>{{Cite FTP |url= ftp://ftp.tor.ec.gc.ca/Pub/Normals/English/ONT/ONT_OWEN-WARR_ENG.csv |server= Canadian Climate Normals 1981–2010 |url-status= dead |title= Sarnia Airport, Ontario |access-date=9 September 2013}}</ref><ref name = "February 2015">{{cite web |url=http://climate.weather.gc.ca/climate_data/daily_data_e.html?hlyRange=2005-12-07%7C2016-08-05&dlyRange=2006-03-20%7C2016-08-05&mlyRange=%7C&StationID=44323&Prov=ON&urlExtension=_e.html&searchType=stnName&optLimit=yearRange&StartYear=1840&EndYear=2016&selRowPerPage=25&Line=4&searchMethod=contains&Month=2&Day=6&txtStationName=sarnia&timeframe=2&Year=2015
+|title=Daily Data Report for February 2015
+|work=Canadian Climate Data
+|date=31 October 2011
+|publisher=[[Environment Canada]]
+|access-date=6 August 2016}}</ref><ref name = "Sarnia">{{cite web
+|url=http://climate.weather.gc.ca/historical_data/search_historic_data_stations_e.html?searchType=stnName&timeframe=1&txtStationName=sarnia&searchMethod=contains&StartYear=1840&EndYear=2016&optLimit=specDate&Year=1926&Month=11&Day=6&selRowPerPage=25
+|title=Sarnia
+|work=Canadian Climate Data
+|date=31 October 2011
+|publisher=[[Environment Canada]]
+|access-date=6 August 2016}}</ref><ref name = "Sarnia Polysar">{{cite web
+|url=http://climate.weather.gc.ca/historical_data/search_historic_data_stations_e.html?searchType=stnName&timeframe=1&txtStationName=sarnia+polysar&searchMethod=contains&optLimit=yearRange&StartYear=1840&EndYear=2016&Year=2016&Month=8&Day=6&selRowPerPage=25
+|title=Sarnia Polysar
+|work=Canadian Climate Data
+|date=31 October 2011
+|publisher=[[Environment Canada]]
+|access-date=6 August 2016}}</ref><ref name = "Sarnia Chris Hadfield A">{{cite web
+|url=http://climate.weather.gc.ca/historical_data/search_historic_data_stations_e.html?searchType=stnName&timeframe=1&txtStationName=sarnia+chris+hadfield&searchMethod=contains&optLimit=yearRange&StartYear=1840&EndYear=2016&Year=2016&Month=8&Day=6&selRowPerPage=25
+|title=Sarnia Chris Hadfield A
+|work=Canadian Climate Data
+|date=31 October 2011
+|publisher=[[Environment Canada]]
+|access-date=6 August 2016}}</ref><ref name = "Sarnia Climate">{{cite web
+|url=http://climate.weather.gc.ca/historical_data/search_historic_data_stations_e.html?searchType=stnName&timeframe=1&txtStationName=sarnia+climate&searchMethod=contains&optLimit=yearRange&StartYear=1840&EndYear=2016&Year=2016&Month=8&Day=6&selRowPerPage=25
+|title=Sarnia Climate
+|work=Canadian Climate Data
+|date=31 October 2011
+|publisher=[[Environment Canada]]
+|access-date=6 August 2016}}</ref>
+|date=March 2012}}
+
+==Demographics==
+{{Historical populations
+|title       = Historical populations
+|type        = Canada
+|align       = right
+|width       = 17em
+|state       = 
+|shading     = 
+|percentages = 
+|footnote    = <ref name="census-2021-city"/><ref name="census-2016-city">{{cite web |url=http://www12.statcan.ca/census-recensement/2016/dp-pd/prof/details/page.cfm?Lang=E&Geo1=CSD&Code1=3538030&Geo2=PR&Code2=01&Data=Count&SearchText=Canada&SearchType=Begins&SearchPR=01&TABID=1&B1=All |title=Census Profile, 2016 Census – Sarnia, City (Census subdivision), Ontario and Canada (Country) |publisher=[[Statistics Canada]] |work=[[Canada 2016 Census]] |access-date=7 July 2017 }}{{Dead link|date=September 2023 |bot=InternetArchiveBot |fix-attempted=yes }}</ref><ref>{{cite web |url=http://www.citypopulation.de/Canada-Ontario.html#Stadt_alpha |title=Canada Population-Cities and Towns-Sarnia (1991) |publisher=CityPopulation.de |author=Thomas Brinkoff |date=11 February 2012 |access-date=15 April 2012}}</ref><ref>{{cite web |url=http://www66.statcan.gc.ca/eng/acyb_c1902-eng.aspx?opt=/eng/1902/190201010087_p.%2087.pdf |title=Population (1871, 1881, 1891, 1901) |date=31 March 2008 |publisher=Canada Year Book 1867–1967 |access-date=23 April 2012}}</ref><ref>{{cite web |url=http://www66.statcan.gc.ca/eng/acyb_c1912-eng.aspx?opt=/eng/1912/191200630039_p.%2039.pdf |title=Population 1911 |date=31 March 2008 |publisher=Canada Year Book |access-date=23 April 2012}}</ref><ref>{{cite web |url=http://www66.statcan.gc.ca/eng/acyb_c1922-23-eng.aspx?opt=/eng/1922-23/192202270187_p.%20187.pdf |title=Population 1921 |date=31 March 2008 |publisher=Canada Year Book |access-date=23 April 2012}}</ref><ref>{{cite web |url=http://www66.statcan.gc.ca/eng/acyb_c1941-eng.aspx?opt=/eng/1941/194101650107_p.%20107.pdf |title=Population 1931 |date=31 March 2008 |publisher=Canada Year Book |access-date=23 April 2012}}</ref><ref>{{cite web |url=http://www66.statcan.gc.ca/eng/acyb_c1947-eng.aspx?opt=/eng/1947/194702140164_p.%20164.pdf |title=Population 1941 |date=31 March 2008 |publisher=Canada Year Book |access-date=23 April 2012}}</ref><ref>{{cite web |url=http://www66.statcan.gc.ca/eng/acyb_c1952-53-eng.aspx?opt=/eng/1952-53/195202070155_p.%20155.pdf |title=Population 1951 |date=31 March 2008 |publisher=Canada Year Book |access-date=23 April 2012}}</ref><ref>{{cite web |url=http://www66.statcan.gc.ca/eng/acyb_c1967-eng.aspx?opt=/eng/1967/196702240192_p.%20192.pdf |title=Population 1961 |date=31 March 2008 |publisher=Canada Year Book |access-date=23 April 2012}}</ref><ref>[http://www12.statcan.gc.ca/english/census96/data/profiles/Rp-eng.cfm?TABID=1&LANG=E&APATH=3&DETAIL=0&DIM=0&FL=A&FREE=0&GC=0&GK=0&GRP=1&PID=35782&PRID=0&PTYPE=3&S=0&SHOWALL=0&SUB=0&Temporal=1996&THEME=34&VID=0&VNAMEE=&VNAMEF=], 1996 Census of Canada: Electronic Area Profiles</ref><br />Population figures reflect Sarnia's amalgamation with Clearwater in 1991.
+|1841|610
+|1871|2929
+|1881|3874
+|1891|6692
+|1901|8176
+|[[Canada 1911 Census|1911]]|9947
+|1921|14877
+|1931|18191
+|1941|18734
+|1951|34697
+|1961|50976
+|1971|57644
+|1981|50829
+|1991|74167
+|[[Canada 1996 Census|1996]]|72738
+|[[Canada 2001 Census|2001]]|70876
+|[[Canada 2006 Census|2006]]|71419
+|[[Canada 2011 Census|2011]]|72366
+|[[Canada 2016 Census|2016]]|71594
+|[[Canada 2021 Census|2021]]|72,047
+}}
+
+In the [[2021 Canadian census|2021 Census of Population]] conducted by [[Statistics Canada]], Sarnia had a population of {{val|72047|fmt=commas}} living in {{val|32188|fmt=commas}} of its {{val|33902|fmt=commas}} total private dwellings, a change of {{percentage|{{#expr:72047-71594}}|71594|1}} from its 2016 population of {{val|71594|fmt=commas}}. With a land area of {{convert|163.9|km2|sqmi|abbr=on}}, it had a population density of {{Pop density|72047|163.9|km2|sqmi|prec=1}} in 2021.<ref name="census-2021-city"/>
+
+The [[median]] age in Sarnia is 46.0 as of 2021, which is older than the Canadian median of 41.6,<ref>{{Cite web |title=2021 Census Profile- Canada [Country] |url=https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&DGUIDList=2021A000011124&GENDERList=1,2,3&STATISTICList=1&HEADERList=0&SearchText=Canada |website=Statistics Canada| date=9 February 2022 }}</ref> indicative of Sarnia's aging population.<ref>{{cite web |url=http://www.city.sarnia.on.ca/pdf/IntensificationCentresCorridorsStudyFINAL.pdf |title=Intensification In Centres and Corridors Study |page=106 |date=August 2011 |publisher=Monteith-Brown Planning Consultants |access-date=16 April 2012 }}</ref>
+
+The median income for all persons 15 years old or older in Sarnia in 2015 was $33,833, while the median family income was $86,654, in line with the averages for Ontario as a whole, at $33,539 and $91,089, respectively.<ref>{{cite web |url=http://www12.statcan.gc.ca/census-recensement/2016/dp-pd/prof/details/page.cfm?Lang=E&Geo1=CSD&Code1=3538030&Geo2=CD&Code2=3538&Data=Count&SearchText=sarnia&SearchType=Begins&SearchPR=01&B1=All&TABID=1 |title=Census Profile, 2016 Census |publisher=Statistics Canada |year=2016 |access-date=28 January 2018}}</ref> In 2021, the median price of a house in Sarnia was $430,000, compared to the $887,290 of Ontario as a whole.<ref>{{cite web |url=https://www.theobserver.ca/news/local-news/home-prices-continue-to-climb-in-sarnia-area#:~:text=In%20Sarnia%2C%20the%20median%20home,Hamilton%20and%20Toronto%2C%20Longo%20said |title=Home Prices Continue to Climb in Sarnia Area |website=Theobserver.ca|date=6 May 2021 |access-date=31 March 2022}}</ref><ref>{{cite web |url=https://www.canadianrealestatemagazine.ca/expert-advice/canadian-average-home-prices-by-city-compared-334894.aspx#:~:text=Ontario,about%2016x%20the%20average%20income |title=Canadian Average Home Prices by City Compared |publisher=Canadian Real Estate Wealth |date=3 November 2021 |access-date=31 March 2022}}</ref>
+
+=== Ethnicity ===
+As of the 2021 Census,<ref>{{Cite web |title=2021 Census Profile- Sarnia, City |url=https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=sarnia&DGUIDlist=2021A00053538030&GENDERlist=1,2,3&STATISTIClist=1&HEADERlist=0 |website=Statistics Canada| date=9 February 2022 }}</ref> Sarnia was  86.2% White, 8.3%  visible minorities, and 5.5% Indigenous. The largest visible minority groups in the city are [[South Asian Canadians|South Asians]] (2.7%), [[Black Canadians]] (1.6%), and [[Latin American Canadians|Latin Americans]] (0.9%). 
+{| class="wikitable sortable"
+! colspan="11" |[[Panethnicity|Panethnic]] groups in the City of Sarnia (2001−2021)
+|-
+! rowspan="2" |[[Panethnicity|Panethnic]] group
+! colspan="2" |[[2021 Canadian census|2021]]<ref name="2021censusB">{{Cite web |last=Government of Canada |first=Statistics Canada |date=2024-08-02 |title=Census Profile, 2021 Census of Population |url=https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=Sarnia&DGUIDlist=2021A00053538030&GENDERlist=1,2,3&STATISTIClist=1,4&HEADERlist=0 |access-date=2026-07-16 |website=www12.statcan.gc.ca}}</ref>
+! colspan="2" |[[2016 Canadian census|2016]]<ref name="2016censusB">{{Cite web |last=Government of Canada |first=Statistics Canada |date=2024-07-12 |title=Census Profile, 2016 Census |url=https://www12.statcan.gc.ca/census-recensement/2016/dp-pd/prof/details/page.cfm?Lang=E&Geo1=CSD&Code1=3538030&Geo2=CD&Code2=3538&SearchText=Sarnia&SearchType=Begins&SearchPR=01&B1=All&TABID=1&type=0 |access-date= 2026-07-16 |website=www12.statcan.gc.ca}}</ref>
+! colspan="2" |[[2011 Canadian census|2011]]<ref name="2011censusB">{{Cite web |last=Government of Canada |first=Statistics Canada |date=2015-11-27 |title=NHS Profile |url=https://www12.statcan.gc.ca/nhs-enm/2011/dp-pd/prof/details/page.cfm?Lang=E&Geo1=CSD&Code1=3538030&Data=Count&SearchText=Sarnia&SearchType=Begins&SearchPR=01&A1=All&B1=All&Custom=&TABID=1 |access-date= 2026-07-16 |website=www12.statcan.gc.ca}}</ref>
+! colspan="2" |[[2006 Canadian census|2006]]<ref name="2006censusB">{{Cite web |last=Government of Canada |first=Statistics Canada |date=2019-08-20 |title=2006 Community Profiles |url=https://www12.statcan.gc.ca/census-recensement/2006/dp-pd/prof/92-591/details/page.cfm?Lang=E&Geo1=CSD&Code1=3538030&Geo2=PR&Code2=35&Data=Count&SearchText=Sarnia&SearchType=Begins&SearchPR=01&B1=All&Custom= |access-date= 2026-07-16 |website=www12.statcan.gc.ca}}</ref>
+! colspan="2" |[[2001 Canadian census|2001]]<ref name="2001censusB">{{Cite web |last=Government of Canada |first=Statistics Canada |date=2019-07-02 |title=2001 Community Profiles |url=https://www12.statcan.gc.ca/english/Profil01/CP01/Details/Page.cfm?Lang=E&Geo1=CSD&Code1=3538030&Geo2=PR&Code2=35&Data=Count&SearchText=Sarnia&SearchType=Begins&SearchPR=01&B1=All&Custom= |access-date= 2026-07-16 |website=www12.statcan.gc.ca}}</ref>
+|-
+![[Population (human biology)|{{abbr|Pop.|Population}}]]
+!{{Abbr|%|percentage}}
+!{{abbr|Pop.|Population}}
+!{{Abbr|%|percentage}}
+!{{abbr|Pop.|Population}}
+!{{Abbr|%|percentage}}
+!{{abbr|Pop.|Population}}
+!{{Abbr|%|percentage}}
+!{{abbr|Pop.|Population}}
+!{{Abbr|%|percentage}}
+|-
+| [[European Canadians|European]]{{efn|Statistic includes all persons that did not make up part of a visible minority or an indigenous identity.|name=euro}}
+| 62,035
+| {{Percentage | 62035 | 70930 | 2 }}
+| 62,925
+| {{Percentage | 62925 | 70375 | 2 }}
+| 65,745
+| {{Percentage | 65745 | 71010 | 2 }}
+| 65,965
+| {{Percentage | 65965 | 70335 | 2 }}
+| 66,375
+| {{Percentage | 66375 | 70020 | 2 }}
+|-
+| [[Indigenous peoples in Canada|Indigenous]]
+| 3,000
+| {{Percentage | 3000 | 70930 | 2 }}
+| 2,745
+| {{Percentage | 2745 | 70375 | 2 }}
+| 1,990
+| {{Percentage | 1990 | 71010 | 2 }}
+| 1,490
+| {{Percentage | 1490 | 70335 | 2 }}
+| 1,285
+| {{Percentage | 1285 | 70020 | 2 }}
+|-
+| [[South Asian Canadians|South Asian]]
+| 1,915
+| {{Percentage | 1915 | 70930 | 2 }}
+| 1,225
+| {{Percentage | 1225 | 70375 | 2 }}
+| 1,050
+| {{Percentage | 1050 | 71010 | 2 }}
+| 790
+| {{Percentage | 790 | 70335 | 2 }}
+| 560
+| {{Percentage | 560 | 70020 | 2 }}
+|-
+| [[African-Canadian|African]]
+| 1,125
+| {{Percentage | 1125 | 70930 | 2 }}
+| 990
+| {{Percentage | 990 | 70375 | 2 }}
+| 580
+| {{Percentage | 580 | 71010 | 2 }}
+| 530
+| {{Percentage | 530 | 70335 | 2 }}
+| 420
+| {{Percentage | 420 | 70020 | 2 }}
+|-
+| [[East Asian Canadians|East Asian]]{{efn|Statistic includes total responses of "Chinese", "Korean", and "Japanese" under visible minority section on census.|name=EastAsian}}
+| 705
+| {{Percentage | 705 | 70930 | 2 }}
+| 730
+| {{Percentage | 730 | 70375 | 2 }}
+| 660
+| {{Percentage | 660 | 71010 | 2 }}
+| 635
+| {{Percentage | 635 | 70335 | 2 }}
+| 570
+| {{Percentage | 570 | 70020 | 2 }}
+|-
+| [[Southeast Asian Canadians|Southeast Asian]]{{efn|Statistic includes total responses of "Filipino" and "Southeast Asian" under visible minority section on census.|name=SoutheastAsian}}
+| 695
+| {{Percentage | 695 | 70930 | 2 }}
+| 620
+| {{Percentage | 620 | 70375 | 2 }}
+| 425
+| {{Percentage | 425 | 71010 | 2 }}
+| 335
+| {{Percentage | 335 | 70335 | 2 }}
+| 365
+| {{Percentage | 365 | 70020 | 2 }}
+|-
+| [[Latin American Canadians|Latin American]]
+| 620
+| {{Percentage | 620 | 70930 | 2 }}
+| 385
+| {{Percentage | 385 | 70375 | 2 }}
+| 150
+| {{Percentage | 150 | 71010 | 2 }}
+| 235
+| {{Percentage | 235 | 70335 | 2 }}
+| 220
+| {{Percentage | 220 | 70020 | 2 }}
+|-
+| [[Middle Eastern Canadians|Middle Eastern]]{{efn|Statistic includes total responses of "West Asian" and "Arab" under visible minority section on census.|name=MiddleEastern}}
+| 525
+| {{Percentage | 525 | 70930 | 2 }}
+| 505
+| {{Percentage | 505 | 70375 | 2 }}
+| 175
+| {{Percentage | 175 | 71010 | 2 }}
+| 175
+| {{Percentage | 175 | 70335 | 2 }}
+| 95
+| {{Percentage | 95 | 70020 | 2 }}
+|-
+| Other/[[Multiracial people|multiracial]]{{efn|Statistic includes total responses of "Visible minority, {{abbr|n.i.e.|not included elsewhere}}" and "Multiple visible minorities" under visible minority section on census.|name=Other}}
+| 325
+| {{Percentage | 325 | 70930 | 2 }}
+| 235
+| {{Percentage | 235 | 70375 | 2 }}
+| 230
+| {{Percentage | 230 | 71010 | 2 }}
+| 195
+| {{Percentage | 195 | 70335 | 2 }}
+| 140
+| {{Percentage | 140 | 70020 | 2 }}
+|-
+! Total responses
+! 70,930
+! {{Percentage | 70930 | 72047 | 2 }}
+! 70,375
+! {{Percentage | 70375 | 71594 | 2 }}
+! 71,010
+! {{Percentage | 71010 | 72366 | 2 }}
+! 70,335
+! {{Percentage | 70335 | 71419 | 2 }}
+! 70,020
+! {{Percentage | 70020 | 70876 | 2 }}
+|- class="sortbottom"
+! Total population
+! 72,047
+! {{Percentage | 72047 | 72047 | 2 }}
+! 71,594
+! {{Percentage | 71594 | 71594 | 2 }}
+! 72,366
+! {{Percentage | 72366 | 72366 | 2 }}
+! 71,419
+! {{Percentage | 71419 | 71419 | 2 }}
+! 70,876
+! {{Percentage | 70876 | 70876 | 2 }}
+|- class="sortbottom"
+| colspan="11" | {{small|Note: Totals greater than 100% due to multiple origin responses}}
+|}
+
+=== Language ===
+In 2021, 87.5% of Sarnians called English their mother tongue, 2.2% listed French, and 3.4% said another language was their mother tongue. 1.1% listed both English and a non-official language as their mother tongue.
+
+=== Religion ===
+[[File:Non-Christian religion in Sarnia CA (2021).jpg|thumb|Largest non-Christian religion in Sarnia CA by census tract based on the 2021 census<ref>{{cite web | title=Profile table, Census Profile, 2021 Census of Population - Canada &#91;Country&#93; | date=9 February 2022 | url=https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&DGUIDList=2021A000011124&GENDERList=1,2,3&STATISTICList=1&HEADERList=0&SearchText=Canada }}</ref>]]
+In 2021, 56.8% of residents were [[Christians|Christian]], down from 69.5% in 2011.<ref>{{Cite web |title=NHS Profile, Sarnia, CY, Ontario, 2011 |url=https://www12.statcan.gc.ca/nhs-enm/2011/dp-pd/prof/details/page.cfm?Lang=E&Geo1=CSD&Code1=3538030&Data=Count&SearchText=sarnia&SearchType=Begins&SearchPR=01&A1=All&B1=All&Custom=&TABID=1 |website=Statistics Canada| date=8 May 2013 }}</ref> 25.2% of the population was [[Catholic Church|Catholic]], 21.1% were [[Protestantism|Protestant]], and 6.6% were Christians of unspecified denomination. All other Christian denominations/Christian-related traditions comprised 3.9% of the population. 39.5% of residents were nonreligious or secular, up from 27.9% in 2011. All other religions (or spiritual beliefs) comprised 3.6% of residents. The largest non-Christian religions were [[Islam]] (1.2%) and [[Hinduism]] (1.1%).
+
+==Economy==
+{{See also|Environmental impact of the chemical industry in Sarnia}}
+[[File:Sarnia Chemical Valley.JPG|thumb|Petrochemical industry of Sarnia's Chemical Valley]]
+
+In its March 2011 Labour Market Report, the Sarnia-Lambton Workforce Development Board states that: "Even though employment in both the petrochemical and agricultural industries has declined significantly in recent years, these two industries remain central drivers of the Sarnia Lambton economy."<ref>{{cite web |url=http://www.sltb.org/documents/SLWDB_LabourMarketUpdate2011.pdf |title=Catalysts for Labour Market Change |date=March 2011 |publisher=Sarnia-Lambton Workforce Development Board |access-date=19 April 2012}}</ref>
+
+When World War II threatened [[Tropics|tropical]] sources of natural [[latex]] for [[Natural rubber|rubber]], Sarnia was selected as the site to spearhead the development of synthetic petroleum-based rubbers for [[Materiel|war materials]]. Polymer Corporation was built by [[Dow Chemical Company|Dow Chemical]] at the request of the Government of Canada.<ref>{{cite book |last=Brandt |first=E.N. |title=Growth Company: Dow Chemical's First Century |year=1997 |publisher=[[Michigan State University Press]] |location=East Lansing, MI |isbn=0-87013-426-4 |url-access=registration |url=https://archive.org/details/growthcompanydow0000bran }}</ref> Large pipelines bring [[Alberta]] oil to Sarnia, where [[Oil refinery|oil refining]] and petrochemical production have become mainstays of the city's economy.<ref>{{cite news |title=Activists Push Policy Change for Oil Pipelines |work=The Star |author=Andrew Chung |date=21 January 2009}}</ref> [[Shell Canada]], [[Imperial Oil]], and [[Suncor Energy]] ([[Sunoco]]) operate refineries in Sarnia.<ref>{{cite web |url=https://www.thestar.com/business/2007/07/11/list_of_refineries.html |title=List of Refineries |work=The Star |year=2007 |access-date=12 May 2018}}</ref> Large salt beds found under the city became a source of [[chlorine]] and other significant ingredients which contributed to the success of Chemical Valley.<ref>{{cite web|date=2 August 2012|title=Oil, Gas and Salt Resources|url=http://www.mnr.gov.on.ca/en/Business/OGSR/2ColumnSubPage/STEL02_167107.html|url-status=dead|archive-url=https://web.archive.org/web/20081007033249/http://www.mnr.gov.on.ca/en/Business/OGSR/2ColumnSubPage/STEL02_167107.html|archive-date=7 October 2008|access-date=23 June 2013|publisher=Ontario Ministry of Natural Resources}}</ref> Chemical companies operating in Sarnia include [[Nova Chemicals|NOVA Chemicals]], [[Bayer]] ([[Lanxess]] and H.C. Starck), [[Cabot Corporation]], and [[Ethyl Corporation]].<ref>{{cite web |url=http://www.ene.gov.on.ca/stdprodconsume/groups/lr/@ene/@resources/documents/resource/std01_079129.pdf |title=Environmental Compliance in the Petrochemical Industry in the Sarnia Area |publisher=Environmental SWAT Team |year=2005 |access-date=23 June 2013}}</ref>
+
+Dow Chemical ceased operations at its Sarnia site in 2009, with the plants after that decommissioned and the land sold to neighbouring [[TransAlta]] Energy Corporation.<ref>{{cite web |url=http://www.dow.com/canada/sarnia/index.htm |title=Dow Canada-Sarnia |publisher=Dow Chemical |year=2012 |access-date=12 April 2012}}</ref> TransAlta produces power and steam for industry, and is the largest natural gas co-generation plant in Canada. It has created the Bluewater Energy Park on the former Dow site. Dow returned to Sarnia in 2019, when it took ownership of a former Dupont production site on Albert Street in Corunna that modifies polyethylene and polypropylene.<ref>{{Cite web | title=Dow returns to Lambton County with acquisition of Corunna plant {{!}} Sarnia Observer | date=8 October 2020 | url=https://www.theobserver.ca/news/local-news/dow-returns-to-lambton-county-with-acquisition-of-corunna-plant | archive-url=https://web.archive.org/web/20201009121159/https://www.theobserver.ca/news/local-news/dow-returns-to-lambton-county-with-acquisition-of-corunna-plant | access-date=2025-01-17 | archive-date=2020-10-09}}</ref>
+
+Lanxess produces more than {{convert|150,000|MT|abbr=on}} of [[butyl rubber]] annually at its Sarnia location and is the sole producer of regulatory-approved, food-grade butyl rubber, used in the manufacture of [[chewing gum]].<ref>{{cite web|author=Doris DeGuzman|date=26 March 2008|title=LANXESS is cementing its butyl rubber position in the Asian tire market with a new world-scale plant in Singapore|url=http://www.icis.com/Articles/2008/03/31/9111033/lanxess-expands-butyl-rubber-business-in-asia.html|url-status=dead|archive-url=https://web.archive.org/web/20090725101512/http://www.icis.com/Articles/2008/03/31/9111033/lanxess-expands-butyl-rubber-business-in-asia.html|archive-date=25 July 2009|access-date=24 June 2013}}</ref> Within the boundaries of its Sarnia plant Lanxess has also created the Bio-industrial Park Sarnia.<ref>{{cite news |title=Lanxess Sees Opportunity for Bio-based Sarnia Plant |work=The Sarnia Observer |author=Cathy Dobson |date=17 February 2011}}</ref>
+
+Chemical Valley and the surrounding area are home to 62 facilities and refineries.<ref>{{cite web|date=September 2009|title=Toxic Trail Exposuer|url=http://www.tarsandswatch.org/files/TarSandsToxicTrail_0.pdf|url-status=usurped|archive-url=https://web.archive.org/web/20090920081108/http://www.tarsandswatch.org/files/TarSandsToxicTrail_0.pdf|archive-date=20 September 2009|access-date=12 April 2012|publisher=The Polaris Institute}}</ref> These industrial complexes are the heart of Sarnia's infrastructure and economy. They directly employ nearly 8,000 and contribute to almost 45,000 additional jobs in the area.<ref>{{cite web |url=http://www.sltb.org/documents/SL_LabourMrkt_final.pdf |title=Sarnia Lambton's Labour Market |publisher=Sarnia-Lambton Workforce Development Board |date=April 2010 |access-date=24 June 2013}}</ref> In 1971, the Canadian government deemed this area so important to the economic development of the country that it printed an image of a Sarnia Oil Refinery on the reverse of the [[Canadian ten-dollar note|Canadian $10 note]].<ref>{{cite web|year=2007|title=1971 $10-Bill|url=http://www.cdnpapermoney.com/English/BoC/1971_10.htm|url-status=dead|archive-url=https://web.archive.org/web/20030810090602/http://www.cdnpapermoney.com/English/BoC/1971_10.htm|archive-date=10 August 2003|access-date=24 June 2013|publisher=The Canadian Paper Money Society}}</ref> The huge industrial area is the cause of significant air and water pollution. The Canada Wide Daily Standard for airborne particulate matter and ozone pollution, regulation PM2.5, is 30 micrograms per cubic metre.<ref>{{cite web|date=30 April 2010|title=Canada Wide Standard for Particulate Matter and Ozone|url=http://www.ec.gc.ca/rnspa-naps/default.asp?lang=En&n=07BC2AC0-1|url-status=dead|archive-url=https://web.archive.org/web/20150331121508/http://www.ec.gc.ca/rnspa-naps/default.asp?lang=En&n=07BC2AC0-1|archive-date=31 March 2015|access-date=22 June 2013|publisher=Government of Canada}}</ref> Forty-five percent of this particulate air pollution in Sarnia comes from Chemical Valley,<ref>{{cite web |url=https://www.ecojustice.ca/wp-content/uploads/2015/09/2007-Exposing-Canadas-Chemial-Valley.pdf |title=Exposing Canada's Chemical Valley |publisher=EcoJustice |date=October 2007 |access-date=17 April 2012}}</ref><ref>{{cite web|year=2011|title=County of Lambton, Sarnia-Lambton Smog Advisories to date|url=http://www.lambtonhealth.on.ca/environmental/air/#advisories_to_date|url-status=dead|archive-url=https://archive.today/20120803103226/http://www.lambtonhealth.on.ca/environmental/air/%23advisories_to_date|archive-date=3 August 2012|access-date=17 April 2012|publisher=County of Lambton}}</ref><ref>{{cite news|author=Tara Jeffrey|date=27 September 2011|title=Sarnia Air Canada's Worst|newspaper=The Sarnia Observer|url=http://www.theobserver.ca/ArticleDisplay.aspx?e=3312431|url-status=dead|access-date=16 April 2012|archive-url=https://web.archive.org/web/20160305203130/http://www.theobserver.ca/2011/09/26/sarnias-air-canadas-worst|archive-date=5 March 2016}}</ref> and the rest drifts over the St. Clair River from the neighbouring United States in the form of what is known as "Transboundary Air Pollution".<ref>{{cite web |url=http://www.ene.gov.on.ca/stdprodconsume/groups/lr/@ene/@resources/documents/resource/std01_079137.pdf |title=Transboundary Air Pollution in Ontario |author1=David Yap |author2=Neville Reid |author3=Gary De Brou |author4=Robert Bloxam |publisher=Ontario Ministry of the Environment |date=June 2005 |access-date=17 April 2012}}</ref>
+
+Sarnia is the location of [[Enbridge]]'s [[Sarnia Photovoltaic Power Plant]]. The facility underwent a full commercial operation in December 2009, with 20 [[Watt#Megawatt|MW]] of power. {{As of|2010|September}}, the plant was the largest [[Photovoltaics|photovoltaic]] (PV) [[solar power]] generation facility in the world, putting out 97 MW.<ref>{{cite news |url=https://www.cbc.ca/news/business/enbridge-completes-sarnia-solar-farm-1.911812 |title=Sarnia-Enbridge Solar Farm |publisher=Canadian Broadcasting Corporation |access-date=12 April 2012}}</ref>
+
+The {{convert|80|acre|abbr=on|adj=on|order=flip}} Western University Research Park, Sarnia-Lambton Campus was established in 2003 by the [[University of Western Ontario]] as a joint initiative with the County of Lambton and the City of Sarnia.<ref>{{cite web |url=http://www.researchpark.ca/research-parks |title=Research Parks, UWO |year=2012 |publisher=University of Western Ontario |access-date=12 April 2012}}</ref> The park is also the location of the Bioindustrial Innovation Centre, Canada's centre for the commercialization of industrial biotechnology.<ref>{{cite web |url=http://www.researchpark.ca/tenant/bioindustrial-innovation-centre |title=Bioindustrial Innovation Centre |year=2012 |publisher=University of Western Ontario |access-date=12 April 2012}}</ref>
+
+In 2015, [[BioAmber Inc.|BioAmber]] opened a $141 million plant that manufactures {{convert|30000|MT|abbr=on}} of [[succinic acid]] per year, a chemical used to make plastics, lubricants, paint, cosmetics, food additives, and other products. BioAmber plans to construct a second site and may build it in Sarnia.<ref>{{cite news |url=http://www.theobserver.ca/2016/12/20/bio-succinic-acid-maker-forming-new-joint-venture |title=BioAmber targets Asian markets |work=Sarnia Observer |publisher=[[Postmedia Network]] |date=20 December 2016 |access-date=20 December 2016}}</ref> Solutions4CO2 is developing a {{convert|4,645|m2|abbr=on}} demonstration facility at Bluewater Energy Park. This company captures waste gas/water streams to process into value-added co-products, pharmaceutical drugs, and biofuels.<ref>{{cite news |url=http://www.theobserver.ca/2012/04/11/bio-tech-company-sets-up-shop-in-sarnia |title=Bio-tech company sets up shop in Sarnia |newspaper=Sarnia Observer |date=11 April 2012 |access-date=16 November 2016 |archive-date=17 November 2016 |archive-url=https://web.archive.org/web/20161117062933/http://www.theobserver.ca/2012/04/11/bio-tech-company-sets-up-shop-in-sarnia |url-status=dead }}</ref> PlantForm Corporation, a Canadian biotech startup company producing ultra-low-cost therapeutic antibody drugs, opened an office at the Western University Research Park in 2011.<ref>{{cite news |url=http://www.theobserver.ca/2011/09/26/biotech-firm-opens-office-in-sarnia |title=Biotech firm opens office in Sarnia |newspaper=Sarnia Observer |date=27 September 2011 |access-date=16 November 2016 |archive-date=17 November 2016 |archive-url=https://web.archive.org/web/20161117064311/http://www.theobserver.ca/2011/09/26/biotech-firm-opens-office-in-sarnia |url-status=dead }}</ref> At the same Park, from the summer of 2012 to the summer of 2016, KmX Corporation operated a pilot plant to produce membranes that filter wastewater from industrial processes.  KmX production in Sarnia has since moved to Ottawa and Edmonton.<ref>{{cite news |url=http://www.theobserver.ca/2016/09/16/kmx-tested-membrane-technology-in-sarnia-2012-2016 |title=KmX tested membrane technology in Sarnia 2012–2016 |newspaper=Sarnia Observer |date=16 September 2016 |access-date=16 November 2016}}</ref>
+
+===Retail and hospitality===
+Sarnia has one large mall, [[Lambton Mall]], with 72 stores.<ref>{{cite web |url=http://www.baysidecentre.ca/index.php?option=com_content&task=view&id=14&Itemid=31 |archive-url=https://web.archive.org/web/20100722182143/http://www.baysidecentre.ca/index.php?option=com_content&task=view&id=14&Itemid=31 |url-status=usurped |archive-date=22 July 2010 |title=Bayside Centre Stores and Services |publisher=Bayside Centre |year=2011 |access-date=19 April 2012}}</ref>  The mall, along with several smaller shopping centres, stores, and hotels, is the primary shopping area.<ref>{{cite web |url=http://www.tourismsarnialambton.com/main/ns/5/doc/28/type/Shopping |title=Tourism Sarnia-Lambton-Shopping |publisher=Tourism Sarnia-Lambton |year=2012 |access-date=19 April 2012 |archive-date=28 April 2012 |archive-url=https://web.archive.org/web/20120428041418/http://www.tourismsarnialambton.com/main/ns/5/doc/28/type/Shopping |url-status=dead }}</ref><ref>{{cite web |url=http://virtualwalk.ca/index.php/Sarnia-Ontario/Shopping-Sarnia.html |title=Virtual Walk Directory-Shopping Sarnia |publisher=Virtual Walk Directory |year=2012 |access-date=19 April 2012}}</ref><ref>{{cite web |url=http://www.hotels.com/search/search.html?dn=Sarnia,%20Canada&datesFlexible=true&numberOfRooms=1&roomInfoList%5B0%5D.numberOfAdults=2&children%5B0%5D=0 |title=Hotels in Sarnia, Canada |publisher=Hotels.com |year=2012 |access-date=19 April 2012}}</ref>
+
+==Arts and culture==
+===Music, theatre, and arts===
+The [[International Symphony Orchestra]] plays at the Imperial Theatre for an annual season lasting from September to April. In addition to symphonic concerts, the Imperial Theatre offers year-round dramatic productions;<ref>{{cite web|title=Imperial Theatre Season Playbill|url=http://imperialtheatre.net/menu.php?list=446&page=54|access-date=27 July 2013|archive-date=1 April 2012|archive-url=https://web.archive.org/web/20120401083704/http://www.imperialtheatre.net/menu.php?list=446&page=54|url-status=dead}}</ref> Former [[Max Webster]] frontman [[Kim Mitchell]] has returned to his hometown on occasion to play a concert, including his visit in 2008 for Sarnia's popular Ribfest. In this competition, local amateur chefs share their recipes for barbecued ribs and compete against each other.<ref>{{cite news |url=http://www.theobserver.ca/ArticleDisplay.aspx?e=1121625 |archive-url=https://archive.today/20130115163701/http://www.theobserver.ca/ArticleDisplay.aspx?e=1121625 |url-status=dead |archive-date=15 January 2013 |title=Still lovin' the gig |author=Paul Morden |newspaper=The Sarnia Observer |date=19 July 2008 |access-date=16 April 2012 }}</ref> Canadian composer and music educator [[Raymond Murray Schafer]] was born in Sarnia and developed his radical [[schizophonia]] techniques there.<ref>{{cite encyclopedia |url=http://www.thecanadianencyclopedia.com/articles/raymond-murray-schafer |archive-url=https://web.archive.org/web/20120316124032/http://www.thecanadianencyclopedia.com/articles/raymond-murray-schafer |url-status=dead |archive-date=16 March 2012 |title=Raymond Murray Schafer |encyclopedia=Canadian Encyclopedia |year=2012 |access-date=16 April 2012}}</ref><ref>{{cite book | last = Schafer | first = R. Murray | title = The New Soundscape: a handbook for the modern music teacher | url = https://archive.org/details/newsoundscapehan0000scha | url-access = registration | publisher = BMI Canada | year = 1969 | isbn = 0-900938-29-3 }}</ref>
+
+The Sarnia Bayfest (which was preceded by the "Festival by the Bay") was an annual concert festival that featured big-name [[Rock music|rock]] and [[Country music|country]] bands. Musicians and groups such as [[Aerosmith]], [[Kiss (band)|Kiss]], [[Keith Urban]], [[Jon Bon Jovi]] and [[Rascal Flatts]] have played at the event.<ref>{{cite news|title=Rascall Flatts Bring Their Trucks to Bayfest|url=http://www.theobserver.ca/2008/07/12/rascal-flatts-bring-their-trucks-to-bayfest|access-date=28 June 2013|newspaper=The Sarnia Observer|date=12 July 2008|archive-date=4 March 2016|archive-url=https://web.archive.org/web/20160304054252/http://www.theobserver.ca/2008/07/12/rascal-flatts-bring-their-trucks-to-bayfest|url-status=dead}}</ref><ref>{{cite news|last=Jeffrey|first=Tara|title=BAYFEST: Country Faithful Get Urbanized|url=http://www.theobserver.ca/2010/07/16/bayfest-country-faithful-get-urban-ized-2|access-date=28 June 2013|newspaper=The Sarnia Observer|date=16 July 2010|archive-date=6 March 2016|archive-url=https://web.archive.org/web/20160306092025/http://www.theobserver.ca/2010/07/16/bayfest-country-faithful-get-urban-ized-2|url-status=dead}}</ref> Financial problems caused the event's cancellation in 2013. In the summer of 2017, a new festival called Bluewater Borderfest enjoyed a successful inaugural event.<ref>{{cite web|title=Bluewater Borderfest|url=https://www.bluewaterborderfest.ca/|access-date=25 January 2018}}</ref>
+
+Besides the single museum in Sarnia proper, six other local museums document Sarnia's history, including its legacy as the home of the North American oil industry.<ref>{{cite web|title=Live in Lambton – Museums|url=http://www.liveinlambton.ca/newcomers/AboutLambton/artsandculture/museums/Pages/default.aspx|access-date=27 July 2013|archive-date=25 December 2013|archive-url=https://web.archive.org/web/20131225140730/http://www.liveinlambton.ca/newcomers/AboutLambton/artsandculture/museums/Pages/default.aspx|url-status=dead}}</ref> Gallery Lambton offers 12 annual art exhibitions.<ref>{{cite web|title=Gallery Lambton|url=http://www.museevirtuel-virtualmuseum.ca/GetMuseumProfile.do?chinCode=guglamb&lang=en|publisher=Government of Canada|access-date=27 July 2013}}</ref> In 2012 the Judith and Norman Alex Art Gallery opened. It is an international Category A art gallery,<ref>{{cite web|title= Designated Organizations|date=24 August 2017 |url=https://www.canada.ca/en/canadian-heritage/services/funding/movable-cultural-property/designated-organizations.html#Ontario|access-date=1 January 2020}}</ref> featuring exhibitions of Canadian art history, including paintings from the [[Group of Seven (artists)|Group of Seven]].<ref>{{cite web |url=https://www.lambtononline.ca/home/visitinghere/JNAAG/Pages/AlixArtGallery.aspx |title=Judith & Norman Alix Art Gallery |publisher=County of Lambton |access-date=16 November 2016}}</ref>
+
+In 2015, the [[South Western International Film Festival]] was launched at the city's Imperial Theatre.<ref>Barbara Simpson, "Film festival hopes to reel in the new industry." ''Chatham Daily News'', 17 October 2015.</ref>
+
+During the Christmas season, the city of Sarnia presents the annual "Celebration of Lights" in Centennial Park. The event was created in 1984 by Wills Rawana and a committee funded by the retail chain [[Hudson's Bay (retailer)|Hudson's Bay]], and the national telecommunications company [[Telus Communications|Telus]].<ref>{{cite news |url=http://www.theobserver.ca/2010/12/27/local-resident-blazes-festival-trail |title=Local Resident Blazes Festival Trail |newspaper=The Sarnia Observer |date=27 December 2010 |access-date=16 November 2016 |archive-date=17 November 2016 |archive-url=https://web.archive.org/web/20161117063250/http://www.theobserver.ca/2010/12/27/local-resident-blazes-festival-trail |url-status=dead }}</ref> From modest beginnings, the event has garnered numerous awards as it has grown, including second place in the 2002 Canadian Government's Canada WinterLights competition. The celebration was incorporated in its national prizewinning year and is now run by a voluntary Board of Directors.<ref>{{cite web|title=Celebration of Lights|url=http://celebrationoflights.com/|access-date=27 July 2013}}</ref>
+
+==Attractions==
+[[File:Canatara Park.jpg|thumb|Canatara Park]]
+[[File:Germain Park F-86 Sabre.jpg|thumb|Germain Park, [[Canadair Sabre]], in [[Golden Hawks]] paint scheme]]
+
+There are more than 100 parks in Sarnia,<ref name="Parks and Natural Areas">{{cite web |url=http://www.city.sarnia.on.ca/visit.asp?sectionid=59 |title=Parks and Natural Areas |publisher=City of Sarnia |date=1 September 2011 |access-date=30 March 2012 |archive-date=25 May 2011 |archive-url=https://web.archive.org/web/20110525072709/http://www.city.sarnia.on.ca/visit.asp?sectionid=59 |url-status=dead }}</ref> the largest being Canatara Park, which covers more than {{convert|200|acres|abbr=on|order=flip}} along the shore of Lake Huron.<ref name="Parks and Natural Areas"/> Canatara is an [[Ojibwe]] word that  means ''Blue Water''. The park was opened in 1933.<ref>{{cite web |url=http://thesarniajournal.ca/the-story-of-canatara-park-contained-in-lost-binders/ |title=The Story of Canatara Park Contained in "Lost" Binders |publisher=The Sarnia Journal |date=4 November 2016 |access-date=16 November 2018}}</ref> Within the park is Lake Chipican, a haven for many different species of birds on their migration routes.<ref name="Canatara Park Open">{{cite web |url=http://thesarniajournal.ca/secret-life-canatara-park-2/ |title=The Secret Wildlife of Canatara Park |publisher=The Sarnia Journal |date=29 November 2014 |access-date=16 November 2018}}</ref> Most years, birdwatchers recognize around 150 species. The park also maintains a Children's Animal Farm as part of Sarnia's commitment to wildlife.<ref>{{cite web |url=http://childrensanimalfarm.com |title=Children's Animal Farm |publisher=The Seaway Kiwanis |date=2003 |access-date=16 November 2018}}</ref> The annual "Christmas on the Farm" weekend event held at the Farm in early December is a popular community event enjoyed by families.<ref name="Hagan 2009">{{cite news |last= Hagan|first=Tara |date= 7 December 2009|title=Christmas on the Farm |url= http://www.theobserver.ca/2009/12/07/christmas-on-the-farm|newspaper=[[Sarnia Observer]] |location=Sarnia |access-date=1 November 2014 }}</ref> Canatara Park is one of the first parks in southern Ontario to feature an outdoor fitness equipment installation.<ref>{{cite web |url=https://sarnia.civicweb.net/Documents/DocumentDisplay.aspx?Id=32441 |title=AMO Watch File |pages=7–12 |date=4 August 2011 |publisher=Association of Municipalities on Ontario |access-date=28 February 2013}}</ref>
+
+The largest recreational park in Sarnia is Germain Park, which incorporates five baseball diamonds, four soccer fields, an outdoor pool, and the Community Gardens.<ref name="Parks and Natural Areas"/> As a memorial to Canadian aviators who died in World War II, one of the remaining [[Canadair Sabre]]s in Canada is on display in the park.<ref>{{cite book |title=Canadian Warplanes |author=Harold A. Skaarup |pages=85, 501}}</ref><ref>{{cite news |title=Aging Jet Cleared for Facelift |work=The Sarnia Observer|author=Paul Morden |date=23 April 2012}}</ref>
+
+Centennial Park was opened on 1 July [[Dominion Day|Dominion Day holiday]] in 1967 as part of Canada's centenary celebrations.<ref>{{cite news|last=Jeffrey|first=Tara|title=Soil Samples Test Positive for Asbestos|url=http://www.theobserver.ca/2013/05/16/soil-samples-test-postivie-for-asbestos|access-date=26 June 2013|newspaper=The Sarnia Observer|date=16 May 2013}}</ref> The City of Sarnia decided in 2013 to close much of Centennial Park, after the discovery of toxic levels of lead and asbestos in the soil.<ref name="Centennial Park">{{cite web|title=Part of Sarnia's Centennial Park Closed Over Asbestos Concern|date=16 May 2013 |url=https://www.ctvnews.ca/london/article/part-of-sarnias-centennial-park-closed-over-asbestos-concern/|publisher=CTV News|access-date=26 June 2013}}</ref> After years of remediation, the park was reopened in 2017.<ref>{{Cite web|url=http://www.theobserver.ca/2017/06/17/reopening-of-centennial-park-celebrated|title=Reopening of Centennial Park celebrated|last=nurun.com|website=Sarnia Observer|date=17 June 2017 |language=en-CA|access-date=4 May 2018}}</ref>
+
+Howard Watson Trail is a former railway line that passes through a combination of urban and rural areas. This linear park is managed by a volunteer committee and spans {{convert|16|km|abbr=on}} through wooded areas and alongside ponds. Benches are available along the path as well as washroom facilities. The path is open year-round: bicycling, running, and dog walking are popular activities in the summer. Snowshoeing and cross-country skiing can be enjoyed on snowy days. Access to Lake Huron is available at Blackwell Side Road.
+
+Sarnia connects to the Great Lakes [[Waterfront Trail]], which stretches over {{convert|2100|km|abbr=on}} along the Canadian shores of Lake Ontario, Lake Erie, Lake St. Clair, Lake Huron and the Niagara, Detroit, and St. Lawrence rivers. The Great Lakes Waterfront Trail connects 114 communities and hundreds of parks and natural areas, including wetlands, forests, and beaches.
+
+Sarnia has one museum within its city limits, known as "Stones 'N Bones", which houses over 6,000 exhibits. The collection includes rocks, artifacts, fossils, and bones from around the world.<ref>{{Cite web|title=Stones 'N Bones Museum|url=http://www.stonesnbones.ca/|access-date=31 January 2022|website=Stones 'N Bones Museum|language=en}}</ref>
+
+The former Discovery House Museum has been converted into a [[hospice]]. This historic house, built between 1869 and 1875, is recognized as a testament to [[Victorian architecture|Victorian Era construction]].<ref>{{cite web |url=http://www.tourismsarnialambton.com/documents/sarniaheritagebuildingswalkingtouroutside.pdf |title=Sarnia heritage buildings and sites walking tour |publisher=Tourism Lambton |access-date=15 April 2012 |archive-date=14 October 2011 |archive-url=https://web.archive.org/web/20111014175732/http://www.tourismsarnialambton.com/documents/sarniaheritagebuildingswalkingtouroutside.pdf |url-status=dead }}</ref>
+
+The city's sandy freshwater beaches are a popular tourist attraction, while the sheltered harbour houses marinas for recreational [[sailing]]. Since 1925, the {{Convert|400|km|abbr=on}} [[Port Huron to Mackinac Boat Race|Mackinac race]] from Sarnia/Port Huron to [[Mackinac Island]] at the north end of the lake has been the highlight of the sailing season, drawing more than 3,000 sailors each year.<ref>{{cite web |url=http://thebluewaterfest.com/ |title=The Bluewater Fest 2012 |author=Eighth Day Media, LLC
+|publisher=Bluewater Fest |year=2012 |access-date=30 March 2012}}</ref>
+
+Sarnia's fresh-cut potato fries are another popular tourist attraction. Thousands of visitors visit the chip trucks parked under the Blue Water Bridge annually.  In 2012, during construction along the waterfront, Sarnia officials created a special detour to enable visitors to reach the chip trucks.<ref>{{cite web|last=Young|first=Heather|title=Construction under the bridge|url=http://www.sarniathisweek.com/2012/05/17/construction-under-the-bridge|publisher=Sarnia This Week|access-date=30 September 2013|archive-date=3 October 2013|archive-url=https://web.archive.org/web/20131003044528/http://www.sarniathisweek.com/2012/05/17/construction-under-the-bridge|url-status=dead}}</ref> Realizing the popularity of Sarnia's chip trucks, the Ontario Medical Association includes them in a campaign to have fries and other junk food labelled for being dangerous in the same manner as cigarettes.<ref>{{cite book|last=Wright|first=Heather|title=Doctors want junk food labelled like smokes|url=http://eedition.sarniathisweek.com/doc/Sarnia-This-Week/sarniathisweeknov1/2012102901/41.html#41|publisher=Sarnia This Week|access-date=30 September 2013}}</ref>
+
+==Sports==
+Sarnia is home to the [[Sarnia Sting]], a junior ice hockey team in the [[Ontario Hockey League]]. [[Dino Ciccarelli]], a former [[National Hockey League|NHL]] player, was a part owner of the team.<ref>{{cite web |url=https://www.espn.com/nhl/halloffame10/columns/story?columnist=burnside_scott&id=5753849 |title=Skeptics don't matter to Dino Ciccarelli |author=Scott Burnside |author-link=Scott Burnside |publisher=ESPN |date=4 November 2010 |access-date=13 April 2012}}</ref> Former Sting player [[Steven Stamkos]] was selected first overall in the [[2008 NHL entry draft]] by the [[Tampa Bay Lightning]], and was followed by [[Nail Yakupov]] in [[2012 NHL Entry Draft|2012]].<ref>{{cite web|title=2008 NHL Entry Draft|url=http://www.hockeydb.com/ihdb/draft/nhl2008e.html|publisher=HockeyDB.com|access-date=11 August 2013}}</ref> Sarnia is also home to the [[Sarnia Legionnaires (1969–)|Sarnia Legionnaires]] ice hockey team, which plays in the [[Greater Ontario Junior Hockey League]]. The team is the successor to the [[Sarnia Legionnaires (1954&ndash;1970)]], who won five Western Jr. 'B' championships and four [[Sutherland Cup]]s during 16 seasons in the [[Ontario Hockey Association]].<ref>{{cite web |url=http://www.stratfordbeaconherald.com/ArticleDisplay.aspx?e=1512398 |title=Legionnaires complete Sutherland Cup picture |publisher=The Stratford Herald |date=6 April 2009 |access-date=13 April 2012 }}{{Dead link|date=November 2023 |bot=InternetArchiveBot |fix-attempted=yes }}</ref>
+
+Sarnia has a successful tradition in [[Canadian football]]. As members of the [[Ontario Rugby Football Union]], the local team [[Sarnia Imperials]] twice won the [[Grey Cup]] in 1934 and 1936.<ref>{{cite web |url=https://www.cfl.ca/search/simpleSearch?term=Sarnia+Imperials |title=Grey Cup Memories |publisher=Canadian Football League |year=2012 |access-date=19 April 2012}}</ref> The modern [[Sarnia Imperials]] are a semi-professional team playing in the Northern Football Conference.<ref>{{cite web |url=http://nfcfootball.ca/standings?date_filter%5Bvalue%5D%5Byear%5D=2011&date_filter%5Bvalue%5D%5Bmonth%5D=0&date_filter%5Bvalue%5D%5Bday%5D=0&date_filter%5Bvalue%5D%5Bhour%5D=0&date_filter%5Bvalue%5D%5Bminute%5D=0&date_filter%5Bvalue%5D%5Bsecond%5D=0 |title=Northern Football Conference Standings |publisher=Northern Football Conference |year=2012 |access-date=19 April 2012}}</ref>
+
+[[Mike Ceresia]] is a Sarnia native. He won four IRF World Racquetball Championships and multiple silver medals between 1988 and 2002.<ref>{{cite web |url=https://www.insidehalton.com/community-story/8615643-ceresia-named-to-canadian-racquetball-hall-of-fame/ |title=Ceresia Named to Canadian Racquetball Hall of Fame |date=17 May 2018 |access-date=17 July 2018}}</ref>
+
+The Sarnia-born world champion curler [[Steve Bice]] played as alternate for the [[Glenn Howard]] rink in the [[2007 Tim Hortons Brier]] and [[2007 Ford World Men's Curling Championship]], winning both times.<ref>{{cite web |url=http://www.worldcurlingtour.com/player.php?playerid=1241&view=News&articleid=7136 |title=Shorthanded Howard, Middaugh square off in Ontario final |publisher=World Curling Tour |date=17 February 2007 |access-date=13 April 2012 }}{{Dead link|date=April 2024 |bot=InternetArchiveBot |fix-attempted=yes }}</ref><ref>{{cite news |title=A Great Moment for Steve Bice |date=27 October 2007 |author=Dave Paul |work=The Sarnia Observer }}</ref>
+
+==Government==
+[[File:Sarnia City Hall and Downtown.jpg|thumb|City Hall and downtown]]
+
+[[Sarnia City Council]] consists of nine elected members: the Mayor, four city members, and four county members. The Mayor and all Council members are elected to four-year terms. The four Lambton County Council members serve both County and City Council.<ref>{{cite web |url=http://www.city.sarnia.on.ca/city-government/city-council/sarnia-city-council-members |title=City of Sarnia – Sarnia City Council Members |publisher=City of Sarnia |access-date=16 November 2016 |archive-date=17 November 2016 |archive-url=https://web.archive.org/web/20161117063804/http://www.city.sarnia.on.ca/city-government/city-council/sarnia-city-council-members |url-status=dead }}</ref>
+
+The current mayor, [[Mike Bradley (politician)|Mike Bradley]], has held the position since December 1988 and is currently the second longest-serving mayor in the province of [[Ontario]] behind [[Milton, Ontario|Milton]]'s [[Gordon Krantz|Gord Krantz]]. Past mayors of the city have included [[Andy Brandt]], [[Marceil Saddy]], [[Paul Blundy]], and [[Thomas George Johnston]].<ref>{{cite web |url=http://www.city.sarnia.on.ca/visit.asp?sectionid=116 |title=Sarnia History–Past Mayors |publisher=City of Sarnia |date=25 April 2008 |access-date=23 June 2013 |archive-url=https://web.archive.org/web/20120830052016/http://www.city.sarnia.on.ca/visit.asp?sectionid=116|archive-date=30 August 2012 }}</ref>
+
+At the [[Government of Ontario|provincial]] level, Sarnia is located within the [[Sarnia—Lambton (provincial electoral district)|Sarnia—Lambton provincial electoral district]], represented in 2013 by [[Bob Bailey (politician)|Bob Bailey]], a member of the [[Progressive Conservative Party of Ontario]].<ref>{{cite web |url=http://www.bobbaileympp.com/ |title=Bob Bailey, MPP |publisher=Bob Bailey |date=October 2008 |access-date=12 April 2012}}</ref> At the federal level, Sarnia is located within the [[Sarnia—Lambton (federal electoral district)|Sarnia—Lambton federal electoral district]], which in 2026 is represented by Liberal [[Marilyn Gladu]].<ref>{{cite web |url=https://blackburnnews.com/sarnia/sarnia-news/2019/10/21/gladu-wins-second-term-convincing-fashion/ |title=Gladu Wins Second Term in Convincing Fashion|publisher=Blackburn News |year=2020 |access-date=1 January 2020}}</ref>
+
+Over the past 50 years, Sarnia's voters have been moderate. The party affiliation of its Members of Parliament, both provincial and federal, has swung back and forth largely between the Liberal and Progressive Conservative parties (a [[Ontario New Democratic Party|New Democrat]] was elected in their [[1990 Ontario general election|1990 provincial wave]]).<ref>{{cite web |title=Election Results of Sarnia 1966&ndash;1970|url=http://www2.parl.gc.ca/Sites/LOP/HFER/hfer.asp?Language=E&Search=Det&rid=659&Include=|publisher=Library of Parliament|access-date=16 September 2013}}</ref><ref>{{cite web |title=Election Results of Sarnia 1970–1976|url=http://www2.parl.gc.ca/Sites/LOP/HFER/hfer.asp?Language=E&Search=Det&Include=Y&rid=661|publisher=Library of Parliament|access-date=16 September 2013}}</ref><ref>{{cite web |title =Election Results of Sarnia 1976&ndash;1981|url=http://www2.parl.gc.ca/Sites/LOP/HFER/hfer.asp?Language=E&Search=Det&rid=660&Include=|publisher=Library of Parliament|access-date=16 September 2013}}</ref><ref>{{cite web |title=Election Results of Sarnia 1981&ndash;2011|url=http://www2.parl.gc.ca/Sites/LOP/HFER/hfer.asp?Language=E&Search=Det&rid=957&Include=|publisher=Library of Parliament|access-date=16 September 2013}}</ref>
+
+==Infrastructure==
+===Transportation===
+The Blue Water Bridge links Sarnia and its neighbouring village of Point Edward to the city of Port Huron in the United States. It spans the St. Clair River, which connects Lake Huron to [[Lake Saint Clair (North America)|Lake St. Clair]]. The bridge's original three-lane span opened in 1938, was twinned on 22 July 1997,<ref>{{cite web |url=http://www.michigan.gov/mdot/0,4616,7-151-9618_11070-22062--,00.html |title=Blue Water Bridge |publisher=Michigan Department of Transportation |access-date=27 March 2012}}</ref> making the bridge the fourth-busiest border crossing in Ontario.<ref>{{cite web |url=http://www.bwba.org/bridgeinfo_e.html|title=Blue Water Bridge Canada: Bridge Information |publisher=Government of Canada |year=2008 |access-date=27 March 2012}}</ref>
+
+The Blue Water Bridge border crossing makes use of both the [[NEXUS]] and the [[Free and Secure Trade]] (FAST) program. Linking [[Ontario Highway 402|Highway 402]] with the American [[Interstate 94 in Michigan|Interstate 94]] (I-94) and [[Interstate 69 in Michigan|I-69]], the bridge forms part of the [[NAFTA Superhighway]]. It is one of the most important gateways on the north–south truck routes.<ref>{{cite web |url=http://www.city.sarnia.on.ca/visit.asp?sectionid=433 |title=Transportation, City of Sarnia |publisher=City of Sarnia |date=22 June 2011 |access-date=12 April 2012 |archive-date=3 January 2014 |archive-url=https://web.archive.org/web/20140103144917/http://www.city.sarnia.on.ca/visit.asp?sectionid=433 |url-status=dead }}</ref>
+
+Public transportation within the City of Sarnia, including conventional bus transit, transportation of people with disabilities, transportation support for major events, and charter services, is provided by [[Sarnia Transit]].<ref>{{cite web|title=Sarnia Transit Information|url=http://www.city.sarnia.on.ca/pdf/Transit/MAPS%20SCHEDULES%20TIMETABLES/DetailedTimetable05.29.11.pdf|access-date=27 July 2013|archive-date=17 April 2012|archive-url=https://web.archive.org/web/20120417091612/http://www.city.sarnia.on.ca/pdf/Transit/MAPS%20SCHEDULES%20TIMETABLES/DetailedTimetable05.29.11.pdf|url-status=dead}}</ref><ref>{{cite web|title=Sarnia Transit Implementation Plan for 2013/2014|url=http://www.city.sarnia.on.ca/visit.asp?sectionid=970|access-date=27 July 2013|year=2013|archive-date=4 March 2016|archive-url=https://web.archive.org/web/20160304030113/http://www.city.sarnia.on.ca/visit.asp?sectionid=970|url-status=dead}}</ref> From the city's local [[Sarnia Chris Hadfield Airport]], [[Jazz (airline)|Jazz Aviation]] use to operate services to and from [[Toronto Pearson International Airport]] on behalf of [[Air Canada Express]], Air Canada plans to launch a motorcoach service leaving twice daily for Toronto airport in June 2026.<ref>{{Cite web|url=https://www.theobserver.ca/news/local-news/sarnia-toronto-airport-bus-link-promises-relaxed-reliable-service-officials|title=Bus service between Sarnia and Toronto airports promising reliability |website=Theobserver.ca|date=13 March 2026 |access-date=21 June 2026}}</ref>  For rail travel, Sarnia is one of the two western [[Terminal station|termini]], along with Windsor, of the [[Via Rail]] [[Quebec City – Windsor Corridor]]. It has service departing [[Sarnia railway station|Sarnia station]] in the morning and returning in the evening.<ref>{{cite web|url= http://www.viarail.ca/en/trains/ontario-and-quebec/toronto-sarnia/schedules |title= Toronto-Sarnia train: Schedules|publisher= Via Rail|access-date=24 October 2011}}</ref>
+
+===Health care===
+Sarnia is served by Bluewater Health, a hospital with 188 acute care beds, 70 complex continuing care beds and 27 rehabilitation beds.<ref>{{cite web |url=http://www.bluewaterhealth.ca/hospitalbeds |title=Bluewater Health-Hospital Beds |year=2011 |publisher=Bluewater Health |access-date=15 April 2012 |archive-date=2 May 2012 |archive-url=https://web.archive.org/web/20120502143649/http://www.bluewaterhealth.ca/hospitalbeds |url-status=dead }}</ref> The hospital opened in 2010, following the amalgamation of several smaller facilities and the destruction of the old hospital on Mitton Street.<ref>{{cite web |url=http://www.bluewaterhealth.ca/ceeh |title=Our History |publisher=Bluewater Health |year=2011 |access-date=15 April 2012 |archive-date=2 May 2012 |archive-url=https://web.archive.org/web/20120502143946/http://www.bluewaterhealth.ca/ceeh |url-status=dead }}</ref><ref name="theobserver1">{{cite web |url=http://www.theobserver.ca/ArticleDisplay.aspx?e=2641476 |archive-url=https://archive.today/20130115152634/http://www.theobserver.ca/ArticleDisplay.aspx?e=2641476 |url-status=dead |archive-date=15 January 2013 |title=See Sarnia's new hospital |author=Cathy Dobson |work=The Sarnia Observer |date=25 June 2010 |access-date=15 April 2012 }}</ref>
+
+==Education==
+[[File:Sarnia Education Center.jpg|thumb|Sarnia Education Centre of the [[Lambton Kent District School Board]]]]
+The [[Lambton Kent District School Board]] is responsible for the 13 elementary and three secondary public schools (Northern Collegiate Institute and Vocational School, Alexander MacKenzie Secondary School, and Great Lakes Secondary School) located within Sarnia's boundaries.<ref>{{cite web |url=http://www.lkdsb.net/Schools/secondary.htm |title=Lambton Kent District School Board, Secondary Schools |publisher=Lambton Kent District School Board |year=2010 |access-date=12 April 2012 |archive-date=17 July 2013 |archive-url=https://web.archive.org/web/20130717081441/http://www.lkdsb.net/Schools/secondary.htm |url-status=dead }}</ref>
+
+The [[St. Clair Catholic District School Board]] is responsible for the city's seven elementary and only secondary Catholic, [[St. Patrick's Catholic High School|St. Patrick's]]. In 2014, St. Patrick's and St. Christopher's merged under the St. Patrick's name on St. Christopher's North Sarnia site.<ref>{{cite web |url=http://www.st-clair.net/ |title=St. Clair Catholic School Board |year=2012 |publisher=St. Clair Catholic School Board |access-date=12 April 2012}}</ref>
+
+The ''[[Conseil scolaire catholique Providence]]'' (CSC Providence) represents the two French Catholic schools in the city, Saint-François-Xavier and Saint-Thomas-d'Aquin. In comparison, the ''[[Conseil scolaire Viamonde]]'' operates two French public schools, the elementary École Les Rapides and the secondary École Secondaire Franco-Jeunesse.  There are also two independent Christian elementary schools in Sarnia—Sarnia Christian School and Temple Christian Academy.<ref>{{cite web |url=http://www.oacs.org/schools/elementarymap.asp |title=Ontario Alliance of Christian Schools, Elementary School Listing |year=2006 |access-date=12 April 2012 |archive-date=6 January 2013 |archive-url=https://web.archive.org/web/20130106054528/http://www.oacs.org/schools/elementarymap.asp |url-status=dead }}</ref><ref>{{cite web |url=http://www.templechristianacademy.ca/ |title=Temple Christian Academy |year=2012 |access-date=12 April 2012}}</ref>
+
+[[Lambton College]], which offers two and three-year programs and diplomas, is one of Ontario's 21 colleges of applied arts and technology. It has a full-time enrolment of 3,500 and a part-time enrolment of about 8,000.<ref>{{cite web|title=Lambton College Programs A-Z|url=http://www.lambton.on.ca/Programs/FT_Programs_AZ.aspx|publisher=Lambton College|access-date=11 August 2013|archive-date=12 August 2013|archive-url=https://web.archive.org/web/20130812081112/http://lambton.on.ca/Programs/FT_Programs_AZ.aspx|url-status=dead}}</ref> It is the city's only post-secondary school.<ref>{{cite web |url=https://www.lambtoncollege.ca/Lambton-in-Sarnia/ |title=Lambton College |publisher=Lambton College |year=2018 |access-date=12 May 2018}}</ref>
+
+==Media==
+{{See also|Port Huron, Michigan#Radio}}
+Four radio stations originate from Sarnia, although other stations rebroadcast their signal there, notably [[CKTI-FM]] (103.3 FM), a First Nations produced station from [[Kettle Point 44, Ontario|Kettle Point]],<ref>{{cite web |url=http://radiostationworld.com/locations/united_states_of_america/michigan/radio.asp?m=por |title=RadioStationWorld |year=2012 |access-date=16 April 2012 }}</ref> and [[CBEW-FM|CBEG-FM]] (90.3 FM) and [[CBEF|CBEF-3-FM]] (98.3 FM), simulcasts of [[CBC Radio One]] (English) and [[Ici Radio-Canada Première]] (French), respectively, from [[Windsor, Ontario]].
+
+*[[CHOK]], (1070 AM), [[Country music|country]]/[[All-news radio|news]]/[[sports radio|sports]]
+*[[CFGX-FM]] The Fox, (99.9 FM) [[Adult contemporary music|adult contemporary]]
+*CHOK-1-FM, (103.9 FM) (rebroadcaster of CHOK AM)
+*[[CHKS-FM]], (106.3 FM) [[Classic hits]]<ref>{{cite web |url=http://radiostationworld.com/Locations/United_States_of_America/Michigan/radio.asp?m=por |title=Port Huron and Sarnia Radio Stations |publisher=RadioStationWorld |year=2013 |access-date=23 June 2013}}</ref>
+
+The city's main daily newspaper is the ''[[Sarnia Observer]]'', owned by [[Postmedia]], which purchased [[Sun Media]] in 2014 for $316 million.<ref>{{cite web |url=http://www.theobserver.ca/2014/10/06/postmedia-buys-sun-media-for-316m |title=Newspapers |publisher=Postmedia |year=2014 |access-date=11 April 2016}}</ref> The community publications ''Sarnia This Week'', ''Lambton County Smart Shopper'' and ''Business Trends'' are owned by Bowes Publishing. The monthly business-oriented newspaper ''First Monday'' is owned by Huron Web Printing and Graphics.<ref>{{cite web |url=http://www.huronweb.net/first_monday.html |title=First Monday |publisher=Huron Web Printing and Graphics |year=2012 |access-date=13 April 2012 |archive-date=18 April 2012 |archive-url=https://web.archive.org/web/20120418011222/http://www.huronweb.net/first_monday.html |url-status=dead }}</ref>  Lambton Shield Publishing has been in operation since November 2010 and runs an on-line only news website, lambtonshield.com, delivering local news and services to the Sarnia-Lambton area.<ref>{{cite web |url=http://www.lambtonshield.com/ |title=The Lambton Shield |publisher=The Lambton Shield |year=2012 |access-date=12 April 2012}}</ref> There are two magazines currently published in Sarnia, ''Business Trends'' and ''Report on Industry''.  ''Business Trends'' is distributed through City Hall, while "Report on Industry" is sent to executives in surrounding businesses.  ''Report on Industry'' articles are available online.<ref>{{cite web |url=http://www.city.sarnia.on.ca/visit.asp?sectionid=437 |title=Publications of the City of Sarnia |publisher=City of Sarnia |year=2011 |access-date=1 April 2012 |archive-date=27 August 2011 |archive-url=https://web.archive.org/web/20110827183823/http://www.city.sarnia.on.ca/visit.asp?sectionid=437 |url-status=dead }}</ref>
+
+==Notable people==
+{{Main|List of people from Sarnia}}
+
+==See also==
+* [[Environmental impact of the chemical industry in Sarnia]]
+
+==Notes==
+{{Notelist}}
+
+==References==
+{{Reflist|30em}}
+
+==External links==
+*{{official website|url=http://www.city.sarnia.on.ca}}
+
+{{Sister bar|auto=y}}
+{{Geographic location <!-- only for directly adjacent jurisdictions -->
+| Centre = Sarnia
+| North = ''[[Lake Huron]]''
+| East = [[Plympton–Wyoming]]
+| Southeast = [[Enniskillen, Ontario|Enniskillen]]
+| South = [[Aamjiwnaang First Nation|Sarnia 45]], [[St. Clair, Ontario|St. Clair]]
+| Southwest = {{flagicon|USA}}{{flagicon|Michigan}} [[Marysville, Michigan|Marysville]] / ''[[St. Clair River]]''
+| West = {{flagicon|USA}}{{flagicon|Michigan}} [[Port Huron, Michigan|Port Huron]] / ''[[St. Clair River]]''
+| Northwest = [[Point Edward, Ontario|Point Edward]]
+}}
+{{Authority control}}
+
+[[Category:Sarnia| ]]
+[[Category:Cities in Ontario]]
+[[Category:Populated places on Lake Huron in Canada]]
+[[Category:Port settlements in Ontario]]
+[[Category:Lower-tier municipalities in Ontario]]
+[[Category:St. Clair River]]
+[[Category:Populated places established in the 1830s]]
+[[Category:1830s establishments in Upper Canada]]
+[[Category:Environmental racism in Canada]]

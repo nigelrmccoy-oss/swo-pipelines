@@ -1,0 +1,346 @@
+{{Short description|Canadian energy company}}
+{{Use Canadian English|date=May 2026}}
+{{Use mdy dates|date=May 2026}}
+{{Infobox company
+| name             = TC Energy Corporation
+| image            = TransCanapr20.JPG
+| image_size       = 200px
+| image_caption    = The company's head office in the [[TC Energy Tower]] in [[downtown Calgary]]
+| type             = [[Public company|Public]]
+| traded_as        = {{Plainlist|
+* {{TSX|TRP}}
+* [[S&P/TSX 60|S&P/TSX 60 component]]}}
+| industry         = [[Energy industry|Energy]]
+| founder          =
+| defunct          = <!-- {{End date|YYYY|MM|DD}} -->
+| hq_location      = [[TC Energy Tower|450 1 Street SW]]<br />[[Calgary]], Alberta<br />T2P 5H1
+| area_served      = {{hlist|
+| Canada
+| Mexico
+| United States}}
+| key_people       = François Poirier (president and CEO)
+| production       = 
+| services         = {{Plainlist|
+* [[Pipeline transport]]
+* [[Natural gas storage]]
+* [[Electricity generation]]}}
+| revenue          = {{increase}} [[CA$]]13.387 Billion (''Fiscal Year Ended December 31, 2021'')<ref name=AnnualR2021>{{cite web|title= TC Energy Corporation 2021 Annual Report |url= https://www.tcenergy.com/siteassets/pdfs/investors/reports-and-filings/annual-and-quarterly-reports/2021/tc-2021-annual-report.pdf |website= tcenergy.com |accessdate=8 March 2022|date=31 December 2021}}</ref>
+| operating_income = {{decrease}} [[CA$]]2.166 Billion (''Fiscal Year Ended December 31, 2021'')<ref name=AnnualR2021/>
+| net_income       = {{decrease}} [[CA$]]2.046 Billion (''Fiscal Year Ended December 31, 2021'')<ref name=AnnualR2021/>
+| assets           = {{increase}} [[CA$]]104.218 Billion (''Fiscal Year Ended December 31, 2021'')<ref name=AnnualR2021/>
+| equity           = {{increase}} [[CA$]]33.396 Billion (''Fiscal Year Ended December 31, 2021'')<ref name=AnnualR2021/>
+| founded          = {{start date and age|1951}}
+| num_locations    = <!-- Number of locations, stores, offices, etc. -->
+| website          = {{URL|https://www.tcenergy.com/}} 
+}}
+
+'''TC Energy Corporation''' (formerly '''TransCanada Corporation''') is a Canadian [[energy company]] headquartered in [[Calgary]], Alberta and serving North America. The company's focus is fossil fuel pipelines, and it builds and operates energy infrastructure across Canada, the United States, and Mexico, with core business segments in Natural Gas Pipelines, Power Generation and Energy Storage.
+
+TC Energy's natural gas pipeline network spans approximately {{convert|94,000|km|mi|0|abbr=off}}, transporting over 30% of the natural gas consumed across North America. The company also holds ownership interests in seven power generation facilities with a combined capacity of 4,650 megawatts (MW), including nuclear and natural gas-fired assets. 
+
+In addition to its pipeline and power operations, TC Energy maintains strategic investments in energy infrastructure that support liquefied natural gas (LNG) exports to global markets.
+
+The company was founded in 1951 in Calgary.<ref>{{cite book |first=William |last=Kilbourn|author-link=William Kilbourn |year=1970 |title=Pipeline: TransCanada and the Great Debate |url=https://archive.org/details/pipelinetranscan00kilb |url-access=registration | page= [https://archive.org/details/pipelinetranscan00kilb/page/29 29]|publisher=Toronto, Clarke, Irwin }}</ref> The company's US headquarters is located in the [[TC Energy Center]] skyscraper in [[Houston]], Texas.<ref name="ReferenceB">{{Cite web |last=Energy |first=T. C. |title=Iconic Houston building renamed: TC Energy Center |url=https://www.tcenergy.com/stories/2019/2019-10-15-a-significant-milestone-for-our-us-headquarters/ |access-date=2022-04-01 |website=www.tcenergy.com |language=en}}</ref>
+
+TC Energy is the largest [[shareholder]] in, and owns the [[general partner]] of, [[TC PipeLines]].
+
+==History==
+[[File:TransCanada Logo.svg|thumb|TC Energy was known as TransCanada before rebranding in 2019|alt=]]
+The company was incorporated in 1951 by a Special Act of Parliament as Trans-Canada Pipe Lines Limited.<ref>{{Cite web|url=http://www.fundinguniverse.com/company-histories/transcanada-pipelines-limited-history/|title=History of TRANSCANADA PIPELINES LIMITED – FundingUniverse|website=www.fundinguniverse.com|language=en|access-date=2018-03-13}}</ref> In 1954 [[N. Eldon Tanner]], president of Merrill Petroleums and former Alberta legislator, became president of the company.<ref name="LDSbio">{{cite news | url=https://www.churchofjesuschrist.org/study/ensign/1972/11/president-n-eldon-tanner-a-man-of-integrity?lang=eng |title=President N. Eldon Tanner: A Man of Integrity|author=Hugh B. Brown|publisher=LDS Church|date=November 1972|page=13|work=[[Ensign (LDS magazine)|Ensign]]|author-link=Hugh B. Brown}}</ref> The purpose of the company was to develop the [[TransCanada pipeline]] (now known as the Canadian Mainline) to supply eastern Canadian markets with natural gas produced in the west.
+
+In 1998, TransCanada Pipelines merged with [[NOVA Corporation]]'s pipeline business, keeping the TransCanada name and becoming "the fourth largest energy services company in North America".<ref name="Merger">{{Cite web |title=TransCanada, Nova Complete Merger|url=https://www.naturalgasintel.com/articles/92796-transcanada-nova-complete-merger|publisher=Natural Gas Intelligence|date=1998-07-06|access-date=2020-03-01}}</ref>
+
+Seeking to expand its presence in the United States, in 2016, TransCanada acquired [[Columbia Pipeline Group]] (CPG) for US$13 billion from [[NiSource]]'s Shareholders. The CPG acquisition added a pipeline network in [[Pennsylvania]] and surrounding states, where the [[Marcellus Formation|Marcellus]] and [[Utica Shale|Utica shale]] gas formations are located.<ref>{{Cite news|url=http://business.financialpost.com/commodities/energy/transcanada-corp-to-acquire-columbia-pipeline-group-in-us13-billion-deal|title=TransCanada Corp to overhaul its business in US$13B acquisition of Columbia Pipeline Group|date=2016-03-18|work=Financial Post|access-date=2018-03-15|language=en-US}}</ref>
+
+In May 2019, the company changed its name from TransCanada Corporation to TC Energy Corporation to better reflect the company's business, which includes pipelines, power generation and energy storage operations in Canada, the United States and Mexico.<ref>{{Cite news|url=https://www.reuters.com/article/us-transcanada-results-idUSKCN1S911H|title=Pipeline company TransCanada changes name to TC Energy|last=Williams|first=Nia|date=2019-05-03|work=Reuters|access-date=2019-05-05|language=en}}</ref><ref>{{Cite web|url=https://o.canada.com/commodities/not-a-brand-change-new-name-same-pipeline-challenges-for-tc-energy/wcm/65c5dc2d-2f5b-4664-be29-64b476d129de|title='Not a brand change': New name, same pipeline challenges for TC Energy|date=2019-05-03|website=canada.com|access-date=2019-05-05}}</ref><ref>{{Cite web|url=https://www.commondreams.org/news/2019/05/04/transcanada-can-change-its-name-say-opponents-keystone-xl-will-never-see-light-day|title=TransCanada Can Change Its Name, Say Opponents, But Keystone XL Will Never See 'The Light of Day'|last=Queally|first=Jon|date=2019-05-04|website=Common Dreams|access-date=2019-05-05}}</ref>
+
+In October 2019, the 56-story Bank of America Center skyscraper in [[Houston]], Texas was renamed as [[TC Energy Center]] and serves as the company's US headquarters.<ref name="ReferenceB"/><ref>{{Cite web |last=Jeffrey |first=Jeff |date=October 15, 2019 |title=Bank of America Center no more: Downtown Houston tower gets new name |url=https://www.bizjournals.com/houston/news/2019/10/15/bank-of-america-center-no-more-downtown-houston.html |access-date=March 31, 2022 |website=Bizjournals}}</ref>
+
+On October 1, 2024, TC Energy completed the spinoff of its Liquids Pipelines business creating an independent company, South Bow, focused on crude oil pipelines.
+
+==Operations==
+===Natural gas pipelines===
+TC Energy's natural gas pipelines business builds, owns and operates a network of natural gas pipelines across North America that connects gas production to interconnects and end use markets. The company transports over 30% of continental daily natural gas demand through approximately 94,000&nbsp;km (58,409&nbsp;mi) of pipelines. In addition, the company owns 532 Bcf of natural gas storage facilities, making TC Energy one of the largest natural gas storage providers in North America. This segment is TC Energy's largest segment, generating approximately 87% of the company's [[EBITDA]] in 2024. The Natural Gas Pipelines business is split into three operating segments: Canadian Natural Gas Pipelines, U.S. Natural Gas Pipelines, and Mexico Natural Gas Pipelines.<ref name="2018 Annual Report">{{cite report |url=https://www.tcenergy.com/globalassets/pdfs/investors/tc-annual-report.pdf |title=Annual Report 2018 |date=2019 |access-date=March 31, 2020 |archive-url=https://web.archive.org/web/20200331230257/https://www.tcenergy.com/siteassets/pdfs/investors/tc-annual-report.pdf |archive-date=March 31, 2020 |url-status=dead}}</ref>
+
+The major pipeline systems include:
+
+*'''NGTL System (24,631&nbsp;km)''' A wholly owned subsidiary, NOVA Gas Transmission Ltd., connects gas producers in the [[Western Canadian Sedimentary Basin]] with consumers and exports.<ref>{{Cite web |title=NGTL System |url=https://www.tcenergy.com/operations/natural-gas/ngtl-system/ |publisher=TC Energy |archive-url=https://web.archive.org/web/20200309000228/https://www.tcenergy.com/operations/natural-gas/ngtl-system/ |archive-date=2020-03-09|access-date=2020-03-09}}</ref> TC Energy has the largest and most extensive natural gas network in Alberta.<ref name=pri>{{cite news|title=TransCanada rule change raises ire of producers|agency=Financial Post|last=Morgan|first=Geoffrey|newspaper=Saskatchewan StarPhoenix|url=https://www.pressreader.com/canada/saskatoon-starphoenix/20171101/282226600986366|date=November 1, 2017}}</ref>
+*'''[[TransCanada pipeline|Canadian Mainline]] (14,082&nbsp;km)''' This pipeline serves as a long haul delivery system transporting natural gas from the Western Canadian Sedimentary Basin across Canada to Ontario and Québec to deliver gas to downstream Canadian and U.S. markets. The pipeline has evolved accommodate additional supply connections closer to its markets. The mainline is over 60 years old<ref>{{cite web|url=https://www.transcanada.com/en/operations/natural-gas/canadian-mainline/|title=TransCanada Canadian Mainline – Overview|website=www.transcanada.com}}</ref>
+*'''[[Columbia Gas Transmission|Columbia Gas]] (18,768&nbsp;km)''' This natural gas transportation system serves the [[Appalachian Basin]], which contains the [[Marcellus Formation|Marcellus]] and [[Utica Shale|Utica]] plays, two of the largest natural gas shale plays in North America. The system also interconnects with other pipelines that provide access to the U.S. Northeast and the Gulf of Mexico.
+*'''[[ANR Pipeline|ANR Pipeline System]] (15,075&nbsp;km)''' This pipeline system connects supply basins and markets throughout the U.S. Midwest, and south to the Gulf of Mexico. This includes connecting supply in Texas, Oklahoma, the Appalachian Basin and the Gulf of Mexico to markets in Wisconsin, Michigan, Illinois and Ohio. In addition, ANR has bi-directional capability on its Southeast Mainline and delivers gas produced from the Appalachian basin to customers throughout the Gulf Coast Region.
+*'''[[Columbia Gulf Transmission|Columbia Gulf]] (5,419&nbsp;km)''' — This pipeline system was originally designed as a long haul delivery system transporting supply from the Gulf of Mexico to major demand markets in the U.S. Northeast. The pipeline is now transitioning to a north-to-south flow and expanding to accommodate new supply in the Appalachian Basin and its interconnects with Columbia Gas and other pipelines to deliver gas to various Gulf Coast markets.
+*'''Mexico Pipeline Network (3,500&nbsp;km)''' — This consists of a network of natural gas pipelines in Mexico.
+*'''Southeast Gateway Pipeline (715 km)''' — A marine pipeline that will transport natural gas, connecting the supply from Tuxpan, Veracruz, to delivery points in Coatzacoalcos, Veracruz, and in Paraíso, Tabasco.
+*'''Coastal Gaslink Pipeline Project (670 km)''' – Coastal Gaslink delivers natural gas from the Dawson Creek area to a facility near Kitimat, where LNG Canada prepares it for export to global markets by converting the gas to a liquefied state—also known as liquefied natural gas (LNG).
+===Energy===
+[[File:Bruce-Nuclear-Szmurlo.jpg|right|thumb|[[Bruce Nuclear Generating Station]]]]
+TC Energy's Energy division consists of power generation and unregulated natural gas storage assets. The power business consists of approximately 4,650 megawatts (MW) of generation capacity owned or under development. These assets are located primarily in Canada and are powered by natural gas, nuclear, and wind.<ref name="2018 Annual Report"/>
+*'''Western Power''' These assets include approximately 1,000 MW of power generation capacity through four natural gas-fired cogeneration facilities in Alberta and one in Arizona.
+*'''Eastern Power''' These assets include approximately 2,900 MW of power generation capacity in Eastern Canada.
+*'''[[Bruce Power]]''' This operates the [[Bruce Nuclear Generating Station]] in Ontario. Comprising eight nuclear units with a combined capacity of approximately 6,400 MW, it is currently the largest operating nuclear power plant in the world. TC Energy holds a 48.4% interest in the asset.
+*'''Saddlebrook Solar + Storage''' project in [[Aldersyde, Alberta]] consisting of 81 MW of solar generation with utility-scale energy storage.
+TC Energy has proposed two [[Pumped-storage hydroelectricity|pumped storage]] projects to store and supply clean energy. The Ontario Pumped Storage Project<ref>{{Cite web |last=Energy |first=T. C. |title=Overview — Ontario Pumped Storage Project |url=https://www.ontariopumpedstorage.com/ |access-date=2022-03-30 |website=www.ontariopumpedstorage.com |language=en}}</ref> near [[Meaford, Ontario]] would provide 1000 MW of clean energy and the proposed Canyon Creek Pumped Storage Project near [[Hinton, Alberta]] would provide 75 MW of clean energy.<ref name="tcenergy.com">{{Cite web |title=TC Energy — OntarioPumped Storage Project |url=https://www.tcenergy.com/operations/power/pumped-storage-project/ |access-date=2022-03-30 |website=www.tcenergy.com |language=en}}</ref><ref name="Energy">{{Cite web |last=Energy |first=T. C. |title=TC Energy — Canyon Creek Pumped Hydro Energy Storage Project |url=https://www.tcenergy.com/operations/power/canyon-creek-pumped-storage/ |access-date=2022-03-30 |website=www.tcenergy.com |language=en}}</ref> 
+
+==Ownership==
+As of September 2025, 84% of the share capital of TC Energy is owned by [[institutional investors]]. The dominant shareholder is the [[Royal Bank of Canada]], which owns over 12% of the company. The top 10 shareholders hold ~40% of total shares outstanding.
+
+==Operational projects==
+===Operational natural gas pipelines===
+{| class="wikitable sortable" style="text-align:left;"
+! width="15%" | Name
+! width="5%" |Country
+! width="10%" |Length
+! width="2.5%" |TransCanada's participation
+! width="47.5%" |Description
+|-
+||NGTL System
+|Canada
+| align="right" |{{convert|24,631|km|mi|0|abbr=on}}
+| align="right" | 100
+|| Receives, transports and delivers natural gas within Alberta and B.C., and connects with the Canadian Mainline, Foothills system and third-party pipelines.
+|-
+||Canadian Mainline
+|Canada
+| align="right" |{{convert|14,101|km|mi|0|abbr=on}}
+| align="right" | 100 
+||Transports natural gas from the Alberta/Saskatchewanborder and the Ontario/U.S. border to serve eastern Canada and interconnects to the U.S.
+
+|-
+||Foothills
+|Canada
+| align="right" |{{convert|1,237|km|mi|0|abbr=on}}
+| align="right" | 100 
+||Transports natural gas from central Alberta to the U.S. border for export to the U.S. Midwest, PacificNorthwest, California and Nevada
+|-
+||Trans Québec & Maritimes
+|Canada
+| align="right" |{{convert|649|km|mi|0|abbr=on}}
+| align="right" |50
+||Connects with the Canadian Mainline near the Ontario/Québec border to transport natural gas to the Montréal to Québec City corridor, and interconnects with the Portland pipeline system that serves the northeast U.S.
+|-
+||Ventures LP
+|Canada
+| align="right" |{{convert|161|km|mi|0|abbr=on}}
+| align="right" |100
+||Transports natural gas to the oil sands region near Fort McMurray, Alberta. It also includes a 27&nbsp;km (17 mile) pipeline supplying natural gas to a petrochemical complex at Joffre, Alberta.
+|-
+||Great Lakes Canada
+|Canada
+| align="right" |{{convert|58|km|mi|0|abbr=on}}
+| align="right" |100
+|| Transports natural gas from the Great Lakes system in the U.S. to Ontario, near Dawn, through a connection at the U.S. border underneath the St. Clair River
+|-
+||ANR
+|United States
+| align="right" |{{convert|15,075|km|mi|0|abbr=on}}
+| align="right" |100
+||Transports natural gas from various supply basins to markets throughout the Midwest and Gulf Coast.
+|-
+||Bison
+|United States
+| align="right" |{{convert|488|km|mi|0|abbr=on}}
+| align="right" | 25.7
+||Transports natural gas from the Powder River Basin in Wyoming to Northern Border in North Dakota.
+|-
+||Columbia Gas
+|United States
+| align="right" |{{convert|18,768|km|mi|0|abbr=on}}
+| align="right" | 100 
+||Transports natural gas from supply primarily in the Appalachian Basin to markets throughout the U.S. Northeast.
+|-
+||Columbia Gulf
+|United States
+| align="right" |{{convert|5,419|km|mi|0|abbr=on}}
+| align="right" |100
+||Transports natural gas to various markets and pipeline interconnects in the southern U.S. and Gulf Coast.
+|-
+||Crossroads
+|United States
+| align="right" |{{convert|325|km|mi|0|abbr=on}}
+| align="right" | 100 
+||Interstate natural gas pipeline operating in Indiana and Ohio with multiple interconnects to other pipelines.
+|-
+||Gas Transmission Northwest
+|United States
+| align="right" |{{convert|2,216|km|mi|0|abbr=on}}
+| align="right" | 25.7
+||Transports WCSB and Rockies natural gas to Washington, Oregon and California. Connects with Tuscarora and Foothills.
+|-
+||Great Lakes
+|United States
+| align="right" |{{convert|3,404|km|mi|0|abbr=on}}
+| align="right" | 65.5
+||Connects with the Canadian Mainline near Emerson, Manitoba, and to Great Lakes Canada near St Clair, Ontario, plus interconnects with ANR at Crystal Falls and Farwell in Michigan, to transport natural gas to eastern Canada and the U.S. Upper Midwest
+|-
+||Iroquois
+|United States
+| align="right" |{{convert|667|km|mi|0|abbr=on}}
+| align="right" | 13.4
+||Connects with the Canadian Mainline and serves markets in New York.
+|-
+||Millennium
+|United States
+| align="right" |{{convert|424|km|mi|0|abbr=on}}
+| align="right" | 47.5
+||Natural gas pipeline supplied by local production, storage fields and interconnecting upstream pipelines to serve markets along its route and to the U.S. Northeast.
+|-
+||North Baja
+|United States
+| align="right" |{{convert|138|km|mi|0|abbr=on}}
+| align="right" | 25.7
+||Transports natural gas between Arizona and California, and connects with a third-party pipeline on the California/ Mexico border. 
+|-
+||Northern Border
+|United States
+| align="right" |{{convert|2,272|km|mi|0|abbr=on}}
+| align="right" | 12.9
+||Transports WCSB, Bakken and Rockies natural gas from connections with Foothills and Bison to U.S. Midwest markets. 
+|-
+||Portland
+|United States
+| align="right" |{{convert|475|km|mi|0|abbr=on}}
+| align="right" | 15.9
+||Connects with TQM near East Hereford, Québec to deliver natural gas to customers in the U.S. Northeast. 
+|-
+||Tuscarora
+|United States
+| align="right" |{{convert|491|km|mi|0|abbr=on}}
+| align="right" | 25.7
+||Transports natural gas from GTN at Malin, Oregon to markets in northeastern California and northwestern Nevada.
+|-
+||Guadalajara
+|Mexico
+| align="right" |{{convert|315|km|mi|0|abbr=on}}
+| align="right" | 100
+||Transports natural gas from Manzanillo, Colima to Guadalajara, Jalisco.
+|-
+||Mazatlán
+|Mexico
+| align="right" |{{convert|430|km|mi|0|abbr=on}}
+| align="right" | 100
+||Transports natural gas from El Oro to Mazatlán, Sinaloa inMexico. Connects to the Topolobampo Pipeline at El Oro
+|-
+||Tamazunchale
+|Mexico
+| align="right" |{{convert|370|km|mi|0|abbr=on}}
+| align="right" | 100
+||Transports natural gas from Naranjos, Veracruz in east central Mexico to Tamazunchale, San Luis Potosí and on to El Sauz, Querétaro.
+|-
+||Topolobampo
+|Mexico
+| align="right" |{{convert|560|km|mi|0|abbr=on}}
+| align="right" | 100
+||Transports natural gas to Topolobampo, Sinaloa, from interconnects with third-party pipelines in El Oro, Sinaloa and El Encino, Chihuahua in Mexico 
+|}
+
+===Operational power projects===
+{| class="wikitable sortable" style="text-align:left;"
+! width="30%" | Name
+! width="10%" | Fuel Type
+! width="10%" | Net Installed Capacity ([[Megawatt|MW]])
+! width="5%" | TransCanada's participation
+! width="50%" | Description
+|-
+||Bear Creek
+|Natural Gas
+| align="right" |100
+| align="right" | 100
+||Cogeneration plant in Grande Prairie, Alberta. 
+|-
+||Carseland
+|Natural Gas
+| align="right" |95
+| align="right" | 100 
+||Cogeneration plant in Carseland, Alberta.
+|-
+||Mackay River
+|Natural Gas
+| align="right" |205
+| align="right" |100
+||Cogeneration plant in Fort McMurray, Alberta. 
+|-
+||Redwater
+|Natural Gas
+| align="right" |46
+| align="right" |100
+||Cogeneration plant in Redwater, Alberta. 
+|-
+||Bécancour
+|Natural Gas
+| align="right" |550
+| align="right" |100
+||Cogeneration plant in Trois-Rivières, Québec. 
+|-
+||Grandview
+|Natural Gas
+| align="right" |90
+| align="right" | 100 
+||Cogeneration plant in Saint John, New Brunswick. 
+|-
+||[[Bruce Nuclear Generating Station|Bruce]]
+|Nuclear
+| align="right" |3099
+| align="right" |48.4
+||As part of [[Bruce Power|Bruce Power Limited Partnership]]. Eight operating reactors in Tiverton, Ontario. Bruce Power leases the eight nuclear facilities from OPG. 
+|}
+
+==Political activities==
+A former TC Energy executive, in an internal meeting for external relations staff, claimed that the firm had played a central role in excluding pipelines from the scope of provincial legislation in British Columbia, Canada.<ref>{{Cite web |last=June 27 |first=Matt Simmonsand Mike De Souza This article is part of a series about revelations from leaked recordings of TC Energy executives Subscribe to our newsletter for more on this investigation |last2=Read |first2=2024 <img Height="15" Width="15" Class="inline-Icon" Alt="clock" Src="https://Thenarwhal ca/Wp-Content/Themes/the-Narwhal/Assets/Icons/Time-Outline svg" Aria-Hidden="true" /> 16 Min |date=2024-06-27 |title=‘Remarkable results’: Inside TC Energy exec’s claims of political influence |url=https://thenarwhal.ca/tc-energy-leak-investigation/ |access-date=2025-07-07 |website=The Narwhal |language=en}}</ref><ref>{{Cite news |last=Cecco |first=Leyland |date=2024-06-27 |title=British Columbia investigates claims energy company ‘dramatically’ influenced climate policy |url=https://www.theguardian.com/world/article/2024/jun/27/british-columbia-energy-company-climate-policy-canada |access-date=2025-07-07 |work=The Guardian |language=en-GB |issn=0261-3077}}</ref> A TC Energy representative described the claims as exaggerated and untrue. 
+
+In 2019 TC Energy aided the drafting of anti-protest legislation in South Dakota. The legislation, which Governor [[Kristi Noem]] signed into law in March 2019, created a fund to cover the costs of policing pipeline protests, and was accompanied by another law which sought to raise revenue for the fund by creating [[civil penalties]] for advising, directing, or encouraging persons participating in rioting. In response to the law Noem was sued by the [[Indigenous Environmental Network]], [[Sierra Club]], and other groups, who argued the laws violate [[First Amendment rights]] by incentivizing the state to sue protesters.<ref>{{cite web|url=https://theintercept.com/2019/05/23/pipeline-protest-laws-louisiana-south-dakota/|title=Pipeline Opponents Strike Back Against Anti-Protest Laws|date=May 23, 2019|accessdate=March 24, 2021|work=[[The Intercept]]|first=Alleen|last=Brown}}</ref>
+
+== Leadership ==
+
+=== President ===
+
+# [[Clint Murchison Sr.|Clinton Williams Murchison Sr.]], 1951–1954
+# [[Nathan Eldon Tanner]], 1954–1957
+# Charles Shelton Coates Sr., 1957–1958
+# James Winslow Kerr, 1958–1968
+# Vernon Lyle Horte, 1968–1972
+# George Webster Woods, 1972–1979
+# Radcliffe Robertson Latimer, 1979–1985
+# [[Gerald Maier|Gerald James Maier]], 1985–1993
+# George William Watson, 1993–1999
+# Douglas Daniel Baldwin, 1999–2001
+# [[Hal Kvisle|Harold Norman Kvisle]], 2001–2010
+# [[Russ Girling|Russell Keith Girling]], 2010–2021
+# François Lionel Poirier, 2021–present
+
+=== Chairman of the Board ===
+
+# [[Nathan Eldon Tanner]], 1957–1958
+# Charles Shelton Coates Sr., 1958–1961
+# James Winslow Kerr, 1961–1979
+# John Macdonald Beddome, 1979–1983
+# Gordon Peter Osler, 1983–1989
+# Joseph Victor Raymond Cyr, 1989–1991
+# [[Gerald Maier|Gerald James Maier]], 1991–1998
+# [[Richard Haskayne|Richard Francis Haskayne]], 1998–2005
+# Steven Barry Jackson, 2005–2016
+# Siim Alden Vanaselja, 2016–2023
+# John Edward Lowe, 2024–present
+
+==References==
+{{Reflist|30em}}
+
+{{Portal|Companies}}
+
+{{S&P/TSX 60}}
+{{Authority control}}
+
+{{DEFAULTSORT:Transcanada Corp.}}
+[[Category:TC Energy| ]]
+[[Category:Crude oil pipelines companies]]
+[[Category:Energy companies of Canada]]
+[[Category:Natural gas companies of Canada]]
+[[Category:Natural gas pipeline companies]]
+[[Category:Electric power companies of Canada]]
+[[Category:Electric power companies of Alberta]]
+[[Category:Companies based in Calgary]]
+[[Category:Holding companies of Canada]]
+[[Category:Energy companies established in 1951]]
+[[Category:Non-renewable resource companies established in 1951]]
+[[Category:1951 establishments in Alberta]]
+[[Category:Companies listed on the Toronto Stock Exchange]]
+[[Category:S&P/TSX 60]]
