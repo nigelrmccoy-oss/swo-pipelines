@@ -1,0 +1,2066 @@
+{
+"source_url": "https://overpass.kumi.systems/api/interpreter",
+"query": "[out:json][timeout:240];(nwr[\"industrial\"~\"oil|fuel|refinery|terminal|depot|petroleum|tank_farm\"](41.6,-83.3,44.6,-78.6);nwr[\"industrial\"~\"oil|fuel|refinery|terminal|depot|petroleum|tank_farm\"](45.35,-73.95,45.75,-73.40);nwr[\"landuse\"=\"industrial\"][\"operator\"~\"Imperial|Suncor|Shell|Esso|Petro|Sunoco|Enbridge|Trans-Northern|NuStar|Ultramar|Valero|Parkland|Energir|\u00c9nergir|Montreal Pipe\",i](45.35,-73.95,45.75,-73.40););out tags center;",
+"license": "ODbL 1.0 (c) OpenStreetMap contributors",
+"retrieved": "2026-10-13",
+"items": [
+{
+"osm": "https://www.openstreetmap.org/node/6791052006",
+"lat": 42.819543,
+"lon": -81.44058,
+"tags": {
+"addr:city": "Chippewas of the Thames First Nation",
+"addr:housenumber": "20645",
+"addr:postcode": "N0L 1Y0",
+"addr:street": "Muncey Road",
+"industrial": "depot",
+"operator": "Chippewa of the Thames First Nation Public Works"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/node/11368809704",
+"lat": 42.301446,
+"lon": -82.978411,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/node/11650379052",
+"lat": 42.299685,
+"lon": -82.977188,
+"tags": {
+"depot": "trucking_depot",
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/15931594",
+"lat": 43.639558,
+"lon": -79.447726,
+"tags": {
+"depot": "tram",
+"description": "TTC streetcar carhouse",
+"industrial": "depot",
+"landuse": "industrial",
+"name": "Roncesvalles Carhouse",
+"operator": "Toronto Transit Commission",
+"wikidata": "Q20861517",
+"wikipedia": "en:Roncesvalles Carhouse"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/23488870",
+"lat": 43.642492,
+"lon": -79.370126,
+"tags": {
+"industrial": "sugar_refinery",
+"landuse": "industrial",
+"name": "Redpath Sugar Refinery",
+"wikidata": "Q7306212",
+"wikipedia": "en:Redpath Sugar Refinery"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/41393267",
+"lat": 43.7578,
+"lon": -79.523256,
+"tags": {
+"depot": "tram",
+"industrial": "depot",
+"landuse": "industrial",
+"name": "Finch West Maintenance and Storage Facility",
+"opening_date": "2021",
+"operator": "Metrolinx",
+"source": "local knowledge"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/43937093",
+"lat": 43.33546,
+"lon": -79.93262,
+"tags": {
+"attribution": "Natural Resources Canada",
+"canvec:CODE": "1360052",
+"canvec:UUID": "35e32503d88e4a66a0cf07f6e5d0e06f",
+"industrial": "oil",
+"landuse": "industrial",
+"name": "Waterdown Pumping Station",
+"operator": "Imperial Oil",
+"source": "CanVec_Import_2009"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/48949532",
+"lat": 43.740001,
+"lon": -79.680539,
+"tags": {
+"industrial": "intermodal_freight_terminal",
+"landuse": "railway",
+"name": "CN Brampton Intermodal Terminal",
+"operator": "Canadian National Railway",
+"operator:wikidata": "Q624798"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/58559264",
+"lat": 43.61987,
+"lon": -79.542693,
+"tags": {
+"addr:housenumber": "32",
+"addr:street": "Atomic Avenue",
+"building": "industrial",
+"industrial": "depot",
+"landuse": "industrial",
+"name": "North Atlantic Fisheries"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/67968375",
+"lat": 43.275884,
+"lon": -80.52224,
+"tags": {
+"industrial": "oil",
+"landuse": "industrial",
+"name": "Enbridge Wolverton Station",
+"source": "CanVec 6.0 - NRCan"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/68795188",
+"lat": 43.336117,
+"lon": -80.097389,
+"tags": {
+"industrial": "oil",
+"landuse": "industrial",
+"name": "North Westover Station",
+"operator": "Enbridge",
+"pipeline": "substation",
+"source": "CanVec 6.0 - NRCan"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/78264132",
+"lat": 43.813328,
+"lon": -79.666976,
+"tags": {
+"industrial": "intermodal_freight_terminal",
+"landuse": "railway",
+"name": "CPKC Vaughan Intermodal Yard",
+"operator": "Canadian Pacific Kansas City",
+"wikipedia": "en:CPKC Vaughan Intermodal"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/98088444",
+"lat": 43.18527,
+"lon": -79.90342,
+"tags": {
+"building": "yes",
+"industrial": "depot",
+"landuse": "industrial",
+"name": "Hamilton Street Railway",
+"source": "NRCan-CanVec-7.0"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/132240277",
+"lat": 45.536739,
+"lon": -73.589253,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial",
+"name": "Complexe de voirie de la rue des Carri\u00e8res"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/161679672",
+"lat": 43.144339,
+"lon": -81.212133,
+"tags": {
+"industrial": "oil",
+"landuse": "industrial",
+"name": "Enbridge Bryanston Station",
+"source": "NRCan-CanVec-8.0"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/163834450",
+"lat": 42.885458,
+"lon": -82.49352,
+"tags": {
+"addr:city": "Marysville",
+"addr:housenumber": "2512",
+"addr:postcode": "48040",
+"addr:state": "MI",
+"addr:street": "Busha Highway",
+"industrial": "refinery",
+"landuse": "industrial",
+"name": "Marysville Ethanol"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/210517397",
+"lat": 42.301973,
+"lon": -83.047492,
+"tags": {
+"depot": "container",
+"industrial": "depot",
+"landuse": "industrial",
+"surface": "concrete"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/217385273",
+"lat": 43.692056,
+"lon": -79.609234,
+"tags": {
+"industrial": "oil",
+"landuse": "industrial",
+"parking": "surface",
+"surface": "asphalt"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/226904734",
+"lat": 42.390353,
+"lon": -83.176104,
+"tags": {
+"addr:city": "Detroit",
+"addr:housenumber": "14044",
+"addr:postcode": "48227",
+"addr:state": "MI",
+"addr:street": "Schaefer Highway",
+"industrial": "bus_depot",
+"landuse": "industrial",
+"name": "DDOT Coolidge Terminal",
+"operator": "Detroit Department of Transportation",
+"public_transport": "bus_station"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/243816498",
+"lat": 43.7459,
+"lon": -79.532179,
+"tags": {
+"depot": "bus",
+"industrial": "depot",
+"landuse": "industrial",
+"name": "Arrow Road Bus Garage",
+"operator": "Toronto Transit Commission"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/295141534",
+"lat": 43.417743,
+"lon": -79.797472,
+"tags": {
+"addr:housenumber": "5401",
+"addr:street": "Dundas Street",
+"depot": "bus",
+"industrial": "depot",
+"landuse": "industrial",
+"name": "First Student"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/364678781",
+"lat": 45.555896,
+"lon": -73.649145,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/369782990",
+"lat": 45.493662,
+"lon": -73.851402,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/401972931",
+"lat": 44.058474,
+"lon": -79.066802,
+"tags": {
+"depot": "maintenance_yard",
+"industrial": "depot",
+"landuse": "industrial",
+"name": "Works Department Scugog Depot",
+"operator": "Regional Municipality of Durham",
+"operator:type": "public"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/440431788",
+"lat": 45.520342,
+"lon": -73.527411,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial",
+"name": "D\u00e9p\u00f4t Municipal"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/441366429",
+"lat": 42.281043,
+"lon": -83.154774,
+"tags": {
+"addr:city": "Detroit",
+"addr:housenumber": "12700",
+"addr:postcode": "48217",
+"addr:state": "MI",
+"addr:street": "Toronto Street",
+"industrial": "oil",
+"landuse": "industrial",
+"name": "Marathon Detroit Light Products Terminal"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/451479967",
+"lat": 45.494695,
+"lon": -73.602164,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial",
+"name": "Cour C\u00f4te-des-Neiges"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/474252091",
+"lat": 43.86354,
+"lon": -78.884959,
+"tags": {
+"depot": "bus",
+"industrial": "depot",
+"landuse": "industrial",
+"name": "GO Transit Oshawa Garage",
+"operator": "GO Transit"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/483818700",
+"lat": 45.541306,
+"lon": -73.679783,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/484241104",
+"lat": 43.328562,
+"lon": -80.091115,
+"tags": {
+"industrial": "oil",
+"landuse": "industrial",
+"name": "Westover Terminal",
+"operator": "Enbridge"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/495711715",
+"lat": 45.595063,
+"lon": -73.874443,
+"tags": {
+"industrial": "vehicle_depot",
+"landuse": "industrial",
+"source": "NRCan-CanVec-10.0"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/560381818",
+"lat": 42.38831,
+"lon": -82.986096,
+"tags": {
+"addr:city": "Detroit",
+"addr:housenumber": "5149",
+"addr:postcode": "48213",
+"addr:state": "MI",
+"addr:street": "Saint Jean Street",
+"depot": "bus",
+"industrial": "depot",
+"landuse": "industrial",
+"name": "DDOT Shoemaker Terminal",
+"operator": "DDOT"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/560388900",
+"lat": 42.398906,
+"lon": -83.073143,
+"tags": {
+"industrial": "oil_storage",
+"landuse": "industrial",
+"name": "Sterling Services"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/560525678",
+"lat": 42.278329,
+"lon": -83.123497,
+"tags": {
+"industrial": "oil_tank_farm"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/560525681",
+"lat": 42.276799,
+"lon": -83.12458,
+"tags": {
+"industrial": "oil_tank_farm"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/560525684",
+"lat": 42.274277,
+"lon": -83.122675,
+"tags": {
+"addr:city": "River Rouge",
+"addr:housenumber": "225",
+"addr:state": "MI",
+"addr:street": "Marion Avenue",
+"industrial": "oil_storage",
+"landuse": "industrial",
+"name": "Michigan Marine Terminal"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/560530068",
+"lat": 42.275194,
+"lon": -83.163869,
+"tags": {
+"industrial": "oil_storage",
+"landuse": "industrial",
+"name": "Marathon Melvindale Tank Farm"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/564843931",
+"lat": 42.355379,
+"lon": -83.08736,
+"tags": {
+"addr:city": "Detroit",
+"addr:housenumber": "5600",
+"addr:postcode": "48208",
+"addr:state": "MI",
+"addr:street": "Wabash Street",
+"depot": "bus",
+"industrial": "bus_depot",
+"landuse": "industrial",
+"name": "DDOT Gilbert Terminal",
+"operator": "DDOT"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/570707779",
+"lat": 42.294124,
+"lon": -83.085383,
+"tags": {
+"industrial": "oil_depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/587585214",
+"lat": 42.327603,
+"lon": -83.164251,
+"tags": {
+"industrial": "oil_storage",
+"landuse": "industrial",
+"name": "Wolverine Oil and Supply Company"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/587930351",
+"lat": 42.352951,
+"lon": -83.198992,
+"tags": {
+"industrial": "bus_depot",
+"landuse": "industrial",
+"name": "Westside Bus Terminal"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/595648067",
+"lat": 45.486723,
+"lon": -73.881329,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/597848159",
+"lat": 45.469843,
+"lon": -73.557952,
+"tags": {
+"depot": "snow",
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/598980515",
+"lat": 45.517663,
+"lon": -73.628018,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/599013375",
+"lat": 45.633528,
+"lon": -73.498721,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial",
+"name": "Travaux Publiques de Montr\u00e9al-Est"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/601435038",
+"lat": 42.835524,
+"lon": -80.047771,
+"tags": {
+"industrial": "oil",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/603895098",
+"lat": 42.324945,
+"lon": -83.136998,
+"tags": {
+"addr:city": "Detroit",
+"addr:housenumber": "4195",
+"addr:state": "MI",
+"addr:street": "Central Avenue",
+"industrial": "vehicle_depot",
+"landuse": "industrial",
+"name": "Oasis Trucking Center Detroit",
+"operator": "Panacea Management Company"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/603895100",
+"lat": 42.325174,
+"lon": -83.134326,
+"tags": {
+"industrial": "vehicle_depot",
+"landuse": "industrial",
+"name": "Voyage Express"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/608398815",
+"lat": 42.288638,
+"lon": -83.143607,
+"tags": {
+"addr:city": "Detroit",
+"addr:housenumber": "301",
+"addr:postcode": "48217",
+"addr:state": "MI",
+"addr:street": "South Fort Street",
+"industrial": "oil_storage",
+"landuse": "industrial",
+"name": "Marathon Petroleum Rouge Terminal"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/609259048",
+"lat": 42.361532,
+"lon": -82.967893,
+"tags": {
+"addr:city": "Detroit",
+"addr:housenumber": "401",
+"addr:postcode": "48214",
+"addr:state": "MI",
+"addr:street": "Old Saint Jean Street",
+"industrial": "bus_depot",
+"landuse": "industrial",
+"name": "Royal Transportation Company"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/614086705",
+"lat": 42.905904,
+"lon": -82.447897,
+"tags": {
+"industrial": "natural_gas;refinery",
+"landuse": "industrial",
+"name": "Shell Corunna Refinery"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/614086706",
+"lat": 42.931201,
+"lon": -82.439469,
+"tags": {
+"addr:city": "Sarnia",
+"addr:housenumber": "1900",
+"addr:postcode": "N7T 7J3",
+"addr:province": "ON",
+"addr:street": "River Road",
+"industrial": "refinery",
+"landuse": "industrial",
+"name": "Suncor Sarnia Refinery"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/632040798",
+"lat": 42.417095,
+"lon": -83.029856,
+"tags": {
+"addr:city": "Detroit",
+"addr:housenumber": "13650",
+"addr:postcode": "48212",
+"addr:state": "MI",
+"addr:street": "Helen Street",
+"industrial": "oil",
+"landuse": "industrial",
+"name": "Cadillac Oil"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/635124566",
+"lat": 42.374581,
+"lon": -82.990237,
+"tags": {
+"addr:state": "MI",
+"depot": "bus",
+"ele": "184",
+"gnis:feature_id": "2342596",
+"industrial": "depot",
+"landuse": "industrial",
+"name": "Eastside Bus Terminal"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/635294143",
+"lat": 42.583908,
+"lon": -83.151923,
+"tags": {
+"addr:city": "Troy",
+"addr:housenumber": "120",
+"addr:postcode": "48098",
+"addr:state": "MI",
+"addr:street": "Hart Drive",
+"industrial": "depot",
+"landuse": "industrial",
+"name": "Troy School District Bus Yard",
+"operator": "Troy School District",
+"operator:short": "TSD",
+"operator:wikidata": "Q7846944"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/635487342",
+"lat": 43.698568,
+"lon": -79.622774,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial",
+"name": "Northam Drive Yard"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/635494722",
+"lat": 43.500223,
+"lon": -79.620386,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/635494939",
+"lat": 43.492852,
+"lon": -79.631757,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/635496671",
+"lat": 43.62181,
+"lon": -79.538292,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/635835014",
+"lat": 43.645357,
+"lon": -79.625024,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/646176942",
+"lat": 42.406307,
+"lon": -83.110254,
+"tags": {
+"addr:city": "Highland Park",
+"addr:housenumber": "15045",
+"addr:postcode": "48203",
+"addr:state": "MI",
+"addr:street": "Hamilton Avenue",
+"industrial": "vehicle_depot",
+"landuse": "industrial",
+"name": "Loomis Armored US"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/648760638",
+"lat": 42.360738,
+"lon": -83.1835,
+"tags": {
+"addr:city": "Detroit",
+"addr:housenumber": "9100",
+"addr:postcode": "48228",
+"addr:state": "MI",
+"addr:street": "Freeland Street",
+"industrial": "oil",
+"landuse": "industrial",
+"name": "Eppert Oil Company"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/660624728",
+"lat": 45.472038,
+"lon": -73.670643,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/665419731",
+"lat": 42.453263,
+"lon": -83.154647,
+"tags": {
+"industrial": "depot",
+"landuse": "brownfield"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/668477160",
+"lat": 45.525422,
+"lon": -73.617907,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial",
+"name": "Cour de voirie des travaux publics d'Outremont"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/671147107",
+"lat": 42.393285,
+"lon": -83.158727,
+"tags": {
+"addr:city": "Detroit",
+"addr:housenumber": "14330",
+"addr:postcode": "48238",
+"addr:state": "MI",
+"addr:street": "Wyoming Street",
+"industrial": "oil_depot",
+"landuse": "industrial",
+"name": "D & W Oil Company"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/672790318",
+"lat": 42.288714,
+"lon": -83.154293,
+"tags": {
+"addr:city": "Detroit",
+"addr:housenumber": "1001",
+"addr:postcode": "48217",
+"addr:state": "MI",
+"addr:street": "Old Oakwood Boulevard",
+"industrial": "oil",
+"landuse": "industrial",
+"name": "Marathon Petroleum Michigan Refining Division"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/672790331",
+"lat": 42.293838,
+"lon": -83.154422,
+"tags": {
+"addr:city": "Detroit",
+"addr:housenumber": "500",
+"addr:postcode": "48217",
+"addr:state": "MI",
+"addr:street": "South Dix Street",
+"industrial": "oil_depot",
+"landuse": "industrial",
+"name": "Sunoco River Rouge Terminal"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/673175483",
+"lat": 42.13605,
+"lon": -83.233828,
+"tags": {
+"industrial": "oil",
+"landuse": "industrial",
+"name": "Petroleum Storage Depot"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/676042532",
+"lat": 43.733914,
+"lon": -79.47304,
+"tags": {
+"addr:housenumber": "64",
+"addr:street": "Murray Road",
+"industrial": "depot",
+"landuse": "industrial",
+"name": "Murray Yard",
+"operator": "City of Toronto"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/676299461",
+"lat": 43.696569,
+"lon": -79.465548,
+"tags": {
+"addr:housenumber": "1401",
+"addr:street": "Castlefield Avenue",
+"industrial": "depot",
+"landuse": "industrial",
+"operator": "City of Toronto"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/676682787",
+"lat": 41.831798,
+"lon": -79.130106,
+"tags": {
+"industrial": "refinery",
+"landuse": "industrial",
+"name": "Warren Refinery",
+"operator": "United Refining Company"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/677509449",
+"lat": 43.65359,
+"lon": -79.444021,
+"tags": {
+"depot": "truck",
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/680983364",
+"lat": 45.428453,
+"lon": -73.868008,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial",
+"name": "Ateliers municipaux de Beaconsfield"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/682674066",
+"lat": 45.595005,
+"lon": -73.843279,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/686644620",
+"lat": 45.586361,
+"lon": -73.941136,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/689649558",
+"lat": 45.545449,
+"lon": -73.918227,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial",
+"name": "Travaux publics de Deux-Montagnes"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/690345751",
+"lat": 41.784263,
+"lon": -81.004746,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial",
+"name": "Ohio Department of Transportation Unionville Depot"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/694792230",
+"lat": 42.281228,
+"lon": -82.978172,
+"tags": {
+"depot": "road_maintenance",
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/705132434",
+"lat": 45.721515,
+"lon": -73.560124,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/723111487",
+"lat": 45.446089,
+"lon": -73.626614,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/739538075",
+"lat": 45.463455,
+"lon": -73.620945,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial",
+"name": "Atelier municipal C\u00f4te-des-Neiges Notre-Dame-de-Gr\u00e2ce"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/743282558",
+"lat": 45.565721,
+"lon": -73.823418,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/753743108",
+"lat": 43.460054,
+"lon": -80.132746,
+"tags": {
+"building": "industrial",
+"industrial": "depot",
+"landuse": "industrial",
+"name": "GO Aberfoyle Garage",
+"operator": "GO Transit"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/762255492",
+"lat": 42.101048,
+"lon": -83.222178,
+"tags": {
+"addr:city": "Gibraltar",
+"addr:housenumber": "28291",
+"addr:postcode": "48183",
+"addr:state": "MI",
+"addr:street": "Fort Street",
+"building": "yes",
+"industrial": "depot",
+"landuse": "industrial",
+"name": "Gibraltar School District Transportation Department"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/765546438",
+"lat": 45.363816,
+"lon": -73.882887,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/792153959",
+"lat": 45.509636,
+"lon": -73.812943,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial",
+"name": "Travaux Publics"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/793605730",
+"lat": 45.483347,
+"lon": -73.665027,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/812681069",
+"lat": 43.883392,
+"lon": -79.384207,
+"tags": {
+"depot": "road_maintenance",
+"industrial": "depot",
+"landuse": "industrial",
+"name": "York Region Southeast District Road Maintenance Facility"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/815003250",
+"lat": 43.83665,
+"lon": -79.359671,
+"tags": {
+"depot": "garbage_truck",
+"industrial": "depot",
+"landuse": "industrial",
+"name": "Miller Garbage Truck Depot"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/837221184",
+"lat": 42.995258,
+"lon": -78.923533,
+"tags": {
+"industrial": "oil",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/842517127",
+"lat": 42.340867,
+"lon": -83.008949,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial",
+"name": "Buoy Yard"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/843729607",
+"lat": 42.877116,
+"lon": -78.889846,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial",
+"name": "Buoy Yard"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/846974240",
+"lat": 45.564775,
+"lon": -73.569285,
+"tags": {
+"description": "Lieu d'entreposage utilis\u00e9 par la ville de Montr\u00e9al.",
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/859095804",
+"lat": 43.562533,
+"lon": -80.271155,
+"tags": {
+"addr:city": "Guelph",
+"addr:housenumber": "69",
+"addr:street": "Marilyn Drive",
+"industrial": "depot",
+"landuse": "industrial",
+"name": "Riverside Operations Yard",
+"operator": "City of Guelph"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/879784629",
+"lat": 45.419922,
+"lon": -73.911038,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/885555156",
+"lat": 45.494882,
+"lon": -73.806383,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/885716022",
+"lat": 45.547208,
+"lon": -73.720692,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/910580004",
+"lat": 42.343498,
+"lon": -83.148116,
+"tags": {
+"description": "Most recent aerial imagery for this site looks more like a truck trailer depot.",
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/932640500",
+"lat": 45.467532,
+"lon": -73.60399,
+"tags": {
+"depot": "truck;car",
+"industrial": "depot",
+"landuse": "industrial",
+"operator": "Transports Qu\u00e9bec"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/934274580",
+"lat": 45.549219,
+"lon": -73.862529,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial",
+"name": "Atelier Municipal",
+"operator": "Ville de Laval"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/945910588",
+"lat": 45.440441,
+"lon": -73.652711,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/988182870",
+"lat": 42.180711,
+"lon": -83.231403,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial",
+"name": "Concrete Redi-Mix Plant"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/988856894",
+"lat": 42.950519,
+"lon": -82.372514,
+"tags": {
+"industrial": "oil",
+"landuse": "industrial",
+"name": "Enbridge Sarnia Terminal"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1010416379",
+"lat": 43.516008,
+"lon": -80.52012,
+"tags": {
+"addr:housenumber": "300",
+"addr:street": "Northfield Drive East",
+"depot": "bus",
+"industrial": "depot",
+"landuse": "industrial",
+"name": "Grand River Transit Northfield Drive Maintenance Facility",
+"operator": "Grand River Transit"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1019369044",
+"lat": 42.669323,
+"lon": -81.510236,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1019369045",
+"lat": 42.669592,
+"lon": -81.508496,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1033596762",
+"lat": 45.512345,
+"lon": -73.736602,
+"tags": {
+"description": "snow_depot",
+"industrial": "depot",
+"landuse": "industrial",
+"name": "D\u00e9p\u00f4t \u00e0 neige"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1037988358",
+"lat": 45.424211,
+"lon": -73.929493,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1050507240",
+"lat": 45.540347,
+"lon": -73.664773,
+"tags": {
+"depot": "snow",
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1050507246",
+"lat": 45.540344,
+"lon": -73.664782,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1055718628",
+"lat": 43.658948,
+"lon": -79.707039,
+"tags": {
+"building": "yes",
+"depot": "light_rail",
+"industrial": "depot"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1063645250",
+"lat": 45.500511,
+"lon": -73.756709,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1065571582",
+"lat": 45.446525,
+"lon": -73.809927,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial",
+"name": "Travaux Publiques"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1069253265",
+"lat": 45.428785,
+"lon": -73.648667,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1071719841",
+"lat": 41.972056,
+"lon": -78.623025,
+"tags": {
+"industrial": "oil",
+"landuse": "industrial",
+"name": "American Refining Group, Inc."
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1080443427",
+"lat": 43.538194,
+"lon": -80.202885,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial",
+"name": "Elliott Coach Lines"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1092897357",
+"lat": 45.560477,
+"lon": -73.826641,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1093560856",
+"lat": 45.588799,
+"lon": -73.75302,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1095235879",
+"lat": 42.253765,
+"lon": -83.276263,
+"tags": {
+"industrial": "oil",
+"landuse": "industrial",
+"name": "Atlas Oil"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1095649639",
+"lat": 45.547035,
+"lon": -73.795082,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1095934965",
+"lat": 42.47711,
+"lon": -81.697666,
+"tags": {
+"industrial": "oil_storage",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1112510973",
+"lat": 43.03983,
+"lon": -81.743188,
+"tags": {
+"industrial": "oil",
+"landuse": "industrial",
+"name": "Enbridge Keyser Station"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1112540606",
+"lat": 43.366904,
+"lon": -79.953058,
+"tags": {
+"industrial": "oil",
+"landuse": "industrial",
+"operator": "Enbridge"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1112540608",
+"lat": 43.367272,
+"lon": -79.899045,
+"tags": {
+"industrial": "oil",
+"landuse": "industrial",
+"operator": "Enbridge"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1112540610",
+"lat": 43.408395,
+"lon": -79.773869,
+"tags": {
+"industrial": "oil",
+"landuse": "industrial",
+"name": "Bronte Junction",
+"operator": "Enbridge"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1122846200",
+"lat": 43.528286,
+"lon": -80.251355,
+"tags": {
+"description": "Guelph's Public Works department.",
+"industrial": "depot",
+"landuse": "industrial",
+"name": "Operations Department",
+"operator": "City of Guelph"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1127566119",
+"lat": 41.716248,
+"lon": -80.144791,
+"tags": {
+"depot": "bus",
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1143804962",
+"lat": 41.979919,
+"lon": -78.622916,
+"tags": {
+"industrial": "refinery",
+"landuse": "industrial",
+"name": "American Refining Group, Inc."
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1154743323",
+"lat": 45.534405,
+"lon": -73.645317,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1205108616",
+"lat": 43.882941,
+"lon": -78.828416,
+"tags": {
+"addr:city": "Oshawa",
+"addr:province": "ON",
+"depot": "bus",
+"industrial": "depot",
+"landuse": "industrial",
+"name": "Durham Region Transit Raleigh Garage",
+"operator": "Durham Region Transit"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1211373396",
+"lat": 45.478977,
+"lon": -73.811122,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1214028466",
+"lat": 45.67287,
+"lon": -73.438812,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1241954511",
+"lat": 45.453153,
+"lon": -73.655037,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial",
+"name": "Ateliers Municipaux"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1243485153",
+"lat": 43.624194,
+"lon": -79.537713,
+"tags": {
+"depot": "bus",
+"industrial": "depot",
+"landuse": "industrial",
+"name": "TTC North Queen Yard",
+"operator": "TTC"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1246975436",
+"lat": 42.898414,
+"lon": -78.696362,
+"tags": {
+"building": "yes",
+"depot": "bus",
+"industrial": "depot",
+"landuse": "industrial",
+"name": "Depew Bus Garage",
+"source": "microsoft/BuildingFootprints"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1249380237",
+"lat": 42.147105,
+"lon": -80.01948,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial",
+"name": "East Erie Commercial Railroad",
+"operator": "E.E.C.R.R."
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1266107606",
+"lat": 45.433034,
+"lon": -73.41263,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1287436246",
+"lat": 43.973768,
+"lon": -78.612146,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1287550879",
+"lat": 45.589516,
+"lon": -73.546268,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1288048809",
+"lat": 45.580546,
+"lon": -73.526583,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1328982171",
+"lat": 43.844434,
+"lon": -79.040446,
+"tags": {
+"depot": "bus",
+"industrial": "depot",
+"landuse": "industrial",
+"name": "Durham Region Transit Westney Garage",
+"operator": "Durham Region Transit"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1352985194",
+"lat": 43.917304,
+"lon": -78.694936,
+"tags": {
+"industrial": "oil",
+"landuse": "industrial",
+"name": "contaminated soil"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1367125507",
+"lat": 42.186511,
+"lon": -83.169202,
+"tags": {
+"depot": "bus",
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1380097188",
+"lat": 45.601408,
+"lon": -73.747627,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial",
+"name": "Ville de Laval - d\u00e9p\u00f4t secteur 5",
+"operator": "Ville de Laval"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1380980503",
+"lat": 45.636911,
+"lon": -73.559393,
+"tags": {
+"depot": "truck",
+"industrial": "depot",
+"landuse": "industrial",
+"operator": "Mckesson canada"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1396086714",
+"lat": 42.606564,
+"lon": -81.614374,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial",
+"name": "Jettkey Equipment Rental and Sales"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1417042371",
+"lat": 42.300679,
+"lon": -82.940648,
+"tags": {
+"fixme": "This is a storage yard of some kind but can't find the right tag for it",
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1417057574",
+"lat": 41.893356,
+"lon": -80.35931,
+"tags": {
+"industrial": "vehicle_depot",
+"landuse": "industrial",
+"name": "Rogers Brothers Corporation",
+"website": "https://www.rogerstrailers.com/"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1417489877",
+"lat": 42.111651,
+"lon": -79.24465,
+"tags": {
+"depot": "truck",
+"industrial": "depot",
+"landuse": "industrial",
+"name": "Pepsi Jamestown Truck Depot"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1420545744",
+"lat": 42.286854,
+"lon": -82.968714,
+"tags": {
+"depot": "bus",
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1421030025",
+"lat": 42.294186,
+"lon": -82.98628,
+"tags": {
+"depot": "truck",
+"industrial": "depot",
+"landuse": "industrial",
+"operator": "Stellantis",
+"surface": "asphalt"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1421616857",
+"lat": 42.29283,
+"lon": -82.980752,
+"tags": {
+"depot": "truck",
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1421834927",
+"lat": 42.301062,
+"lon": -82.979471,
+"tags": {
+"depot": "truck",
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1423098007",
+"lat": 42.287648,
+"lon": -82.982794,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1423098032",
+"lat": 42.292146,
+"lon": -82.975921,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1423379390",
+"lat": 42.287795,
+"lon": -82.979246,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1423379398",
+"lat": 42.287852,
+"lon": -82.976389,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1423635315",
+"lat": 42.280165,
+"lon": -82.97581,
+"tags": {
+"depot": "container",
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1423643903",
+"lat": 42.284754,
+"lon": -82.964961,
+"tags": {
+"depot": "truck",
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1423643907",
+"lat": 42.284778,
+"lon": -82.962895,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1423643920",
+"lat": 42.283056,
+"lon": -82.957089,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1423643929",
+"lat": 42.286483,
+"lon": -82.946695,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1425873187",
+"lat": 42.265144,
+"lon": -82.948228,
+"tags": {
+"depot": "container",
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1452761898",
+"lat": 43.032648,
+"lon": -81.164559,
+"tags": {
+"addr:city": "London",
+"addr:housenumber": "15870",
+"addr:postcode": "N5V 0A8",
+"addr:province": "Ontario",
+"addr:street": "Dakota Place",
+"depot": "truck",
+"industrial": "depot",
+"landuse": "industrial",
+"operator": "Riverdale Poultry"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1456887587",
+"lat": 45.514444,
+"lon": -73.693411,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial",
+"name": "STM Garage C\u00f4te-Vertu",
+"operator": "STM"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1472794160",
+"lat": 43.810833,
+"lon": -79.511604,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1474901574",
+"lat": 43.605578,
+"lon": -80.491574,
+"tags": {
+"addr:city": "Elmira",
+"addr:housenumber": "1131",
+"addr:postcode": "N3B 272",
+"addr:province": "ON",
+"addr:street": "Balsam Grove Road",
+"building": "industrial",
+"industrial": "sugar_refinery",
+"name": "Winding Road Maple Products",
+"opening_hours": "Mo-Sa 09:00-17:00",
+"phone": "+15195024624",
+"shop": "yes",
+"website": "https://www.windingroadmaple.ca/"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1476521021",
+"lat": 44.286037,
+"lon": -79.434044,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1484773862",
+"lat": 42.950126,
+"lon": -78.633285,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1501049014",
+"lat": 45.495418,
+"lon": -73.720517,
+"tags": {
+"depot": "snow",
+"industrial": "depot",
+"landuse": "landfill"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1512237404",
+"lat": 41.967067,
+"lon": -78.626319,
+"tags": {
+"industrial": "oil",
+"landuse": "industrial",
+"name": "American Refining Group, Inc."
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1512237405",
+"lat": 41.977477,
+"lon": -78.624035,
+"tags": {
+"industrial": "refinery",
+"landuse": "industrial",
+"name": "American Refining Group, Inc."
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1513159195",
+"lat": 41.962836,
+"lon": -78.623811,
+"tags": {
+"depot": "building_material",
+"industrial": "oil",
+"landuse": "industrial",
+"name": "Cline Oil"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1513582780",
+"lat": 41.959221,
+"lon": -78.640933,
+"tags": {
+"depot": "maintenance_yard",
+"industrial": "depot",
+"landuse": "industrial",
+"name": "Buffalo & Pittsburgh Railroad - Bradford Yard",
+"operator": "Buffalo & Pittsburgh Railroad"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1515589838",
+"lat": 41.974085,
+"lon": -78.625726,
+"tags": {
+"industrial": "oil",
+"landuse": "industrial",
+"name": "American Refining Group, Inc."
+}
+},
+{
+"osm": "https://www.openstreetmap.org/way/1528305227",
+"lat": 41.609742,
+"lon": -81.42519,
+"tags": {
+"depot": "utility",
+"industrial": "depot",
+"landuse": "industrial",
+"operator": "Ohio Department of Transportation"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/relation/1181359",
+"lat": 45.586187,
+"lon": -73.485325,
+"tags": {
+"access": "no",
+"industrial": "depot",
+"landuse": "industrial",
+"name": "Entretien du Parc",
+"type": "multipolygon"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/relation/7382968",
+"lat": 43.869378,
+"lon": -79.382054,
+"tags": {
+"architect": "Architecture49",
+"building": "yes",
+"depot": "bus",
+"industrial": "depot",
+"landuse": "industrial",
+"name": "YRT Operations, Maintenance, and Storage Facility",
+"operator": "York Region Transit",
+"type": "multipolygon"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/relation/8451636",
+"lat": 42.282215,
+"lon": -83.139991,
+"tags": {
+"addr:city": "Detroit",
+"addr:housenumber": "700",
+"addr:postcode": "48217",
+"addr:state": "MI",
+"addr:street": "South Deacon Street",
+"industrial": "oil_storage",
+"landuse": "industrial",
+"name": "Buckeye Partners Detroit Terminal",
+"type": "multipolygon"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/relation/9392332",
+"lat": 45.63557,
+"lon": -73.528711,
+"tags": {
+"industrial": "refinery",
+"landuse": "industrial",
+"type": "multipolygon"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/relation/10367912",
+"lat": 42.284491,
+"lon": -83.156138,
+"tags": {
+"addr:city": "Detroit",
+"addr:housenumber": "1001",
+"addr:postcode": "48217",
+"addr:state": "MI",
+"addr:street": "Old Oakwood Boulevard",
+"industrial": "refinery",
+"landuse": "industrial",
+"name": "Marathon Petroleum Detroit Refinery",
+"operator": "Marathon Petroleum Company",
+"type": "multipolygon"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/relation/12350425",
+"lat": 42.323322,
+"lon": -83.109494,
+"tags": {
+"addr:city": "Detroit",
+"addr:housenumber": "5740",
+"addr:postcode": "48209",
+"addr:state": "MI",
+"addr:street": "Federal Street",
+"industrial": "vehicle_depot",
+"landuse": "industrial",
+"name": "Chassis Pros",
+"type": "multipolygon"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/relation/13964431",
+"lat": 45.557368,
+"lon": -73.667703,
+"tags": {
+"depot": "snow",
+"industrial": "depot",
+"landuse": "industrial",
+"seasonal": "winter",
+"type": "multipolygon"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/relation/17346248",
+"lat": 41.962195,
+"lon": -80.540671,
+"tags": {
+"industrial": "intermodal_freight_terminal",
+"landuse": "industrial",
+"name": "Pittsburgh & Conneaut Dock Co.",
+"owner": "CN",
+"type": "multipolygon"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/relation/19527897",
+"lat": 42.26983,
+"lon": -82.97087,
+"tags": {
+"depot": "truck",
+"industrial": "depot",
+"landuse": "industrial",
+"type": "multipolygon"
+}
+},
+{
+"osm": "https://www.openstreetmap.org/relation/20602811",
+"lat": 42.294124,
+"lon": -83.084687,
+"tags": {
+"industrial": "oil",
+"landuse": "industrial",
+"name": "Sterling Marine Fuels",
+"phone": "+1-519-253-4694",
+"type": "multipolygon",
+"website": "https://mcasphalt.com/"
+}
+}
+]
+}

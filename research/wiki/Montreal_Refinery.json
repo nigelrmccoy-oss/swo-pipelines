@@ -1,0 +1,26 @@
+{
+ "title": "Montreal Refinery",
+ "url": "https://en.wikipedia.org/wiki/Montreal_Refinery",
+ "infobox": {
+  "name": "Montreal Refinery",
+  "image": "Montreal Refinery.jpg",
+  "caption": "Refinery view from the Montr\u00e9al-Est city hall",
+  "pushpin_map": "Quebec",
+  "pushpin_map_size": "",
+  "pushpin_caption": "Location of the Montreal Refinery in Quebec",
+  "coordinates": "{{coord|45.6438|N|73.5224|W|type:landmark|display=inline,title}}",
+  "coordinates_ref": "",
+  "location": "Montr\u00e9al, Quebec, Canada",
+  "operator": "Suncor Energy (formerly Petro-Canada)",
+  "owner": "Suncor Energy (formerly Petro-Canada)",
+  "opened": "{{Start date|1955}}",
+  "closed": "",
+  "capacity": "137,000 oilbbl",
+  "employees": "400 (816 FTE including contract labor)",
+  "refining_units": "alkylation, isomerisation, distillation of crude oil, hydrocracking, reforming catalytic, cracking catalytic, thermal catalytic, desulphuration, polymerization, hydrodesalkylation",
+  "oil_tanks": "105",
+  "refining_center": "Montreal",
+  "complexity_index": "9.0"
+ },
+ "intro": "The Montreal Refinery is an oil refinery located in the city of Montreal inside the Rivi\u00e8re-des-Prairies\u2013Pointe-aux-Trembles borough. The refinery is not far from the Montreal East Refinery. This refinery is the largest Suncor Energy refinery. The refinery has ~400 Suncor employees but including contractors, employs 816 Full-Time-Equivalent employees.\n\n"
+}

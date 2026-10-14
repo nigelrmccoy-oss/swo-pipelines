@@ -1,0 +1,2959 @@
+{
+"source": "OpenStreetMap contributors via Overpass API",
+"license": "ODbL 1.0",
+"retrieved": "2026-10-13",
+"boxes": {
+"Sarnia": "42.75,-82.55,43.05,-82.25",
+"Windsor": "42.15,-83.15,42.35,-82.85",
+"Nanticoke": "42.72,-80.20,42.85,-79.95",
+"Hamilton": "43.20,-79.95,43.32,-79.70",
+"Oakville-Burlington": "43.30,-79.85,43.52,-79.55",
+"Mississauga-Toronto": "43.52,-79.70,43.80,-79.20",
+"London": "42.90,-81.35,43.05,-81.10",
+"MontrealEast": "45.55,-73.65,45.72,-73.45",
+"Montreal": "45.40,-73.80,45.55,-73.50",
+"Kingston-Brockville": "44.15,-76.60,44.65,-75.60"
+},
+"items": [
+{
+"area": "Sarnia",
+"osm": "https://www.openstreetmap.org/way/163834450",
+"lat": 42.885458,
+"lon": -82.49352,
+"tags": {
+"addr:city": "Marysville",
+"addr:housenumber": "2512",
+"addr:postcode": "48040",
+"addr:state": "MI",
+"addr:street": "Busha Highway",
+"industrial": "refinery",
+"landuse": "industrial",
+"name": "Marysville Ethanol"
+},
+"query_endpoint": "https://overpass-api.de/api/interpreter"
+},
+{
+"area": "Sarnia",
+"osm": "https://www.openstreetmap.org/way/488285738",
+"lat": 42.879073,
+"lon": -82.377026,
+"tags": {
+"landuse": "industrial",
+"pipeline": "substation"
+},
+"query_endpoint": "https://overpass-api.de/api/interpreter"
+},
+{
+"area": "Sarnia",
+"osm": "https://www.openstreetmap.org/way/488285740",
+"lat": 42.872253,
+"lon": -82.386027,
+"tags": {
+"landuse": "industrial",
+"pipeline": "substation"
+},
+"query_endpoint": "https://overpass-api.de/api/interpreter"
+},
+{
+"area": "Sarnia",
+"osm": "https://www.openstreetmap.org/way/488285742",
+"lat": 42.871919,
+"lon": -82.392171,
+"tags": {
+"landuse": "industrial",
+"pipeline": "substation"
+},
+"query_endpoint": "https://overpass-api.de/api/interpreter"
+},
+{
+"area": "Sarnia",
+"osm": "https://www.openstreetmap.org/way/488285745",
+"lat": 42.849687,
+"lon": -82.369732,
+"tags": {
+"landuse": "industrial",
+"pipeline": "substation"
+},
+"query_endpoint": "https://overpass-api.de/api/interpreter"
+},
+{
+"area": "Sarnia",
+"osm": "https://www.openstreetmap.org/way/489180685",
+"lat": 42.815169,
+"lon": -82.380527,
+"tags": {
+"landuse": "industrial",
+"pipeline": "substation"
+},
+"query_endpoint": "https://overpass-api.de/api/interpreter"
+},
+{
+"area": "Sarnia",
+"osm": "https://www.openstreetmap.org/way/584336752",
+"lat": 42.786261,
+"lon": -82.532041,
+"tags": {
+"pipeline": "substation"
+},
+"query_endpoint": "https://overpass-api.de/api/interpreter"
+},
+{
+"area": "Sarnia",
+"osm": "https://www.openstreetmap.org/way/584336774",
+"lat": 42.790225,
+"lon": -82.532639,
+"tags": {
+"barrier": "fence",
+"operator": "Great Lakes Gas Transmission",
+"pipeline": "substation",
+"substance": "gas",
+"substation": "transmission"
+},
+"query_endpoint": "https://overpass-api.de/api/interpreter"
+},
+{
+"area": "Sarnia",
+"osm": "https://www.openstreetmap.org/way/584336783",
+"lat": 42.793051,
+"lon": -82.527132,
+"tags": {
+"pipeline": "substation"
+},
+"query_endpoint": "https://overpass-api.de/api/interpreter"
+},
+{
+"area": "Sarnia",
+"osm": "https://www.openstreetmap.org/way/584336784",
+"lat": 42.791986,
+"lon": -82.526462,
+"tags": {
+"pipeline": "substation"
+},
+"query_endpoint": "https://overpass-api.de/api/interpreter"
+},
+{
+"area": "Sarnia",
+"osm": "https://www.openstreetmap.org/way/584336789",
+"lat": 42.791076,
+"lon": -82.52937,
+"tags": {
+"pipeline": "substation"
+},
+"query_endpoint": "https://overpass-api.de/api/interpreter"
+},
+{
+"area": "Sarnia",
+"osm": "https://www.openstreetmap.org/way/584336792",
+"lat": 42.791007,
+"lon": -82.527634,
+"tags": {
+"pipeline": "substation"
+},
+"query_endpoint": "https://overpass-api.de/api/interpreter"
+},
+{
+"area": "Sarnia",
+"osm": "https://www.openstreetmap.org/way/584338157",
+"lat": 42.797288,
+"lon": -82.527412,
+"tags": {
+"pipeline": "substation"
+},
+"query_endpoint": "https://overpass-api.de/api/interpreter"
+},
+{
+"area": "Sarnia",
+"osm": "https://www.openstreetmap.org/way/584339978",
+"lat": 42.925972,
+"lon": -82.474256,
+"tags": {
+"barrier": "fence",
+"pipeline": "substation"
+},
+"query_endpoint": "https://overpass-api.de/api/interpreter"
+},
+{
+"area": "Sarnia",
+"osm": "https://www.openstreetmap.org/way/585534835",
+"lat": 42.770473,
+"lon": -82.499215,
+"tags": {
+"barrier": "fence",
+"pipeline": "substation"
+},
+"query_endpoint": "https://overpass-api.de/api/interpreter"
+},
+{
+"area": "Sarnia",
+"osm": "https://www.openstreetmap.org/way/585534848",
+"lat": 42.774707,
+"lon": -82.483515,
+"tags": {
+"barrier": "fence",
+"pipeline": "substation"
+},
+"query_endpoint": "https://overpass-api.de/api/interpreter"
+},
+{
+"area": "Sarnia",
+"osm": "https://www.openstreetmap.org/way/614086705",
+"lat": 42.905904,
+"lon": -82.447897,
+"tags": {
+"industrial": "natural_gas;refinery",
+"landuse": "industrial",
+"name": "Shell Corunna Refinery"
+},
+"query_endpoint": "https://overpass-api.de/api/interpreter"
+},
+{
+"area": "Sarnia",
+"osm": "https://www.openstreetmap.org/way/614086706",
+"lat": 42.931201,
+"lon": -82.439469,
+"tags": {
+"addr:city": "Sarnia",
+"addr:housenumber": "1900",
+"addr:postcode": "N7T 7J3",
+"addr:province": "ON",
+"addr:street": "River Road",
+"industrial": "refinery",
+"landuse": "industrial",
+"name": "Suncor Sarnia Refinery"
+},
+"query_endpoint": "https://overpass-api.de/api/interpreter"
+},
+{
+"area": "Sarnia",
+"osm": "https://www.openstreetmap.org/way/692474020",
+"lat": 42.788812,
+"lon": -82.531878,
+"tags": {
+"name": "Belle River Mills Compressor Station",
+"operator": "DTE Energy",
+"pipeline": "substation",
+"substance": "gas",
+"substation": "compression"
+},
+"query_endpoint": "https://overpass-api.de/api/interpreter"
+},
+{
+"area": "Sarnia",
+"osm": "https://www.openstreetmap.org/way/750529287",
+"lat": 42.788787,
+"lon": -82.468288,
+"tags": {
+"pipeline": "substation"
+},
+"query_endpoint": "https://overpass-api.de/api/interpreter"
+},
+{
+"area": "Sarnia",
+"osm": "https://www.openstreetmap.org/way/988856894",
+"lat": 42.950519,
+"lon": -82.372514,
+"tags": {
+"industrial": "oil",
+"landuse": "industrial",
+"name": "Enbridge Sarnia Terminal"
+},
+"query_endpoint": "https://overpass-api.de/api/interpreter"
+},
+{
+"area": "Sarnia",
+"osm": "https://www.openstreetmap.org/way/1050265554",
+"lat": 42.787236,
+"lon": -82.494575,
+"tags": {
+"operator": "Vector Pipeline",
+"pipeline": "substation",
+"substance": "gas",
+"substation": "transmission"
+},
+"query_endpoint": "https://overpass-api.de/api/interpreter"
+},
+{
+"area": "Sarnia",
+"osm": "https://www.openstreetmap.org/way/1434232963",
+"lat": 42.898073,
+"lon": -82.509849,
+"tags": {
+"operator": "Enbridge",
+"operator:wikidata": "Q1339966",
+"pipeline": "substation",
+"substance": "oil",
+"substation": "transmission"
+},
+"query_endpoint": "https://overpass-api.de/api/interpreter"
+},
+{
+"area": "Sarnia",
+"osm": "https://www.openstreetmap.org/way/1443575160",
+"lat": 42.894818,
+"lon": -82.506578,
+"tags": {
+"operator": "Sunoco Pipeline LP",
+"pipeline": "substation",
+"substance": "hydrocarbons",
+"substation": "transmission"
+},
+"query_endpoint": "https://overpass-api.de/api/interpreter"
+},
+{
+"area": "Sarnia",
+"osm": "https://www.openstreetmap.org/way/1443575161",
+"lat": 42.89497,
+"lon": -82.504442,
+"tags": {
+"name": "Marysville Meter Station",
+"operator": "NGL Supply Terminal Co.",
+"pipeline": "substation",
+"substance": "ngl",
+"substation": "transmission"
+},
+"query_endpoint": "https://overpass-api.de/api/interpreter"
+},
+{
+"area": "Sarnia",
+"osm": "https://www.openstreetmap.org/way/1472822032",
+"lat": 42.789371,
+"lon": -82.478166,
+"tags": {
+"operator": "DTE Energy",
+"pipeline": "substation",
+"substance": "gas",
+"substation": "transmission"
+},
+"query_endpoint": "https://overpass-api.de/api/interpreter"
+},
+{
+"area": "Sarnia",
+"osm": "https://www.openstreetmap.org/way/1472822033",
+"lat": 42.788144,
+"lon": -82.477868,
+"tags": {
+"operator": "Great Lakes Gas Transmission",
+"pipeline": "substation",
+"substance": "gas",
+"substation": "transmission"
+},
+"query_endpoint": "https://overpass-api.de/api/interpreter"
+},
+{
+"area": "Sarnia",
+"osm": "https://www.openstreetmap.org/way/1565046960",
+"lat": 42.909181,
+"lon": -82.47267,
+"tags": {
+"name": "Enbridge",
+"operator": "Enbridge",
+"operator:wikidata": "Q1339966",
+"pipeline": "substation",
+"substance": "oil",
+"substation": "transmission"
+},
+"query_endpoint": "https://overpass-api.de/api/interpreter"
+},
+{
+"area": "Sarnia",
+"osm": "https://www.openstreetmap.org/way/1565047822",
+"lat": 42.914006,
+"lon": -82.466307,
+"tags": {
+"operator": "Sunoco Pipeline LP",
+"pipeline": "substation",
+"substation": "transmission"
+},
+"query_endpoint": "https://overpass-api.de/api/interpreter"
+},
+{
+"area": "Windsor",
+"osm": "https://www.openstreetmap.org/node/11368809704",
+"lat": 42.301446,
+"lon": -82.978411,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Windsor",
+"osm": "https://www.openstreetmap.org/node/11650379052",
+"lat": 42.299685,
+"lon": -82.977188,
+"tags": {
+"depot": "trucking_depot",
+"industrial": "depot",
+"landuse": "industrial"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Windsor",
+"osm": "https://www.openstreetmap.org/node/12893447034",
+"lat": 42.324903,
+"lon": -82.992604,
+"tags": {
+"man_made": "pumping_station",
+"name": "A.J. Brian Treatment and Pumping Center",
+"operator": "Windsor Utilities Commision"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Windsor",
+"osm": "https://www.openstreetmap.org/way/165750384",
+"lat": 42.289891,
+"lon": -82.987364,
+"tags": {
+"designation": "Natural Gas",
+"man_made": "pumping_station",
+"name": "Union Gas"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Windsor",
+"osm": "https://www.openstreetmap.org/way/210517397",
+"lat": 42.301973,
+"lon": -83.047492,
+"tags": {
+"depot": "container",
+"industrial": "depot",
+"landuse": "industrial",
+"surface": "concrete"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Windsor",
+"osm": "https://www.openstreetmap.org/way/369215520",
+"lat": 42.313564,
+"lon": -83.077549,
+"tags": {
+"building:levels": "1",
+"man_made": "pumping_station",
+"name": "Jefferson Pump Station"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Windsor",
+"osm": "https://www.openstreetmap.org/way/382132066",
+"lat": 42.286361,
+"lon": -83.130501,
+"tags": {
+"building": "yes",
+"man_made": "pumping_station",
+"name": "Pump Station #2"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Windsor",
+"osm": "https://www.openstreetmap.org/way/382132083",
+"lat": 42.284218,
+"lon": -83.126611,
+"tags": {
+"building": "yes",
+"man_made": "pumping_station",
+"name": "Pump Station #1"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Windsor",
+"osm": "https://www.openstreetmap.org/way/441366429",
+"lat": 42.281043,
+"lon": -83.154774,
+"tags": {
+"addr:city": "Detroit",
+"addr:housenumber": "12700",
+"addr:postcode": "48217",
+"addr:state": "MI",
+"addr:street": "Toronto Street",
+"industrial": "oil",
+"landuse": "industrial",
+"name": "Marathon Detroit Light Products Terminal"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Windsor",
+"osm": "https://www.openstreetmap.org/way/507125668",
+"lat": 42.338902,
+"lon": -82.997677,
+"tags": {
+"building": "yes",
+"man_made": "pumping_station",
+"name": "Belle Isle Pump Station",
+"pumping_station": "wastewater"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Windsor",
+"osm": "https://www.openstreetmap.org/way/560092398",
+"lat": 42.258231,
+"lon": -83.123173,
+"tags": {
+"industrial": "port",
+"landuse": "industrial",
+"name": "Nicholson Ecorse Terminal",
+"operator": "Nicholson Terminal & Docking Co."
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Windsor",
+"osm": "https://www.openstreetmap.org/way/560200240",
+"lat": 42.303387,
+"lon": -83.089603,
+"tags": {
+"addr:city": "Detroit",
+"addr:housenumber": "5431",
+"addr:postcode": "48207",
+"addr:state": "MI",
+"addr:street": "Jefferson Avenue West",
+"industrial": "port",
+"landuse": "industrial",
+"name": "Detroit Waterfront Petroleum Terminal",
+"operator": "Waterfront Petroleum Terminal Company"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Windsor",
+"osm": "https://www.openstreetmap.org/way/560525678",
+"lat": 42.278329,
+"lon": -83.123497,
+"tags": {
+"industrial": "oil_tank_farm"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Windsor",
+"osm": "https://www.openstreetmap.org/way/560525681",
+"lat": 42.276799,
+"lon": -83.12458,
+"tags": {
+"industrial": "oil_tank_farm"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Windsor",
+"osm": "https://www.openstreetmap.org/way/560525684",
+"lat": 42.274277,
+"lon": -83.122675,
+"tags": {
+"addr:city": "River Rouge",
+"addr:housenumber": "225",
+"addr:state": "MI",
+"addr:street": "Marion Avenue",
+"industrial": "oil_storage",
+"landuse": "industrial",
+"name": "Michigan Marine Terminal"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Windsor",
+"osm": "https://www.openstreetmap.org/way/565862389",
+"lat": 42.264452,
+"lon": -83.101162,
+"tags": {
+"addr:city": "Windsor",
+"addr:housenumber": "5500",
+"addr:postcode": "N9C 0B9",
+"addr:province": "ON",
+"addr:street": "Maplewood Drive",
+"landuse": "industrial",
+"name": "ADM Windsor Grain Terminal",
+"operator": "Archers Daniel Midland"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Windsor",
+"osm": "https://www.openstreetmap.org/way/568387287",
+"lat": 42.289581,
+"lon": -83.138727,
+"tags": {
+"addr:city": "Detroit",
+"addr:housenumber": "101",
+"addr:postcode": "48209",
+"addr:state": "MI",
+"addr:street": "North Forman Street",
+"landuse": "industrial",
+"name": "CRH Detroit Cement Terminal",
+"operator": "Oldcastle Materials Cement"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Windsor",
+"osm": "https://www.openstreetmap.org/way/570707779",
+"lat": 42.294124,
+"lon": -83.085383,
+"tags": {
+"industrial": "oil_depot",
+"landuse": "industrial"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Windsor",
+"osm": "https://www.openstreetmap.org/way/585476527",
+"lat": 42.289711,
+"lon": -82.979624,
+"tags": {
+"landuse": "industrial",
+"pipeline": "substation"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Windsor",
+"osm": "https://www.openstreetmap.org/way/603895098",
+"lat": 42.324923,
+"lon": -83.136998,
+"tags": {
+"addr:city": "Detroit",
+"addr:housenumber": "4195",
+"addr:state": "MI",
+"addr:street": "Central Avenue",
+"industrial": "vehicle_depot",
+"landuse": "industrial",
+"name": "Oasis Trucking Center Detroit",
+"operator": "Panacea Management Company"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Windsor",
+"osm": "https://www.openstreetmap.org/way/603895100",
+"lat": 42.325174,
+"lon": -83.134326,
+"tags": {
+"industrial": "vehicle_depot",
+"landuse": "industrial",
+"name": "Voyage Express"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Windsor",
+"osm": "https://www.openstreetmap.org/way/608398815",
+"lat": 42.288638,
+"lon": -83.143607,
+"tags": {
+"addr:city": "Detroit",
+"addr:housenumber": "301",
+"addr:postcode": "48217",
+"addr:state": "MI",
+"addr:street": "South Fort Street",
+"industrial": "oil_storage",
+"landuse": "industrial",
+"name": "Marathon Petroleum Rouge Terminal"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Windsor",
+"osm": "https://www.openstreetmap.org/way/694792230",
+"lat": 42.281228,
+"lon": -82.978172,
+"tags": {
+"depot": "road_maintenance",
+"industrial": "depot",
+"landuse": "industrial"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Windsor",
+"osm": "https://www.openstreetmap.org/way/698754702",
+"lat": 42.338932,
+"lon": -82.949811,
+"tags": {
+"man_made": "pumping_station",
+"name": "St. Paul Pumping Station"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Windsor",
+"osm": "https://www.openstreetmap.org/way/705727513",
+"lat": 42.279196,
+"lon": -83.131368,
+"tags": {
+"man_made": "pumping_station"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Windsor",
+"osm": "https://www.openstreetmap.org/way/721768351",
+"lat": 42.318291,
+"lon": -83.048133,
+"tags": {
+"man_made": "pumping_station"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Windsor",
+"osm": "https://www.openstreetmap.org/way/821158402",
+"lat": 42.333749,
+"lon": -83.022644,
+"tags": {
+"addr:city": "Detroit",
+"addr:housenumber": "2200",
+"addr:postcode": "48207",
+"addr:state": "MI",
+"addr:street": "Atwater Street",
+"building": "public",
+"man_made": "pumping_station",
+"name": "St Aubin/Chene Outfall Basin Facility",
+"operator": "Detroit Water and Sewerage Department"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Windsor",
+"osm": "https://www.openstreetmap.org/way/842517127",
+"lat": 42.340867,
+"lon": -83.008949,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial",
+"name": "Buoy Yard"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Windsor",
+"osm": "https://www.openstreetmap.org/way/880993578",
+"lat": 42.343311,
+"lon": -83.113981,
+"tags": {
+"description": "Stormwater pumping station for I-94 at 30th Street",
+"man_made": "pumping_station",
+"name": "MDOT Stormwater Pump Station"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Windsor",
+"osm": "https://www.openstreetmap.org/way/880993579",
+"lat": 42.338411,
+"lon": -83.121572,
+"tags": {
+"man_made": "pumping_station"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Windsor",
+"osm": "https://www.openstreetmap.org/way/910580004",
+"lat": 42.343498,
+"lon": -83.148116,
+"tags": {
+"description": "Most recent aerial imagery for this site looks more like a truck trailer depot.",
+"industrial": "depot",
+"landuse": "industrial"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Windsor",
+"osm": "https://www.openstreetmap.org/way/1267975957",
+"lat": 42.342074,
+"lon": -83.044103,
+"tags": {
+"man_made": "pumping_station"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Windsor",
+"osm": "https://www.openstreetmap.org/way/1271759134",
+"lat": 42.348279,
+"lon": -83.046595,
+"tags": {
+"man_made": "pumping_station"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Windsor",
+"osm": "https://www.openstreetmap.org/way/1417042371",
+"lat": 42.300679,
+"lon": -82.940648,
+"tags": {
+"fixme": "This is a storage yard of some kind but can't find the right tag for it",
+"industrial": "depot",
+"landuse": "industrial"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Windsor",
+"osm": "https://www.openstreetmap.org/way/1420545744",
+"lat": 42.286854,
+"lon": -82.968714,
+"tags": {
+"depot": "bus",
+"industrial": "depot",
+"landuse": "industrial"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Windsor",
+"osm": "https://www.openstreetmap.org/way/1421030025",
+"lat": 42.294186,
+"lon": -82.98628,
+"tags": {
+"depot": "truck",
+"industrial": "depot",
+"landuse": "industrial",
+"operator": "Stellantis",
+"surface": "asphalt"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Windsor",
+"osm": "https://www.openstreetmap.org/way/1421616857",
+"lat": 42.29283,
+"lon": -82.980752,
+"tags": {
+"depot": "truck",
+"industrial": "depot",
+"landuse": "industrial"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Windsor",
+"osm": "https://www.openstreetmap.org/way/1421834927",
+"lat": 42.301062,
+"lon": -82.979471,
+"tags": {
+"depot": "truck",
+"industrial": "depot",
+"landuse": "industrial"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Windsor",
+"osm": "https://www.openstreetmap.org/way/1423098007",
+"lat": 42.287648,
+"lon": -82.982794,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Windsor",
+"osm": "https://www.openstreetmap.org/way/1423098032",
+"lat": 42.292146,
+"lon": -82.975921,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Windsor",
+"osm": "https://www.openstreetmap.org/way/1423379390",
+"lat": 42.287795,
+"lon": -82.979246,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Windsor",
+"osm": "https://www.openstreetmap.org/way/1423379398",
+"lat": 42.287852,
+"lon": -82.976389,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Windsor",
+"osm": "https://www.openstreetmap.org/way/1423635315",
+"lat": 42.280165,
+"lon": -82.97581,
+"tags": {
+"depot": "container",
+"industrial": "depot",
+"landuse": "industrial"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Windsor",
+"osm": "https://www.openstreetmap.org/way/1423643903",
+"lat": 42.284754,
+"lon": -82.964961,
+"tags": {
+"depot": "truck",
+"industrial": "depot",
+"landuse": "industrial"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Windsor",
+"osm": "https://www.openstreetmap.org/way/1423643907",
+"lat": 42.284778,
+"lon": -82.962895,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Windsor",
+"osm": "https://www.openstreetmap.org/way/1423643920",
+"lat": 42.283056,
+"lon": -82.957089,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Windsor",
+"osm": "https://www.openstreetmap.org/way/1423643929",
+"lat": 42.286483,
+"lon": -82.946695,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Windsor",
+"osm": "https://www.openstreetmap.org/way/1425873187",
+"lat": 42.265144,
+"lon": -82.948228,
+"tags": {
+"depot": "container",
+"industrial": "depot",
+"landuse": "industrial"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Windsor",
+"osm": "https://www.openstreetmap.org/way/1433481372",
+"lat": 42.27422,
+"lon": -83.016895,
+"tags": {
+"man_made": "pumping_station",
+"operator": "Enbridge"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Windsor",
+"osm": "https://www.openstreetmap.org/way/1509670305",
+"lat": 42.295307,
+"lon": -83.103541,
+"tags": {
+"pipeline": "substation"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Windsor",
+"osm": "https://www.openstreetmap.org/relation/8451636",
+"lat": 42.282215,
+"lon": -83.139991,
+"tags": {
+"addr:city": "Detroit",
+"addr:housenumber": "700",
+"addr:postcode": "48217",
+"addr:state": "MI",
+"addr:street": "South Deacon Street",
+"industrial": "oil_storage",
+"landuse": "industrial",
+"name": "Buckeye Partners Detroit Terminal",
+"type": "multipolygon"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Windsor",
+"osm": "https://www.openstreetmap.org/relation/12350425",
+"lat": 42.323322,
+"lon": -83.109494,
+"tags": {
+"addr:city": "Detroit",
+"addr:housenumber": "5740",
+"addr:postcode": "48209",
+"addr:state": "MI",
+"addr:street": "Federal Street",
+"industrial": "vehicle_depot",
+"landuse": "industrial",
+"name": "Chassis Pros",
+"type": "multipolygon"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Windsor",
+"osm": "https://www.openstreetmap.org/relation/19527897",
+"lat": 42.26983,
+"lon": -82.97087,
+"tags": {
+"depot": "truck",
+"industrial": "depot",
+"landuse": "industrial",
+"type": "multipolygon"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Windsor",
+"osm": "https://www.openstreetmap.org/relation/20602811",
+"lat": 42.294124,
+"lon": -83.084687,
+"tags": {
+"industrial": "oil",
+"landuse": "industrial",
+"name": "Sterling Marine Fuels",
+"phone": "+1-519-253-4694",
+"type": "multipolygon",
+"website": "https://mcasphalt.com/"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Nanticoke",
+"osm": "https://www.openstreetmap.org/way/601435038",
+"lat": 42.835524,
+"lon": -80.047771,
+"tags": {
+"industrial": "oil",
+"landuse": "industrial"
+},
+"query_endpoint": "https://overpass.kumi.systems/api/interpreter"
+},
+{
+"area": "Nanticoke",
+"osm": "https://www.openstreetmap.org/way/662226365",
+"lat": 42.786217,
+"lon": -80.19852,
+"tags": {
+"man_made": "pumping_station"
+},
+"query_endpoint": "https://overpass.kumi.systems/api/interpreter"
+},
+{
+"area": "Nanticoke",
+"osm": "https://www.openstreetmap.org/way/1064132269",
+"lat": 42.786313,
+"lon": -80.198504,
+"tags": {
+"man_made": "pumping_station"
+},
+"query_endpoint": "https://overpass.kumi.systems/api/interpreter"
+},
+{
+"area": "Hamilton",
+"osm": "https://www.openstreetmap.org/node/11557710425",
+"lat": 43.254068,
+"lon": -79.92788,
+"tags": {
+"building": "school",
+"pipeline": "substation",
+"substance": "gas",
+"substation": "industrial"
+},
+"query_endpoint": "https://overpass-api.de/api/interpreter"
+},
+{
+"area": "Hamilton",
+"osm": "https://www.openstreetmap.org/node/12437455328",
+"lat": 43.240617,
+"lon": -79.935101,
+"tags": {
+"addr:city": "Hamilton",
+"addr:housenumber": "130",
+"addr:province": "Ontario",
+"addr:street": "Daffodil Crescent",
+"man_made": "pumping_station"
+},
+"query_endpoint": "https://overpass-api.de/api/interpreter"
+},
+{
+"area": "Hamilton",
+"osm": "https://www.openstreetmap.org/way/257854629",
+"lat": 43.259395,
+"lon": -79.767594,
+"tags": {
+"man_made": "pumping_station",
+"name": "Low Level Pumping Station"
+},
+"query_endpoint": "https://overpass-api.de/api/interpreter"
+},
+{
+"area": "Hamilton",
+"osm": "https://www.openstreetmap.org/way/270041176",
+"lat": 43.216508,
+"lon": -79.834105,
+"tags": {
+"building": "yes",
+"pipeline": "substation"
+},
+"query_endpoint": "https://overpass-api.de/api/interpreter"
+},
+{
+"area": "Hamilton",
+"osm": "https://www.openstreetmap.org/way/319662998",
+"lat": 43.247065,
+"lon": -79.864492,
+"tags": {
+"building": "yes",
+"man_made": "pumping_station",
+"operator": "City of Hamilton",
+"substance": "water"
+},
+"query_endpoint": "https://overpass-api.de/api/interpreter"
+},
+{
+"area": "Hamilton",
+"osm": "https://www.openstreetmap.org/way/319663365",
+"lat": 43.247223,
+"lon": -79.864812,
+"tags": {
+"building": "yes",
+"man_made": "pumping_station",
+"name": "Ferguson Avenue Pumping Station",
+"operator": "City of Hamilton",
+"substance": "water"
+},
+"query_endpoint": "https://overpass-api.de/api/interpreter"
+},
+{
+"area": "Oakville-Burlington",
+"osm": "https://www.openstreetmap.org/node/2139023375",
+"lat": 43.469927,
+"lon": -79.739842,
+"tags": {
+"addr:city": "Oakville",
+"addr:housenumber": "345",
+"addr:street": "Dundas Street West",
+"man_made": "pumping_station",
+"name": "North Oakville East Wastewater Pumping Station"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Oakville-Burlington",
+"osm": "https://www.openstreetmap.org/way/209189631",
+"lat": 43.507465,
+"lon": -79.850408,
+"tags": {
+"access": "no",
+"barrier": "fence",
+"landuse": "industrial",
+"operator": "Enbridge",
+"operator:wikidata": "Q1339966",
+"pipeline": "substation",
+"substance": "gas",
+"utility": "gas"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Oakville-Burlington",
+"osm": "https://www.openstreetmap.org/way/265135396",
+"lat": 43.366984,
+"lon": -79.809586,
+"tags": {
+"man_made": "pumping_station",
+"name": "Wasburn Pump Station"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Oakville-Burlington",
+"osm": "https://www.openstreetmap.org/way/270605414",
+"lat": 43.503493,
+"lon": -79.612619,
+"tags": {
+"brand:wikipedia": "en:Petro-Canada",
+"industrial": "refinery",
+"landuse": "industrial",
+"name": "Petro-Canada Lubricants"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Oakville-Burlington",
+"osm": "https://www.openstreetmap.org/way/295141534",
+"lat": 43.417743,
+"lon": -79.797472,
+"tags": {
+"addr:housenumber": "5401",
+"addr:street": "Dundas Street",
+"depot": "bus",
+"industrial": "depot",
+"landuse": "industrial",
+"name": "First Student"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Oakville-Burlington",
+"osm": "https://www.openstreetmap.org/way/386658293",
+"lat": 43.422276,
+"lon": -79.763159,
+"tags": {
+"landuse": "industrial",
+"man_made": "pumping_station",
+"name": "Upper Middle Road Pumping Station",
+"operator": "Region of Halton"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Oakville-Burlington",
+"osm": "https://www.openstreetmap.org/way/438283744",
+"lat": 43.510722,
+"lon": -79.616104,
+"tags": {
+"pipeline": "substation"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Oakville-Burlington",
+"osm": "https://www.openstreetmap.org/way/443284425",
+"lat": 43.470209,
+"lon": -79.753174,
+"tags": {
+"addr:housenumber": "3200",
+"addr:street": "Neyagawa Boulevard",
+"building": "service",
+"man_made": "pumping_station",
+"name": "Halton Regional Neyagawa Booster Station",
+"pumping_station": "water",
+"substance": "water"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Oakville-Burlington",
+"osm": "https://www.openstreetmap.org/way/464608195",
+"lat": 43.424308,
+"lon": -79.847566,
+"tags": {
+"man_made": "pumping_station"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Oakville-Burlington",
+"osm": "https://www.openstreetmap.org/way/635494722",
+"lat": 43.500223,
+"lon": -79.620386,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Oakville-Burlington",
+"osm": "https://www.openstreetmap.org/way/635494939",
+"lat": 43.492852,
+"lon": -79.631757,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Oakville-Burlington",
+"osm": "https://www.openstreetmap.org/way/1112540610",
+"lat": 43.408395,
+"lon": -79.773869,
+"tags": {
+"industrial": "oil",
+"landuse": "industrial",
+"name": "Bronte Junction",
+"note": "MP-1882.10",
+"operator": "Enbridge"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Mississauga-Toronto",
+"osm": "https://www.openstreetmap.org/node/2447291692",
+"lat": 43.632124,
+"lon": -79.354469,
+"tags": {
+"addr:city": "Toronto",
+"addr:housenumber": "7",
+"addr:street": "Fourth Street",
+"man_made": "pumping_station",
+"name": "Fourth Street #9 Sewage Pumping Station",
+"opendata:type": "110001"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Mississauga-Toronto",
+"osm": "https://www.openstreetmap.org/node/2447292045",
+"lat": 43.632901,
+"lon": -79.354357,
+"tags": {
+"addr:city": "Toronto",
+"addr:housenumber": "11",
+"addr:street": "Second Street",
+"man_made": "pumping_station",
+"name": "Second Street #10 Sewage Pumping Station",
+"opendata:type": "110001"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Mississauga-Toronto",
+"osm": "https://www.openstreetmap.org/node/2447292046",
+"lat": 43.632004,
+"lon": -79.356707,
+"tags": {
+"addr:city": "Toronto",
+"addr:housenumber": "18",
+"addr:street": "Bayview Avenue",
+"man_made": "pumping_station",
+"name": "Sixth Street #11 Sewage Pumping Station",
+"opendata:type": "110001"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Mississauga-Toronto",
+"osm": "https://www.openstreetmap.org/node/2447292047",
+"lat": 43.633124,
+"lon": -79.356652,
+"tags": {
+"addr:city": "Toronto",
+"addr:housenumber": "36",
+"addr:street": "Bayview Avenue",
+"man_made": "pumping_station",
+"name": "Third Street #12 Sewage Pumping Station"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Mississauga-Toronto",
+"osm": "https://www.openstreetmap.org/node/3093354057",
+"lat": 43.646673,
+"lon": -79.375614,
+"tags": {
+"addr:city": "Toronto",
+"addr:housename": "Scott Sewage Pumping Station",
+"addr:housenumber": "6",
+"addr:street": "Scott Street",
+"location": "underground",
+"man_made": "pumping_station",
+"note": "Underground station"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Mississauga-Toronto",
+"osm": "https://www.openstreetmap.org/node/4288333288",
+"lat": 43.765073,
+"lon": -79.651821,
+"tags": {
+"man_made": "pumping_station"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Mississauga-Toronto",
+"osm": "https://www.openstreetmap.org/node/5996106325",
+"lat": 43.555109,
+"lon": -79.5772,
+"tags": {
+"man_made": "pumping_station"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Mississauga-Toronto",
+"osm": "https://www.openstreetmap.org/node/8975810779",
+"lat": 43.643569,
+"lon": -79.527816,
+"tags": {
+"addr:housenumber": "3699",
+"addr:street": "Bloor Street West",
+"man_made": "pumping_station",
+"name": "Bloor Street West Storm Pumping Station"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Mississauga-Toronto",
+"osm": "https://www.openstreetmap.org/node/10153853437",
+"lat": 43.6666,
+"lon": -79.301247,
+"tags": {
+"man_made": "pumping_station",
+"name": "Pantry Park Pumping Station"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Mississauga-Toronto",
+"osm": "https://www.openstreetmap.org/node/11887698454",
+"lat": 43.572416,
+"lon": -79.675038,
+"tags": {
+"operator": "Enbridge",
+"operator:wikidata": "Q1339966",
+"pipeline": "substation"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Mississauga-Toronto",
+"osm": "https://www.openstreetmap.org/way/15931594",
+"lat": 43.639558,
+"lon": -79.447726,
+"tags": {
+"depot": "tram",
+"description": "TTC streetcar carhouse",
+"industrial": "depot",
+"landuse": "industrial",
+"name": "Roncesvalles Carhouse",
+"operator": "Toronto Transit Commission",
+"wikidata": "Q20861517",
+"wikipedia": "en:Roncesvalles Carhouse"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Mississauga-Toronto",
+"osm": "https://www.openstreetmap.org/way/22480636",
+"lat": 43.678391,
+"lon": -79.40229,
+"tags": {
+"addr:city": "Toronto",
+"addr:housenumber": "235",
+"addr:street": "Cottingham Street",
+"building": "yes",
+"man_made": "pumping_station",
+"name": "Toronto Water High Level Pumping Station",
+"operator": "Toronto Water",
+"wikidata": "Q5755836",
+"wikipedia": "en:High Level Pumping Station"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Mississauga-Toronto",
+"osm": "https://www.openstreetmap.org/way/23426616",
+"lat": 43.639437,
+"lon": -79.452413,
+"tags": {
+"addr:city": "Toronto",
+"addr:housenumber": "71",
+"addr:street": "The Queensway",
+"building": "yes",
+"man_made": "pumping_station",
+"name": "Parkdale Pumping Station",
+"start_date": "1952",
+"website": "https://www.acotoronto.ca/building.php?ID=5398"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Mississauga-Toronto",
+"osm": "https://www.openstreetmap.org/way/23488870",
+"lat": 43.642492,
+"lon": -79.370126,
+"tags": {
+"industrial": "sugar_refinery",
+"landuse": "industrial",
+"name": "Redpath Sugar Refinery",
+"wikidata": "Q7306212",
+"wikipedia": "en:Redpath Sugar Refinery"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Mississauga-Toronto",
+"osm": "https://www.openstreetmap.org/way/30707533",
+"lat": 43.770449,
+"lon": -79.48893,
+"tags": {
+"landuse": "industrial",
+"name": "Shell Keele Terminal",
+"operator": "Shell"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Mississauga-Toronto",
+"osm": "https://www.openstreetmap.org/way/30707535",
+"lat": 43.767898,
+"lon": -79.477905,
+"tags": {
+"addr:city": "North York",
+"addr:housenumber": "1138",
+"addr:street": "Finch Avenue West",
+"landuse": "industrial",
+"name": "Suncor Metro Depot",
+"note": "fuel storage depot",
+"operator": "Sunoco"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Mississauga-Toronto",
+"osm": "https://www.openstreetmap.org/way/33296458",
+"lat": 43.640023,
+"lon": -79.387923,
+"tags": {
+"addr:city": "Toronto",
+"addr:housenumber": "28",
+"addr:postcode": "M5V 1T8",
+"addr:province": "ON",
+"addr:street": "Rees Street",
+"building": "yes",
+"man_made": "pumping_station",
+"name": "John Street Pumping Station",
+"operator": "Enwave",
+"wikidata": "Q134599487",
+"wikipedia": "en:John Street Pumping Station"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Mississauga-Toronto",
+"osm": "https://www.openstreetmap.org/way/34749705",
+"lat": 43.693066,
+"lon": -79.606496,
+"tags": {
+"addr:city": "Mississauga",
+"addr:housenumber": "6020",
+"addr:province": "Ontario",
+"addr:street": "Indian Line",
+"depot": "bus",
+"industrial": "depot",
+"landuse": "industrial",
+"name": "Coach Canada",
+"source": "Yahoo"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Mississauga-Toronto",
+"osm": "https://www.openstreetmap.org/way/41393267",
+"lat": 43.7578,
+"lon": -79.523256,
+"tags": {
+"depot": "tram",
+"industrial": "depot",
+"landuse": "industrial",
+"name": "Finch West Maintenance and Storage Facility",
+"opening_date": "2021",
+"operator": "Metrolinx",
+"source": "local knowledge"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Mississauga-Toronto",
+"osm": "https://www.openstreetmap.org/way/41403539",
+"lat": 43.66413,
+"lon": -79.317415,
+"tags": {
+"addr:city": "Toronto",
+"addr:housenumber": "1091",
+"addr:street": "Eastern Avenue",
+"building": "yes",
+"man_made": "pumping_station",
+"name": "Ashbridge's Bay Pumping Station"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Mississauga-Toronto",
+"osm": "https://www.openstreetmap.org/way/43804364",
+"lat": 43.711931,
+"lon": -79.466097,
+"tags": {
+"addr:housenumber": "1144",
+"addr:street": "Lawrence Avenue West",
+"building": "commercial",
+"building:colour": "grey",
+"building:levels": "1",
+"building:material": "stone",
+"man_made": "pumping_station",
+"name": "Lawrence Pumping Station",
+"operator": "City of Toronto"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Mississauga-Toronto",
+"osm": "https://www.openstreetmap.org/way/47515682",
+"lat": 43.68513,
+"lon": -79.384332,
+"tags": {
+"addr:city": "Toronto",
+"addr:housenumber": "240",
+"addr:street": "Mount Pleasant Road",
+"building": "yes",
+"building:levels": "1",
+"building:material": "brick",
+"man_made": "pumping_station",
+"name": "Rosehill Pumping Station",
+"source": "CanVec 6.0 - NRCan"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Mississauga-Toronto",
+"osm": "https://www.openstreetmap.org/way/48949532",
+"lat": 43.740001,
+"lon": -79.680539,
+"tags": {
+"industrial": "intermodal_freight_terminal",
+"landuse": "railway",
+"name": "CN Brampton Intermodal Terminal",
+"operator": "Canadian National Railway",
+"operator:wikidata": "Q624798"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Mississauga-Toronto",
+"osm": "https://www.openstreetmap.org/way/57384102",
+"lat": 43.673691,
+"lon": -79.563389,
+"tags": {
+"landuse": "industrial",
+"name": "Martingrove Feeder Station",
+"pipeline": "substation"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Mississauga-Toronto",
+"osm": "https://www.openstreetmap.org/way/57384241",
+"lat": 43.676618,
+"lon": -79.563486,
+"tags": {
+"addr:city": "Etobicoke",
+"addr:housenumber": "551",
+"addr:street": "Martin Grove Road",
+"building": "public",
+"building:levels": "1",
+"man_made": "pumping_station",
+"name": "Richview Pumping Station",
+"opendata:type": "110001",
+"source": "yahoo"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Mississauga-Toronto",
+"osm": "https://www.openstreetmap.org/way/58559264",
+"lat": 43.61987,
+"lon": -79.542693,
+"tags": {
+"addr:housenumber": "32",
+"addr:street": "Atomic Avenue",
+"building": "industrial",
+"industrial": "depot",
+"landuse": "industrial",
+"name": "North Atlantic Fisheries"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Mississauga-Toronto",
+"osm": "https://www.openstreetmap.org/way/66980231",
+"lat": 43.778345,
+"lon": -79.493941,
+"tags": {
+"building": "yes",
+"man_made": "pumping_station",
+"name": "Keele Pumping Station",
+"source": "CanVec 6.0 - NRCan"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Mississauga-Toronto",
+"osm": "https://www.openstreetmap.org/way/162328300",
+"lat": 43.738936,
+"lon": -79.427076,
+"tags": {
+"addr:city": "North York",
+"addr:housenumber": "226",
+"addr:street": "Wilson Avenue",
+"building": "yes",
+"man_made": "pumping_station",
+"name": "Armour Heights Water Pumping Station",
+"opendata:type": "110001",
+"source": "Bing"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Mississauga-Toronto",
+"osm": "https://www.openstreetmap.org/way/170054390",
+"lat": 43.635794,
+"lon": -79.408829,
+"tags": {
+"addr:city": "Toronto",
+"addr:housenumber": "1",
+"addr:street": "Strachan Avenue",
+"building": "yes",
+"building:levels": "1",
+"man_made": "pumping_station",
+"name": "Strachan Sewage Pumping Station",
+"opendata:type": "110001",
+"roof:colour": "teal",
+"roof:material": "metal",
+"roof:shape": "pyramidal",
+"source": "Bing"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Mississauga-Toronto",
+"osm": "https://www.openstreetmap.org/way/193612074",
+"lat": 43.627958,
+"lon": -79.391207,
+"tags": {
+"addr:city": "Toronto",
+"addr:housenumber": "825",
+"addr:street": "Lakeshore Avenue",
+"building": "yes",
+"building:levels": "1",
+"man_made": "pumping_station",
+"name": "Hanlan's Point Sewage Pumping Station",
+"opendata:type": "110001"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Mississauga-Toronto",
+"osm": "https://www.openstreetmap.org/way/197410653",
+"lat": 43.599897,
+"lon": -79.498792,
+"tags": {
+"building": "service",
+"man_made": "pumping_station",
+"name": "New Toronto Pumping Station",
+"utility": "water"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Mississauga-Toronto",
+"osm": "https://www.openstreetmap.org/way/217385273",
+"lat": 43.692056,
+"lon": -79.609234,
+"tags": {
+"addr:city": "Mississauga",
+"addr:housenumber": "3275",
+"addr:province": "Ontario",
+"addr:street": "Elmbank Road",
+"industrial": "oil",
+"landuse": "industrial",
+"parking": "surface",
+"surface": "asphalt"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Mississauga-Toronto",
+"osm": "https://www.openstreetmap.org/way/232567600",
+"lat": 43.63791,
+"lon": -79.536703,
+"tags": {
+"addr:city": "Etobicoke",
+"addr:housenumber": "30",
+"addr:street": "St Albans Road",
+"building": "yes",
+"building:colour": "beige",
+"building:levels": "1",
+"building:material": "brick",
+"man_made": "pumping_station",
+"name": "St. Albans Pumping Station",
+"source": "Bing"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Mississauga-Toronto",
+"osm": "https://www.openstreetmap.org/way/240452270",
+"lat": 43.784513,
+"lon": -79.496156,
+"tags": {
+"landuse": "industrial",
+"name": "Enbridge Gas Keele/CNR Station",
+"note": "Natural gas substation",
+"operator": "Enbridge"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Mississauga-Toronto",
+"osm": "https://www.openstreetmap.org/way/243816498",
+"lat": 43.7459,
+"lon": -79.532179,
+"tags": {
+"depot": "bus",
+"industrial": "depot",
+"landuse": "industrial",
+"name": "Arrow Road Bus Garage",
+"operator": "Toronto Transit Commission"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Mississauga-Toronto",
+"osm": "https://www.openstreetmap.org/way/364212711",
+"lat": 43.743954,
+"lon": -79.63099,
+"tags": {
+"addr:housenumber": "325",
+"addr:street": "Indian Line",
+"landuse": "industrial",
+"pipeline": "substation"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Mississauga-Toronto",
+"osm": "https://www.openstreetmap.org/way/400489230",
+"lat": 43.653135,
+"lon": -79.471007,
+"tags": {
+"addr:city": "Toronto",
+"addr:housenumber": "15",
+"addr:province": "Ontario",
+"addr:street": "Birchview Crescent",
+"building": "yes",
+"building:material": "brick",
+"colour": "red",
+"man_made": "pumping_station",
+"operator": "City of Toronto"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Mississauga-Toronto",
+"osm": "https://www.openstreetmap.org/way/437783228",
+"lat": 43.677748,
+"lon": -79.57989,
+"tags": {
+"pipeline": "substation"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Mississauga-Toronto",
+"osm": "https://www.openstreetmap.org/way/635487342",
+"lat": 43.698568,
+"lon": -79.622774,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial",
+"name": "Northam Drive Yard"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Mississauga-Toronto",
+"osm": "https://www.openstreetmap.org/way/635496671",
+"lat": 43.62181,
+"lon": -79.538292,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Mississauga-Toronto",
+"osm": "https://www.openstreetmap.org/way/635835014",
+"lat": 43.645357,
+"lon": -79.625024,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Mississauga-Toronto",
+"osm": "https://www.openstreetmap.org/way/659628724",
+"lat": 43.651013,
+"lon": -79.492615,
+"tags": {
+"building": "service",
+"building:colour": "#b4a890",
+"building:material": "stones",
+"man_made": "pumping_station",
+"name": "Old Mill Pumping Station",
+"operator": "Toronto Water",
+"roof:colour": "brown",
+"roof:material": "wood",
+"roof:shape": "gabled"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Mississauga-Toronto",
+"osm": "https://www.openstreetmap.org/way/669604316",
+"lat": 43.695765,
+"lon": -79.533102,
+"tags": {
+"addr:city": "Toronto",
+"addr:housenumber": "1560",
+"addr:province": "Ontario",
+"addr:street": "Royal York Road",
+"man_made": "pumping_station",
+"name": "WM Johnson Pumping Station"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Mississauga-Toronto",
+"osm": "https://www.openstreetmap.org/way/676042532",
+"lat": 43.733914,
+"lon": -79.47304,
+"tags": {
+"addr:housenumber": "64",
+"addr:street": "Murray Road",
+"industrial": "depot",
+"landuse": "industrial",
+"name": "Murray Yard",
+"operator": "City of Toronto"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Mississauga-Toronto",
+"osm": "https://www.openstreetmap.org/way/676299461",
+"lat": 43.696569,
+"lon": -79.465548,
+"tags": {
+"addr:housenumber": "1401",
+"addr:street": "Castlefield Avenue",
+"industrial": "depot",
+"landuse": "industrial",
+"operator": "City of Toronto"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Mississauga-Toronto",
+"osm": "https://www.openstreetmap.org/way/677509449",
+"lat": 43.65359,
+"lon": -79.444021,
+"tags": {
+"depot": "truck",
+"industrial": "depot",
+"landuse": "industrial"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Mississauga-Toronto",
+"osm": "https://www.openstreetmap.org/way/1083177729",
+"lat": 43.647265,
+"lon": -79.524357,
+"tags": {
+"addr:housenumber": "1276",
+"addr:street": "Islington Avenue",
+"building": "yes",
+"building:levels": "1",
+"building:material": "brick",
+"man_made": "pumping_station",
+"name": "Islington Avenue Storm Pumping Station",
+"operator": "City of Toronto"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Mississauga-Toronto",
+"osm": "https://www.openstreetmap.org/way/1127926734",
+"lat": 43.749596,
+"lon": -79.469378,
+"tags": {
+"man_made": "pumping_station",
+"name": "Abandoned Pump House"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Mississauga-Toronto",
+"osm": "https://www.openstreetmap.org/way/1243485153",
+"lat": 43.624194,
+"lon": -79.537713,
+"tags": {
+"depot": "bus",
+"industrial": "depot",
+"landuse": "industrial",
+"name": "TTC North Queen Yard",
+"operator": "TTC"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Mississauga-Toronto",
+"osm": "https://www.openstreetmap.org/way/1300773966",
+"lat": 43.704932,
+"lon": -79.238163,
+"tags": {
+"man_made": "pumping_station"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Mississauga-Toronto",
+"osm": "https://www.openstreetmap.org/way/1421777141",
+"lat": 43.612843,
+"lon": -79.38241,
+"tags": {
+"man_made": "pumping_station",
+"name": "Deep Lake Water Cooling System",
+"operator": "Enwave"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "London",
+"osm": "https://www.openstreetmap.org/way/249312201",
+"lat": 43.038433,
+"lon": -81.176825,
+"tags": {
+"pipeline": "substation"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "London",
+"osm": "https://www.openstreetmap.org/way/1274705524",
+"lat": 43.048758,
+"lon": -81.23185,
+"tags": {
+"barrier": "fence",
+"landuse": "industrial",
+"pipeline": "substation",
+"substance": "gas",
+"utility": "gas"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "London",
+"osm": "https://www.openstreetmap.org/way/1452761898",
+"lat": 43.032648,
+"lon": -81.164559,
+"tags": {
+"addr:city": "London",
+"addr:housenumber": "15870",
+"addr:postcode": "N5V 0A8",
+"addr:province": "Ontario",
+"addr:street": "Dakota Place",
+"depot": "truck",
+"industrial": "depot",
+"landuse": "industrial",
+"operator": "Riverdale Poultry"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "MontrealEast",
+"osm": "https://www.openstreetmap.org/node/6563518493",
+"lat": 45.633412,
+"lon": -73.451484,
+"tags": {
+"man_made": "pumping_station",
+"name": "Station de pompage"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "MontrealEast",
+"osm": "https://www.openstreetmap.org/node/7026905530",
+"lat": 45.619231,
+"lon": -73.45584,
+"tags": {
+"man_made": "pumping_station"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "MontrealEast",
+"osm": "https://www.openstreetmap.org/node/11223037799",
+"lat": 45.644813,
+"lon": -73.617021,
+"tags": {
+"man_made": "pumping_station"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "MontrealEast",
+"osm": "https://www.openstreetmap.org/node/11363382104",
+"lat": 45.651034,
+"lon": -73.604489,
+"tags": {
+"man_made": "pumping_station"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "MontrealEast",
+"osm": "https://www.openstreetmap.org/way/364678781",
+"lat": 45.555896,
+"lon": -73.649145,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "MontrealEast",
+"osm": "https://www.openstreetmap.org/way/385753871",
+"lat": 45.585154,
+"lon": -73.50682,
+"tags": {
+"cargo": "container",
+"industrial": "port",
+"landuse": "industrial",
+"name": "Terminal Cast",
+"operator": "Port de Montr\u00e9al",
+"port": "cargo",
+"port:type": "deep_water"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "MontrealEast",
+"osm": "https://www.openstreetmap.org/way/385753872",
+"lat": 45.575044,
+"lon": -73.511812,
+"tags": {
+"cargo": "container",
+"industrial": "port",
+"landuse": "industrial",
+"name": "Terminal Maisonneuve",
+"operator": "Port de Montr\u00e9al",
+"port": "cargo",
+"port:type": "deep_water"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "MontrealEast",
+"osm": "https://www.openstreetmap.org/way/385753873",
+"lat": 45.564734,
+"lon": -73.519913,
+"tags": {
+"cargo": "container",
+"industrial": "port",
+"landuse": "industrial",
+"name": "Terminal Racine",
+"operator": "Port de Montr\u00e9al",
+"port": "cargo",
+"port:type": "deep_water"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "MontrealEast",
+"osm": "https://www.openstreetmap.org/way/470062243",
+"lat": 45.707874,
+"lon": -73.504554,
+"tags": {
+"man_made": "pumping_station"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "MontrealEast",
+"osm": "https://www.openstreetmap.org/way/599013375",
+"lat": 45.633528,
+"lon": -73.498721,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial",
+"name": "Travaux Publiques de Montr\u00e9al-Est"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "MontrealEast",
+"osm": "https://www.openstreetmap.org/way/599021481",
+"lat": 45.630987,
+"lon": -73.494884,
+"tags": {
+"building": "yes",
+"man_made": "pumping_station"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "MontrealEast",
+"osm": "https://www.openstreetmap.org/way/705132434",
+"lat": 45.721515,
+"lon": -73.560124,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "MontrealEast",
+"osm": "https://www.openstreetmap.org/way/842371036",
+"lat": 45.55349,
+"lon": -73.52489,
+"tags": {
+"cargo": "container",
+"industrial": "port",
+"landuse": "industrial",
+"name": "Terminal Viau",
+"operator": "Termont",
+"port": "cargo",
+"port:type": "deep_water"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "MontrealEast",
+"osm": "https://www.openstreetmap.org/way/846974240",
+"lat": 45.564775,
+"lon": -73.569285,
+"tags": {
+"description": "Lieu d'entreposage utilis\u00e9 par la ville de Montr\u00e9al.",
+"industrial": "depot",
+"landuse": "industrial"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "MontrealEast",
+"osm": "https://www.openstreetmap.org/way/1169423873",
+"lat": 45.557956,
+"lon": -73.580867,
+"tags": {
+"addr:housenumber": "6405",
+"addr:street": "16e Avenue",
+"building": "utility",
+"man_made": "pumping_station",
+"utility": "water"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "MontrealEast",
+"osm": "https://www.openstreetmap.org/way/1287550879",
+"lat": 45.589516,
+"lon": -73.546268,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "MontrealEast",
+"osm": "https://www.openstreetmap.org/way/1288048809",
+"lat": 45.580546,
+"lon": -73.526583,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "MontrealEast",
+"osm": "https://www.openstreetmap.org/way/1380980503",
+"lat": 45.636911,
+"lon": -73.559393,
+"tags": {
+"depot": "truck",
+"industrial": "depot",
+"landuse": "industrial",
+"operator": "Mckesson canada"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "MontrealEast",
+"osm": "https://www.openstreetmap.org/relation/1181359",
+"lat": 45.586187,
+"lon": -73.485325,
+"tags": {
+"access": "no",
+"industrial": "depot",
+"landuse": "industrial",
+"name": "Entretien du Parc",
+"type": "multipolygon"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "MontrealEast",
+"osm": "https://www.openstreetmap.org/relation/9392332",
+"lat": 45.63557,
+"lon": -73.528711,
+"tags": {
+"industrial": "refinery",
+"landuse": "industrial",
+"type": "multipolygon"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Montreal",
+"osm": "https://www.openstreetmap.org/node/6553829743",
+"lat": 45.519642,
+"lon": -73.527752,
+"tags": {
+"man_made": "pumping_station"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Montreal",
+"osm": "https://www.openstreetmap.org/node/6553829744",
+"lat": 45.519671,
+"lon": -73.527234,
+"tags": {
+"man_made": "pumping_station"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Montreal",
+"osm": "https://www.openstreetmap.org/node/6553829745",
+"lat": 45.519369,
+"lon": -73.527187,
+"tags": {
+"man_made": "pumping_station"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Montreal",
+"osm": "https://www.openstreetmap.org/node/6553829746",
+"lat": 45.519351,
+"lon": -73.527599,
+"tags": {
+"man_made": "pumping_station"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Montreal",
+"osm": "https://www.openstreetmap.org/node/6553829747",
+"lat": 45.519205,
+"lon": -73.527573,
+"tags": {
+"man_made": "pumping_station"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Montreal",
+"osm": "https://www.openstreetmap.org/node/6553829748",
+"lat": 45.519066,
+"lon": -73.526925,
+"tags": {
+"man_made": "pumping_station"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Montreal",
+"osm": "https://www.openstreetmap.org/node/6553829749",
+"lat": 45.519003,
+"lon": -73.527963,
+"tags": {
+"man_made": "pumping_station"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Montreal",
+"osm": "https://www.openstreetmap.org/node/9294302256",
+"lat": 45.410777,
+"lon": -73.692953,
+"tags": {
+"man_made": "pumping_station"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Montreal",
+"osm": "https://www.openstreetmap.org/node/10711319423",
+"lat": 45.542579,
+"lon": -73.786402,
+"tags": {
+"addr:city": "Laval",
+"addr:housenumber": "1398",
+"addr:province": "QC",
+"addr:street": "Rue Le Boutillier",
+"man_made": "pumping_station",
+"name": "Station de pompage le Bouthillier",
+"operator": "Ville de Laval"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Montreal",
+"osm": "https://www.openstreetmap.org/node/11608280944",
+"lat": 45.495831,
+"lon": -73.520851,
+"tags": {
+"man_made": "pumping_station"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Montreal",
+"osm": "https://www.openstreetmap.org/way/21340755",
+"lat": 45.505555,
+"lon": -73.578784,
+"tags": {
+"building": "yes",
+"man_made": "pumping_station",
+"name": "Station de pompage McTavish",
+"operator": "Ville de Montr\u00e9al"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Montreal",
+"osm": "https://www.openstreetmap.org/way/47225442",
+"lat": 45.415498,
+"lon": -73.631122,
+"tags": {
+"building": "industrial",
+"canvec:CODE": "2010252",
+"man_made": "pumping_station",
+"name": "Station de Pompage",
+"name:en": "Pump House",
+"name:fr": "Station de Pompage"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Montreal",
+"osm": "https://www.openstreetmap.org/way/132240277",
+"lat": 45.536739,
+"lon": -73.589253,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial",
+"name": "Complexe de voirie de la rue des Carri\u00e8res"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Montreal",
+"osm": "https://www.openstreetmap.org/way/161394408",
+"lat": 45.507845,
+"lon": -73.627053,
+"tags": {
+"addr:housenumber": "6200",
+"addr:postcode": "H3S 2J3",
+"addr:street": "Avenue de Darlington",
+"building": "yes",
+"man_made": "pumping_station",
+"name": "Station de pompage de Ch\u00e2teaufort"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Montreal",
+"osm": "https://www.openstreetmap.org/way/440431788",
+"lat": 45.520342,
+"lon": -73.527411,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial",
+"name": "D\u00e9p\u00f4t Municipal"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Montreal",
+"osm": "https://www.openstreetmap.org/way/451479967",
+"lat": 45.494695,
+"lon": -73.602164,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial",
+"name": "Cour C\u00f4te-des-Neiges"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Montreal",
+"osm": "https://www.openstreetmap.org/way/483818700",
+"lat": 45.541306,
+"lon": -73.679783,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Montreal",
+"osm": "https://www.openstreetmap.org/way/597848159",
+"lat": 45.469843,
+"lon": -73.557952,
+"tags": {
+"depot": "snow",
+"industrial": "depot",
+"landuse": "industrial"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Montreal",
+"osm": "https://www.openstreetmap.org/way/598980515",
+"lat": 45.517663,
+"lon": -73.628018,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Montreal",
+"osm": "https://www.openstreetmap.org/way/640246211",
+"lat": 45.509937,
+"lon": -73.611162,
+"tags": {
+"addr:housenumber": "100",
+"addr:postcode": "H2V 2T2",
+"addr:street": "Avenue Vincent-D'Indy",
+"building": "yes",
+"man_made": "pumping_station",
+"name": "Station de pompage Vincent-d\u2019Indy"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Montreal",
+"osm": "https://www.openstreetmap.org/way/660624728",
+"lat": 45.472285,
+"lon": -73.670643,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Montreal",
+"osm": "https://www.openstreetmap.org/way/668477160",
+"lat": 45.525422,
+"lon": -73.617907,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial",
+"name": "Cour de voirie des travaux publics d'Outremont"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Montreal",
+"osm": "https://www.openstreetmap.org/way/720473141",
+"lat": 45.498473,
+"lon": -73.721718,
+"tags": {
+"building": "yes",
+"man_made": "pumping_station",
+"name": "R\u00e9servoir Poirier"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Montreal",
+"osm": "https://www.openstreetmap.org/way/723111487",
+"lat": 45.446089,
+"lon": -73.626614,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Montreal",
+"osm": "https://www.openstreetmap.org/way/739538075",
+"lat": 45.463455,
+"lon": -73.620945,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial",
+"name": "Atelier municipal C\u00f4te-des-Neiges Notre-Dame-de-Gr\u00e2ce"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Montreal",
+"osm": "https://www.openstreetmap.org/way/793605730",
+"lat": 45.483347,
+"lon": -73.665027,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Montreal",
+"osm": "https://www.openstreetmap.org/way/842371036",
+"lat": 45.55349,
+"lon": -73.52489,
+"tags": {
+"cargo": "container",
+"industrial": "port",
+"landuse": "industrial",
+"name": "Terminal Viau",
+"operator": "Termont",
+"port": "cargo",
+"port:type": "deep_water"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Montreal",
+"osm": "https://www.openstreetmap.org/way/842371037",
+"lat": 45.531315,
+"lon": -73.537275,
+"tags": {
+"cargo": "dry_bulk; general",
+"industrial": "port",
+"landuse": "industrial",
+"name": "Terminal Laurier - Logistec",
+"operator": "Port de Montr\u00e9al",
+"port": "cargo",
+"port:type": "deep_water"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Montreal",
+"osm": "https://www.openstreetmap.org/way/885716022",
+"lat": 45.547208,
+"lon": -73.720692,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Montreal",
+"osm": "https://www.openstreetmap.org/way/932640500",
+"lat": 45.467532,
+"lon": -73.60399,
+"tags": {
+"depot": "truck;car",
+"industrial": "depot",
+"landuse": "industrial",
+"operator": "Transports Qu\u00e9bec"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Montreal",
+"osm": "https://www.openstreetmap.org/way/945910588",
+"lat": 45.440441,
+"lon": -73.652711,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Montreal",
+"osm": "https://www.openstreetmap.org/way/1033596762",
+"lat": 45.512345,
+"lon": -73.736602,
+"tags": {
+"description": "snow_depot",
+"industrial": "depot",
+"landuse": "industrial",
+"name": "D\u00e9p\u00f4t \u00e0 neige"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Montreal",
+"osm": "https://www.openstreetmap.org/way/1049616839",
+"lat": 45.524359,
+"lon": -73.707502,
+"tags": {
+"building": "service",
+"man_made": "pumping_station",
+"substance": "water",
+"utility": "water"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Montreal",
+"osm": "https://www.openstreetmap.org/way/1050507240",
+"lat": 45.540347,
+"lon": -73.664773,
+"tags": {
+"depot": "snow",
+"industrial": "depot",
+"landuse": "industrial"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Montreal",
+"osm": "https://www.openstreetmap.org/way/1050507246",
+"lat": 45.540344,
+"lon": -73.664782,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Montreal",
+"osm": "https://www.openstreetmap.org/way/1054007666",
+"lat": 45.522152,
+"lon": -73.706872,
+"tags": {
+"building": "yes",
+"man_made": "pumping_station",
+"name": "Poste de surpression"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Montreal",
+"osm": "https://www.openstreetmap.org/way/1063645250",
+"lat": 45.500511,
+"lon": -73.756709,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Montreal",
+"osm": "https://www.openstreetmap.org/way/1069253265",
+"lat": 45.428785,
+"lon": -73.648667,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Montreal",
+"osm": "https://www.openstreetmap.org/way/1078607486",
+"lat": 45.467852,
+"lon": -73.586985,
+"tags": {
+"building": "service",
+"man_made": "pumping_station",
+"substance": "water",
+"utility": "water"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Montreal",
+"osm": "https://www.openstreetmap.org/way/1095649639",
+"lat": 45.547035,
+"lon": -73.795082,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Montreal",
+"osm": "https://www.openstreetmap.org/way/1154743323",
+"lat": 45.534405,
+"lon": -73.645317,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Montreal",
+"osm": "https://www.openstreetmap.org/way/1241954511",
+"lat": 45.453153,
+"lon": -73.655037,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial",
+"name": "Ateliers Municipaux"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Montreal",
+"osm": "https://www.openstreetmap.org/way/1299578296",
+"lat": 45.523765,
+"lon": -73.569744,
+"tags": {
+"building": "shed",
+"man_made": "pumping_station"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Montreal",
+"osm": "https://www.openstreetmap.org/way/1456887587",
+"lat": 45.514444,
+"lon": -73.693411,
+"tags": {
+"industrial": "depot",
+"landuse": "industrial",
+"name": "STM Garage C\u00f4te-Vertu",
+"operator": "STM"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Montreal",
+"osm": "https://www.openstreetmap.org/way/1501049014",
+"lat": 45.495418,
+"lon": -73.720517,
+"tags": {
+"depot": "snow",
+"industrial": "depot",
+"landuse": "landfill"
+},
+"query_endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+},
+{
+"area": "Kingston-Brockville",
+"osm": "https://www.openstreetmap.org/node/184391108",
+"lat": 44.217839,
+"lon": -76.574511,
+"tags": {
+"man_made": "pumping_station"
+},
+"query_endpoint": "https://overpass.private.coffee/api/interpreter"
+},
+{
+"area": "Kingston-Brockville",
+"osm": "https://www.openstreetmap.org/node/445186245",
+"lat": 44.213498,
+"lon": -76.568089,
+"tags": {
+"man_made": "pumping_station"
+},
+"query_endpoint": "https://overpass.private.coffee/api/interpreter"
+},
+{
+"area": "Kingston-Brockville",
+"osm": "https://www.openstreetmap.org/node/452866410",
+"lat": 44.250208,
+"lon": -76.460237,
+"tags": {
+"man_made": "pumping_station",
+"name": "Butternut Creek Pumping Station"
+},
+"query_endpoint": "https://overpass.private.coffee/api/interpreter"
+},
+{
+"area": "Kingston-Brockville",
+"osm": "https://www.openstreetmap.org/way/57852704",
+"lat": 44.2211,
+"lon": -76.516392,
+"tags": {
+"addr:city": "Kingston",
+"addr:housenumber": "621",
+"addr:street": "King Street West",
+"building": "detached",
+"building:colour": "beige",
+"building:levels": "1",
+"building:material": "stone",
+"man_made": "pumping_station",
+"operator": "Utilities Kingston",
+"roof:colour": "grey"
+},
+"query_endpoint": "https://overpass.private.coffee/api/interpreter"
+},
+{
+"area": "Kingston-Brockville",
+"osm": "https://www.openstreetmap.org/way/188001248",
+"lat": 44.643355,
+"lon": -75.61534,
+"tags": {
+"landuse": "industrial",
+"name": "Maitland Terminal",
+"operator": "Valero"
+},
+"query_endpoint": "https://overpass.private.coffee/api/interpreter"
+},
+{
+"area": "Kingston-Brockville",
+"osm": "https://www.openstreetmap.org/way/1532490863",
+"lat": 44.271437,
+"lon": -76.448991,
+"tags": {
+"operator": "Enbridge",
+"operator:wikidata": "Q1339966",
+"pipeline": "substation"
+},
+"query_endpoint": "https://overpass.private.coffee/api/interpreter"
+}
+]
+}

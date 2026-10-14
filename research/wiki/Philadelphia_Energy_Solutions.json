@@ -1,0 +1,16 @@
+{
+ "title": "2019 Philadelphia refinery explosion",
+ "url": "https://en.wikipedia.org/wiki/2019_Philadelphia_refinery_explosion",
+ "infobox": {
+  "name": "Philadelphia Energy Solutions refinery explosion",
+  "map": "{{Location map | Philadelphia | float=center |label=PES Refinery |lat_deg=39.908260 | lon_deg=-75.208648  }}",
+  "date": "{{Start date|2019|06|21}}",
+  "time": "04:00 AM EDT",
+  "location": "Philadelphia, Pennsylvania",
+  "coordinates": "{{Coord|39|54|11.4|N|75|12|32.2|W|type:event|display=inline,title}}",
+  "type": "Vapor cloud fire leading to three explosions, of which one boiling-liquid expanding-vapor explosion (BLEVE)",
+  "deaths": "0",
+  "injuries": "5"
+ },
+ "intro": "In the early morning of June 21, 2019, a fire and multiple explosions occurred at the Philadelphia Energy Solutions (PES) refinery in Philadelphia, Pennsylvania. A release of hydrocarbons and hydrofluoric acid in the refinery's alkylation unit caused a ground-hugging vapor cloud which rapidly ignited, leading to three separate explosions minutes apart from each other. The largest explosion, a BLEVE, sent a vessel fragment flying 2,000 feet (610 m) across the Schuylkill River. Five employees sustained minor injuries, but there were ultimately no fatalities. The refinery announced it would shut down operations the same month, and filed for bankruptcy a month later."
+}
