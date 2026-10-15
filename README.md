@@ -39,4 +39,4 @@ Unofficial and for information only; not for navigation, excavation or safety de
 | [AWS Terrain Tiles](https://registry.opendata.aws/terrain-tiles/) (Terrarium) | 3D terrain, streamed at runtime | See the registry page for source attributions (SRTM, USGS, GMTED and others) |
 | [CesiumJS](https://cesium.com/platform/cesiumjs/) 1.138.0, vendored in `vendor/cesium` | 3D globe | Apache-2.0 (`vendor/cesium-LICENSE.md`). No Cesium ion token is used |
 
-The code (`js/`, `css/`, `tools/`, `tests/`, `index.html`) is MIT licensed; see `LICENSE`. Third-party data keeps its own license as listed above.
+The code (`js/`, `css/`, `tools/`, `tests/`, `index.html`) is MIT licensed; see `LICENSE`. Third-party data keeps its own license as listed above. Vendored CesiumJS is Apache-2.0, and OpenStreetMap-derived data is ODbL 1.0.
