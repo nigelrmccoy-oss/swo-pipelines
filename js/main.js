@@ -48,7 +48,10 @@ async function loadCont(name, cls) {
 
 // ---------- researched SW Ontario detail ----------
 const D = await J('data/swo.json');
-const H = await J('data/home.json').catch(() => null);
+// Optional private home layer: data/private/home.json is gitignored and never published. Absent (or ?nohome) -> layer, view and KPI hidden.
+const H = /nohome/.test(location.search) ? null : await J('data/private/home.json').catch(() => null);
+if (H?.location?.lat) VIEWS.home = [H.location.lon, H.location.lat - 0.0197, 1.8e3, -45];
+else document.querySelectorAll('#views button[data-fly=home], #filters button[data-c=home]').forEach(b => b.remove());
 const flows = [];
 const pts = viewer.scene.primitives.add(new C.PointPrimitiveCollection());
 const capMax = { 'bbl/d': 667000, 'Bcf/d': 2.4, 'PJ/d': 7.89 };
@@ -99,12 +102,12 @@ function homeLayer() {
   const L = H.location, path = H.supply_path.filter(p => p.lat).map(p => [p.lon, p.lat]); path.push([L.lon, L.lat]);
   const e = viewer.entities.add({ id: 'HOME:path', polyline: { positions: C.Cartesian3.fromDegreesArray(path.flat()), clampToGround: true, width: 4, material: new C.PolylineDashMaterialProperty({ color: C.Color.fromCssColorString('#ffb020'), dashLength: 18 }) } });
   e.swo = { kind: 'home' }; add('home', e);
-  pin('HOME:house', L.lon, L.lat, '#ffffff', '⌂ [private address] (OSM geocode)', { kind: 'home' }, 'home', 14);
-  const g = H.supply_path[2]; pin('HOME:gate', g.lon, g.lat, '#ffb020', 'Kitchener gate station — APPROXIMATE/SCHEMATIC location', { kind: 'home' }, 'home', 10);
+  pin('HOME:house', L.lon, L.lat, '#ffffff', '⌂ ' + (H.short_label || 'My home') + ' (OSM geocode)', { kind: 'home' }, 'home', 14);
+  const g = H.supply_path[2]; pin('HOME:gate', g.lon, g.lat, '#ffb020', (g.label_short || 'Local gate station') + ' — APPROXIMATE/SCHEMATIC location', { kind: 'home' }, 'home', 10);
 }
 homeLayer();
 function homePanel() {
-  const P = document.getElementById('homePanel'); if (!H) { P.innerHTML = '<h3>My home</h3>data/home.json not found.'; return; }
+  const P = document.getElementById('homePanel'); if (!H) { P.innerHTML = '<h3>My home</h3>No private home data (data/private/home.json) on this machine; layer disabled.'; P.classList.remove('hidden'); return; }
   const g = H.gas, w = H.water, el = H.electricity;
   P.innerHTML = `<button style="float:right" onclick="this.parentNode.classList.add('hidden')">✕</button><h3>${H.name}</h3>
   <div>Location: ${H.location.lat.toFixed(5)}, ${H.location.lon.toFixed(5)} · ${H.location.source} ${srcLinks([H.location.source_url])}</div>
@@ -212,7 +215,7 @@ if (/tour/.test(location.hash)) {
     ['mtl-popup', () => { open({ kind: 'line', x: D.lines.find(l => l.id === 'tnpi') }); }],
     ['east', () => { closeFp(); click('#views button[data-fly=east]'); }],
     ['east-gasonly', () => { ['crude', 'products', 'hgl', 'crude/NGL'].forEach(c => click(`#filters button[data-c="${c}"]`)); open({ kind: 'line', x: D.lines.find(l => l.id === 'iroquois') }); }],
-    ['home', () => { closeFp(); ['crude', 'products', 'hgl', 'crude/NGL'].forEach(c => click(`#filters button[data-c="${c}"]`)); click('#views button[data-fly=home]'); }],
+    ['home', () => { if (!H) return; closeFp(); ['crude', 'products', 'hgl', 'crude/NGL'].forEach(c => click(`#filters button[data-c="${c}"]`)); click('#views button[data-fly=home]'); }],
     ['search', () => { closeHome(); se.value = 'Suncor Montreal'; se.onchange(); }],
     ['end', () => { closeFp(); fly('swo'); }]];
   let i = 0; const step = () => { const [n, f] = S[i]; console.log('TOUR', n); document.title = 'TOUR ' + n; try { f(); } catch (e) { console.error('tour', n, e); document.title = 'TOUR ERR ' + n + ' ' + e.message; } if (++i < S.length) setTimeout(step, 20000); };

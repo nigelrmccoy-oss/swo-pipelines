@@ -4,3 +4,8 @@ shots/smoke-*
 tools/.venv/
 tools/__pycache__/
 shots/*-sm.jpg
+data/private/
+.env
+*.env
+shots/contact-*
+shots/
