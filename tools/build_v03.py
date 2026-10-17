@@ -26,7 +26,7 @@ for l in OLD["lines"]:
 for l in lines:
     if l["id"] == "line9": l["route_accuracy"]["note"] += " Toronto-Hawkesbury middle section is approximate: via-points follow the CER-listed municipalities (Mississauga, Toronto, Oshawa, Belleville, Kingston, Brockville, Cornwall, Hawkesbury) on land north of Lake Ontario."; l["route_accuracy"]["sources"].append("https://apps.cer-rec.gc.ca/PPS/en/pipeline-profiles/enbridge-line-9")
     if l["id"] == "suncanadian": l["route_accuracy"]["note"] = "No OSM/EIA geometry found. Approximate land via-points Sarnia-London-Hamilton-Burlington-Oakville-Toronto (served cities per source); intermediate points are not sourced."
-    if l["id"] == "panhandle": l["route_accuracy"]["note"] = "No reliably tagged OSM geometry; approximate via Dawn - Dover TS - Lakeshore valve site - Ojibway (endpoints from OEB/Enbridge sources)."
+    if l["id"] == "panhandle": l["route_accuracy"]["note"] = "No reliably tagged OSM geometry; approximate via Dawn - Dover - Lakeshore - Windsor (Ojibway) town/area points (endpoints from OEB/Enbridge sources)."
 # ---- Montreal + Eastern Seaboard lines (EIA/OSM operator-matched geometry) ----
 W = lambda t: "https://en.wikipedia.org/wiki/" + t
 CERM = "https://apps.cer-rec.gc.ca/PPS/en/pipeline-profiles/montreal"; CERT = "https://apps.cer-rec.gc.ca/PPS/en/pipeline-profiles/trans-northern"
