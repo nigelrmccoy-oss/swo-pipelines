@@ -150,9 +150,108 @@ for i in DEP["items"]:
 stations = OLD["stations"] + stations_new
 for s in OLD["stations"]:
     if s["name"].startswith("Dawn"): s["coord_note"] = "approximate: Dawn Township place coordinates (no OSM facility found in fetched data)"
-out = dict(OLD); out.update(version="0.3", generated=__import__("datetime").date.today().isoformat(), lines=lines, facilities=facs, stations=stations,
+# ==== v0.3.1 additions (inserted before output) ====
+ENBF = "https://www.enbridge.com/~/media/enb/documents/factsheets/fs_energyinfrastructureassets.pdf"
+CERREG = "https://apps.cer-rec.gc.ca/REGDOCS/Item/Open/3966125"; CERMAIN = "https://apps.cer-rec.gc.ca/PPS/en/pipeline-profiles/enbridge-canadian-mainline"
+CBC7 = "https://www.cbc.ca/news/canada/hamilton/headlines/the-local-enbridge-pipeline-expansion-you-don-t-know-about-1.2498056"
+def osm_pt(name):
+    o = osm_at(name); return (o["lon"], o["lat"], o["osm"]) if o else None
+SARNIA_T = osm_pt("Enbridge Sarnia Terminal"); WESTOVER_T = osm_pt("Westover Terminal")
+NANT = next(f for f in facs if f["id"] == "nanticoke")
+def connector(lid, name, a, b, fields, sources_pos):
+    l = dict(id=lid, name=name, kind="pipeline", region="swo", commodity="crude", cap_num=None, cap_unit=None, waypoints=[], incidents=[], crossings=[], connector=True,
+             flow_note="No flow animation: route not in open data.", geometry={"type": "LineString", "coordinates": [[a[0], a[1]], [b[0], b[1]]]})
+    l.update(fields)
+    l["route_accuracy"] = dict(level="unknown route: endpoints only", note="The route is not in OSM/EIA open data. The dashed line only links the two sourced endpoints; it is NOT the pipeline route. Endpoint positions: " + "; ".join(sources_pos) + ".", sources=[s for s in sources_pos if s.startswith("http")])
+    return l
+lines = [l for l in lines if l["id"] != "line7"]
+lines.append(connector("line7", "Enbridge Line 7 (Sarnia - Westover)", SARNIA_T, WESTOVER_T, dict(
+    operator=F("Enbridge Pipelines Inc. (Canadian Mainline)", ENBF, CERMAIN), product=F("Light, medium and heavy crude", ENBF), diameter_in=F(20, ENBF),
+    capacity=F("180,000 bbl/d (average annual)", ENBF, CBC7), length=F("193 km (120 mi)", ENBF), route=F("Sarnia, ON -> Westover Station near Hamilton, ON, where it connects with Line 11", CERREG, ENBF),
+    endpoints=F(["Sarnia, ON", "Westover, ON"], CERREG), in_service=F("unknown (CBC in 2014 called it 'almost six decades old': roughly late 1950s, ESTIMATE)", CBC7),
+    status=F("Operational; capacity raised from 147,000 to 180,000 bbl/d with drag-reducing agent (2014)", ENBF, CBC7)), [SARNIA_T[2], WESTOVER_T[2]]))
+lines.append(connector("line11", "Enbridge Line 11 (Westover - Nanticoke)", WESTOVER_T, (NANT["lon"], NANT["lat"]), dict(
+    operator=F("Enbridge Pipelines Inc. (Canadian Mainline)", ENBF, CERMAIN), product=F("Light, medium and heavy crude", ENBF), diameter_in=F("16-20", ENBF),
+    capacity=F("117,000 bbl/d (average annual)", ENBF), length=F("76 km (47 mi)", ENBF), route=F("Westover Station -> Nanticoke, ON (Imperial Nanticoke refinery)", CERREG, CERMAIN, ENBF),
+    endpoints=F(["Westover, ON", "Nanticoke, ON"], CERREG), in_service=F(U), status=F("Operational", ENBF)), [WESTOVER_T[2], "Nanticoke refinery: approximate (unconfirmed OSM area)"]))
+# Line 6B (replaced) flag for rendering/picking; Panhandle wording (no valve-site naming)
+for l in lines:
+    if l["id"] == "line6b": l["replaced"] = True
+    if l["id"] == "panhandle": l["route_accuracy"]["note"] = "No reliably tagged OSM geometry. Approximate route through town/area points Dawn - Dover - Lakeshore - Windsor (Ojibway); endpoints from OEB/Enbridge sources. Intermediate points are not sourced."
+    if l["id"] == "line5": l["length"] = F("1,038 km (645 mi)", ENBF, *l["length"]["sources"])
+# ---- geometry-based route accuracy (QA P1-3) ----
+def _parts(g): return [] if not g else ([g["coordinates"]] if g["type"] == "LineString" else g["coordinates"])
+def stated_km(v):
+    s = str(v or ""); km = [float(x.replace(",", "")) for x in re.findall(r"([\d][\d,]*(?:\.\d+)?)\s*km", s)]
+    if km: return max(km)
+    mi = [float(x.replace(",", "")) for x in re.findall(r"([\d][\d,]*(?:\.\d+)?)\s*(?:mi\b|miles?)", s)]
+    return max(mi) * 1.609 if mi else None
+COARSE = 25.0
+for l in lines:
+    a = l["route_accuracy"]; P = _parts(l.get("geometry"))
+    edges = [hav(p, q) for pt in P for p, q in zip(pt, pt[1:])]
+    drawn = sum(edges); coarse = sum(e for e in edges if e > COARSE); longest = max(edges) if edges else 0
+    st = stated_km(l["length"]["value"]) if isinstance(l.get("length"), dict) else None
+    a.update(drawn_km=round(drawn), longest_straight_km=round(longest, 1), straight_runs_over_25km_km=round(coarse), stated_km=round(st) if st else None)
+    if l.get("connector") or l["id"] == "glt": continue
+    ds = a.get("datasets", []); eia = any(d.startswith("us_") for d in ds); osm = any(d.startswith("osm") for d in ds)
+    base = "OSM + EIA" if eia and osm else "OSM" if osm else "EIA" if eia else None
+    issues = []
+    if drawn and coarse / drawn > 0.03: issues.append(f"{coarse:.0f} km ({100 * coarse / drawn:.0f}%) is drawn as straight runs longer than 25 km (schematic source geometry or approximate legs); longest {longest:.0f} km")
+    if st and drawn and drawn / st < 0.6 and l["id"] != "tc_mainline_east": issues.append(f"only about {drawn:.0f} of {st:.0f} km stated length is drawn (open data covers part of the line)")
+    if st and drawn and drawn / st > 1.4: issues.append(f"drawn {drawn:.0f} km vs {st:.0f} km stated: includes laterals, loops or parallel lines from the source layer")
+    share = a.get("matched_share")
+    if base is None or (share is not None and share < 0.2): level = "approximate"
+    elif issues or (share is not None and share < 0.9): level = "partial: " + base
+    else: level = base
+    a["level"] = level
+    if issues: a["issues"] = issues
+    if eia: a["note"] = a.get("note", "") + " EIA's national layer is schematic for liquids lines (long straight runs); EIA segments are not survey-grade."
+    a["note"] = a.get("note", "").replace("EIA (~300 m simplified)", "EIA")
+# ---- metric units (+ bbl/d kept) ----
+def _num(x): return float(x.replace(",", ""))
+def _mi(m):
+    src = m.string; pre = src[max(0, m.start() - 4):m.start()]
+    after = src[m.end():m.end() + 14]
+    if pre.endswith("km (") or re.match(r"\s*\(\s*[\d,\.]+\s*km", after): return m.group(0)  # already has a km figure
+    a_, b_ = m.group(1), m.group(2)
+    km = f"{_num(a_) * 1.609344:,.0f}" + (f"-{_num(b_) * 1.609344:,.0f}" if b_ else "")
+    return f"{km} km ({a_}{'-' + b_ if b_ else ''} mi)"
+def metricize(s):
+    if not isinstance(s, str): return s
+    s = re.sub(r"(\d[\d,]*(?:\.\d+)?)(?:\s*-\s*(\d[\d,]*(?:\.\d+)?))?[\s-]*(?:miles|mile|mi)\b", _mi, s)
+    s = re.sub(r"(\d[\d,]*(?:\.\d+)?)\s*(?:ft|feet)\b", lambda m: f"{_num(m.group(1)) * 0.3048:,.0f} m ({m.group(1)} ft)", s)
+    s = re.sub(r"(\d[\d,]*(?:\.\d+)?)\s*Bcf/d", lambda m: f"{m.group(1)} Bcf/d (about {_num(m.group(1)) * 28.3168:,.1f} million m³/d, converted)", s)
+    s = re.sub(r"(\d[\d,]*(?:\.\d+)?)\s*MMcf/d", lambda m: f"{m.group(1)} MMcf/d (about {_num(m.group(1)) * 0.0283168:,.2f} million m³/d, converted)", s)
+    s = re.sub(r"(\d[\d,]*(?:\.\d+)?)\s*hp\b", lambda m: f"{_num(m.group(1)) * 0.7457:,.0f} kW ({m.group(1)} hp)", s)
+    return s
+def _mm(x): return f"{float(x) * 25.4:,.0f}"
+def diam_mm(v):
+    if isinstance(v, (int, float)): return f"{_mm(v)} mm ({v} in)"
+    s = str(v)
+    if s == "unknown": return "unknown"
+    m = re.fullmatch(r"(\d+)\s*x\s*(\d+(?:\.\d+)?)", s)
+    if m: return f"{m.group(1)} x {_mm(m.group(2))} mm ({s} in)"
+    m = re.match(r"^(up to )?(\d+(?:\.\d+)?)(?:-(\d+(?:\.\d+)?))?(?=\s|$|\()", s)
+    out = s
+    if m and not s.startswith("NPS"):
+        mmv = _mm(m.group(2)) + (f"-{_mm(m.group(3))}" if m.group(3) else "")
+        out = f"{m.group(1) or ''}{mmv} mm ({m.group(2)}{'-' + m.group(3) if m.group(3) else ''} in)" + s[m.end():]
+    out = re.sub(r"\b(\d+(?:\.\d+)?)-in\b", lambda q: f"{_mm(q.group(1))} mm ({q.group(1)}-in)", out)
+    out = re.sub(r"\bNPS (\d+)", lambda q: f"NPS {q.group(1)} (nominal ~{_mm(q.group(1))} mm)", out)
+    return out
+for l in lines:
+    for k in ("length", "capacity", "route", "status", "operator", "product"):
+        if isinstance(l.get(k), dict): l[k]["value"] = metricize(l[k]["value"])
+    if isinstance(l.get("diameter_in"), dict): l["diameter"] = {"value": diam_mm(l["diameter_in"]["value"]), "sources": l["diameter_in"]["sources"]}
+    for inc in l.get("incidents", []): inc["value"] = metricize(inc["value"])
+for s_ in stations: s_["name"] = metricize(s_["name"])
+for f in facs:
+    for k in ("capacity", "status", "current_use"):
+        if isinstance(f.get(k), dict): f[k]["value"] = metricize(f[k]["value"])
+out = dict(OLD); out.update(version="0.3.1", generated=__import__("datetime").date.today().isoformat(), lines=lines, facilities=facs, stations=stations,
     coord_note="v0.3: line geometry from OSM/EIA operator matches where available (see route_accuracy per line); otherwise approximate land via-points. Facility positions: pos_source per item.",
-    water_audit=json.load(open("data/water_audit.json")) if __import__("os").path.exists("data/water_audit.json") else None)
+    water_audit=json.load(open("data/water_audit_v03.json")) if __import__("os").path.exists("data/water_audit_v03.json") else None)
 srcs = set(OLD["sources"])
 def walk(o):
     if isinstance(o, dict):
