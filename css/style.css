@@ -27,3 +27,16 @@ main { position:absolute; top:84px; bottom:24px; left:0; right:0; }
 #homePanel { left:8px; right:auto; width:380px; } #homePanel.hidden { display:none; } #homePanel h3 { margin:0 0 6px; color:#7fd3ff; }
 .est { color:#c9a0ff; } .sch { color:var(--warn); } table.t { width:100%; border-collapse:collapse; } table.t td { border-bottom:1px solid var(--line); padding:2px 4px; }
 #banner a { color:var(--info); }
+/* v0.3.1 additions */
+#mapLegend i.dash { background:none !important; border-top:3px dashed currentColor; height:0; }
+#lgToggle { width:100%; text-align:left; margin-bottom:4px; padding:2px 6px; }
+#searchMsg { color:var(--warn); font-size:11px; min-width:0; }
+@media (max-width: 700px) {
+  .brand small { display:none; }
+  #top { gap:6px; padding:4px 6px; } #top label, #filters button, #views button { font-size:11px; padding:2px 5px; }
+  #kpis { gap:8px; font-size:11px; padding:3px 6px; max-height:44px; overflow:auto; }
+  #search { width:140px; }
+  #mapLegend { max-width:70vw; max-height:45%; }
+  #faceplate, #homePanel { left:4px; right:4px; width:auto; top:auto !important; bottom:28px; max-height:55%; }
+  #banner { font-size:9px; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; }
+}

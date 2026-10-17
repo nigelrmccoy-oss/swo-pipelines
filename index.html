@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>SWO-PIPELINES v0.3 · North American pipelines, SW Ontario focus (unofficial)</title>
+<title>SWO-PIPELINES v0.3.1 · North American pipelines, SW Ontario focus (unofficial)</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22%3E%3Crect x=%221%22 y=%226%22 width=%2214%22 height=%224%22 fill=%22%23ffb020%22/%3E%3C/svg%3E" />
 <script>window.CESIUM_BASE_URL = 'vendor/cesium/';</script>
 <script src="vendor/cesium/Cesium.js"></script>
@@ -12,12 +12,12 @@
 </head>
 <body>
 <header id="top">
-  <div class="brand">SWO-PIPELINES <span>v0.3</span><small>North American oil &amp; gas pipelines · SW Ontario, Montreal &amp; Eastern Seaboard detail · 3D terrain + satellite (unofficial, public data)</small></div>
+  <div class="brand">SWO-PIPELINES <span>v0.3.1</span><small>North American oil &amp; gas pipelines · SW Ontario, Montreal &amp; Eastern Seaboard detail · 3D terrain + satellite (unofficial, public data)</small></div>
   <nav id="filters">
     <button data-c="crude" class="on">Crude</button><button data-c="crude/NGL" class="on">Crude/NGL</button><button data-c="hgl" class="on">HGL</button><button data-c="products" class="on">Products</button><button data-c="gas" class="on">Gas</button>
     <button data-c="stations" class="on">Stations</button><button data-c="fac" class="on">Storage/refineries</button><button data-c="depots" class="on">Depots/terminals</button><button data-c="decom" class="on">Decommissioned</button><button data-c="crossings" class="on">Crossings</button><button data-c="home" class="on">My home</button>
   </nav>
-  <input id="search" list="searchList" placeholder="Search line, operator, place…" /><datalist id="searchList"></datalist>
+  <input id="search" list="searchList" placeholder="Search line, operator, place…" /><datalist id="searchList"></datalist><span id="searchMsg" role="status"></span>
   <div id="views"><button data-fly="na">N. America</button><button data-fly="swo">SW Ontario</button><button data-fly="sarnia">Sarnia</button><button data-fly="mack">Mackinac</button><button data-fly="lakeont">Lake Ontario</button><button data-fly="mtl">Montreal</button><button data-fly="east">E. Seaboard</button><button data-fly="home">My home</button></div>
   <div id="speed"><button data-speed="0">❚❚</button><button data-speed="1" class="on">1×</button><button data-speed="5">5×</button></div>
   <label class="chk"><input type="checkbox" id="l5off" /> Scenario: Line 5 shut at Straits</label>
