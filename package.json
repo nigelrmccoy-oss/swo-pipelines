@@ -10,7 +10,8 @@
     "test": "node tests/smoke.mjs && node tests/nohome_check.mjs && node tests/deeplink.mjs",
     "test:deeplink": "node tests/deeplink.mjs",
     "test:smoke": "node tests/smoke.mjs",
-    "test:nohome": "node tests/nohome_check.mjs"
+    "test:nohome": "node tests/nohome_check.mjs",
+    "shots": "node tests/shots.mjs v031"
   },
   "devDependencies": {
     "playwright": "^1.48.0"
