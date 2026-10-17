@@ -30,12 +30,13 @@ def pick(rules):
                 for p in parts(f["geometry"]):
                     if len(p) > 1: segs.append((layer, [tuple(map(float, q[:2])) for q in p], f["properties"]))
     return segs
+MAX_EDGE_KM = 25.0  # OSM edges longer than this are bogus. EIA liquids layers are schematic (straight runs up to hundreds of km): allowed but reported as coarse in route_accuracy
 def graph(segs, bridge_km=3.0, keep=None):
     adj = collections.defaultdict(list); key = lambda q: (round(q[0], 4), round(q[1], 4)); ends = []
     for layer, pts, _ in segs:
         for a, b in zip(pts, pts[1:]):
             d = hav(a, b)
-            if (d > 2 and wet(a, b)) or (keep and not keep(a, b)): continue
+            if (layer.startswith("osm") and d > MAX_EDGE_KM) or (d > 2 and wet(a, b)) or (keep and not keep(a, b)): continue
             adj[key(a)].append((key(b), d, layer)); adj[key(b)].append((key(a), d, layer))
         ends += [key(pts[0]), key(pts[-1])]
     nodes = list(adj); grid = collections.defaultdict(list)
@@ -57,13 +58,19 @@ def nearest(grid, p, maxkm):
                 d = hav(p, n)
                 if d < maxkm and (best is None or d < best[0]): best = (d, n)
     return best[1] if best else None
-def dijkstra(adj, s, t, goal=None, snap_km=25):
+def seg_dist_km(p, a, b):
+    """Approximate distance (km) from point p to segment a-b (equirectangular, fine at leg scale)."""
+    k = math.cos(math.radians((a[1] + b[1]) / 2)); ax, ay, bx, by, px, py = a[0] * k, a[1], b[0] * k, b[1], p[0] * k, p[1]
+    dx, dy = bx - ax, by - ay; L = dx * dx + dy * dy; t = 0 if L == 0 else max(0, min(1, ((px - ax) * dx + (py - ay) * dy) / L))
+    return math.hypot(px - (ax + t * dx), py - (ay + t * dy)) * 111.2
+def dijkstra(adj, s, t, goal=None, snap_km=25, corridor=None):
     dist = {s: 0}; prev = {}; pq = [(0, s)]
     while pq:
         d, u = heapq.heappop(pq)
         if u == t: break
         if d > dist[u]: continue
         for v, w, lay in adj[u]:
+            if corridor and seg_dist_km(v, corridor[0], corridor[1]) > corridor[2]: continue  # v0.3.1: stay near the leg
             nd = d + w
             if nd < dist.get(v, 1e18): dist[v] = nd; prev[v] = (u, lay); heapq.heappush(pq, (nd, v))
     if t not in dist:
@@ -80,7 +87,11 @@ def route(vias, rules, snap_km=20, bridge_km=3.0, keep=None):
     coords, km_match, km_total, used, legs = [], 0.0, 0.0, set(), []
     for a, b in zip(vias, vias[1:]):
         sa, sb = (nearest(grid, a, snap_km), nearest(grid, b, snap_km)) if segs else (None, None)
-        r = dijkstra(adj, sa, sb, goal=b, snap_km=snap_km) if sa and sb and sa != sb else None
+        chord = hav(a, b); corr = (a, b, max(12.0, 0.35 * chord))
+        r = dijkstra(adj, sa, sb, goal=b, snap_km=snap_km, corridor=corr) if sa and sb and sa != sb else None
+        if r:  # v0.3.1 guards: reject detours (path >> chord) and paths ending far from the via-point
+            plen = sum(hav(x, y) for x, y in zip(r[0], r[0][1:])) + hav(a, r[0][0]) + hav(r[0][-1], b)
+            if plen > 1.8 * chord + 15 or hav(r[0][-1], b) > snap_km: print(f"  rejected leg {a}->{b}: path {plen:.0f} km vs chord {chord:.0f} km"); r = None
         if r:
             p, lays = r; leg = [a] + list(p) + [b]
             for (x, y), lay in zip(zip(p, p[1:]), lays):
