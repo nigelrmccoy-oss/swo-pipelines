@@ -176,7 +176,7 @@ Waypoint coordinates are approximate locations of named places used as schematic
 - **diameter_in**: NPS 36 loop (rest unknown)  [src](https://www.enbridgegas.com/about-enbridge-gas/projects/panhandle-regional-expansion)
 - **capacity**: unknown  
 - **length**: PREP loop about 19 km Dover TS - Lakeshore; full system unknown  [src](https://www.enbridgegas.com/about-enbridge-gas/projects/panhandle-regional-expansion)
-- **route**: Dawn Compressor Station -> Ojibway Valve Site, Windsor  [src](https://www.rds.oeb.ca/CMWebDrawer/Record/852653/File/document) [src](https://www.oeb.ca/sites/default/files/ENBRIDGE%20GAS-LTC-EB-2022-0157-PANHANDLE-BG-FINAL-14-05-24.pdf)
+- **route**: Dawn Compressor Station -> Windsor (Ojibway area)  [src](https://www.rds.oeb.ca/CMWebDrawer/Record/852653/File/document) [src](https://www.oeb.ca/sites/default/files/ENBRIDGE%20GAS-LTC-EB-2022-0157-PANHANDLE-BG-FINAL-14-05-24.pdf)
 - **endpoints**: ['Dawn', 'Ojibway, Windsor']  [src](https://www.oeb.ca/sites/default/files/ENBRIDGE%20GAS-LTC-EB-2022-0157-PANHANDLE-BG-FINAL-14-05-24.pdf)
 - **in_service**: PREP loop Dec 15, 2024; original system unknown  [src](https://www.enbridgegas.com/about-enbridge-gas/projects/panhandle-regional-expansion)
 - **status**: Operating; OEB approved PREP May 14 2024  [src](https://www.oeb.ca/sites/default/files/ENBRIDGE%20GAS-LTC-EB-2022-0157-PANHANDLE-BG-FINAL-14-05-24.pdf)

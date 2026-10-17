@@ -177,6 +177,7 @@ lines.append(connector("line11", "Enbridge Line 11 (Westover - Nanticoke)", WEST
 # Line 6B (replaced) flag for rendering/picking; Panhandle wording (no valve-site naming)
 for l in lines:
     if l["id"] == "line6b": l["replaced"] = True
+    if l["id"] == "panhandle": l["route"]["value"] = "Dawn Compressor Station -> Windsor (Ojibway area)"
     if l["id"] == "panhandle": l["route_accuracy"]["note"] = "No reliably tagged OSM geometry. Approximate route through town/area points Dawn - Dover - Lakeshore - Windsor (Ojibway); endpoints from OEB/Enbridge sources. Intermediate points are not sourced."
     if l["id"] == "line5": l["length"] = F("1,038 km (645 mi)", ENBF, *l["length"]["sources"])
 # ---- geometry-based route accuracy (QA P1-3) ----
