@@ -34,13 +34,14 @@ await p.evaluate(() => document.querySelector('#filters button[data-c=terminals]
 // ---- wells + LOD
 await p.evaluate(() => document.querySelector('#filters button[data-c=wells]').click());
 await p.waitForFunction(() => window.SWO.V04.state().shown.mode !== 'none', null, { timeout: 120000 });
+const fi = await p.evaluate(() => window.SWO.V04.info.field_points); console.log('field points', fi); ok(fi >= 400, 'field infrastructure points (gas plants, compressors, field sites) >= 400');
 const wstate = () => p.evaluate(() => window.SWO.V04.state().shown);
 let s = await wstate(); console.log('wells initial', JSON.stringify(s)); ok(s.total > 250000, 'wells total > 250k'); ok(s.mode === 'clusters' && s.drawn < 4000, 'wide view uses clusters (<4000 prims)');
 const go = async (lon, lat, h) => { await p.evaluate(([lon, lat, h]) => { const C = window.Cesium; window.SWO.viewer.camera.setView({ destination: C.Cartesian3.fromDegrees(lon, lat, h), orientation: { heading: 0, pitch: -1.55 } }); window.SWO.V04.rebuild(); }, [lon, lat, h]); await p.waitForTimeout(6000); return wstate(); };
 s = await go(-81.9, 42.55, 2.5e4); console.log('wells zoomed (Lake Erie coast)', JSON.stringify(s)); ok(s.mode === 'points' && s.drawn > 0 && s.drawn <= 30000, 'zoomed view uses individual points');
 const wp = await p.evaluate(() => { const W = window.SWO.V04.wells; const pr = W.pts && W.pts.length ? W.pts.get(0) : null; if (!pr) return null; window.SWO.open(pr.id.swo); return document.getElementById('faceplate').textContent; });
 console.log('well popup:', (wp || '').replace(/\s+/g, ' ').slice(0, 220)); ok(wp && /status/i.test(wp) && /type/i.test(wp) && /operator/i.test(wp), 'well popup has status/type/operator');
-await p.evaluate(() => { const C = window.Cesium; window.SWO.viewer.camera.setView({ destination: C.Cartesian3.fromDegrees(-88, 44, 4e6) }); }); await p.waitForTimeout(6000); s = await wstate(); console.log('wells world view', JSON.stringify(s)); ok(s.mode === 'clusters' && s.drawn < 4000, 'world view back to clusters');
+await p.evaluate(() => { const C = window.Cesium; window.SWO.viewer.camera.setView({ destination: C.Cartesian3.fromDegrees(-88, 44, 4e6) }); window.SWO.V04.rebuild(); }); await p.waitForTimeout(6000); s = await wstate(); console.log('wells world view', JSON.stringify(s)); ok(s.mode === 'clusters' && s.drawn < 4000, 'world view back to clusters');
 await p.evaluate(() => document.querySelector('#filters button[data-c=wells]').click()); await p.waitForTimeout(500); ok((await wstate()).mode === 'none' || !(await p.evaluate(() => window.SWO.V04.wells.on)), 'wells toggle off clears');
 console.log('errors', errs.length, errs.filter(e => !/Failed to load resource/.test(e)).slice(0, 5).join(' | ')); await b.close();
 console.log(fails.length ? 'v04 checks: FAIL ' + fails.join('; ') : 'v04 checks: PASS'); process.exit(fails.length || errs.filter(e => !/Failed to load resource/.test(e)).length ? 1 : 0);

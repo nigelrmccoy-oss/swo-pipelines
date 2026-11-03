@@ -123,7 +123,8 @@ export function createV04(ctx) {
   async function loadField() {
     if (W.field) return W.field; let F; try { F = await J('data/field_infra.json'); } catch { W.field = { points: [], lines: [] }; return W.field; }
     const LC = { processing: '#ffd166', compressor: '#3fa7ff', storage: '#b78bff', wellsite: '#ff4f9a', facility: '#bbbbbb' };
-    F.points.forEach(f => pin('FI:' + f.id, f.lon, f.lat, LC[f.kind] || '#bbb', f.name, { kind: 'field', x: f }, 'wells', f.kind === 'processing' ? 10 : 7, '#000'));
+    W.fp = viewer.scene.primitives.add(new C.PointPrimitiveCollection());
+    F.points.forEach(f => W.fp.add({ position: C.Cartesian3.fromDegrees(f.lon, f.lat, 30), pixelSize: f.kind === 'processing' ? 9 : 6, color: C.Color.fromCssColorString(LC[f.kind] || '#bbb'), outlineColor: C.Color.BLACK, outlineWidth: 1, disableDepthTestDistance: 2e5, scaleByDistance: new C.NearFarScalar(2e4, 1.4, 3e6, 0.5), id: { swo: { kind: 'field', x: f } } }));
     if (F.lines.length && C.GroundPolylinePrimitive.isSupported(viewer.scene)) {
       const col = C.ColorGeometryInstanceAttribute.fromColor(C.Color.fromCssColorString('#7fd1ff').withAlpha(0.8));
       W.lineP = viewer.scene.groundPrimitives.add(new C.GroundPolylinePrimitive({ asynchronous: true, appearance: new C.PolylineColorAppearance(),
@@ -142,7 +143,7 @@ export function createV04(ctx) {
   return {
     info, loadTerminals, loadField, wells: W, rebuild, get terminals() { return termList; },
     popup(p) { return p.kind === 'term' ? termPopup(p.x) : p.kind === 'well' ? wellPopup(p) : p.kind === 'wellcluster' ? clusterPopup(p) : p.kind === 'field' ? fieldPopup(p.x) : null; },
-    async sync(show) { const on = show.wells !== false; if (on === W.on) return; W.on = on; if (on) { await loadWells(); await loadField(); if (W.lineP) W.lineP.show = true; ensurePrims(); rebuild(); } else { if (W.lineP) W.lineP.show = false; W.pts?.removeAll(); W.cl?.removeAll(); W.lab?.removeAll(); } },
+    async sync(show) { const on = show.wells !== false; if (on === W.on) return; W.on = on; if (on) { await loadWells(); await loadField(); if (W.lineP) W.lineP.show = true; if (W.fp) W.fp.show = true; ensurePrims(); rebuild(); } else { if (W.lineP) W.lineP.show = false; if (W.fp) W.fp.show = false; W.pts?.removeAll(); W.cl?.removeAll(); W.lab?.removeAll(); } },
     setClass(kind, k, v) { (kind === 't' ? W.tOn : W.sOn)[k] = v; rebuild(); },
     state: () => ({ tOn: W.tOn.slice(), sOn: W.sOn.slice(), shown: W.shown, on: W.on }),
     rebuild,

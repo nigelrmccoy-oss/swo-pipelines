@@ -138,8 +138,9 @@
     "as_of": "NuStar asset sheet; Plains per RBN",
     "sources": [
      "https://www.nustarenergy.com/Business/AssetSheets?assetid=TR_STJ_LA&assettype=Storage",
-     "https://rbnenergy.com/ (Plains figure, trade press)"
-    ]
+     "https://rbnenergy.com/"
+    ],
+    "note": "NuStar figure from its asset sheet; Plains 8.1 million bbl from RBN (trade press, rbnenergy.com)."
    }
   },
   {
@@ -157,9 +158,10 @@
     "basis": "sourced: operator (lower bound; underground, not mapped as tanks)",
     "as_of": "2025",
     "sources": [
-     "https://www.ogj.com/ (Enterprise figure, trade press)",
-     "https://www.opisnet.com/ (OPIS 2025)"
-    ]
+     "https://www.ogj.com/",
+     "https://www.opisnet.com/"
+    ],
+    "note": "Enterprise figure via OGJ (trade press); about 170 million bbl underground storage in the area per OPIS (2025)."
    },
    "note": "Most capacity is underground caverns, so the mapped surface tanks understate it."
   },

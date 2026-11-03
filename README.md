@@ -1,4 +1,4 @@
-# SWO-PIPELINES v0.3.1: North American oil & gas pipelines, SW Ontario, Montreal & Eastern Seaboard detail
+# SWO-PIPELINES v0.4.0: North American oil & gas pipelines, terminals and wells (SW Ontario, Montreal, Eastern Seaboard detail)
 
 Interactive 3D globe (CesiumJS, vendored, **no API keys**) with high-detail terrain (AWS Terrain Tiles) under Esri World Imagery.
 Same style as `wr-water`: no build step, vanilla ES modules, vendored libs, dark control-panel UI. **Unofficial**; uses public data only.
@@ -15,6 +15,13 @@ npm install && npm test            # headless tests (or set PW=/path/to/node_mod
 - **Sim**: animated flow dots (only on lines with sourced geometry; never on approximate, endpoints-only or replaced lines) in the nominal, source-described direction, with density and speed proportional to sourced capacity. A **Line 5 shut** scenario updates the Sarnia crude-capacity KPI (nameplate arithmetic only).
 - **Toggles** by product and point type, a **search** box, and fly-to quick views.
 - **Optional private "My home" layer**: if `data/private/home.json` exists (gitignored, never published), the app shows a schematic gas supply path to a house and a usage panel. Without that file, or with `?nohome`, the layer, its button and its KPI are hidden. No home data is in this repository.
+
+## v0.4.0
+- **Large terminals** (134: crude, refined products, LNG, NGL) with sourced capacities where published (Cushing, Hardisty, Edmonton, Superior, Patoka, Nederland, St. James, Mont Belvieu, NY Harbor, Canaport, EIA LNG) and **ESTIMATE** tank-farm sizes from OSM tank footprints elsewhere (metric with bbl). `docs/v04.md` lists each terminal with sources.
+- **Wells & field infrastructure** toggle (off by default): 276,442 wells from the Ontario Oil, Gas and Salt Resources Library/OPDS (incl. Lake Erie offshore), Michigan EGLE and EIA/NETL (OH/PA/NY), clustered by zoom (level of detail); plus EIA gas processing plants, OSM compressor and field sites. Type/status filters in the legend; plugged/abandoned hidden by default.
+- Code Critic P2/P3 fixes (search ranking, URL hash write-back, not-found, compact header, no page overflow). See `CHANGELOG.md`.
+- Data build: `python3 tools/fetch_wells.py`; `tools/.venv/bin/python tools/fetch_terminals.py && python3 tools/build_terminals.py && tools/.venv/bin/python tools/fetch_field.py && python3 tools/build_docs_v04.py`. Tests: `npm test` (smoke includes `tests/v04.mjs`), screenshots `node tests/shots_v04.mjs`.
+- Approximate: EIA terminal/plant coordinates are approximate; OSM tank footprints are incomplete (estimates); EIA LNG layer is dated Apr 2020; no gathering lines are drawn (none mapped in OSM for Lake Erie).
 
 ## v0.3.1
 - **Line 78 / 6B fixed**: they no longer run on past Sarnia along Line 9A or a 206 km straight chord. Matching is now restricted by name and to the west side of the St. Clair River, with a per-leg corridor and detour check (`tools/route_match.py`). Both end at Sarnia (drawn 630 km and 488 km). Line 6B is drawn faded and thin as "replaced", with no flow, and clicks prefer the in-service line.
@@ -49,6 +56,10 @@ Unofficial and for information only; not for navigation, excavation or safety de
 | U.S. EIA energy infrastructure layers via [DOE/NETL ArcGIS](https://arcgis.netl.doe.gov/server/rest/services/Hosted/EIA_pipeline_data/FeatureServer) | US crude, HGL, products and gas pipelines | U.S. Government work, public domain ([EIA copyright](https://www.eia.gov/about/copyrights_reuse.php)) |
 | © [OpenStreetMap](https://www.openstreetmap.org/copyright) contributors, via the Overpass API and Nominatim | Canadian and SW Ontario pipelines, terminals, depots, stations | [ODbL 1.0](https://opendatacommons.org/licenses/odbl/). Derived data in `data/gis/osm_*`, `data/ref/osm_*` and the OSM-derived geometry in `data/swo.json` / `data/routes_raw.json` is released under ODbL |
 | [NACEI](https://geoappext.nrcan.gc.ca/arcgis/rest/services/NACEI/energy_infrastructure_of_north_america_en/MapServer) (Natural Resources Canada) | Border-crossing pipelines | [Open Government Licence – Canada](https://open.canada.ca/en/open-government-licence-canada) |
+| Ontario [LIO Open08 MapServer/22](https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open08/MapServer/22) (Ontario Petroleum Data System / OGSR Library wells) | Ontario wells incl. Lake Erie | [Open Government Licence – Ontario](https://www.ontario.ca/page/open-government-licence-ontario) |
+| [Michigan EGLE](https://www.michigan.gov/egle/about/organization/oil-gas-and-minerals) oil and gas wells (GrmdOpenData) | Michigan wells | Michigan open data; public records |
+| EIA/NETL [Oil & Gas Infrastructure](https://services7.arcgis.com/p4qwkH3IF5hxHqd7/ArcGIS/rest/services/OilGasInfrastructure/FeatureServer) (wells, EIA-815 terminals, EIA-757 gas plants, LNG, refineries) | OH/PA/NY wells, terminal listings, gas processing plants | U.S. Government work, public domain |
+| Operator, CER and trade-press capacity pages (URLs per terminal in `data/terminals.json`, `docs/v04.md`) | Sourced terminal capacities | Facts cited, not copied |
 | [Natural Earth](https://www.naturalearthdata.com/) 10m lakes | Lake-crossing audit (`data/ref/ne_10m_lakes.*`) | Public domain |
 | Canada Energy Regulator, FERC, OEB, company and Wikipedia pages | Researched attributes (URLs per fact in `data/swo.json`) | Facts are cited, not copied. Wikipedia text is CC BY-SA; `research/wiki/*.json` caches page extracts with their URLs |
 | [Esri World Imagery](https://www.arcgis.com/home/item.html?id=10df2279f9684e4a9f6a7f08febac2a4) | Satellite basemap tiles, streamed at runtime (none are stored here) | Esri terms of use; attribution shown in the app (Esri, Maxar, Earthstar Geographics, GIS User Community) |
