@@ -1,6 +1,7 @@
 :root { --bg:#14181d; --panel:#1d232a; --panel2:#252c35; --line:#33404d; --txt:#d7dee6; --dim:#8696a6; --warn:#ffb020; --crit:#ff4d4d; --info:#4aa3ff; }
 * { box-sizing:border-box; }
 html,body { margin:0; height:100%; overflow:hidden; background:var(--bg); color:var(--txt); font:13px/1.35 system-ui,"Segoe UI",Roboto,sans-serif; }
+body { position:fixed; inset:0; }
 button,select,input { font:inherit; color:var(--txt); background:var(--panel2); border:1px solid var(--line); border-radius:3px; padding:3px 8px; cursor:pointer; }
 button:hover { border-color:#5a6b7d; } button.on { background:#2d5c88; border-color:#4aa3ff; }
 #top { display:flex; align-items:center; gap:14px; padding:6px 10px; background:#0e1216; border-bottom:1px solid var(--line); flex-wrap:wrap; }

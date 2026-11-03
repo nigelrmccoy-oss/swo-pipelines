@@ -1,5 +1,6 @@
 /** SWO-PIPELINES v0.4.0: Cesium globe (vendored, keyless) with EIA/NACEI/OSM continental layers, researched SW Ontario detail, flow sim, and My home layer. */
 import { makeTerrain } from './terrain.js';
+import { createV04 } from './v04.js';
 const C = window.Cesium;
 const COL = { crude: '#e04040', 'crude/NGL': '#ff8c1a', hgl: '#ff4fd8', products: '#2ecc71', gas: '#3fa7ff' };
 const ST_COL = { pump: '#ff8c1a', compressor: '#3fa7ff', terminal: '#ffd700', meter: '#bbbbbb' };
@@ -61,7 +62,7 @@ const LOCAL = ['localhost', '127.0.0.1', '[::1]'].includes(location.hostname);
 const H = (/nohome/.test(location.search) || !LOCAL) ? null : await J('data/private/home.json').catch(() => null);
 if (H?.location?.lat) VIEWS.home = [H.location.lon, H.location.lat - 0.0197, 1.8e3, -45];
 else document.querySelectorAll('#views button[data-fly=home], #filters button[data-c=home]').forEach(b => b.remove());
-const flows = [];
+const flows = []; let V04 = null;
 const pts = viewer.scene.primitives.add(new C.PointPrimitiveCollection());
 const capMax = { 'bbl/d': 667000, 'Bcf/d': 2.4, 'PJ/d': 7.89 };
 const posOf = w => C.Cartesian3.fromDegrees(w[1], w[0], 0);
@@ -113,6 +114,8 @@ const lift = c => { const g = C.Cartographic.fromCartesian(c); return C.Cartesia
 D.stations.forEach((s, i) => pin('S:' + i, s.lon, s.lat, ST_COL[s.type], `${s.name}`, { kind: 'station', x: s }, 'stations', 10));
 D.facilities.forEach(f => pin('F:' + f.id, f.lon + ({ imperial: 0.012, chemvalley: 0.02 }[f.id] || 0), f.lat + ({ imperial: -0.01, chemvalley: 0.012 }[f.id] || 0), FAC_COL[f.kind], (f.kind === 'refinery_decom' ? '⊘ ' : '') + f.name, { kind: 'fac', x: f }, FAC_GRP[f.kind] || 'fac', f.kind === 'terminal' ? 9 : 13, f.kind === 'refinery_decom' ? '#ff3b3b' : '#000'));
 D.crossings.forEach((c, i) => pin('X:' + i, c.lon, c.lat, '#00e5ff', `⨯ ${c.name}`, { kind: 'crossing', x: c }, 'crossings', 9));
+V04 = createV04({ C, viewer, pin, esc, srcLinks, safeUrl, J, add, searchIndex });
+await V04.loadTerminals();
 
 // ---------- My home layer ----------
 function homeLayer() {
@@ -146,6 +149,7 @@ const fp = document.getElementById('faceplate');
 const val = f => { if (f == null) return '<span class="unk">unknown</span>'; if (typeof f !== 'object' || !('value' in f)) return String(f); const v = Array.isArray(f.value) ? f.value.join(' → ') : f.value; return `${v === 'unknown' ? '<span class="unk">unknown</span>' : v}<br>${srcLinks(f.sources)}`; };
 function open(p) {
   if (!p) return; if (p.kind === 'home') return homePanel();
+  if (['term', 'well', 'wellcluster', 'field'].includes(p.kind)) { const v = V04.popup(p); fp.innerHTML = `<button style="float:right" id="fpx">✕</button><h3>${v.title}</h3>${v.html}`; fp.classList.remove('hidden'); document.getElementById('fpx').onclick = closeFp; if (p.kind === 'wellcluster') viewer.camera.flyTo({ destination: p.rect, duration: 1.2 }); hs.open = p.kind === 'term' || p.kind === 'field' ? labelFor(p) : null; writeHash(); return; }
   const x = p.x; let rows = '';
   if (p.kind === 'gis') {
     rows = Object.entries(p.props).filter(([, v]) => v != null && v !== '').map(([k, v]) => `<tr><td>${esc(k)}</td><td>${/^https?:\/\//.test(String(v)) ? `<a href="${safeUrl(v)}" target="_blank" rel="noopener">${esc(v)}</a>` : esc(v)}</td></tr>`).join('') +
@@ -168,18 +172,18 @@ const labelFor = p => (searchIndex.find(s => s.p === p || s.e?.swo === p) || {})
 function closeFp() { fp.classList.add('hidden'); hs.open = null; writeHash(); }
 const payloadOf = picked => picked?.id?.swo || picked?.id?.id?.swo || (picked?.id?.kind === 'gis' ? picked.id : null);
 // drillPick so overlapping features resolve predictably: researched in-service lines/points > replaced lines > open-data segments
-function pickAt(pos) { let best = null, bs = -1; for (const o of viewer.scene.drillPick(pos, 8)) { const p = payloadOf(o); if (!p) continue; const sc = p.kind === 'gis' ? 1 : p.kind === 'line' && p.x.replaced ? 2 : p.kind === 'line' ? 3 : 4; if (sc > bs) { best = p; bs = sc; } } return best; }
+function pickAt(pos) { let best = null, bs = -1; for (const o of viewer.scene.drillPick(pos, 8)) { const p = payloadOf(o); if (!p) continue; const sc = p.kind === 'gis' ? 1 : p.kind === 'well' || p.kind === 'wellcluster' ? 5 : p.kind === 'line' && p.x.replaced ? 2 : p.kind === 'line' ? 3 : 4; if (sc > bs) { best = p; bs = sc; } } return best; }
 const handler = new C.ScreenSpaceEventHandler(viewer.scene.canvas);
 handler.setInputAction(m => open(pickAt(m.position)), C.ScreenSpaceEventType.LEFT_CLICK);
 handler.setInputAction(m => { const p = payloadOf(viewer.scene.pick(m.endPosition)); if (!p) { tip.style.display = 'none'; return; }
   tip.style.display = 'block'; tip.style.left = m.endPosition.x + 14 + 'px'; tip.style.top = m.endPosition.y + 96 + 'px';
-  tip.textContent = p.kind === 'gis' ? `${p.props.operator || p.props.name || p.props.typepipe || ''} · ${p.cls} · ${p.layer}` : p.kind === 'home' ? 'My home (click for usage)' : `${p.x.name}${p.x.capacity ? ' · ' + (p.x.capacity.value ?? '') : ''}`; }, C.ScreenSpaceEventType.MOUSE_MOVE);
+  tip.textContent = p.kind === 'well' ? (() => { const v = V04.popup(p); return v.title.replace(/&amp;/g, '&'); })() : p.kind === 'wellcluster' ? `${p.n.toLocaleString()} wells (click to zoom)` : p.kind === 'field' ? p.x.name : p.kind === 'term' ? `${p.x.name} · ${p.x.capacity?.text || (p.x.est_volume_m3 ? 'ESTIMATE ≈ ' + Math.round(p.x.est_volume_m3 / 1000) + ' thousand m³' : '')}` : p.kind === 'gis' ? `${p.props.operator || p.props.name || p.props.typepipe || ''} · ${p.cls} · ${p.layer}` : p.kind === 'home' ? 'My home (click for usage)' : `${p.x.name}${p.x.capacity ? ' · ' + (p.x.capacity.value ?? '') : ''}`; }, C.ScreenSpaceEventType.MOUSE_MOVE);
 
 // ---------- controls ----------
 function goTo(h, noFly) { if (!h) return; if (h.type === 'op') return openOp(h); if (!noFly) { hs.view = null; if (h.rect && (h.p || h.x?.geometry)) viewer.camera.flyTo({ destination: h.rect, duration: 2 }); else if (h.e && h.e.position) viewer.flyTo(h.e, { duration: 2, offset: new C.HeadingPitchRange(0, -0.75, 9000) }); else if (h.rect) viewer.camera.flyTo({ destination: h.rect, duration: 2 }); } open(h.p || h.e.swo); }
-const show = {}; document.querySelectorAll('#filters button').forEach(b => { show[b.dataset.c] = true; b.onclick = () => { show[b.dataset.c] = !show[b.dataset.c]; b.classList.toggle('on'); apply(); }; });
+const show = {}; document.querySelectorAll('#filters button').forEach(b => { show[b.dataset.c] = b.classList.contains('on'); b.onclick = () => { show[b.dataset.c] = !show[b.dataset.c]; b.classList.toggle('on'); apply(); }; });
 function setFilter(c, on) { show[c] = on; document.querySelectorAll(`#filters button[data-c="${c}"]`).forEach(b => b.classList.toggle('on', on)); apply(); }
-function apply() { for (const [g, arr] of Object.entries(groups)) for (const o of arr) o.show = show[g] !== false; for (const f of flows) { const vis = show[f.ln.commodity] !== false; f.dots.forEach(d => d.p.show = vis && !f.stopped); } }
+function apply() { V04 && V04.sync(show); for (const [g, arr] of Object.entries(groups)) for (const o of arr) o.show = show[g] !== false; for (const f of flows) { const vis = show[f.ln.commodity] !== false; f.dots.forEach(d => d.p.show = vis && !f.stopped); } }
 let speed = 1; document.querySelectorAll('#speed button').forEach(b => b.onclick = () => { speed = +b.dataset.speed; document.querySelectorAll('#speed button').forEach(x => x.classList.toggle('on', x === b)); });
 document.querySelectorAll('#views button').forEach(b => b.onclick = () => b.dataset.fly === 'home' ? (fly('home'), homePanel()) : fly(b.dataset.fly));
 let l5off = false; document.getElementById('l5off').onchange = e => { l5off = e.target.checked; hs.l5off = l5off; writeHash(); kpis(); };
@@ -212,9 +216,11 @@ function legend() {
     '<b>Researched lines (click)</b>' + D.lines.map(l => `<div data-s="${esc(l.name)}"><i ${/approx|unknown/.test(l.route_accuracy?.level || '') ? 'class="dash" ' : ''}style="${/approx|unknown/.test(l.route_accuracy?.level || '') ? 'color' : 'background'}:${l.kind === 'project' ? '#fff' : COL[l.commodity]}"></i>${esc(l.name)}${l.replaced ? ' (replaced)' : ''}</div>`).join('') +
     `<b>Points</b><div><i style="background:#ff8c1a"></i>pump</div><div><i style="background:#3fa7ff"></i>compressor / interconnect</div><div><i style="background:#bbb"></i>meter / unclassified pipeline facility (OSM)</div><div><i style="background:#ffd700"></i>refinery (active)</div><div><i style="background:#6e6e6e;outline:2px solid #ff3b3b"></i>⊘ decommissioned refinery</div><div><i style="background:#ffa94d"></i>fuel terminal / depot (OSM)</div><div><i style="background:#c9a0ff"></i>storage</div><div><i style="background:#00e5ff"></i>river/strait crossing (NACEI)</div>${H ? '<div><i style="background:#fff"></i>My home</div>' : ''}` +
     `<b>Line styles</b><div><i class="dash"></i>dashed = approximate route, endpoints only (route unknown), or a straight run &gt; 25 km in the source data (schematic)</div><div><i style="background:#888;opacity:.45"></i>faded thin = replaced line (Line 6B)</div><div>flow dots only on lines with sourced geometry; never on approximate/unknown routes</div>` +
-    `<b>Datasets</b>${datasets.map(d => `<div>${esc(d.name)}: ${d.n.toLocaleString()} <a href="${safeUrl(d.src)}" target="_blank" rel="noopener">src</a></div>`).join('')}<small style="color:#8696a6">${D.lines.length} researched lines · ${D.stations.length} stations · ${D.facilities.length} facilities · ${D.crossings.length} crossings · ${D.sources.length} research sources</small></div>`;
+    V04.legend() + `<b>Datasets</b>${datasets.map(d => `<div>${esc(d.name)}: ${d.n.toLocaleString()} <a href="${safeUrl(d.src)}" target="_blank" rel="noopener">src</a></div>`).join('')}<small style="color:#8696a6">${V04.info.terminals} large terminals · ${V04.info.wells ? V04.info.wells.toLocaleString() + ' wells · ' : ''}${D.lines.length} researched lines · ${D.stations.length} stations · ${D.facilities.length} facilities · ${D.crossings.length} crossings · ${D.sources.length} research sources</small></div>`;
   const body = lg.querySelector('#lgBody'), tg = lg.querySelector('#lgToggle'); if (legendCollapsed) body.style.display = 'none';
   tg.onclick = () => { legendCollapsed = !legendCollapsed; body.style.display = legendCollapsed ? 'none' : ''; tg.textContent = legendCollapsed ? 'Legend ▸' : 'Legend ▾'; };
+  lg.querySelectorAll('div[data-wt] input').forEach(c => c.onchange = () => V04.setClass('t', +c.closest('div').dataset.wt, c.checked));
+  lg.querySelectorAll('div[data-ws] input').forEach(c => c.onchange = () => V04.setClass('s', +c.closest('div').dataset.ws, c.checked));
   lg.querySelectorAll('div[data-s]').forEach(d => d.onclick = () => goTo(searchIndex.find(s => s.label === d.dataset.s)));
 }
 legend(); fillSearch();
@@ -244,7 +250,7 @@ function applyHash(init) {
 }
 window.addEventListener('hashchange', () => applyHash(false));
 applyHash(true);
-window.SWO = { goTo, viewer, D, H, groups, datasets, fly, open, show, apply, setFilter, searchIndex, findSearch, pickAt, flows, version: '0.4.0' };
+window.SWO = { goTo, viewer, D, H, groups, datasets, fly, open, show, apply, setFilter, searchIndex, findSearch, pickAt, flows, V04, version: '0.4.0' };
 function layout() { const h = document.getElementById('top').offsetHeight + document.getElementById('kpis').offsetHeight; document.querySelector('main').style.top = h + 'px'; fp.style.top = document.getElementById('homePanel').style.top = (h + 8) + 'px'; }
 window.addEventListener('resize', layout); layout(); new ResizeObserver(layout).observe(document.getElementById('kpis'));
 
