@@ -9,3 +9,4 @@ data/private/
 *.env
 shots/contact-*
 shots/
+data/ref/wells_raw/
