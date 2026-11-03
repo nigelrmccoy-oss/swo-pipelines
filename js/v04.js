@@ -124,6 +124,11 @@ export function createV04(ctx) {
     if (W.field) return W.field; let F; try { F = await J('data/field_infra.json'); } catch { W.field = { points: [], lines: [] }; return W.field; }
     const LC = { processing: '#ffd166', compressor: '#3fa7ff', storage: '#b78bff', wellsite: '#ff4f9a', facility: '#bbbbbb' };
     F.points.forEach(f => pin('FI:' + f.id, f.lon, f.lat, LC[f.kind] || '#bbb', f.name, { kind: 'field', x: f }, 'wells', f.kind === 'processing' ? 10 : 7, '#000'));
+    if (F.lines.length && C.GroundPolylinePrimitive.isSupported(viewer.scene)) {
+      const col = C.ColorGeometryInstanceAttribute.fromColor(C.Color.fromCssColorString('#7fd1ff').withAlpha(0.8));
+      W.lineP = viewer.scene.groundPrimitives.add(new C.GroundPolylinePrimitive({ asynchronous: true, appearance: new C.PolylineColorAppearance(),
+        geometryInstances: F.lines.map(l => new C.GeometryInstance({ geometry: new C.GroundPolylineGeometry({ positions: C.Cartesian3.fromDegreesArray(l.pts.flat()), width: 2 }), attributes: { color: col } })) }));
+    }
     W.field = F; info.field_points = F.points.length; info.field_lines = F.lines.length; return F;
   }
   function fieldPopup(f) {
@@ -137,7 +142,7 @@ export function createV04(ctx) {
   return {
     info, loadTerminals, loadField, wells: W, rebuild, get terminals() { return termList; },
     popup(p) { return p.kind === 'term' ? termPopup(p.x) : p.kind === 'well' ? wellPopup(p) : p.kind === 'wellcluster' ? clusterPopup(p) : p.kind === 'field' ? fieldPopup(p.x) : null; },
-    async sync(show) { const on = show.wells !== false; if (on === W.on) return; W.on = on; if (on) { await loadWells(); await loadField(); ensurePrims(); rebuild(); } else { W.pts?.removeAll(); W.cl?.removeAll(); W.lab?.removeAll(); } },
+    async sync(show) { const on = show.wells !== false; if (on === W.on) return; W.on = on; if (on) { await loadWells(); await loadField(); if (W.lineP) W.lineP.show = true; ensurePrims(); rebuild(); } else { if (W.lineP) W.lineP.show = false; W.pts?.removeAll(); W.cl?.removeAll(); W.lab?.removeAll(); } },
     setClass(kind, k, v) { (kind === 't' ? W.tOn : W.sOn)[k] = v; rebuild(); },
     state: () => ({ tOn: W.tOn.slice(), sOn: W.sOn.slice(), shown: W.shown, on: W.on }),
     rebuild,

@@ -49,6 +49,7 @@ REGIONS = {"ON-GH-SW": (41.9, -83.2, 44.7, -78.8), "ON-East": (44.0, -78.9, 45.3
 def q(body, cache):
     f = f"data/ref/tanks_raw/{hashlib.md5(cache.encode()).hexdigest()[:12]}.json"
     if os.path.exists(f): return json.load(open(f))
+    if os.environ.get('CACHE_ONLY'): print('  (not cached, skipped)', cache[:30], flush=True); return {'elements': []}
     for k in range(6):
         ov = OVS[k % len(OVS)]
         try:
@@ -63,6 +64,7 @@ def osm_all(anchors):
         for e in d.get("elements", []): els.setdefault((e["type"], e["id"]), e)
     for n, bb in CA_BOXES.items():
         d = q(f'[out:json][timeout:180];({tankq("(%s,%s,%s,%s)" % bb)});out tags geom;', "box" + n); take(d, n); print("box", n, len(d["elements"]), flush=True)
+    if os.environ.get('BOXES_ONLY'): return els
     B = 70
     for i in range(0, len(anchors), B):
         part = anchors[i:i + B]; sel = "".join(tankq(f"(around:900,{a[0]:.5f},{a[1]:.5f})") for a in part)

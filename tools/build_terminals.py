@@ -8,9 +8,15 @@ BBL = 6.2898; MIN_M3 = float(sys.argv[1]) if len(sys.argv) > 1 else 100000.0
 TODAY = datetime.date.today().isoformat()
 E = json.load(open("data/ref/eia_infra_raw.json"))["layers"]; CL = json.load(open("data/ref/osm_tank_clusters.json")); CUR = json.load(open("tools/terminals_curated.json"))["hubs"]; S = json.load(open("data/swo.json"))
 EIA_URL = "https://services7.arcgis.com/p4qwkH3IF5hxHqd7/ArcGIS/rest/services/OilGasInfrastructure/FeatureServer"
+def fl(x):
+    try: return float(str(x).strip())
+    except Exception: return 0.0
 def dm(a, b, c, d): return math.hypot((b - d) * 111320 * math.cos(math.radians((a + c) / 2)), (a - c) * 110574)
 def title(s): return re.sub(r"\b(Llc|Lp|Inc|Co|Llp|Usa|Ii|Iii)\b", lambda m: m.group(1).upper() if len(m.group(1)) < 4 else m.group(1), (s or "").strip().title())
 def region(la, lo):
+    if 27 < la < 28.6 and -98 < lo < -96.5: return "Gulf Coast - South Texas"
+    if 38.5 < la < 40.2 and -76 < lo < -75.0: return "Eastern Seaboard - Delaware Valley"
+    if 30 < la < 36 and -82.5 < lo < -78: return "Eastern Seaboard - Southeast"
     if la > 41.5 and -83.6 < lo < -81.6 and la < 43.2: return "SW Ontario / Windsor-Sarnia" if lo < -81.5 and la > 42.0 else "Great Lakes (US)"
     if 42.0 < la < 44.2 and -81.6 <= lo < -78.9: return "Golden Horseshoe / SW Ontario"
     if 44.0 < la < 46 and -78.9 <= lo < -74: return "Eastern Ontario"
@@ -44,7 +50,8 @@ for h in CUR:
     cap = dict(h["capacity"]); 
     if "m3" in cap and "bbl" not in cap: cap["bbl"] = cap["m3"] * BBL
     if "bbl" in cap and "m3" not in cap: cap["m3"] = cap["bbl"] / BBL
-    cap["bbl"] = round(cap["bbl"]); cap["m3"] = round(cap["m3"])
+    cap["bbl"] = round(cap["bbl"]) if cap.get("bbl") else None; cap["m3"] = round(cap["m3"])
+    if h["kind"] == "lng": cap["bbl"] = None  # gas-equivalent m3, not liquid barrels
     t = dict(id=h["id"], name=h["name"], kind=h["kind"], operator=h["operator"], hub=True, region=h["region"], capacity=cap, regas=h.get("regas"), note=h.get("note"), sources=list(cap["sources"]))
     if cs:
         V = sum(CL["clusters"][i]["est_volume_m3"] for i in cs); w = [CL["clusters"][i]["est_volume_m3"] for i in cs]
@@ -60,12 +67,12 @@ for h in CUR:
 for r in E["15"]["rows"]:
     if r["_lat"] is None: continue
     if any(dm(r["_lat"], r["_lon"], o["lat"], o["lon"]) < 3000 for o in out if o["kind"] == "lng"): continue
-    stor = r.get("Stora_Bcf"); rg = float(str(r.get("Regas_Bcfd") or 0).strip() or 0); lq = float(str(r.get("Liq_Bcfd") or 0).strip() or 0)
+    stor = r.get("Stora_Bcf"); rg = fl(r.get("Regas_Bcfd")); lq = fl(r.get("Liq_Bcfd"))
     cap = None
-    if stor: cap = dict(text=f"{stor} Bcf storage (about {stor * 28.3168:.0f} million m3 of gas, converted)", m3=round(stor * 28.3168e6), bbl=None, basis="sourced: EIA (converted from Bcf)", as_of=r["Period"], sources=[EIA_URL + "/15"]); cap["bbl"] = None
+    if stor: cap = dict(text=f"{stor} Bcf storage (about {stor * 28.3168:.0f} million m3 of gas, converted)", m3=round(stor * 28.3168e6), bbl=None, basis="sourced: EIA (converted from Bcf)", as_of=r["Period"], sources=[EIA_URL + "/15"])
     rgt = "; ".join(x for x in [f"regasification {rg} Bcf/d (about {rg * 28.3168:.0f} million m3/d, converted)" if rg else "", f"liquefaction {lq} Bcf/d (about {lq * 28.3168:.1f} million m3/d, converted)" if lq else ""] if x)
     cs = [i for i, c in enumerate(CL["clusters"]) if dm(c["lat"], c["lon"], r["_lat"], r["_lon"]) <= 1500]; used.update(cs)
-    mk(id="lng-" + re.sub(r"\W+", "-", r["Facility"].lower()).strip("-"), name=f"{r['Facility']} LNG ({r['City']}, {r.get('State')})", kind="lng", operator=r.get("Operator") or r.get("Owner"), hub=False, region=region(r["_lat"], r["_lon"]), capacity=cap, regas=rgt or None,
+    mk(id="lng-" + re.sub(r"\W+", "-", r["Facility"].lower()).strip("-"), name=re.sub(r"\s+LNG\s+LNG", " LNG", f"{r['Facility']} LNG") + (f" ({', '.join(x for x in [r.get('City'), r.get('State')] if x and str(x).strip())})" if r.get('City') or r.get('State') else ""), kind="lng", operator=r.get("Operator") or r.get("Owner"), hub=False, region=region(r["_lat"], r["_lon"]), capacity=cap, regas=rgt or None,
        lat=round(r["_lat"], 5), lon=round(r["_lon"], 5), pos_source="EIA listing: approximate location from public information", note=f"Function: {r.get('Functions')}. EIA layer is dated {r['Period']}: newer plants/expansions are not in it.", sources=[EIA_URL + "/15"], eia=[])
 # 3) remaining OSM clusters
 dropped = dict(small=0, refinery=0, v03=0); k = 0
@@ -75,14 +82,16 @@ for i, c in sorted(enumerate(CL["clusters"]), key=lambda x: (-x[1]["est_volume_m
     if near(refs, c["lat"], c["lon"], 1000): dropped["refinery"] += 1; continue
     if near(fac, c["lat"], c["lon"], 1200): dropped["v03"] += 1; continue
     eia = eia_list(c["lat"], c["lon"]); txt = " ".join(c["content"]).lower()
-    nm = c["names"][0] if c["names"] else ""
+    nm = next((n for n in c["names"] if len(n) > 3 and not n.strip().isdigit()), "")
     if re.search(r"lpg|propane|butane|ngl|ethane", txt): kind = "ngl"
     elif re.search(r"\blng\b|liquefied natural", txt): kind = "lng"
     elif re.search(r"crude|(?<!fuel_)\boil\b|bitumen", txt) or near([(r["_lat"], r["_lon"]) for r in rail], c["lat"], c["lon"], 1500): kind = "crude"
     else: kind = "products"
     ops = [o for o in c["operators"]] or sorted({e["company"] for e in eia})[:3]
     name = nm or (f"{ops[0]} tank farm" if ops else (f"{eia[0]['company']} - {eia[0]['site']}" if eia else ""))
-    if not name: name = f"Tank farm ({c['lat']:.3f}, {c['lon']:.3f})"
+    if not name:
+        nc = [r for r in eia14 if abs(r["_lat"] - c["lat"]) < 0.06 and dm(r["_lat"], r["_lon"], c["lat"], c["lon"]) <= 5000]
+        name = f"Tank farm near {title(nc[0]['City'])}" if nc else f"Tank farm ({c['lat']:.3f}, {c['lon']:.3f})"
     k += 1
     note = [] ; 
     if not c["content"]: note.append("product not tagged in OSM; kind from EIA listing or default (refined products)" if kind == "products" else "kind from nearby EIA rail-terminal listing")
