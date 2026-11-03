@@ -11,6 +11,7 @@ const fmt = n => Number(n).toLocaleString('en-CA');
 export function createV04(ctx) {
   const { C, viewer, pin, esc, srcLinks, safeUrl, J, add, searchIndex } = ctx;
   const W = { man: null, regions: [], loading: null, on: false, tOn: WELL_T.map(() => true), sOn: [true, true, false, true, true, true], pts: null, cl: null, lab: null, timer: null, shown: { mode: 'none', n: 0, drawn: 0 }, field: null };
+  let termList = [];
   const info = { terminals: 0, field_points: 0, field_lines: 0 };
   // ---------------- terminals ----------------
   async function loadTerminals() {
@@ -19,7 +20,7 @@ export function createV04(ctx) {
       const big = t.capacity?.bbl || t.est_volume_bbl || 0, size = Math.max(9, Math.min(19, 7 + 2.2 * Math.log10(Math.max(big, 1e4) / 1e4)));
       pin('T:' + t.id, t.lon, t.lat, TERM_COL[t.kind] || '#ccc', t.name, { kind: 'term', x: t }, 'terminals', size, '#ffffff');
     });
-    info.terminals = T.terminals.length; return T;
+    termList = T.terminals; info.terminals = T.terminals.length; return T;
   }
   const bblTxt = (m3, bbl) => `${fmt(Math.round(m3))} m³ (${fmt(Math.round(bbl))} bbl)`;
   function termPopup(t) {
@@ -134,7 +135,7 @@ export function createV04(ctx) {
     return { title: esc(f.name), html: `<table>${rows.join('')}</table>` };
   }
   return {
-    info, loadTerminals, loadField, wells: W,
+    info, loadTerminals, loadField, wells: W, rebuild, get terminals() { return termList; },
     popup(p) { return p.kind === 'term' ? termPopup(p.x) : p.kind === 'well' ? wellPopup(p) : p.kind === 'wellcluster' ? clusterPopup(p) : p.kind === 'field' ? fieldPopup(p.x) : null; },
     async sync(show) { const on = show.wells !== false; if (on === W.on) return; W.on = on; if (on) { await loadWells(); await loadField(); ensurePrims(); rebuild(); } else { W.pts?.removeAll(); W.cl?.removeAll(); W.lab?.removeAll(); } },
     setClass(kind, k, v) { (kind === 't' ? W.tOn : W.sOn)[k] = v; rebuild(); },

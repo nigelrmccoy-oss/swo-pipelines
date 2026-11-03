@@ -27,4 +27,7 @@ if (chk.l7flows || chk.l6bflows) fails.push('flow on endpoints-only/replaced lin
 await p.evaluate(() => { const s = document.getElementById('search'); s.value = 'zzqqxx'; s.onchange(); }); const msg = await p.textContent('#searchMsg'); console.log('no-match msg:', msg); if (!/No match/.test(msg)) fails.push('no-match feedback');
 console.log('v031 checks:', fails.length ? 'FAIL ' + fails.join(', ') : 'PASS');
 await p.waitForTimeout(3000);
-console.log('errors:', errs.length, errs.slice(0, 8).join('\n')); await b.close(); process.exit(errs.filter(e => !/Failed to load resource/.test(e)).length || fails.length ? 1 : 0);
+console.log('errors:', errs.length, errs.slice(0, 8).join('\n')); await b.close();
+// v0.4: terminals, wells (LOD), P2/P3 fixes, URL hash -> tests/v04.mjs (separate page, ?nohome)
+const { spawnSync } = await import('child_process'); const v4 = spawnSync(process.execPath, [new URL('./v04.mjs', import.meta.url).pathname, url.replace(/\/?(\?.*)?$/, '/?nohome')], { stdio: 'inherit', env: process.env });
+process.exit(errs.filter(e => !/Failed to load resource/.test(e)).length || fails.length || v4.status ? 1 : 0);

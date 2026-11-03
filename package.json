@@ -11,7 +11,8 @@
     "test:deeplink": "node tests/deeplink.mjs",
     "test:smoke": "node tests/smoke.mjs",
     "test:nohome": "node tests/nohome_check.mjs",
-    "shots": "node tests/shots.mjs v031"
+    "test:v04": "node tests/v04.mjs",
+    "shots": "node tests/shots.mjs v04"
   },
   "devDependencies": {
     "playwright": "^1.48.0"

@@ -1,0 +1,249 @@
+{
+ "_note": "Sourced hub capacities. 'bbl' is the published figure; m3 is converted (1 m3 = 6.2898 bbl) unless the source gave m3. Centres are approximate place centres used only to snap to OSM storage_tank clusters.",
+ "hubs": [
+  {
+   "id": "cushing",
+   "name": "Cushing, OK crude hub (all operators)",
+   "kind": "crude",
+   "operator": "Multiple (Enterprise, Enbridge, Plains, Energy Transfer, TC Energy, others)",
+   "lat": 35.985,
+   "lon": -96.767,
+   "radius_m": 8000,
+   "region": "Hubs - Mid-Continent",
+   "capacity": {
+    "text": "97.742 million bbl shell capacity; 78.410 million bbl working capacity (Cushing, OK, all operators)",
+    "bbl": 97742000,
+    "basis": "sourced: EIA, shell capacity",
+    "as_of": "March 2024",
+    "note": "EIA Working and Net Available Shell Storage Capacity survey; working capacity 78.410 million bbl.",
+    "sources": [
+     "https://www.eia.gov/petroleum/storagecapacity/",
+     "https://crudeoilprice.org/cushing-oklahoma"
+    ]
+   },
+   "note": "NYMEX WTI delivery point."
+  },
+  {
+   "id": "hardisty",
+   "name": "Hardisty, AB terminal hub",
+   "kind": "crude",
+   "operator": "Gibson Energy (Hardisty Terminal) and others",
+   "lat": 52.668,
+   "lon": -111.3,
+   "radius_m": 6000,
+   "region": "Hubs - Western Canada",
+   "capacity": {
+    "text": "about 14 million bbl (43 tanks, 4 terminals) at Gibson's Hardisty Terminal",
+    "bbl": 14000000,
+    "basis": "sourced: operator",
+    "as_of": "Sept 2024 factsheet",
+    "note": "Gibson Energy figure; other operators' tankage at Hardisty is not included.",
+    "sources": [
+     "https://www.gibsonenergy.com/operations/hardisty-terminal/"
+    ]
+   }
+  },
+  {
+   "id": "edmonton",
+   "name": "Edmonton / Strathcona, AB tank farms",
+   "kind": "crude",
+   "operator": "Enbridge Edmonton Terminal (plus Kinder Morgan, Gibson and others)",
+   "lat": 53.57,
+   "lon": -113.33,
+   "radius_m": 10000,
+   "region": "Hubs - Western Canada",
+   "capacity": {
+    "text": "761,600 m3 (4.79 million bbl), 29 tanks, at the Enbridge Edmonton Terminal",
+    "m3": 761600,
+    "basis": "sourced: regulator filing",
+    "as_of": "2006 CER application",
+    "note": "Older regulator figure for Enbridge only. Oil Sands Magazine lists Enbridge Edmonton at 13.11 million bbl: the sources disagree (newer tankage?), so treat as uncertain.",
+    "sources": [
+     "https://docs2.cer-rec.gc.ca/ll-eng/llisapi.dll/Open/396038",
+     "https://www.oilsandsmagazine.com/projects/crude-oil-storage-terminals"
+    ]
+   }
+  },
+  {
+   "id": "superior",
+   "name": "Superior, WI terminal (Enbridge)",
+   "kind": "crude",
+   "operator": "Enbridge",
+   "lat": 46.66,
+   "lon": -92.0,
+   "radius_m": 8000,
+   "region": "Great Lakes (US)",
+   "capacity": {
+    "text": "about 12 million bbl (current Enbridge page); an older Enbridge handout gives 13.0 million bbl shell and 45 tanks",
+    "bbl": 12000000,
+    "basis": "sourced: operator",
+    "as_of": "current page (older handout differs)",
+    "sources": [
+     "https://www.enbridge.com/projects-and-infrastructure/public-awareness/enbridge-in-wisconsin/superior-terminal"
+    ]
+   }
+  },
+  {
+   "id": "patoka",
+   "name": "Patoka, IL crude hub",
+   "kind": "crude",
+   "operator": "Energy Transfer (plus Marathon and others)",
+   "lat": 38.75,
+   "lon": -89.07,
+   "radius_m": 6000,
+   "region": "Hubs - Mid-Continent",
+   "capacity": {
+    "text": "more than 19 million bbl, nearly 80 tanks (Energy Transfer Patoka hub)",
+    "bbl": 19000000,
+    "basis": "sourced: operator (lower bound)",
+    "as_of": "March 2020 fact sheet",
+    "note": "Marathon's separate Patoka tank farm has 2.626 million bbl committed (SEC filing), not included.",
+    "sources": [
+     "https://cms.energytransfer.com/wp-content/uploads/2020/04/Patoka_Fact_Sheet_3-10-20.pdf"
+    ]
+   }
+  },
+  {
+   "id": "nederland",
+   "name": "Nederland, TX terminal (Energy Transfer)",
+   "kind": "crude",
+   "operator": "Energy Transfer",
+   "lat": 29.97,
+   "lon": -93.99,
+   "radius_m": 5000,
+   "region": "Gulf Coast - Houston / Beaumont",
+   "capacity": {
+    "text": "about 33 million bbl, 84 tanks",
+    "bbl": 33000000,
+    "basis": "sourced: operator",
+    "as_of": "May 2023 fact sheet",
+    "sources": [
+     "https://www.energytransfer.com/wp-content/uploads/2023/05/Nederland-5-19-23.pdf"
+    ]
+   }
+  },
+  {
+   "id": "stjames",
+   "name": "St. James, LA crude hub",
+   "kind": "crude",
+   "operator": "NuStar, Plains and others",
+   "lat": 30.0,
+   "lon": -90.82,
+   "radius_m": 6000,
+   "region": "Gulf Coast - Louisiana",
+   "capacity": {
+    "text": "at least 17.8 million bbl: NuStar St. James 9.738 million bbl + Plains St. James 8.1 million bbl",
+    "bbl": 17838000,
+    "basis": "sourced: operators (sum of two figures; other tankage excluded)",
+    "as_of": "NuStar asset sheet; Plains per RBN",
+    "sources": [
+     "https://www.nustarenergy.com/Business/AssetSheets?assetid=TR_STJ_LA&assettype=Storage",
+     "https://rbnenergy.com/ (Plains figure, trade press)"
+    ]
+   }
+  },
+  {
+   "id": "mont-belvieu",
+   "name": "Mont Belvieu, TX NGL hub (salt-dome storage)",
+   "kind": "ngl",
+   "operator": "Enterprise, Energy Transfer, Targa, others",
+   "lat": 29.85,
+   "lon": -94.9,
+   "radius_m": 6000,
+   "region": "Gulf Coast - Houston / Beaumont",
+   "capacity": {
+    "text": "salt-dome storage: more than 110 million bbl (Enterprise); about 170 million bbl underground storage in the area (OPIS 2025)",
+    "bbl": 110000000,
+    "basis": "sourced: operator (lower bound; underground, not mapped as tanks)",
+    "as_of": "2025",
+    "sources": [
+     "https://www.ogj.com/ (Enterprise figure, trade press)",
+     "https://www.opisnet.com/ (OPIS 2025)"
+    ]
+   },
+   "note": "Most capacity is underground caverns, so the mapped surface tanks understate it."
+  },
+  {
+   "id": "bayonne",
+   "name": "Bayonne, NJ (IMTT) terminal",
+   "kind": "products",
+   "operator": "IMTT",
+   "lat": 40.65,
+   "lon": -74.09,
+   "radius_m": 2800,
+   "region": "Eastern Seaboard - NY Harbor",
+   "capacity": {
+    "text": "12.5 million bbl across 392 tanks (IMTT terminal page); historically about 16 million bbl before consolidation",
+    "bbl": 12500000,
+    "basis": "sourced: operator",
+    "as_of": "current IMTT page",
+    "sources": [
+     "https://imtt.com/terminals/bayonne-nj/",
+     "https://imtt.com/consolidation-of-nj-operations/",
+     "https://imtt.com/wp-content/uploads/2023/03/IMTT-Sustainability-Report-2021-FacingPages.pdf"
+    ]
+   }
+  },
+  {
+   "id": "perth-amboy",
+   "name": "Perth Amboy / Port Reading, NJ (Buckeye) terminal",
+   "kind": "products",
+   "operator": "Buckeye",
+   "lat": 40.55,
+   "lon": -74.26,
+   "radius_m": 3000,
+   "region": "Eastern Seaboard - NY Harbor",
+   "capacity": {
+    "text": "about 10.3 million bbl (Buckeye Perth Amboy / Port Reading)",
+    "bbl": 10300000,
+    "basis": "sourced: operator investor deck",
+    "as_of": "Buckeye 2024 customer conference deck",
+    "sources": [
+     "https://www.buckeye.com/wp-content/uploads/2024/08/2024-Customer-Conference-Whats-New-at-Buckeye-.pdf",
+     "https://oilgasstoragenews.com/tank-terminals-atlantic-coast/"
+    ]
+   }
+  },
+  {
+   "id": "linden",
+   "name": "Linden, NJ (Buckeye) terminal",
+   "kind": "products",
+   "operator": "Buckeye",
+   "lat": 40.62,
+   "lon": -74.21,
+   "radius_m": 2200,
+   "region": "Eastern Seaboard - NY Harbor",
+   "capacity": {
+    "text": "about 4.3 million bbl (Buckeye Linden)",
+    "bbl": 4300000,
+    "basis": "sourced: operator investor deck",
+    "as_of": "Buckeye 2024 customer conference deck",
+    "sources": [
+     "https://www.buckeye.com/wp-content/uploads/2024/08/2024-Customer-Conference-Whats-New-at-Buckeye-.pdf",
+     "https://oilgasstoragenews.com/tank-terminals-atlantic-coast/"
+    ]
+   }
+  },
+  {
+   "id": "canaport",
+   "name": "Canaport LNG, Saint John NB",
+   "kind": "lng",
+   "operator": "Repsol / Irving Oil (Canaport LNG)",
+   "lat": 45.2,
+   "lon": -66.03,
+   "radius_m": 2500,
+   "region": "Eastern Canada (Maritimes)",
+   "regas": "send-out 1.2 Bcf/d (about 34 million m3/d, converted)",
+   "capacity": {
+    "text": "about 10 Bcf storage (about 283 million m3 of gas, converted), three tanks",
+    "m3": 283168000,
+    "basis": "sourced: operator / NE Gas (converted from Bcf)",
+    "as_of": "third tank completion",
+    "sources": [
+     "https://www.saintjohnlng.com/post/canaport-lng-announces-completion-of-third-tank",
+     "https://www.northeastgas.org/"
+    ]
+   }
+  }
+ ]
+}
