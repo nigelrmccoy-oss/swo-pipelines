@@ -1,6 +1,6 @@
 {
   "name": "swo-pipelines",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "private": true,
   "description": "Unofficial 3D map of North American oil and gas pipelines with SW Ontario detail (CesiumJS, public data).",
   "license": "MIT",

@@ -1,4 +1,4 @@
-/** SWO-PIPELINES v0.3.1: Cesium globe (vendored, keyless) with EIA/NACEI/OSM continental layers, researched SW Ontario detail, flow sim, and My home layer. */
+/** SWO-PIPELINES v0.4.0: Cesium globe (vendored, keyless) with EIA/NACEI/OSM continental layers, researched SW Ontario detail, flow sim, and My home layer. */
 import { makeTerrain } from './terrain.js';
 const C = window.Cesium;
 const COL = { crude: '#e04040', 'crude/NGL': '#ff8c1a', hgl: '#ff4fd8', products: '#2ecc71', gas: '#3fa7ff' };
@@ -18,7 +18,10 @@ const viewer = new C.Viewer('globe', { baseLayer: new C.ImageryLayer(imagery), t
   homeButton: false, sceneModePicker: false, navigationHelpButton: false, infoBox: false, selectionIndicator: false, fullscreenButton: false, requestRenderMode: false });
 viewer.scene.globe.depthTestAgainstTerrain = false; viewer.scene.globe.maximumScreenSpaceError = 1.5; viewer.scene.skyAtmosphere.show = true;
 const VIEWS = { na: [-97, 30, 6.5e6, -80], swo: [-82.2, 38.9, 4.5e5, -45], sarnia: [-82.43, 42.70, 2.2e4, -40], mack: [-84.77, 45.55, 2.5e4, -35], lakeont: [-78.9, 41.0, 3.0e5, -45], mtl: [-73.56, 45.36, 3.5e4, -40], east: [-73.0, 36.3, 1.6e6, -70] };
-const fly = (k, dur = 2) => { const v = VIEWS[k]; viewer.camera.flyTo({ destination: C.Cartesian3.fromDegrees(v[0], v[1], v[2]), orientation: { heading: 0, pitch: C.Math.toRadians(v[3]) }, duration: dur }); };
+// shareable state (v0.4): view / open / l5off are written back to the URL hash (replaceState: no hashchange loop)
+const hs = { view: null, open: null, l5off: false };
+function writeHash() { const a = []; if (hs.view) a.push('view=' + hs.view); if (hs.open) a.push('open=' + encodeURIComponent(hs.open)); if (hs.l5off) a.push('l5off=1'); try { history.replaceState(null, '', a.length ? '#' + a.join('&') : location.pathname + location.search); } catch (e) { } }
+const fly = (k, dur = 2, write = true) => { const v = VIEWS[k]; viewer.camera.flyTo({ destination: C.Cartesian3.fromDegrees(v[0], v[1], v[2]), orientation: { heading: 0, pitch: C.Math.toRadians(v[3]) }, duration: dur }); if (dur && write) { hs.view = k; writeHash(); } };
 fly(VIEWS[(location.hash.match(/view=(\w+)/) || [])[1]] ? location.hash.match(/view=(\w+)/)[1] : 'swo', 0);
 
 const groups = {}; const add = (g, o) => (groups[g] ||= []).push(o);
@@ -152,14 +155,17 @@ function open(p) {
     const keys = p.kind === 'line' ? ['operator', 'product', 'diameter', 'capacity', 'length', 'route', 'endpoints', 'in_service', 'status'] : p.kind === 'fac' ? ['operator', 'operator_history', 'years', 'product', 'capacity', 'status', 'current_use'] : [];
     rows = keys.map(k => `<tr><td>${k.replace('_', ' ')}</td><td>${val(x[k] ?? (k === 'diameter' ? x.diameter_in : undefined))}</td></tr>`).join('') + (x.incidents || []).map(i => `<tr><td>incident</td><td>${val(i)}</td></tr>`).join('');
     if (p.kind === 'station' || p.kind === 'crossing') rows = Object.entries(x).filter(([k]) => !['sources', 'name'].includes(k)).map(([k, v]) => `<tr><td>${k}</td><td>${v ?? '<span class=unk>unknown</span>'}</td></tr>`).join('') + `<tr><td>sources</td><td>${srcLinks(x.sources)}</td></tr>`;
-    if (x.route_accuracy) { const a = x.route_accuracy; rows += `<tr><td>route accuracy</td><td><b class="${/approx|unknown|not drawn|partial/.test(a.level) ? 'sch' : ''}">${esc(a.level)}</b>${a.matched_share != null ? ` · ${Math.round(a.matched_share * 100)}% of legs matched` : ''}${a.drawn_km != null && !x.connector ? `<br>drawn ${a.drawn_km} km${a.stated_km ? ` vs ${a.stated_km} km stated` : ''} · longest straight run ${a.longest_straight_km} km${a.straight_runs_over_25km_km ? ` · ${a.straight_runs_over_25km_km} km in straight runs > 25 km (dashed)` : ''}` : ''}${(a.issues || []).map(t => `<br><span class="sch">⚠ ${esc(t)}</span>`).join('')}<br><small>${esc(a.note)}${a.datasets ? '<br>datasets: ' + a.datasets.join(', ') : ''}</small><br>${srcLinks(a.sources)}</td></tr>`; }
+    if (x.route_accuracy) { const a = x.route_accuracy; rows += `<tr><td>route accuracy</td><td><b class="${/approx|unknown|not drawn|partial/.test(a.level) ? 'sch' : ''}">${esc(a.level)}</b>${a.matched_share != null ? ` · ${Math.round(a.matched_share * 100)}% of the route length follows a source dataset${a.straight_runs_over_25km_km ? ' (that source line is itself schematic: see the straight-run note)' : ''}` : ''}${a.drawn_km != null && !x.connector ? `<br>drawn ${a.drawn_km} km${a.stated_km ? ` vs ${a.stated_km} km stated` : ''} · longest straight run ${a.longest_straight_km} km${a.straight_runs_over_25km_km ? ` · ${a.straight_runs_over_25km_km} km in straight runs > 25 km (dashed)` : ''}` : ''}${(a.issues || []).map(t => `<br><span class="sch">⚠ ${esc(t)}</span>`).join('')}<br><small>${esc(a.note)}${a.datasets ? '<br>datasets: ' + a.datasets.join(', ') : ''}</small><br>${srcLinks(a.sources)}</td></tr>`; }
     if (p.kind === 'fac') rows += `<tr><td>position</td><td class="${/approx/.test(x.pos_source) ? 'sch' : ''}">${String(x.pos_source).replace(/(https?:\/\/\S+)/, '<a href="$1" target="_blank">$1</a>')} (${x.lat.toFixed(4)}, ${x.lon.toFixed(4)})</td></tr>`;
     else if (x.waypoints?.length && !x.geometry) rows += `<tr><td>waypoints</td><td class="sch">approximate place coords:<br>${x.waypoints.map(w => `${w[2]} ${w[0]}, ${w[1]}`).join('<br>')}</td></tr>`;
     if (x.flow_note) rows += `<tr><td>flow</td><td>${x.flow_note}</td></tr>`;
     fp.innerHTML = `<button style="float:right" id="fpx">✕</button><h3>${x.name}</h3><table>${rows}</table>`;
   }
-  fp.classList.remove('hidden'); document.getElementById('fpx').onclick = () => fp.classList.add('hidden');
+  fp.classList.remove('hidden'); document.getElementById('fpx').onclick = closeFp;
+  hs.open = p.kind === 'gis' ? null : labelFor(p); writeHash();
 }
+const labelFor = p => (searchIndex.find(s => s.p === p || s.e?.swo === p) || {}).label || (p.x && p.x.name) || null;
+function closeFp() { fp.classList.add('hidden'); hs.open = null; writeHash(); }
 const payloadOf = picked => picked?.id?.swo || picked?.id?.id?.swo || (picked?.id?.kind === 'gis' ? picked.id : null);
 // drillPick so overlapping features resolve predictably: researched in-service lines/points > replaced lines > open-data segments
 function pickAt(pos) { let best = null, bs = -1; for (const o of viewer.scene.drillPick(pos, 8)) { const p = payloadOf(o); if (!p) continue; const sc = p.kind === 'gis' ? 1 : p.kind === 'line' && p.x.replaced ? 2 : p.kind === 'line' ? 3 : 4; if (sc > bs) { best = p; bs = sc; } } return best; }
@@ -170,23 +176,23 @@ handler.setInputAction(m => { const p = payloadOf(viewer.scene.pick(m.endPositio
   tip.textContent = p.kind === 'gis' ? `${p.props.operator || p.props.name || p.props.typepipe || ''} · ${p.cls} · ${p.layer}` : p.kind === 'home' ? 'My home (click for usage)' : `${p.x.name}${p.x.capacity ? ' · ' + (p.x.capacity.value ?? '') : ''}`; }, C.ScreenSpaceEventType.MOUSE_MOVE);
 
 // ---------- controls ----------
-function goTo(h) { if (!h) return; if (h.type === 'op') return openOp(h); if (h.rect && (h.p || h.x?.geometry)) viewer.camera.flyTo({ destination: h.rect, duration: 2 }); else if (h.e && h.e.position) viewer.flyTo(h.e, { duration: 2, offset: new C.HeadingPitchRange(0, -0.75, 9000) }); else if (h.rect) viewer.camera.flyTo({ destination: h.rect, duration: 2 }); open(h.p || h.e.swo); }
+function goTo(h, noFly) { if (!h) return; if (h.type === 'op') return openOp(h); if (!noFly) { hs.view = null; if (h.rect && (h.p || h.x?.geometry)) viewer.camera.flyTo({ destination: h.rect, duration: 2 }); else if (h.e && h.e.position) viewer.flyTo(h.e, { duration: 2, offset: new C.HeadingPitchRange(0, -0.75, 9000) }); else if (h.rect) viewer.camera.flyTo({ destination: h.rect, duration: 2 }); } open(h.p || h.e.swo); }
 const show = {}; document.querySelectorAll('#filters button').forEach(b => { show[b.dataset.c] = true; b.onclick = () => { show[b.dataset.c] = !show[b.dataset.c]; b.classList.toggle('on'); apply(); }; });
 function setFilter(c, on) { show[c] = on; document.querySelectorAll(`#filters button[data-c="${c}"]`).forEach(b => b.classList.toggle('on', on)); apply(); }
 function apply() { for (const [g, arr] of Object.entries(groups)) for (const o of arr) o.show = show[g] !== false; for (const f of flows) { const vis = show[f.ln.commodity] !== false; f.dots.forEach(d => d.p.show = vis && !f.stopped); } }
 let speed = 1; document.querySelectorAll('#speed button').forEach(b => b.onclick = () => { speed = +b.dataset.speed; document.querySelectorAll('#speed button').forEach(x => x.classList.toggle('on', x === b)); });
 document.querySelectorAll('#views button').forEach(b => b.onclick = () => b.dataset.fly === 'home' ? (fly('home'), homePanel()) : fly(b.dataset.fly));
-let l5off = false; document.getElementById('l5off').onchange = e => { l5off = e.target.checked; kpis(); };
+let l5off = false; document.getElementById('l5off').onchange = e => { l5off = e.target.checked; hs.l5off = l5off; writeHash(); kpis(); };
 const se = document.getElementById('search'), dl = document.getElementById('searchList');
-function openOp(h) { fp.innerHTML = `<button style="float:right" id="fpx">✕</button><h3>${esc(h.op)}</h3>Operator named in the open GIS layers. Hover/click its segments on the map for attributes (the view is not moved: segments may be anywhere in North America).`; fp.classList.remove('hidden'); document.getElementById('fpx').onclick = () => fp.classList.add('hidden'); }
+function openOp(h) { hs.open = h.label; writeHash(); fp.innerHTML = `<button style="float:right" id="fpx">✕</button><h3>${esc(h.op)}</h3>Operator named in the open GIS layers. Hover/click its segments on the map for attributes (the view is not moved: segments may be anywhere in North America).`; fp.classList.remove('hidden'); document.getElementById('fpx').onclick = closeFp; }
 // ranked search: exact > prefix > whole-word > substring; researched features before operators
 function findSearch(q) {
   q = String(q || '').trim().toLowerCase(); if (!q) return null;
-  const words = q.split(/\s+/), rank = s => { const l = s.label.toLowerCase(); const r = l === q ? 0 : l.startsWith(q) && !/\w/.test(l[q.length] || '') ? 1 : words.every(w => new RegExp(`\\b${w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`).test(l)) ? 2 : l.startsWith(q) ? 3 : l.includes(q) ? 4 : 9; return r * 2 + (s.type === 'op' ? 1 : 0); };
-  let best = null, br = 99; for (const s of searchIndex) { const r = rank(s); if (r < br || (r === br && best && s.label.length < best.label.length)) { best = s; br = r; } } return br < 18 ? best : null;
+  const words = q.split(/\s+/), rank = s => { const l = (s.type === 'op' ? s.op : s.label).toLowerCase(); const r = l === q ? 0 : l.startsWith(q) && !/\w/.test(l[q.length] || '') ? 1 : words.every(w => new RegExp(`\\b${w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`).test(l)) ? 2 : l.startsWith(q) ? 3 : l.includes(q) ? 4 : 9; return r * 4 + (s.type === 'op' ? 2 : 0) + (s.type === 'swo' && s.x && s.x.commodity ? 0 : 1); };
+  let best = null, br = 99; for (const s of searchIndex) { const r = rank(s); if (r < br || (r === br && best && s.label.length < best.label.length)) { best = s; br = r; } } return br < 36 ? best : null;
 }
 const sMsg = document.getElementById('searchMsg');
-se.onchange = () => { if (!se.value.trim()) { if (sMsg) sMsg.textContent = ''; return; } const h = findSearch(se.value); if (sMsg) sMsg.textContent = h ? '' : `No match for "${se.value}"`; if (h) goTo(h); };
+se.onchange = () => { if (!se.value.trim()) { if (sMsg) sMsg.textContent = ''; return; } const h = findSearch(se.value); if (sMsg) sMsg.textContent = h ? '' : `No match for "${se.value}"`; if (h) goTo(h); else closeFp(); };
 function fillSearch() { const seen = new Set(); dl.innerHTML = searchIndex.filter(s => !seen.has(s.label) && seen.add(s.label)).map(s => `<option value="${esc(s.label)}">`).join(''); }
 
 function kpis() {
@@ -200,7 +206,7 @@ function kpis() {
 kpis();
 
 // legend
-const lg = document.getElementById('mapLegend'); let legendCollapsed = innerWidth < 700;
+const lg = document.getElementById('mapLegend'); let legendCollapsed = innerWidth < 700 || innerHeight < 800;
 function legend() {
   lg.innerHTML = '<button id="lgToggle" title="Collapse/expand legend">Legend ▾</button><div id="lgBody"><b>Product (lines)</b>' + Object.entries(COL).map(([k, c]) => `<div><i style="background:${c}"></i>${k}</div>`).join('') +
     '<b>Researched lines (click)</b>' + D.lines.map(l => `<div data-s="${esc(l.name)}"><i ${/approx|unknown/.test(l.route_accuracy?.level || '') ? 'class="dash" ' : ''}style="${/approx|unknown/.test(l.route_accuracy?.level || '') ? 'color' : 'background'}:${l.kind === 'project' ? '#fff' : COL[l.commodity]}"></i>${esc(l.name)}${l.replaced ? ' (replaced)' : ''}</div>`).join('') +
@@ -215,7 +221,7 @@ legend(); fillSearch();
 banner.innerHTML = 'Loading continental GIS layers…';
 await Promise.all(CONT.map(([n, c]) => loadCont(n, c)));
 legend(); fillSearch(); apply();
-banner.innerHTML = `Imagery: Esri World Imagery · Terrain: <a href="https://registry.opendata.aws/terrain-tiles/" target="_blank">AWS Terrain Tiles</a> · Pipelines: U.S. EIA (via DOE/NETL), NACEI (NRCan), © OpenStreetMap contributors (ODbL) · Researched lines: OSM/EIA operator-matched geometry where available, dashed = approximate, endpoints-only or schematic straight runs (see route accuracy in popups). Not surveyed. Unofficial. v0.3.1`;
+banner.innerHTML = `Imagery: Esri World Imagery · Terrain: <a href="https://registry.opendata.aws/terrain-tiles/" target="_blank">AWS Terrain Tiles</a> · Pipelines: U.S. EIA (via DOE/NETL), NACEI (NRCan), © OpenStreetMap contributors (ODbL) · Researched lines: OSM/EIA operator-matched geometry where available, dashed = approximate, endpoints-only or schematic straight runs (see route accuracy in popups). Not surveyed. Unofficial. v0.4.0`;
 
 // ---------- sim loop ----------
 let last = performance.now();
@@ -227,12 +233,18 @@ viewer.scene.preRender.addEventListener(() => {
     for (const d of f.dots) { d.p.show = vis; if (!vis) continue; d.t = (d.t + dt * f.v * 1000 / f.L) % 1; d.p.position = lift(along(f, d.t)); }
   }
 });
-function onHash() { const m = location.hash.match(/view=(\w+)/); if (m && VIEWS[m[1]]) { fly(m[1]); if (m[1] === 'home') homePanel(); } const q = location.hash.match(/open=([^&]+)/); if (q) { const qq = decodeURIComponent(q[1]); goTo(searchIndex.find(s => s.label === qq) || findSearch(qq)); } const t = location.hash.match(/l5off=(\d)/); if (t) { const c = document.getElementById('l5off'); c.checked = t[1] === '1'; c.dispatchEvent(new Event('change')); } }
-window.addEventListener('hashchange', onHash);
-// deep links on first load (QA P1-4): view is applied at startup; open= and l5off= are applied once layers/search index exist
-if (/open=|l5off=/.test(location.hash)) onHashInit(); else if (/view=home/.test(location.hash) && H) homePanel();
-function onHashInit() { const q = location.hash.match(/open=([^&]+)/); if (q) { const t = decodeURIComponent(q[1]); goTo(searchIndex.find(s => s.label === t) || findSearch(t)); } const t = location.hash.match(/l5off=(\d)/); if (t) { const c = document.getElementById('l5off'); c.checked = t[1] === '1'; c.dispatchEvent(new Event('change')); } }
-window.SWO = { goTo, viewer, D, H, groups, datasets, fly, open, show, apply, setFilter, searchIndex, findSearch, pickAt, flows, version: '0.3.1' };
+function notFound(label) { if (sMsg) sMsg.textContent = `Not found: "${label}"`; fp.innerHTML = `<button style="float:right" id="fpx">✕</button><h3>Not found</h3>No line, facility or operator matches <code>${esc(label)}</code>. Check the link, or use the search box.`; fp.classList.remove('hidden'); document.getElementById('fpx').onclick = closeFp; hs.open = null; }
+// #view=X&open=Y&l5off=1 : view + popup are both applied (a view in the link is kept, the popup opens without flying away)
+function applyHash(init) {
+  const g = k => (location.hash.match(new RegExp('[#&]' + k + '=([^&]*)')) || [])[1];
+  const v = g('view'), o = g('open'), t = g('l5off'), okView = v && VIEWS[v];
+  if (okView) { hs.view = v; if (!init) fly(v, 2, false); } if (v === 'home' && H) homePanel();
+  if (t != null) { hs.l5off = t === '1'; const c = document.getElementById('l5off'); c.checked = hs.l5off; c.dispatchEvent(new Event('change')); }
+  if (o) { let label; try { label = decodeURIComponent(o); } catch (e) { label = o; } const h = searchIndex.find(s => s.label === label) || findSearch(label); if (h) goTo(h, !!okView); else notFound(label); }
+}
+window.addEventListener('hashchange', () => applyHash(false));
+applyHash(true);
+window.SWO = { goTo, viewer, D, H, groups, datasets, fly, open, show, apply, setFilter, searchIndex, findSearch, pickAt, flows, version: '0.4.0' };
 function layout() { const h = document.getElementById('top').offsetHeight + document.getElementById('kpis').offsetHeight; document.querySelector('main').style.top = h + 'px'; fp.style.top = document.getElementById('homePanel').style.top = (h + 8) + 'px'; }
 window.addEventListener('resize', layout); layout(); new ResizeObserver(layout).observe(document.getElementById('kpis'));
 
