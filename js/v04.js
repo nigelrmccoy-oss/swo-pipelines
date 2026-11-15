@@ -146,7 +146,6 @@ export function createV04(ctx) {
     async sync(show) { const on = show.wells !== false; if (on === W.on) return; W.on = on; if (on) { await loadWells(); await loadField(); if (W.lineP) W.lineP.show = true; if (W.fp) W.fp.show = true; ensurePrims(); rebuild(); } else { if (W.lineP) W.lineP.show = false; if (W.fp) W.fp.show = false; W.pts?.removeAll(); W.cl?.removeAll(); W.lab?.removeAll(); } },
     setClass(kind, k, v) { (kind === 't' ? W.tOn : W.sOn)[k] = v; rebuild(); },
     state: () => ({ tOn: W.tOn.slice(), sOn: W.sOn.slice(), shown: W.shown, on: W.on }),
-    rebuild,
     legend() {
       return `<b>Wells &amp; field infrastructure</b> <small id="wellsInfo" style="color:#8696a6">${esc(infoText())}</small>` +
         WELL_T.map(([n, c], k) => `<div data-wt="${k}"><i style="background:${c}"></i><label><input type="checkbox" ${W.tOn[k] ? 'checked' : ''}> ${n}</label></div>`).join('') +
